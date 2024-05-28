@@ -1,6 +1,9 @@
 ---
 title: Home
 layout: home
+nav_order: 1
+has_children: False
+has_toc: False
 ---
 
 <p align = "justify">
