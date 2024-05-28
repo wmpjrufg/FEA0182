@@ -7,7 +7,7 @@ has_toc: False
 ---
 
 <p align = "justify">
-Olá seja bem vindo a disciplina de pontes (FEA0182).<br>
+Olá seja bem vindo a disciplina de pontes (FEA0182).<br><br>
 
 O projeto de pontes é uma disciplina fundamental no campo da engenharia civil, que combina princípios teóricos e práticos para conceber estruturas seguras e duráveis, capazes de suportar cargas estáticas e dinâmicas ao longo do tempo. Este material didático busca fornecer uma compreensão abrangente dos conceitos, métodos e normas envolvidos no processo de projeto, desde a análise estrutural inicial até o detalhamento de algumas peças</p>
 
