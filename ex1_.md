@@ -19,36 +19,36 @@ has_toc: true
   </tr></thead>
 <tbody>
   <tr>
-    <td><center>100<center></td>
-    <td><center>200,3<center></td>
+    <td><center>100</center></td>
+    <td><center>200,3</center></td>
   </tr>
   <tr>
-    <td><center>101<center></td>
-    <td><center>200,3<center></td>
+    <td><center>101</center></td>
+    <td><center>200,3</center></td>
   </tr>
   <tr>
-    <td><center>101+3<center></td>
-    <td><center>198,8<center></td>
+    <td><center>101+3</center></td>
+    <td><center>198,8</center></td>
   </tr>
   <tr>
-    <td><center>101+6<center></td>
-    <td><center>197,3<center></td>
+    <td><center>101+6</center></td>
+    <td><center>197,3</center></td>
   </tr>
   <tr>
-    <td><center>101+10<center></td>
-    <td><center>197,3<center></td>
+    <td><center>101+10</center></td>
+    <td><center>197,3</center></td>
   </tr>
   <tr>
-    <td><center>101+14<center></td>
-    <td><center>197,3<center></td>
+    <td><center>101+14</center></td>
+    <td><center>197,3</center></td>
   </tr>
   <tr>
-    <td><center>102<center></td>
-    <td><center>200,3<center></td>
+    <td><center>102</center></td>
+    <td><center>200,3</center></td>
   </tr>
   <tr>
-    <td><center>103<center></td>
-    <td><center>200,3<center></td>
+    <td><center>103</center></td>
+    <td><center>200,3</center></td>
   </tr>
 </tbody>
 </table>
