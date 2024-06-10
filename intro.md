@@ -1,10 +1,10 @@
----
+<!-- ---
 title: Introdução ao projeto de pontes
 layout: home
 nav_order: 2
 has_children: False
 has_toc: False
----
+--- -->
 
 <p align = "justify">When you start using this framework you will need to assign a set of colors to your charts.</p>
 
