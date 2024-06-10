@@ -54,7 +54,7 @@ has_toc: true
 </table>
 
 <p align = "justify">
-Considere que o projeto geometrico da via possui uma largura de 9 metros e que a barreira de proteção (ou <i>barreira New Jersey</i>) terá o formato indicado nos manuais do DNIT, no caso para este projeto será empregada a barreira modelo BNJS-C de 81 cm de altura.
+Considere que o projeto geometrico da via possui uma largura de 9 metros e que a barreira de proteção (ou <i>barreira New Jersey</i>) terá o formato indicado nos <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/consulta-publica/ipr_xx_album_barreiras_rigidas_consulta_publica.pdf" target = "_blank" rel = "noopener noreferrer">manuais do DNIT</a>, no caso para este projeto será empregada a barreira modelo BNJS-C de 81 cm de altura.
 <br><br>
 A pista de rolamento será composta por duas faixas de rolamento e o pavimento empregado será o CBUQ com espessura de 8 cm e deverá ser considerado a possibilidade de recapeamento para este projeto.
 <br><br>
