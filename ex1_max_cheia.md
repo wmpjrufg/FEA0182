@@ -18,14 +18,14 @@ has_toc: false
 <p align = "justify">
 O primeiro passo na determinação do modelo estrutural é a confecção de um desenho geométrico em perfil longitudinal que contemple o estaqueamento e as suas cotas verticais. Isso permitirá que o projetista visualize o obstáculo a ser vencido e comece a efetuar o lançamento da ponte.
 <br><br>
-Para o caso deste projeto o perfil topográfico é dado conforme Figura <a href="#fig1">1</a>.
+Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1">Figura 1</a>.
 </p>
 
 <center><img src="assets/images/perfil.png" width="100%"></center>
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Perfil topográfico da estrada.</p>
 
 <p align = "justify">
-Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal pode-se usar a formulação proposta na Tabela <a href="#tab1">1</a> para determinação da vazão a cada nível do canal.
+Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal pode-se usar a formulação proposta na <a href="#tab1">Tabela 1</a> para determinação da vazão a cada nível do canal.
 </p>
 
 <p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Equacionamento para conduto livre.</p>
@@ -52,7 +52,7 @@ Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal t
 
 
 <p align = "justify">
-Aplicando a equação de Manning é possível obter a Tabela <a href="#tab2">2</a> com todas as vazões considerando uma variação de altura de 0,10 m.
+Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</a> com todas as vazões considerando uma variação de altura de 0,10 m.
 </p>
 
 <p align = "left"><b><a href="#tab2">Tabela 2</a>.</b> Vazão no canal do exemplo.</p>
@@ -112,7 +112,8 @@ Aplicando a equação de Manning é possível obter a Tabela <a href="#tab2">2</
 </table>
 
 <p align = "justify">
-Considerando o cálculo efetuado na Tabela <a href="#tab2">2</a> é possível determinar as posições da cota do nível d'água para a máxima cheia e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">2</a>.
+Considerando o cálculo efetuado na 
+<a href="#tab2">Tabela 2</a> é possível determinar as posições da cota do nível d'água para a máxima cheia e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
 </p>
 
 <center><img src="assets/images/perfil.png" width="100%"></center>

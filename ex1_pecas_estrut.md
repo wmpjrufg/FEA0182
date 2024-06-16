@@ -23,10 +23,10 @@ Determinado o vão da ponte é necessário estabelecer o sistema estrutura que s
 <p align = "center">(a) Solução isostática sem balanço</p>
 <center><img src="assets/images/perfil.png" width="100%"></center>
 <p align = "center">(b) Solução isostática com balanço</p>
-<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Possíveis soluções estruturais para a longarina no projeto exmeplo.</p>
+<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Possíveis soluções estruturais para a longarina no projeto exemplo.</p>
 
 <p align = "justify">
-Para determinação das dimensões da superestrutura será empregada as recomendações do professor Areas Neto e da normativa do DNIT. As equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> apresentam estes limites para determinação das dimensões do elemento de longarina.
+Para determinação das dimensões da superestrutura será empregada as recomendações do professor Areias Neto e da normativa do DNIT. As equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> apresentam estes limites para determinação das dimensões do elemento de longarina.
 </p>
 
 <table style = "width:100%">
@@ -73,14 +73,14 @@ A largura adotada será a mínima de 0,25 m e e então a altura será de 1,0 m \
 <h1>Tabuleiro</h1> 
 
 <p align = "justify">
-Agora para definir a seção da ponte será utilziada a solução de duas longarinas apoiadas em pórticos de pilares de concreto. A normativa do DNIT definie que a largura máxima entre vigas é de 7 m. Para este projeto utilziaremos a proporção de 40% da largura da seção para balanços e 60% para o vão principal do tabuleiro. O formato deste tabuleiro é apresentado na Figura <a href="#fig2">2</a>.
+Agora para definir a seção da ponte será utilziada a solução de duas longarinas apoiadas em pórticos de pilares de concreto. A normativa do DNIT definie que a largura máxima entre vigas é de 7 m. Para este projeto utilziaremos a proporção de 40% da largura da seção para balanços e 60% para o vão principal do tabuleiro. O formato deste tabuleiro é apresentado na <a href="#fig2">Figura 2</a>.
 </p>
 
 <center><img src="assets/images/secao_ponte.png" width="90%"></center>
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Solução para seção transversal da ponte.</p>
 
 <p align = "justify">
-Empregando as porporções citadas anteriormente temos um vão de 5,40 m (60% de 9 m) entre vigas e balanços de 1,80 m. Com isso chegamos a seguinte seção transversal que considera uma largura de tabuleiro de 0,22 m. A Figura <a href="#fig3">3</a> detalha esta seção.
+Empregando as porporções citadas anteriormente temos um vão de 5,40 m (60% de 9 m) entre vigas e balanços de 1,80 m. Com isso chegamos a seguinte seção transversal que considera uma largura de tabuleiro de 0,22 m. A <a href="#fig3">Figura 3</a> detalha esta seção.
 </p>
 
 <center><img src="assets/images/secao_ponte.png" width="90%"></center>
