@@ -31,17 +31,17 @@ Para determinação das dimensões da superestrutura será empregada as recomend
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ \frac{l}{5} \leq  a \leq  \frac{l}{2}]</td>
+        <td style="width: 80%;">\[ \frac{l}{5} \leq  a \leq  \frac{l}{2} \]</td>
         <td style="width: 10%;">vão do elemento de balanço</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ h \geq  \frac{l}{14}]</td>
+        <td style="width: 90%;">\[ h \geq  \frac{l}{14} \]</td>
         <td style="width: 10%;">altura da longarina</td>        
         <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ b \geq  25 cm]</td>
+        <td style="width: 90%;">\[ b \geq  25 cm \]</td>
         <td style="width: 10%;">largura da longarina</td>
         <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
     </tr>
