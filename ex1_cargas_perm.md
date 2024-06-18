@@ -28,7 +28,7 @@ Portanto aplicando a equação de carregamento linear para vigas chega-se a carg
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[q_{laje}=  \frac{A_c}{2} \cdot \gamma_{concreto} q_{laje}=  \frac{2,37}{2} \cdot \25 \]</td>
+        <td style="width: 80%;">\[q_{laje}=  \frac{A_c}{2} \cdot \gamma_{concreto} \therefore q_{laje} = \frac{2,37}{2} \cdot 25 = 6,00\]</td>
         <td style="width: 10%;">longarina + tabuleiro</td>
     </tr>
     <tr>
