@@ -16,7 +16,7 @@ has_toc: false
 <h1>Longarina</h1> 
 
 <p align = "justify">
-Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado nesta ponte. Conforme estabelecido nas diretrizes do projeto o modelo será de uma ponte moldada no local e com uma estrutura isostática conforme <a href="#fig1">Figura 1b</a>.
+Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado. Conforme estabelecido nas diretrizes do projeto o modelo será de uma ponte moldada no local e com uma estrutura isostática conforme <a href="#fig1">Figura 1b</a>.
 </p>
 
 <center><img src="assets/images/perfil.png" width="100%"></center>
