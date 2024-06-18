@@ -53,34 +53,34 @@ Aplicando as equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> obtém-s
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ \frac{18}{5} = 3,6 m \leq  1 m \leq \frac{18}{2} = 9 m]</td>
+        <td style="width: 80%;">\[ \frac{18}{5} = 3,6 m \leq  1 m \leq \frac{18}{2} = 9 m \]</td>
         <td style="width: 10%;">tentativa 1 (a = 1 m; l = 18 m)</td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ \frac{16}{5} = 3,2 m \leq  2 m \leq \frac{16}{2} = 8 m]</td>
+        <td style="width: 90%;">\[ \frac{16}{5} = 3,2 m \leq  2 m \leq \frac{16}{2} = 8 m \]</td>
         <td style="width: 10%;">tentativa 2 (a = 2 m; l = 16 m)</td>        
     </tr>
     <tr>
-        <td style="width: 90%;">\[ \frac{14}{5} = 2,8 m \leq  3 m \leq \frac{14}{2} = 7 m]</td>
+        <td style="width: 90%;">\[ \frac{14}{5} = 2,8 m \leq  3 m \leq \frac{14}{2} = 7 m \]</td>
         <td style="width: 10%;">tentativa 3 (a = 3 m; l = 14 m)</td>
     </tr>
 </table>
 
 <p align = "justify">
-A largura adotada será a mínima de 0,25 m e e então a altura será de 1,0 m \( \left( h=14/14 = 1 m \right) \).
+A largura adotada será a mínima de 0,25 m e a altura será de 1,0 m \( \left( h=14/14 = 1 m \right) \).
 </p>
 
 <h1>Tabuleiro</h1> 
 
 <p align = "justify">
-Agora para definir a seção da ponte será utilziada a solução de duas longarinas apoiadas em pórticos de pilares de concreto. A normativa do DNIT definie que a largura máxima entre vigas é de 7 m. Para este projeto utilizaremos a proporção de 40% da largura da seção para balanços e 60% para o vão principal do tabuleiro. O formato deste tabuleiro é apresentado na <a href="#fig2">Figura 2</a>.
+Agora para definir a seção da ponte será utilziada a solução de duas longarinas apoiadas em pórticos de pilares de concreto. A normativa do DNIT define que a largura máxima entre vigas é de 7 m. Para este projeto utilizaremos a proporção de 40% da largura da seção para balanços e 60% para o vão principal do tabuleiro. O formato deste tabuleiro é apresentado na <a href="#fig2">Figura 2</a>.
 </p>
 
 <center><img src="assets/images/secao_ponte.png" width="90%"></center>
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Solução para seção transversal da ponte.</p>
 
 <p align = "justify">
-Empregando as porporções citadas anteriormente adotou-se um vão de 5 m entre vigas e balanços de 2 m. Conforme manual do DNIT, para um vão de 5 m, considera-se uma espessura de tabuleiro de 0,22 m, assim com h = 1  m, tem-se uma longarina de 0,78 m. A <a href="#fig3">Figura 3</a> detalha esta seção.
+Empregando as proporções citadas anteriormente adotou-se um vão de 5 m entre vigas e balanços de 2 m. Conforme manual do DNIT, para um vão de 5 m, considera-se uma espessura do tabuleiro de 0,22 m, assim com h = 1  m, tem-se uma longarina de 0,78 m. A <a href="#fig3">Figura 3</a> detalha esta seção.
 </p>
 
 <center><img src="assets/images/secao_ponte.png" width="90%"></center>
