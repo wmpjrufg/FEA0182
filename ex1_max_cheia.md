@@ -41,7 +41,7 @@ Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal t
 <tbody>
   <tr>
     <td><center><img src="assets/images/logo.png" width="30%"></center></td>
-    <td><center>\[v = n \cdot \eta^{1/2}\]</center></td>
+    <td><center>\[\(b+m\cdot h)\cdot h\]</center></td>
     <td><center>200,3</center></td>
     <td><center>200,3</center></td>
     <td><center>200,3</center></td>
