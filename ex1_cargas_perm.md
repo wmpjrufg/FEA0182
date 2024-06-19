@@ -28,15 +28,15 @@ Portanto aplicando a equação de carregamento linear para vigas chega-se a carg
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[q_{laje}=  \frac{A_c}{2} \cdot \gamma_{concreto} \therefore q_{laje} = \frac{2,37}{2} \cdot 25 = 6,00\]</td>
+        <td style="width: 80%;">\[q_{laje}=  \frac{A_c}{2} \cdot \gamma_{concreto} \therefore q_{laje} = \frac{2,37}{2} \cdot 25 = 29,625KN/m\]</td>
         <td style="width: 10%;">longarina + tabuleiro</td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ ch_{b,k} = 1.50 \cdot p_{0,k}^{t} - 0.50 \cdot p_{1,k}^{t}\]</td>
+        <td style="width: 90%;">\[q_{barreira}=A_barreira\cdot \gamma_{concreto}\therefore q_{barreira}=0,24345\cdot 25=6,08625KN/m\]</td>
         <td style="width: 10%;">barreira</td>        
     </tr>
     <tr>
-        <td style="width: 90%;">\[ ch_{c,k} = -0.50 \cdot p_{0,k}^{t} + 1.50 \cdot p_{1,k}^{t}\]</td>
+        <td style="width: 90%;">\[q_{pavimento}=\frac{Comp_{pavimento}}{2}\cdot Esp_{pavimento}\cdot \gamma_{concreto}\thereforeq_{pavimento}=\frac{8,24}{2}\cdot 0,08\cdot22=7,2512KN/m\]</td>
         <td style="width: 10%;">pavimento flexível</td>
     </tr>
     <tr>
@@ -44,7 +44,7 @@ Portanto aplicando a equação de carregamento linear para vigas chega-se a carg
         <td style="width: 10%;">guarda corpo metálico</td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ ch_{c,k} = -0.50 \cdot p_{0,k}^{t} + 1.50 \cdot p_{1,k}^{t}\]</td>
+        <td style="width: 90%;">\[ q_{total}=q_{laje}+q_{barreira}+q_{pavimento}+Peso_{gcmetalico}\thereforeq_{total}=29,625+6,08625+7,2512+0,1=43,06245KN/m\]</td>
         <td style="width: 10%;"><font color="#D2691E"><b>carregamento total</b></font></td>
     </tr>
 </table>
