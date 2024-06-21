@@ -79,14 +79,14 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
     <td><center>0,18</center></td>
   </tr>
   <tr>
+    <td><center>198,2</center></td>
     <td><center>8</center></td>
-    <td><center>8</center></td>
-    <td><center>8</center></td>
-    <td><center>8</center></td>
-    <td><center>8</center></td>
-    <td><center>8</center></td>
-    <td><center>8</center></td>
-    <td><center>8</center></td>
+    <td><center>0,9</center></td>
+    <td><center>8,82</center></td>
+    <td><center>12,02</center></td>
+    <td><center>0,86</center></td>
+    <td><center>0,73</center></td>
+    <td><center>7,56</center></td>
   </tr>
   <tr>
     <td><center>200,3</center></td>
