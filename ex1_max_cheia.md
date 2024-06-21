@@ -84,29 +84,29 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
     <td><center>0,9</center></td>
     <td><center>8,82</center></td>
     <td><center>12,02</center></td>
-    <td><center>0,86</center></td>
     <td><center>0,73</center></td>
+    <td><center>0,86</center></td>
     <td><center>7,56</center></td>
   </tr>
   <tr>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>198,5</center></td>
+    <td><center>8</center></td>
+    <td><center>1,2</center></td>
+    <td><center>12,48</center></td>
+    <td><center>13,37</center></td>
+    <td><center>0,93</center></td>
+    <td><center>1,01</center></td>
+    <td><center>12,57</center></td>
   </tr>
   <tr>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>199,10</center></td>
+    <td><center>8</center></td>
+    <td><center>1,8</center></td>
+    <td><center>20,88</center></td>
+    <td><center>16,05</center></td>
+    <td><center>1,3</center></td>
+    <td><center>1,26</center></td>
+    <td><center>26,23</center></td>
   </tr>
 </tbody>
 </table>
