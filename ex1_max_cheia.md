@@ -69,24 +69,24 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
   </tr></thead>
 <tbody>
   <tr>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>197,4</center></td>
+    <td><center>197,8</center></td>
+    <td><center>198,2</center></td>
+    <td><center>198,5</center></td>
+    <td><center>198,7</center></td>
+    <td><center>199,1</center></td>
+    <td><center>199,5</center></td>
+    <td><center>199,9</center></td>
   </tr>
   <tr>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>8</center></td>
+    <td><center>8</center></td>
+    <td><center>8</center></td>
+    <td><center>8</center></td>
+    <td><center>8</center></td>
+    <td><center>8</center></td>
+    <td><center>8</center></td>
+    <td><center>8</center></td>
   </tr>
   <tr>
     <td><center>200,3</center></td>
