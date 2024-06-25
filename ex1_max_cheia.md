@@ -32,27 +32,37 @@ Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal t
 <table style="width: 100%"><thead>
   <tr>
     <th>Forma da seção</th>
-    <th>Área (m²)</th>
-    <th>Perímetro molhado (m)</th>
+    <th>Área (m²) [<i>A</i>]</th>
+    <th>Perímetro molhado (m) [<i>P</i>]</th>
     <th>Raio hidráulico (m)</th>
     <th>Velocidade (m/s)</th>
     <th>Vazão (m³/s)</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td><center><img src="assets/images/logo.png" width="30%"></center></td>
-    <td><center>\[(b+m\cdot h)\cdot h\]</center></td>
-    <td><center>\[b+(2\cdot h \cdot \sqrt{l+m^2})\]</center></td>
-    <td><center>\[\frac{A}{P}\]</center></td>
-    <td><center>\[b+(2\cdot m\cdot h)\]</center></td>
-    <td><center>\[(A\cdot V)\]</center></td>
+    <td><center><img src="assets/images/secao_canal.png" width="80%"></center></td>
+    <td><center>\[ b \cdot h + m \cdot h^2 \]</center></td>
+    <td><center>\[ b + 2\cdot h  \cdot \sqrt{l+m^2} \]</center></td>
+    <td><center>\[\ frac{A}{P} \]</center></td>
+    <td><center>\[ \frac{1}{n} \cdot R^{2/3} \cdot J^{1/2}\]</center></td>
+    <td><center>\[A \cdot V\]</center></td>
   </tr>
 </tbody>
 </table>
 
+<p align = "justify">
+Onde:
+  <ul>
+    <li><i>m</i> é a inclinação do talude do canal;</li>
+    <li><i>n</i> é o coeficiente de rugosidade do canal;</li>
+    <li><i>R</i> é o raio hidraúlico;</li>
+    <li><i>J</i> é a declividade do fundo do canal (m/m).</li>
+  </ul>
+</p>
+
 
 <p align = "justify">
-Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</a> com todas as vazões considerando uma variação de altura de 0,10 m.
+Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</a> com algumas vazões em função da cota. No caso a declividade do talude do canal é de <i>m = </i> 2 metros.
 </p>
 
 <p align = "left"><b><a href="#tab2">Tabela 2</a>.</b> Vazão no canal do exemplo.</p>
@@ -69,9 +79,9 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
   </tr></thead>
 <tbody>
   <tr>
-    <td><center>197,4</center></td>
-    <td><center>8</center></td>
-    <td><center>0,1</center></td>
+    <td><center>197,40</center></td>
+    <td><center>8,00</center></td>
+    <td><center>0,10</center></td>
     <td><center>0,82</center></td>
     <td><center>8,45</center></td>
     <td><center>0,1</center></td>
@@ -79,9 +89,9 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
     <td><center>0,18</center></td>
   </tr>
   <tr>
-    <td><center>198,2</center></td>
-    <td><center>8</center></td>
-    <td><center>0,9</center></td>
+    <td><center>198,20</center></td>
+    <td><center>8,00</center></td>
+    <td><center>0,90</center></td>
     <td><center>8,82</center></td>
     <td><center>12,02</center></td>
     <td><center>0,73</center></td>
@@ -89,19 +99,19 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
     <td><center>7,56</center></td>
   </tr>
   <tr>
-    <td><center>198,5</center></td>
-    <td><center>8</center></td>
-    <td><center>1,2</center></td>
-    <td><center>12,48</center></td>
-    <td><center>13,37</center></td>
-    <td><center>0,93</center></td>
-    <td><center>1,01</center></td>
-    <td><center>12,57</center></td>
+    <td><center><font color="##008000"><b>198,50</b></font></center></font></td>
+    <td><center><font color="##008000"><b>8,00</b></font></center></td>
+    <td><center><font color="##008000"><b>1,20</b></font></center></td>
+    <td><center><font color="##008000"><b>12,48</b></font></center></td>
+    <td><center><font color="##008000"><b>13,37</b></font></center></td>
+    <td><center><font color="##008000"><b>0,93</b></font></center></td>
+    <td><center><font color="##008000"><b>1,01</b></font></center></td>
+    <td><center><font color="##008000"><b>12,57</b></font></center></td>
   </tr>
   <tr>
     <td><center>199,10</center></td>
-    <td><center>8</center></td>
-    <td><center>1,8</center></td>
+    <td><center>8,00</center></td>
+    <td><center>1,80</center></td>
     <td><center>20,88</center></td>
     <td><center>16,05</center></td>
     <td><center>1,3</center></td>
@@ -120,5 +130,5 @@ Considerando o cálculo efetuado na
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Perfil topográfico da estrada com a demarcação da posição da estrutura e nível d'água na máxima cheia calculada.</p>
 
 <p align = "justify">
-Após a verificação da máxima cheia calculada e então detalhamento do posicionamento da ponte é verificado que a mesma precisará vencer um vão de 20 metros.
+Após a verificação da máxima cheia calculada e então detalhamento do posicionamento da ponte é possível estabelecer que a ponte precisará vencer um vão de 20 metros.
 </p>

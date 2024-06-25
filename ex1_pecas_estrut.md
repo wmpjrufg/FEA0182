@@ -16,13 +16,10 @@ has_toc: false
 <h1>Longarina</h1> 
 
 <p align = "justify">
-Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado. Conforme estabelecido nas diretrizes do projeto o modelo será de uma ponte moldada no local e com uma estrutura isostática conforme <a href="#fig1">Figura 1b</a>.
+Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado. Conforme estabelecido nas diretrizes do projeto o modelo será de uma ponte moldada no local e com uma estrutura isostática conforme <a href="#fig1">Figura 1</a>.
 </p>
 
-<center><img src="assets/images/perfil.png" width="100%"></center>
-<p align = "center">(a) Solução isostática sem balanço</p>
-<center><img src="assets/images/perfil.png" width="100%"></center>
-<p align = "center">(b) Solução isostática com balanço</p>
+<center><img src="assets/images/modelos_longarina.png" width="100%"></center>
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Possíveis soluções estruturais para a longarina no projeto exemplo.</p>
 
 <p align = "justify">
@@ -31,18 +28,18 @@ Para determinação das dimensões da superestrutura será empregada as recomend
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ \frac{l}{5} \leq  a \leq  \frac{l}{2} \]</td>
-        <td style="width: 10%;">vão do elemento de balanço</td>
+        <td style="width: 70%;">\[ \frac{l}{5} \leq  a \leq  \frac{l}{2} \]</td>
+        <td style="width: 20%;">vão do elemento de balanço</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ h \geq  \frac{l}{14} \]</td>
-        <td style="width: 10%;">altura da longarina</td>        
+        <td style="width: 70%;">\[ h \geq  \frac{l}{14} \]</td>
+        <td style="width: 20%;">altura da longarina</td>        
         <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ b \geq  25 cm \]</td>
-        <td style="width: 10%;">largura da longarina</td>
+        <td style="width: 70%;">\[ b \geq  25 cm \]</td>
+        <td style="width: 20%;">largura da longarina</td>
         <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
     </tr>
 </table>
@@ -54,26 +51,26 @@ Aplicando as equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> obtém-s
 <table style = "width:100%">
     <tr>
         <td style="width: 80%;">\[ \frac{18}{5} = 3,6 m \leq  1 m \leq \frac{18}{2} = 9 m \]</td>
-        <td style="width: 10%;">tentativa 1 (a = 1 m; l = 18 m)</td>
+        <td style="width: 10%;">tentativa 1 (<i>a</i> = 1 m; <i>l</i> = 18 m)</td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \frac{16}{5} = 3,2 m \leq  2 m \leq \frac{16}{2} = 8 m \]</td>
-        <td style="width: 10%;">tentativa 2 (a = 2 m; l = 16 m)</td>        
+        <td style="width: 10%;">tentativa 2 (<i>a</i> = 2 m; <i>l</i> = 16 m)</td>        
     </tr>
     <tr>
         <td style="width: 90%;">\[ \frac{14}{5} = 2,8 m \leq  3 m \leq \frac{14}{2} = 7 m \]</td>
-        <td style="width: 10%;">tentativa 3 (a = 3 m; l = 14 m)</td>
+        <td style="width: 10%;">tentativa 3 (<i>a</i> = 3 m; <i>l</i> = 14 m)</td>
     </tr>
 </table>
 
 <p align = "justify">
-A largura adotada será a mínima de 0,25 m e a altura será de 1,0 m \( \left( h=14/14 = 1 m \right) \).
+A largura adotada será a mínima de 0,25 m e a altura será de 1,0 m visto que o vão final é de 14 metros \( \left( h=14/14 = 1 m \right) \).
 </p>
 
 <h1>Tabuleiro</h1> 
 
 <p align = "justify">
-Agora para definir a seção da ponte será utilziada a solução de duas longarinas apoiadas em pórticos de pilares de concreto. A normativa do DNIT define que a largura máxima entre vigas é de 7 m. Para este projeto utilizaremos a proporção de 40% da largura da seção para balanços e 60% para o vão principal do tabuleiro. O formato deste tabuleiro é apresentado na <a href="#fig2">Figura 2</a>.
+Agora para definir a seção da ponte será utilizada a solução de duas longarinas apoiadas em pórticos de pilares de concreto. A normativa do DNIT define que a largura máxima entre vigas é de 7 m. Para este projeto utilizaremos a proporção de 40% da largura da seção para balanços e 60% para o vão principal do tabuleiro. O formato deste tabuleiro é apresentado na <a href="#fig2">Figura 2</a>.
 </p>
 
 <center><img src="assets/images/secao_ponte.png" width="90%"></center>

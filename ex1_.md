@@ -62,7 +62,7 @@ A pista de rolamento será composta por duas faixas de rolamento e o pavimento e
 <br><br>
 Para este projeto considere um gabarito de 2 metros para determinação da altura de fundo das longarinas.
 <br><br>
-A vazão de projeto a ser respeitada é de 12,57 m³/s e a cota de fundo indicada na topografia é 197,30 m. A declividade medida do canal é de 1 m / 1000 m. Considere que o canal é reto, limpo sem represamento com coeficiente de rugosidade <i>m</i> = 0,03.
+A vazão de projeto a ser respeitada é de 12,57 m³/s e a cota de fundo indicada na topografia é 197,30 m. A declividade medida do canal é de 1 m / 1000 m. Considere que o canal é reto, limpo sem represamento com coeficiente de rugosidade <i>n</i> = 0,03.
 <br><br>
 Considere que esta ponte será concebida com <i>f<sub>ck<sub></i> de 25 MPa com agregado do tipo granito.
 </p> 
