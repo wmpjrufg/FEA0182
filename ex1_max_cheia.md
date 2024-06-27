@@ -130,7 +130,7 @@ Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</
 </table>
 
 <p align = "justify">
-Considerando o cálculo efetuado na <a href="#tab2">Tabela 2</a> é possível determinar as posições da cota do nível d'água para a máxima cheia e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
+Considerando o cálculo efetuado na <a href="#tab1">Tabela 1</a> é possível determinar as posições da cota do nível d'água para a máxima cheia e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
 </p>
 
 <center><img src="assets/images/perfil.png" width="100%"></center>
