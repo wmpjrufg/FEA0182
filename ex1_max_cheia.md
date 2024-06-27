@@ -25,11 +25,11 @@ Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1"
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Perfil topográfico da estrada.</p>
 
 <p align = "justify">
-Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq2">(2)</a>.
+Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq5">(5)</a>.
 </p>
 
-<center><img src="assets/images/secao_canal.png" width="150%"></center>
-<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Formato do canal.</p>
+<center><img src="assets/images/secao_canal.png" width="80%"></center>
+<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Formato do canal em seção trapezoidal.</p>
 
 <table style = "width:100%">
     <tr>
@@ -50,7 +50,7 @@ Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal t
     </tr>
     <tr>
         <td style="width: 90%;">\[ Q = V \cdot A \]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq4">(4)</p></td>
+        <td style="width: 10%;"><p align = "right" id = "eq5">(5)</p></td>
     </tr>
 </table>
 
@@ -62,18 +62,18 @@ Onde:
     <li><i>R</i> é o raio hidráulico (m);</li>
     <li><i>m</i> é a inclinação do talude do canal;</li>
     <li><i>n</i> é o coeficiente de rugosidade do canal;</li>
-    <li><i>J</i> é a declividade do fundo do canal (m/m).</li>
+    <li><i>J</i> é a declividade do fundo do canal (m/m);</li>
     <li><i>V</i> é a velocidade no canal pelo modelo de Manning (m/s);</li>
-    <li><i>Q</i> é a vazão no canal pelo modelo de Manning (m³/s);</li>
+    <li><i>Q</i> é a vazão no canal pelo modelo de Manning (m³/s).</li>
   </ul>
 </p>
 
 
 <p align = "justify">
-Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</a> com algumas vazões em função da cota. No caso a declividade do talude do canal é de <i>m = </i> 2 metros.
+Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</a> com algumas vazões em função da cota. No caso a declividade do talude do canal é de <i>m = </i> 2 metros.
 </p>
 
-<p align = "left"><b><a href="#tab2">Tabela 2</a>.</b> Vazão no canal do exemplo.</p>
+<p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Vazão no canal do exemplo.</p>
 <table style="width: 100%"><thead>
   <tr>
     <th>Cota (m)</th>
@@ -107,7 +107,7 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
     <td><center>7,56</center></td>
   </tr>
   <tr>
-    <td><center><font color="##008000"><b>198,50</b></font></center></font></td>
+    <td><center><font color="##008000"><b>198,50</b></font></center></td>
     <td><center><font color="##008000"><b>8,00</b></font></center></td>
     <td><center><font color="##008000"><b>1,20</b></font></center></td>
     <td><center><font color="##008000"><b>12,48</b></font></center></td>
@@ -130,8 +130,7 @@ Aplicando a equação de Manning é possível obter a <a href="#tab2">Tabela 2</
 </table>
 
 <p align = "justify">
-Considerando o cálculo efetuado na 
-<a href="#tab2">Tabela 2</a> é possível determinar as posições da cota do nível d'água para a máxima cheia e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
+Considerando o cálculo efetuado na <a href="#tab2">Tabela 2</a> é possível determinar as posições da cota do nível d'água para a máxima cheia e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
 </p>
 
 <center><img src="assets/images/perfil.png" width="100%"></center>
