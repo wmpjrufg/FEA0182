@@ -40,7 +40,7 @@ Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal t
   </tr></thead>
 <tbody>
   <tr>
-    <td><center><img src="assets/images/secao_canal.png" width="80%"></center></td>
+    <td><center><img src="assets/images/secao_canal.png" width="200%"></center></td>
     <td><center>\[ b \cdot h + m \cdot h^2 \]</center></td>
     <td><center>\[ b + 2\cdot h  \cdot \sqrt{l+m^2} \]</center></td>
     <td><center>\[\ frac{A}{P} \]</center></td>
