@@ -23,7 +23,7 @@ O carregamento permanente advém da determinação da área da seção transvers
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Área dos elementos que compõem a seção transversal.</p>
 
 <p align = "justify">
-Portanto aplicando a equação de carregamento linear para vigas chega-se a carga total que ocorre na ponte. É válido salientar que determinamos o carregamento em apenas uma das longarinas.
+Portanto aplicando a equação de determinação do carregamento linear em vigas chega-se a carga total que ocorre na ponte. É válido salientar que determinamos o carregamento em apenas uma das duas longarinas.
 </p>
 
 <table style = "width:100%">
@@ -40,23 +40,23 @@ Portanto aplicando a equação de carregamento linear para vigas chega-se a carg
         <td style="width: 10%;">pavimento flexível</td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ ch_{c,k} = -0.50 \cdot p_{0,k}^{t} + 1.50 \cdot p_{1,k}^{t}\]</td>
-        <td style="width: 10%;">guarda corpo metálico</td>
-    </tr>
-    <tr>
         <td style="width: 90%;">\[ q_{total}=q_{laje}+q_{barreira}+q_{pavimento}+Peso_{gcmetalico}\therefore q_{total}=29,625+6,08625+7,2512+0,1=43,06245KN/m\]</td>
         <td style="width: 10%;"><font color="#D2691E"><b>carregamento total</b></font></td>
     </tr>
 </table>
 
 <p align = "justify">
-Logo é possível definir o sistema estrutural e o seu carregamento permanente que atuará na ponte de concreto. A <a href="#fig2">Figura 2</a> apresenta o lançamento da estrutura no <i>software</i> Ftool e seus respectivos esforços ao longo da longarina conforme <a href="#tab1">Tabela 1</a>.
+Logo é possível definir o carregamento permanente que atuará na ponte de concreto. A <a href="#fig2">Figura 2</a> apresenta o lançamento da estrutura no <i>software</i> Ftool e seus respectivos esforços ao longo da longarina conforme <a href="#tab1">Tabela 1</a>.
 <br><br>
 Aqui salienta-se que para a seleção das seções de interesse o vão será divido em <i>L/10</i> e o balanço em <i>L/5</i>.
 </p>
 
 <center><img src="assets/images/perfil.png" width="100%"></center>
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Lançamento da estrutura com o seu carregamento permanente.</p>
+
+<p align = "justify">
+Considerando o <i>f<sub>ck</i> de 25 MPa e um agregado de granito o módulo de elasticidade do concreto (<i>E<sub>c</i>) será de 24 GPa. Já a seção da longarina será de 0,25 m <i>x</i> 1,00 m. 
+</p>
 
 <p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Esforços de flexão nas seções de interesse para carga permanente.</p>
 
