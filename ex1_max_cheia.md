@@ -1,5 +1,5 @@
 ---
-title: Máxima cheia e posição super estrutura
+title: Máxima cheia e posição da superestrutura
 layout: default
 parent: Exemplo I
 nav_order: 1
@@ -25,38 +25,46 @@ Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1"
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Perfil topográfico da estrada.</p>
 
 <p align = "justify">
-Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal pode-se usar a formulação proposta na <a href="#tab1">Tabela 1</a> para determinação da vazão a cada nível do canal.
+Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq2">(2)</a>.
 </p>
 
-<p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Equacionamento para conduto livre.</p>
-<table style="width: 100%"><thead>
-  <tr>
-    <th>Forma da seção</th>
-    <th>Área (m²) [<i>A</i>]</th>
-    <th>Perímetro molhado (m) [<i>P</i>]</th>
-    <th>Raio hidráulico (m)</th>
-    <th>Velocidade (m/s)</th>
-    <th>Vazão (m³/s)</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td><center><img src="assets/images/secao_canal.png" width="200%"></center></td>
-    <td><center>\[ b \cdot h + m \cdot h^2 \]</center></td>
-    <td><center>\[ b + 2\cdot h  \cdot \sqrt{l+m^2} \]</center></td>
-    <td><center>\[\ frac{A}{P} \]</center></td>
-    <td><center>\[ \frac{1}{n} \cdot R^{2/3} \cdot J^{1/2}\]</center></td>
-    <td><center>\[A \cdot V\]</center></td>
-  </tr>
-</tbody>
+<center><img src="assets/images/secao_canal.png" width="150%"></center>
+<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Formato do canal.</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ A = b \cdot h + m \cdot h^2 \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ P = b + 2\cdot h  \cdot \sqrt{l+m^2} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ R = \frac{A}{P} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ V = \frac{1}{n} \cdot R^{2/3} \cdot J^{1/2} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(4)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ Q = V \cdot A \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(4)</p></td>
+    </tr>
 </table>
 
 <p align = "justify">
 Onde:
   <ul>
+    <li><i>A</i> é a área da seção transversal (m²);</li>
+    <li><i>P</i> é o perímetro molhado (m);</li>
+    <li><i>R</i> é o raio hidráulico (m);</li>
     <li><i>m</i> é a inclinação do talude do canal;</li>
     <li><i>n</i> é o coeficiente de rugosidade do canal;</li>
-    <li><i>R</i> é o raio hidraúlico;</li>
     <li><i>J</i> é a declividade do fundo do canal (m/m).</li>
+    <li><i>V</i> é a velocidade no canal pelo modelo de Manning (m/s);</li>
+    <li><i>Q</i> é a vazão no canal pelo modelo de Manning (m³/s);</li>
   </ul>
 </p>
 
