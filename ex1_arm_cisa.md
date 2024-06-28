@@ -1,8 +1,8 @@
 ---
-title: Carga permanente e esforços
+title: Armadura de cisalhamento
 layout: default
 parent: Exemplo I
-nav_order: 3
+nav_order: 6
 has_children: false
 has_toc: false
 ---

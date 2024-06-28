@@ -1,8 +1,8 @@
 ---
-title: Carga permanente e esforços
+title: Fadiga concreto
 layout: default
 parent: Exemplo I
-nav_order: 3
+nav_order: 7
 has_children: false
 has_toc: false
 ---
