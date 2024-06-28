@@ -80,14 +80,14 @@ Agora para definir a seção da ponte será utilizada a solução de duas longar
 Empregando as proporções citadas anteriormente adotou-se um vão de 5,00 m entre longarinas e balanços de 2,00 m. Conforme manual do DNIT, para um vão de 5 m, considera-se uma espessura do tabuleiro de 0,22 m. A <a href="#fig3">Figura 3</a> detalha esta seção transversal em concreto armado.
 </p>
 
-<center><img src="assets/images/secao_ponte.png" width="90%"></center>
+<center><img src="assets/images/secao_ponte_com_dimensoes.png" width="90%"></center>
 <p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Detalhe com as dimensões da seção considerando os elementos de proteção.</p>
 
 <h1>Transversinas</h1> 
 
 <p align = "justify">
-Serão adicionadas duas transversinas desconectadas da laje na região dos apoios e será adicionada uma tranversina no meio do vão central de forma a enrijecer a estrutura como um todo. Para um vão de 5 metros e utilizando os conceitos de estruturas de concreto armado a altura da viga será maior que <i>L/10</i>. No caso A altura da transversina será delimitada inicialmente em 0,60 m e com largura de 0,20 m.
+Serão adicionadas duas transversinas desconectadas da laje na região dos apoios e será adicionada uma tranversina no meio do vão central de forma a enrijecer a estrutura como um todo. Para um vão de 5 metros e utilizando os conceitos de estruturas de concreto armado a altura da viga será maior que <i>L/10</i>. No caso a altura da transversina será delimitada inicialmente em 0,60 m e com largura de 0,20 m conforme <a href="#fig4">Figura 4</a>.
 </p>
 
-<center><img src="assets/images/secao_ponte.png" width="90%"></center>
-<p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Detalhe com as dimensões da seção considerando os elementos de proteção.</p>
+<center><img src="assets/images/secao_ponte_transversina.png" width="90%"></center>
+<p align = "left"><b><a href="#fig4">Figura 4</a>.</b> Detalhe da seção considerando a transversina de apoio.</p>

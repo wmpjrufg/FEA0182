@@ -28,7 +28,7 @@ Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1"
 Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq5">(5)</a>.
 </p>
 
-<center><img src="assets/images/secao_canal.png" width="80%"></center>
+<center><img src="assets/images/secao_canal.png" width="50%"></center>
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Formato do canal em seção trapezoidal.</p>
 
 <table style = "width:100%">
