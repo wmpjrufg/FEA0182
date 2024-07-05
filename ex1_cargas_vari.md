@@ -241,3 +241,115 @@ Com o valor o total do coeficiente de ponderação e das cargas determinadas che
   </tr>
 </tbody>
 </table>
+
+<p align = "justify">
+As seguintes fórmulas serão necessárias:
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ CIV = 1,0 +  1,06 \cdot ((20)/(20+50)) = 1,3029 m </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ CNF = 1 - 0,05 \cdot (n-2) = 1 - 0,05 \cdot (2-2) = 1</td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ CIA = 1,25 para obras em concreto ou mistas.</td>  
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ Coeficiente = CIV \cdot CNF \cdot CIA = 1,3029 \cdot 1 \cdot 1,25 = 1,6286</td>  
+    </tr>
+</table>
+
+    <p align = "justify">
+Para calcular o trem tipo da ponte em questão, tem-se:
+</p>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ 	φ (fí) = 1,4 \cdot 0,7% \cdot 20 = 1,26</td>
+    </tr>
+</table>
+    <p align = "justify">
+Logo, para o cálculo das coordenadas, fez-se:
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ \frac{1}{5} = \frac{a}{6,37} \therefore a = 1,274 </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ \frac{1}{5} = \frac{b}{(6,37-2} \therefore b = 0,8740 </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ \frac{1}{5} = \frac{c}{(6,37+0,5)} \therefore c = 1,3740 </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ \frac{1}{5} = \frac{d}{(6,37-2-0,5)} \therefore d = 0,7740 </td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \frac{1}{5} = \frac{e}{(5+1,37+0,63)} \therefore e = 1,4000 </td>  
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[  \frac{1}{5} = \frac{f}{(5+1,37+0,63-(0,15+0,38))} \therefore f = 1,2900  </td>  
+    </tr>
+</table>
+
+    <p align = "justify">
+Com os resultados apresentados acima, em seguida serão calculadas as respectivas áreas.
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ A1 = (1,4 + 1,3740) \cdot 0,55) /2 \therefore A1 = 0,7629 m </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ A2 = (3,87 \cdot (\frac{0,774}{(2)) \therefore A2 = = 1,4977 m </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ A3 = (1,4 + 1,29) \cdot \frac{0,38}{(2) \therefore A3 = = 0,511 m </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ A4 = 6,47 \cdot \frac{1,29}{2} \therefore A4 = 4,1732 m  </td>
+    </tr>
+    </table>
+
+<p align = "justify">
+Com isso, pode-se calcular o PR (peso por roda):
+</p>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ PR = P \cdot φ \cdot (a + b) </td>
+    </tr>
+        <tr>
+        <td style="width: 80%;">\[ PR = 75 \cdot 1,26 \cdot (1,274 + 0,874) \therefore PR = 202,986 kN </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ m' = p' \cdot + p \cdot φ \cdot A2  </td>
+    </tr>
+        <tr>
+        <td style="width: 80%;">\[ m' = 3,0 \cdot 0,7629 + 5 \cdot 1,26 \cdot 1,4977 \therefore m' = 11,7242 kN/m </td>
+    </tr>
+        <td style="width: 80%;">\[ m = A3 \cdot p' + A4 \cdot φ \cdot p</td>
+    </tr>
+        <tr>
+        <td style="width: 80%;">\[ m = 0,511 \cdot 3,0 + 4,1732 \cdot 1,26 \cdot 5 \therefore m = 27,8242 kN/m </td>
+    </tr>
+
+</table>
+
+<p align = "justify">
+Com isso,  pode-se calcular o PRsimp:
+</p>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ PRsimp = PR - (((m-m') \cdot 6) / 3) </td>
+    </tr>
+        <tr>
+        <td style="width: 80%;">\[ PRsimp = 202,99 - (((27,8242-11,7242) \cdot 6) /3 </td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ PRsimp = 170,79 kN </td>
+    </tr>
+
+
+</table>
