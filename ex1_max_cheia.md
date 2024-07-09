@@ -100,7 +100,7 @@ Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</
     <td><center>198,20</center></td>
     <td><center>8,00</center></td>
     <td><center>0,90</center></td>
-    <td><center>8,82</center></td>
+    <td><center>\[ A = b \cdot h + m \cdot h^2 \]=8,82</center></td>
     <td><center>12,02</center></td>
     <td><center>0,73</center></td>
     <td><center>0,86</center></td>
