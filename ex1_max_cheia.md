@@ -90,11 +90,11 @@ Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</
     <td><center>197,40</center></td>
     <td><center>8,00</center></td>
     <td><center>0,10</center></td>
-    <td><center>\[ A = b \cdot h + m \cdot h^2 \;=\; 8 \cdot 0,10 + 2 \cdot 0,10^2 \;=\; 0,82 \]</center></td>
-    <td><center>\[ P = b + 2 \cdot h  \cdot \sqrt{1+m^2} \;=\; 8 + 2 \cdot 0,10  \cdot \sqrt{1+2^2} \;=\;8,45 \]</center></td>
-    <td><center>\[ R = \frac{A}{P} \;=\; \frac{0,82}{8,45} \;=\;0,097 \]</center></td>
-    <td><center>\[ V = \frac{1}{n} \cdot R^{2/3} \cdot J^{1/2} \;=\; \frac{1}{0,03} \cdot 0,097^{2/3} \cdot 0,001^{1/2} \;=\; 0,22\]</center></td>
-    <td><center>\[ Q = V \cdot A \;=\; 0,22 \cdot 0,82 \;=\; 0,18\]</center></td>
+    <td><center>\[ A = 8 \cdot 0,10 + 2 \cdot 0,10^2 \;=\; 0,82 \]</center></td>
+    <td><center>\[ P = 8 + 2 \cdot 0,10  \cdot \sqrt{1+2^2} \;=\;8,45 \]</center></td>
+    <td><center>\[ R = \frac{0,82}{8,45} \;=\;0,097 \]</center></td>
+    <td><center>\[ V = \frac{1}{0,03} \cdot 0,097^{2/3} \cdot 0,001^{1/2} \;=\; 0,22\]</center></td>
+    <td><center>\[ Q = 0,22 \cdot 0,82 \;=\; 0,18\]</center></td>
   </tr>
   <tr>
     <td><center>198,20</center></td>
