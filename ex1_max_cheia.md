@@ -21,11 +21,11 @@ O primeiro passo na determinação do modelo estrutural é a confecção de um d
 Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1">Figura 1</a>.
 </p>
 
-<center><img src="assets/images/perfil.png" width="100%"></center>
+<center><img src="assets/images/perfil_topo.png" width="100%"></center>
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Perfil topográfico da estrada.</p>
 
 <p align = "justify">
-Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq5">(5)</a>.
+Considerando que a vazão de projeto é de 12,57 m²/s e o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq5">(5)</a>.
 </p>
 
 <center><img src="assets/images/secao_canal.png" width="50%"></center>
@@ -37,7 +37,7 @@ Considerando que a meta de vazão a ser alcançada é de 12,57 m²/s e o canal t
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ P = b + 2\cdot h  \cdot \sqrt{l+m^2} \]</td>
+        <td style="width: 90%;">\[ P = b + 2\cdot h  \cdot \sqrt{1+m^2} \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ Onde:
 
 
 <p align = "justify">
-Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</a> com algumas vazões em função da cota. No caso a declividade do talude do canal é de <i>m = </i> 2 metros.
+Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</a> com algumas vazões em função da cota. No caso a declividade do talude do canal é de <i>m</i> = 2 m e a largura do canal é de <i>b</i> = 8 m.
 </p>
 
 <p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Vazão no canal do exemplo.</p>
@@ -79,7 +79,7 @@ Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</
     <th>Cota (m)</th>
     <th>b (m)</th>
     <th>h (m)</th>
-    <th>Área (m)</th>
+    <th>Área (m²)</th>
     <th>Perímetro molhado (m)</th>
     <th>Raio hidráulico (m)</th>
     <th>Velocidade (m/s)</th>
@@ -90,11 +90,11 @@ Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</
     <td><center>197,40</center></td>
     <td><center>8,00</center></td>
     <td><center>0,10</center></td>
-    <td><center>\[ A = b \cdot h + m \cdot h^2 \]=0,82</center></td>
-    <td><center>\[ P = b + 2\cdot h  \cdot \sqrt{l+m^2} \]=8,45</center></td>
-    <td><center>\[ R = \frac{A}{P} \]=0,1</center></td>
-    <td><center>\[ V = \frac{1}{n} \cdot R^{2/3} \cdot J^{1/2} \]=0,22</center></td>
-    <td><center>\[ Q = V \cdot A \]=0,18</center></td>
+    <td><center>\[ A = b \cdot h + m \cdot h^2 \;=\; 8 \cdot 0,10 + 2 \cdot 0,10^2 \;=\; 0,82 \]</center></td>
+    <td><center>\[ P = b + 2 \cdot h  \cdot \sqrt{1+m^2} \;=\; 8 + 2 \cdot 0,10  \cdot \sqrt{1+2^2} \;=\;8,45 \]</center></td>
+    <td><center>\[ R = \frac{A}{P} \;=\; \frac{0,82}{8,45} \;=\;0,097 \]</center></td>
+    <td><center>\[ V = \frac{1}{n} \cdot R^{2/3} \cdot J^{1/2} \;=\; \frac{1}{0,03} \cdot 0,097^{2/3} \cdot 0,001^{1/2} \;=\; 0,22\]</center></td>
+    <td><center>\[ Q = V \cdot A \;=\; 0,22 \cdot 0,82 \;=\; 0,18\]</center></td>
   </tr>
   <tr>
     <td><center>198,20</center></td>
@@ -130,12 +130,12 @@ Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</
 </table>
 
 <p align = "justify">
-Considerando o cálculo efetuado na <a href="#tab1">Tabela 1</a> é possível determinar as posições da cota do nível d'água para a máxima cheia e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
+Considerando o cálculo efetuado na <a href="#tab1">Tabela 1</a> é possível determinar as posições da cota do nível d'água para a Máxima Cheia Calculada (M.C.C.) e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
 </p>
 
-<center><img src="assets/images/perfil.png" width="100%"></center>
-<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Perfil topográfico da estrada com a demarcação da posição da estrutura e nível d'água na máxima cheia calculada.</p>
+<center><img src="assets/images/perfil_topo_com_longarina.png" width="100%"></center>
+<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Perfil topográfico da estrada com a demarcação da posição da estrutura e nível d'água na Máxima Cheia Calculada.</p>
 
 <p align = "justify">
-Após a verificação da máxima cheia calculada e então detalhamento do posicionamento da ponte é possível estabelecer que a ponte precisará vencer um vão de 20 metros.
+Após a verificação da Máxima Cheia Calculada e então detalhamento do posicionamento da ponte é possível estabelecer que a ponte precisará vencer um vão de 20 metros.
 </p>

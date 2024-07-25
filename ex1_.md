@@ -34,7 +34,7 @@ has_toc: true
   </tr>
   <tr>
     <td><center>101+6</center></td>
-    <td><center>197,3</center></td>
+    <td><center>197,3¹</center></td>
   </tr>
   <tr>
     <td><center>101+10</center></td>
@@ -42,7 +42,7 @@ has_toc: true
   </tr>
   <tr>
     <td><center>101+14</center></td>
-    <td><center>197,3*</center></td>
+    <td><center>197,3²</center></td>
   </tr>
   <tr>
     <td><center>102</center></td>
@@ -51,6 +51,9 @@ has_toc: true
   <tr>
     <td><center>103</center></td>
     <td><center>200,3</center></td>
+  </tr>
+  <tr>
+    <td colspan="2"><left>¹Fim da inclinação<br>²Início da inclinação<br>Nível atual da água = 197.50 m</left></td>
   </tr>
 </tbody>
 </table>
