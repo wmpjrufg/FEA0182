@@ -64,7 +64,7 @@ O modelo estrutural empregado será o de viga isostática com balanços. Portant
 </table>
 
 <p align = "justify">
-A largura adotada será a mínima de 0,25 m e a altura será de 1,0 m visto que o vão central é de 14 metros \( \left( h=14/14 = 1 m \right) \).
+A largura adotada será a mínima de 0,25 m e a altura será de 1,0 m visto que o vão central é de 14 metros (<i>h</i>=14/14 = 1 m).
 </p>
 
 <h1>Tabuleiro</h1> 

@@ -63,7 +63,7 @@ Aqui salienta-se que para a seleção das seções de interesse o vão será div
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Lançamento da estrutura com o seu carregamento permanente.</p>
 
 <p align = "justify">
-Considerando o <i>f<sub>ck</i> de 25 MPa e um agregado de granito o módulo de elasticidade do concreto (<i>E<sub>c</i>) será de 24 GPa. Já a seção da longarina será de 0,25 m <i>x</i> 1,00 m. 
+Considerando o <i>f<sub>ck</sub></i> de 25 MPa e um agregado de granito o módulo de elasticidade do concreto (<i>E<sub>c</sub></i>) será de 24 GPa. Já a seção da longarina será de 0,25 m <i>x</i> 1,00 m. 
 </p>
 
 <p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Esforços de flexão nas seções de interesse para carga permanente.</p>
