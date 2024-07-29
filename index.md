@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Seja bem-vindo
 layout: home
 nav_order: 1
 has_children: False
