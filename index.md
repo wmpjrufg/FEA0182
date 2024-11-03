@@ -12,7 +12,7 @@ has_toc: False
   <tr>
     <td style="width:70%;">
       <p align="justify">
-        Olá seja bem vindo a disciplina FEA0182. Neste repositório você encontrará material da disciplina de Introdução a pontes minsitrada pelo professor <a target="_blank" rel="noopener" href="http://lattes.cnpq.br/2268506213083114">Wanderlei Malaquias Pereira Junior</a>. A ementa da disciplina é: Definições gerais; princípios para locação da estrutura; estudo da carga móvel; funcionamento dos principais elementos da superestrutura; funcionamento dos principais elementos das meso e infraestruturas; ações em pontes; noções sobre os procedimentos básicos de projeto.
+        Olá seja bem vindo a disciplina FEA0182. Neste repositório você encontrará material da disciplina de Introdução ao projeto de pontes minsitrada pelo professor <a target="_blank" rel="noopener" href="http://lattes.cnpq.br/2268506213083114">Wanderlei Malaquias Pereira Junior</a>. A ementa da disciplina é definida por: <i>Definições gerais; Métodos construtivos de pontes; Princípios para locação da estrutura; Estudo da carga móvel; Funcionamento dos elementos estruturais; Conceito de fadiga em elementos estruturais. Projeto de longarinas</i>.
       </p>
     </td>
     <td style="width:30%;"><img src="assets/images/logo.png"/></td>  
