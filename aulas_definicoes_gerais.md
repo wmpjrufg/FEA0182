@@ -415,7 +415,93 @@ Vitório [4] afirma que essas pontes devem ter esbeltez L/h em torno de 15 a 22 
         <li>Deve-se ter bastante cuidado em relação as articulações visto que essa pode ser uma das principais fontes de patologia nesse sistema.</li>
     </ol>
 </p>
+<br><br>
+<table align = "left" border = "1">
+       <tr>
+        <th colspan = "2">
+           Figura 1.7 – Modelos de ponte em vigas: (a) Ponte em viga simplesmente apoiada; (b) Ponte em viga contínua; e (c) Ponte em viga Gerber [4].
+        </th>
+    </tr>
+    <tr>
+        <th >
+        <img  src="" alt="IMAGENS DO SLIDE 16 DA AULA 1 DE PONTES" >
+        </th>
+        <th>
+            <img  src="" alt="IMAGENS DO SLIDE 16 DA AULA 1 DE PONTE" >
+        </th>
+    </tr>
+     <tr>
+        <th >
+        (a)
+        </th>
+        <th>
+         (b)
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+          <img  src="" alt="IMAGENS DO SLIDE 16 DA AULA 1 DE PONTE" >
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+        (c)
+        </th>
+    </tr>
+</table>
 <br><br><br>
+<p>
+	Segundo Vitório [4] o sistema estrutural em arco foi muito utilizado no  passado  como a única alternativa viável para vencer grandes vãos,  principalmente diante da dificuldade da execução  de  apoios  intermediários  e  escoramentos  sobre  cursos  d’água  ou vales profundo.<br>
+
+	O’Connor [17] apresenta as denominações desse modelo estrutural (Ver Fig. 1.8 e 1.9) que é bastante vantajoso. O formato em arco permite a redução dos esforços de flexão na superestrutura.  Apesar dessa vantagem o autor ainda afirma que tal modelo estrutural pode ter custo elevado devido a dificuldade de fabricação das nervuras do arco.
+</p>
+<br><br>
+
+ <table align = "left" border = "1">
+       <tr>
+        <th colspan = "2">
+           Figura 1.8 – Nomenclatura da ponte em arco [17].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+          <img  src="" alt="IMAGENS DO SLIDE 17 DA AULA 1 DE PONTE" >
+        </th>
+    </tr>
+</table>
+<br><br>
+ <table align = "left" border = "1">
+       <tr>
+        <th colspan = "2">
+           Figura 1.9 – Tipos de ponte em arco [17].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+          <img  src="" alt="IMAGENS DO SLIDE 18 DA AULA 1 DE PONTE" >
+        </th>
+    </tr>
+</table>
+ <table align = "right" border = "1">
+       <tr>
+        <th colspan = "2">
+          Figura 1.10 – Ponte Rainbow sobre o Rio Niágara que fica na fronteira do Canadá com EUA [18].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+          <img  src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/56000/56416-Rainbow-Bridge.jpg" alt="Ponte Rainbow sobre o Rio Niágara que fica na fronteira do Canadá com EUA" >
+        </th>
+    </tr>
+</table>
+<br><br><br>
+<p>
+	A Ponte Pênsil se caracteriza com um modelo de ponte suspenso, Vitório [4] afirma que as pontes pênseis são constituídas por cabos  dispostos parabolicamente e pendurais verticais. Tais cabos normalmente são presos sem sistemas de torres e ancoragens externas. Juntamente com as pontes em arco esse modelo suspenso é considerado como uma das estruturas mais antigas da história da Engenharia Civil [19].<br><br>
+
+	Normalmente esse sistema é executado com vigamentos metálicos. Os vigamentos podem ser em executados em treliças ou vigas de alma cheia. Os mesmos devem ter grande rigidez à flexão e principalmente à torção, de modo a minimizar os efeitos dos movimentos  vibratórios transversais que podem causar desconforto aos usuários ou mesmo risco à estrutura.<br><br>
+
+	A Fig. 1.11 apresenta a ponte Hercílio Luz que é a maior ponte Pênsil do Brasil e a Fig. 1.12 apresenta uma das pontes mais famosas do mundo a ponte Golden Gate.
+</p>
 
 
 
