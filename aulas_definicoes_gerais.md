@@ -156,3 +156,81 @@ Considerando o <i>f<sub>ck</i> de 25 MPa e um agregado de granito o módulo de e
   </tr>
 </tbody>
 </table>
+<br>
+<h1><b>Definições gerais</b></h1>
+<br><br><br>
+<table border = 1>
+  <tr style="text-align: center;">
+    <th>
+      <br>
+      ONDE ESTAMOS ???
+      <br>&nbsp;
+    </th>
+  </tr>
+    <tr style = "text-align:left">
+      <th>
+        <p style="color: blue; text-align: center;">1 – CONCEITOS GERAIS SOBRE O PROJETO DE PONTES</p>
+        2 – AÇÕES NA SUPERESTRUTURA<br><br>
+        3 – ANÁLISE COMPUTACIONAL COM CARGA MÓVEL<br><br>
+        4 – DIMENSIONAMENTO DA LONGARINA<br><br>
+        5 – DIMENSIONAMENTO DO TABULEIRO<br><br>
+        6 – DIMENSIONAMENTO DA TRANSVERSINA<br><br>
+        7 – DIMENSIONAMENTO DA MESOESTRUTURA<br><br>
+        8 – APARELHOS DE APOIO<br>
+      </th>
+    </tr>
+</table>
+<br><br>
+<h2>1 – DEFINIÇÕES GERAIS</h2>
+<br>
+<p>
+    De acordo com o item 3.1 da NBR 7188 [1], ponte é uma estrutura utilizada para transpor um determinado obstáculo natural, como rios, vales, córregos, entre outros.    Esse tipo de construção é submetida a ação de carga móvel, ou seja, ação de esforços com posicionamento variável. Já os viadutos são definidos no item 3.2 e se diferenciam das pontes no sentido de ser uma estrutura com finalidade de transpor algum obstáculo artificial, por exemplo: (a) avenida; (b) rodovia; e etc.<br>
+
+Pontes e viadutos são enquadrados como Obras de Arte Especiais (OAE’s). E são assim denominadas devido a sua complexidade projetual, envolvimento de diversas áreas do conhecimento na elaboração dos projetos até a construção. Além disso OAE’s são obras de grande relevância no âmbito da infraestrutura de uma nação. <br>
+
+Segundo o DNIT1a apud Mendes [2] afirma que os 73000 km de rodovias pavimentadas e não pavimentadas do modal rodoviário federal brasileiro possui 5600 pontes. Em 2011 um relatório do Tribunal de Contas da União (Relatório TC 003.134/2011-3) apontou em uma auditoria que o valor estimado das OAE's são da ordem 13 bilhões de reais e esses estão distribuídos em cerca de 4.500 pontes e viadutos na malha federal. Já em 2015 o Departamento Nacional de Infraestrutura de Transportes (DNIT) contabilizou somente sob sua responsabilidade um total de 5114 OAE’s.
+</p><br><br><br>
+<p>
+    Uma ponte ou um viaduto podem ser classificados da seguinte forma:<br>
+    <ol type = "a" >
+        <li>Ponte: Quando o obstáculo é constituído de curso de água ou outra superfície líquida como por exemplo um lago ou braço de mar;</li>
+        <li>Viaduto: Quando o obstáculo é um vale ou uma via;</li>
+    </ol>
+</p>
+<br>
+
+<table align = "center">
+    <tr>
+        <th>
+        <img  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKMYQRtanBOrZakn1UaKT6iYFKnv5Ph7RUr1TQwaLnQZe4bkkkM3zHUCyafha71A7lKL2hQc-Hpqu8toSdJS4RYXKKDi1urGtSo_2jEGzqcQgnUReysUPCeQjAJKfAiya9Kv2FxPvirTBl/s1600/Captura+de+Tela+2015-10-04+a%25CC%2580s+21.39.13.png" alt="Exemplificações dos sistemas de pontes e viadutos">
+            </th>
+    </tr>
+</table>
+<br><br><br>
+<p>
+    Algumas nomenclaturas devem ser definidas para facilitar o prosseguimento. A primeira definição importante é baseada na organização do sistema estrutural, que nesse caso se subdivide em 3 classificações, são elas:<br><br>
+ <ol type = "a" >
+        <li>Superestrutura: Elementos de laje (tabuleiro) e viga;</li>
+        <li>Mesoestrutura: Elementos de pilar e aparelhos de apoio;</li>
+        <li>Infraestrutura: Obras de terra e elementos de fundação.</li>
+    </ol>
+    <br><br>
+    <p>Vitório [4] define da segunda forma cada uma das partes do sistema:</p>
+    <ol type = "a" >
+        <li>Superestrutura: Vence o vão necessário a ser transposto pela ponte e recebe diretamente as cargas provenientes do tráfego dos veículos, transmitindo-as à mesoestrutura. É normalmente denominada de tabuleiro ou estrado, sendo composta de vigamento longitudinal (vigas principais ou longarinas), de vigamento transversal (transversinas) e das lajes superior, e inferior (no caso de estrado celular);</li><br>
+        <li>Mesoestrutura: Tem função é conduzir as cargas da superestrutura para as fundações, é constituída pelos pilares, travessas e encontros;</li><br>
+        <li>Infraestrutura: Também chamada de fundação, tem a finalidade de receber as cargas da estrutura, transmitindo-as para o solo. Pode ser direta (sapatas) ou profunda (estacas ou tubulões).</li><br>
+    </ol>
+</p>
+<br><br>
+<table align = "center">
+    <tr>
+        <th>
+        <img  src="" alt="AQUI VAI A IMAGEM DO SLIDE 7 DA AULA 1 DE PONTES">
+            </th>
+    </tr>
+</table>
+<br><br><br>
+<h2> 2 - CLASSIFICAÇÕES DE PROJETO</h2>
+
+
