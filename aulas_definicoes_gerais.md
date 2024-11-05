@@ -378,7 +378,7 @@ Vitório [4] afirma que essas pontes devem ter esbeltez L/h em torno de 15 a 22 
     </tr>
 </table>
 <br><br><br>
-<p>
+<p style = "text-align:justify">
     As pontes em vigas possuem várias subdivisões pois dependerá do modelo estrutural utilizado na fabricação das vigas. Segundo Vitório [4] são elas:
     <br><br>
     Pontes em vigas simplesmente apoiadas:<br>
@@ -440,7 +440,7 @@ Vitório [4] afirma que essas pontes devem ter esbeltez L/h em torno de 15 a 22 
     </tr>
 </table>
 <br><br><br>
-<p>
+<p style = "text-align:justify">
 	Segundo Vitório [4] o sistema estrutural em arco foi muito utilizado no  passado  como a única alternativa viável para vencer grandes vãos,  principalmente diante da dificuldade da execução  de  apoios  intermediários  e  escoramentos  sobre  cursos  d’água  ou vales profundo.<br>
 
 	O’Connor [17] apresenta as denominações desse modelo estrutural (Ver Fig. 1.8 e 1.9) que é bastante vantajoso. O formato em arco permite a redução dos esforços de flexão na superestrutura.  Apesar dessa vantagem o autor ainda afirma que tal modelo estrutural pode ter custo elevado devido a dificuldade de fabricação das nervuras do arco.
@@ -485,13 +485,325 @@ Vitório [4] afirma que essas pontes devem ter esbeltez L/h em torno de 15 a 22 
     </tr>
 </table>
 <br><br><br>
-<p>
+<p style = "text-align:justify">
 	A Ponte Pênsil se caracteriza com um modelo de ponte suspenso, Vitório [4] afirma que as pontes pênseis são constituídas por cabos  dispostos parabolicamente e pendurais verticais. Tais cabos normalmente são presos sem sistemas de torres e ancoragens externas. Juntamente com as pontes em arco esse modelo suspenso é considerado como uma das estruturas mais antigas da história da Engenharia Civil [19].<br><br>
 
 	Normalmente esse sistema é executado com vigamentos metálicos. Os vigamentos podem ser em executados em treliças ou vigas de alma cheia. Os mesmos devem ter grande rigidez à flexão e principalmente à torção, de modo a minimizar os efeitos dos movimentos  vibratórios transversais que podem causar desconforto aos usuários ou mesmo risco à estrutura.<br><br>
 
 	A Fig. 1.11 apresenta a ponte Hercílio Luz que é a maior ponte Pênsil do Brasil e a Fig. 1.12 apresenta uma das pontes mais famosas do mundo a ponte Golden Gate.
 </p>
+<br><br>
+
+<table align = "left" border = "1">
+       <tr>
+        <th colspan = "2">
+          Figura 1.11 – A ponte Hercílio Luz em Florianópolis que é um dos exemplos de uma ponte pênsil [20].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+          <img  src="https://estado.sc.gov.br/noticias/wp-content/uploads/sites/3/2022/05/ponte_hercilio_luz_completa_96_anos_com_programacao_especial_20220512_1673447418.jpg" alt=" Hercílio Luz em Florianópolis " >
+        </th>
+    </tr>
+</table>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+         Figura 1.12 – A ponte Golden Gate que é um dos exemplos de uma ponte pênsil [21].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+           <img  src="https://www.vidadeturista.com/wp-content/uploads/2020/10/the-golden-gate-bridge-san-francisco-1.jpg" alt="Ponte Golden Gate" >
+        </th>
+    </tr>
+</table>
+<br><br><br>
+<p style = "text-align:justify">
+	Nas  pontes estaiadas (Fig. 1.13 e 1.14) o tabuleiro é suspenso através de cabos inclinados  fixados em torres. O tabuleiro, geralmente metálico ou em concreto protendido, deve ter grande rigidez à torção, de modo a reduzir os movimentos vibratórios causados pela ação transversal do vento [4].<br><br>
+	Alguns autores afirmam que esse modelo de pontes é uma evolução dos modelos pênseis pois a ideia do modelo estrutural é o mesmo, a busca por redução do número de apoios, peso próprio e atingindo vãos maiores.<br><br>
+	Como dito anteriormente esses modelos de pontes são de pontes suspensas, porém na ponte pênsil os cabos principais acompanham o desenvolvimento longitudinal da ponte se apoiando nas torres e fixadas nas extremidades. Já no modelo estaiado o não possui a forma de uma catenária e os cabos estão fixados as torres intermediárias [22].<br><br>
+	Nos modelos pênseis a forma da curva deve ser preservada para manter a eficiência de transporte dos esforços até os apoios, logo para vão maiores, maior deve ser o pilar que servirá de apoio [22].
+</p>
+<br><br>
+
+ <table align = "right" border = "1">
+       <tr>
+        <th colspan = "2">
+        Figura 1.13 – Complexo Turístico Mirante da Ponte Estaiada em Teresina, Piauí [23].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+           <img  src="https://i0.wp.com/nordestetur.com.br/wp-content/uploads/2021/10/Complexo-Turistico-Mirante-Ponte-Estaiada-semdec.teresina.pi_.gov_.br_.jpg?resize=960%2C540&ssl=1" alt="Complexo Turístico Mirante da Ponte Estaiada em Teresina" >
+        </th>
+    </tr>
+</table>
+
+ <table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+        Figura 1.14 – Viaduto Milau no vale do rio Tarn [24].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+           <img  src="https://axialengenharia.eng.br/wp-content/uploads/2016/12/viadutomillau.jpg" alt="Viaduto Milau no vale do rio Tarn " >
+        </th>
+    </tr>
+</table>
+<br><br>
+<p style = "text-align:justify">
+	A ideia básica do sistema estrutural estaiado é baseada em um conjunto de cabos inclinados que são conectados a torres. Os cabos nesses caso simulam apoios intermediários ao longo do vão [25].<br><br>
+Existem vários tipos de sub modelos estruturais associados as pontes estaiadas. Alguns desses submodelos descrevem características de distribuição longitudinal e transversal dos cabos estaiados. Em relação a distribuição longitudinal  os mesmos são definidos como: (a) Leque; (c) Harpa; (c) Semi-Harpa; e (d) Assimétrico (Ver Fig. 1.15).
+</p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+       Figura 1.15 – Modelos para arranjo dos cabos em pontes estaiadas [26].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 23 DA AULA 1 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br>
+<p style = "text-align:justify">
+	Em relação a distribuição transversal de essa poderá ser feita em um ou dois planos verticais (Ver Fig. 1.16) ou até mesmo em sistemas de torres únicas com distribuição dos cabos em planos inclinados.
+</p>
+<br>
+
+<table align = "center" border = "1">
+    <tr>
+       <th colspan = "5">
+      Figura 1.16 – Modelos estruturais de pontes estaiadas; (a) Distribuição em apenas um plano vertical; (b) Distribuição em dois planos verticais [27].
+       </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+              (a)
+        </th>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 24 DA AULA 1 DE PONTES" >
+        </th>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 24 DA AULA 1 DE PONTES" >
+        </th>
+    </tr>
+    <tr>
+     	<th colspan = "2">
+          (b)
+        </th>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 24 DA AULA 1 DE PONTES" >
+        </th>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 24 DA AULA 1 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+<p style = "text-align:justify">
+	O modelos em Harpa utilizam uma simetria no espaçamento dos cabos logo tal fato contribui para estética do modelo estrutural apesar não ser o sistema estrutural mais eficiente [27]. Em casos de assimetria do carregamento (Ver Fig. 1.17) o sistema de tabuleiro deverá ter uma rigidez maior tornando assim a  estrutura mais robusta.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+       Figura 1.17 – Cargas assimétricas no sistema de ponte estaiada com distribuição de cabos em harpa [27].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 25 DA AULA 1 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+<p style = "text-align: justify">
+	Na concepção em Leque [27] os esforços horizontais introduzidos pelo tabuleiro são reduzidos devido a verticalidade dos cabos evitando assim um acúmulo de tensões por esse efeito. Nessa situação de leque o espaçamento entre os estais é relativamente pequeno permitindo uma melhor distribuição dos esforços entre os cabos. Porém nessa geometria o emaranhado de cabos no topo dos pilares causa uma certa dificuldade no projeto dos sistemas de ancoragem.
+	<br><br>
+	Os sistemas treliçados são amplamente utilizados desde o início do desenvolvimento da engenharia estrutural. Estes  caracterizam-se por possuírem um peso próprio inferior que outros tipos de estruturas, além de que devido a sua alta parcela rigidez o sistema também admite grandes vãos.
+	<br><br>
+	Uma das desvantagens do sistema é que o mesmo necessita de uma mão de obra altamente especializada, além de que os custos com fabricação e montagem do sistema são elevados.
+	<br><br>
+	Em sistemas de pontes treliçadas os momentos fletores teoricamente devem ser nulos. Tal condição poderia ser alcançada caso houvesse a introdução de articulações sem atrito em todos os nós. Na prática de projeto, a maioria dos elementos são rigidamente ligados nas juntas, transmitindo uma parcela de momento fletor para as peças. No caso esse momento fletor ainda é pequeno e é controlado através das dimensões da treliça como também pelo processo de fabricação e montagem [17].
+	<br><br><br><br>
+	Sobre o formato o mesmo poderá ser os mais diversos possíveis. Normalmente alguns formatos são bastante tradicionais, como as treliças tipo: Pratt, Howe, Warren e sistema K. A seguir na Fig. 1.18 são apresentados esses modelos.
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+     Figura 1.18 – Modelos de treliça: (a) Treliça Pratt; (b) Treliça Howe; (c) Treliça Warren; (d) Sistema K contraventado; e (e) Sistema contraventado em losangos [17].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 27 DA AULA 1 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+<p style = "text-align:justify">
+	Segundo  O’Connor [17] o sistema Pratt é vantajoso visto que a compressão atua prioritariamente nos elementos de montante que são mais curtos que as diagonais que por definição são tracionadas.
+	<br><br>
+	O’Connor [17] afirma que os sistemas contraventados tipo K são utilizados quando a altura do painel é da ordem de duas a três vezes o seu comprimento.
+	<br><br>
+	Pinho e Bellei [28] afirmar que treliças são econômicas com altura variando de 1/8 a 1/15 do vão em estudo. Os mesmos afirmam que o modelo de treliça é utilizado para um vão entre 50 m e 120 m quando ditas isostáticas e vãos de até 250 m quando utilizadas em modelos contínuos.
+	<br><br><br>
+	Segundo Vitório [4] as pontes, os pórticos são formados pela ligação das vigas com os pilares ou com as paredes dos encontros, caracterizando a continuidade entre esses elementos em substituição às articulações.
+	<br><br>
+	Como as extremidades da viga são engastadas nos encontros, os momentos negativos de engastamento reduzem o momento positivo, possibilitando a redução de altura no vão.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+      Figura 1.19 – Modelos de pontes em pórtico aberto e fechado de concreto [29].
+        </th>
+    </tr>
+    <tr>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 29 DA AULA 1 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+<h3><b>2.3 – Classificações nos projetos de pontes: Comprimento</b></h3>
+<br><br>
+<p style = "text-align:justify">
+	El Debs e Takeya [3] classifica da seguinte forma em função do comprimento:<br><br>
+ 	<ol type = "a">
+		<li>Galerias (Bueiros): de 2 a 3 metros;</li>
+		<li>Pontilhões: de 3 a 10 metros; </li>
+		<li>Pontes: acima de 10 metros.</li>
+	</ol>
+    <br>
+    Existe ainda uma divisão, também de contornos não muito definidos, que é:<br><br>
+    <ol type = "a">
+		<li>Pontes de pequenos vãos: até 30 metros; </li>
+		<li>Pontes de médios vãos: 30 a 60 a 80 metros </li>
+		<li>Pontes de grandes vãos: acima de 60 a 80 metros</li>
+	</ol>
+	<br><br><br>
+</p>
+<br><br>
+
+<h3><b>2.3 – Classificações nos projetos de pontes: Desenvolvimento planimétrico </b></h3>
+<br><br>
+
+<p>
+	El Debs e Takeya [3] apresenta alguns formatos da superestrutura:
+</p>
+<br><br>
+
+<table align = "center" border = "0">
+		<tr>
+          <th colspan = "2">
+       Figura 1.20 – Modelos de desenvolvimento planimétrico da superestrutura [3].
+          </th>
+    	</tr>
+       <tr>
+        <th colspan = "1">
+    		 (a)
+        </th>
+        <th colspan = "1">
+     		(b)
+        </th>
+      </tr>
+      <tr>
+        <th colspan = "1">
+           <img  src="" alt="IMAGEM DO SLIDE 31 DA AULA 1 DE PONTES" >
+        </th>
+        <th colspan = "1">
+           <img  src="" alt="IMAGEM DO SLIDE 31 DA AULA 1 DE PONTES" >
+        </th>
+      </tr>
+      <tr>
+        <th colspan = "2">
+          (c)
+        </th>
+      </tr>
+      <tr>
+        <th colspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 31 DA AULA 1 DE PONTES" >
+        </th>
+      </tr>
+</table>
+<br><br><br>
+
+<h3><b>2.3 – Classificações nos projetos de pontes: Desenvolvimento altimétrico </b></h3>
+<br><br>
+<p>
+	El Debs e Takeya [3] apresenta alguns formatos da superestrutura e seu desenvolvimento altimétrico:
+</p>
+<br><br>
+
+<table align = "center" border = "0">
+		<tr>
+          <th colspan = "2">
+       Figura 1.21 – Modelos de desenvolvimento altimétrico da superestrutura [3].
+       <br>
+       &nbsp;
+          </th>
+    	</tr>
+       <tr>
+        <th colspan = "1">
+    		 (a)
+             <br>
+       &nbsp;
+        </th>
+        <th colspan = "1">
+     		(b)
+            <br>
+       &nbsp;
+        </th>
+      </tr>
+      <tr>
+        <th colspan = "1">
+           <img  src="" alt="IMAGEM DO SLIDE 32 DA AULA 1 DE PONTES" >
+           <br>
+       &nbsp;
+        </th>
+        <th colspan = "1">
+           <img  src="" alt="IMAGEM DO SLIDE 32 DA AULA 1 DE PONTES" >
+           <br>
+       &nbsp;
+        </th>
+      </tr>
+      <tr>
+        <th colspan = "">
+          (c)
+          <br>
+       &nbsp;
+        </th>
+        <th colspan = "">
+          (d)
+          <br>
+       &nbsp;
+        </th>
+      </tr>
+      <tr>
+        <th colspan = "">
+           <img  src="" alt="IMAGEM DO SLIDE 32 DA AULA 1 DE PONTES" >
+           <br>
+       &nbsp;
+        </th>
+        <th colspan = "">
+           <img  src="" alt="IMAGEM DO SLIDE 32 DA AULA 1 DE PONTES" >
+           <br>
+       &nbsp;
+        </th>
+      </tr>
+</table>
 
 
 
