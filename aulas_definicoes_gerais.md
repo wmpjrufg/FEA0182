@@ -160,7 +160,7 @@ Considerando o <i>f<sub>ck</i> de 25 MPa e um agregado de granito o módulo de e
 <h1><b>Definições gerais</b></h1>
 <br><br><br>
 <table border = 1>
-  <tr style="text-align: center;">
+  <tr style="text-align: center;" aligin ="center">
     <th>
       <br>
       ONDE ESTAMOS ???
