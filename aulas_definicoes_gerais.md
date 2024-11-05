@@ -274,17 +274,7 @@ Segundo o DNIT1a apud Mendes [2] afirma que os 73000 km de rodovias pavimentadas
 </table>
 <br>
 
-<table align = "center" border = "1">  
-    <tr>
-        <th>
-          <iframe width="420" height="345" src="https://youtu.be/zQOepxyDSUE?	si=oE4v5b8V3jrybjyc">
-		</iframe>
-        </th>
-        <th>
-           <iframe width="420" height="345" src="https://youtu.be/5nb4Z0A10kg?si=VA6uYKSofE_79saG">
-		</iframe>
-    </tr>
-</table>
+
 <br><br>
 <h3><b>2.2 – Classificações nos projetos de pontes: Material</b></h3>
 <br>
