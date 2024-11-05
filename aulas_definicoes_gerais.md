@@ -1019,8 +1019,155 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 </table>
 <br><br><br>
 
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "3">
+			Figura 2.4 – Fôrma trepante, desmontável, com cerca de 3 m de altura e concretagem por segmentos, vibrada e interrompida [4], ULMA4.
+        </th>  
+    </tr>
+    <tr>
+        <th>
+           <img  src="" alt="IMAGEM DO SLIDE 14 DA AULA 2 DE PONTES" >
+        </th>
+       <th rowspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 14 DA AULA 2 DE PONTES" >
+        </th>
+        <th rowspan = "2">
+           <iframe width="560" height="315" src="https://youtube.com/embed/uPUsl5_2c14" ></iframe>
+        </th>
+    </tr>
+</table>
+<br><br><br>
 
+<h2><b>3 - SUPERESTRUTURA</b></h2>
+<br><br>
 
+<p>
+	De acordo com Leonhardt [6] a classificação segundo o processo executivo é dada por três subdivisões, são elas:
+ 	<br><br>
+	Construção com concreto moldado in loco:
+	<br>
+    <ol type = "1">
+        <li>Fôrmas sobre escoramentos fixos;</li>
+        <li>Fôrmas sobre escoramentos deslizantes;</li>
+        <li>Balanços sucessivos com fôrma deslocável;</li>
+        <li>Balanços sucessivos com treliça de lançamento e fôrma deslocável.</li>
+    </ol>
+    <br><br>
+    Construção com elementos pré-moldados:
+    <br>
+    <ol type = "1">
+        <li>Elementos pré-moldados sobre o vão inteiro;</li>
+        <li>Segmentos pré-moldados;</li>
+    </ol>
+    <br><br>
+    Construção por deslocamentos progressivos.
+    <br><br>
+    De acordo com Bastos [4] essa classificação se refere normalmente ao procedimento de execução da superestrutura, pois em os elementos de mesoestrutura e infraestrutura quase sempre utilizam concreto moldado in loco para execução
+</p>
+<br>
+<p style = "text-align:justify">
+	Segundo Quintana Ytza [7] o modelo de cimbramento (Ver Fig. 3.1) é usado geralmente em um zona de baixo gabarito e solo com boa capacidade resistente. O cruzamento não está congestionado com estradas ou ferrovias, e a estrutura em questão não tem que atravessar um curso de água.
+	<br><br>
+	Leonhardt [6] e Stucchi [8] citam algumas observações e cuidados que se deve com esse processo executivo com um escoramento fixo:
+</p>
+<br>
+<ol type = "a">
+	<li>Fundação e contraventamento do cimbramento; </li>
+	<li>Contra flechas para compensar recalques ou deformações de vigas e treliças; </li>
+	<li>Cuidados  na  concretagem - Recalques  e  deformações  devem  ocorrer  antes  do  final  da concretagem. Tratar juntas; </li>
+	<li>Cuidados  na  desforma - Desencunhar  do  centro  para  os  apoios  de  cada  vão  e  só  após desmontar o cimbramento; </li>
+	<li>Vistoriar antes, durante e depois da concretagem.</li>
+	<li>Vantajosos para execução de uma estrutura de mais de três vãos com mesma seção transversal;</li>
+	<li>Esse processo só é prático quando o terreno for nivelado.</li>
+</ol>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+			Figura 3.1 – Utilização de escoramentos metálicos fixos para concretagem1.
+        </th>  
+    </tr>
+    <tr>
+        <th>
+           <img  src="" alt="IMAGEM DO SLIDE 18 DA AULA 2 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+			Figura 3.2 – Utilização de escoramentos metálicos fixos para concretagem [8].
+        </th>  
+    </tr>
+    <tr>
+        <th>
+           <img  src="" alt="IMAGEM DO SLIDE 19 DA AULA 2 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+			Figura 3.3 – Processo construtivo de concreto moldado in loco com fôrmas sobre escoramentos deslizantes [6].
+        </th>  
+    </tr>
+    <tr>
+        <th>
+           <img  src="" alt="IMAGEM DO SLIDE 19 DA AULA 2 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br><br>
+
+<p>
+	Sobre o método onde o sistema de escoramentos é deslizante Stucchi [8] afirma que todas as precauções anteriores são válidas porém com a seguinte adição de cuidados:
+ 	<br><br>
+  	<ol type = "a">
+		<li>O processo construtivo influência no dimensionamento da peça (ver Fig. 3.4);</li>
+		<li>Definição das posições de junta e posterior tratamento;</li>
+		<li>Cuidado com as interferências que podem impedir o movimento das formas ou da treliça.</li>
+	</ol>
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+			Figura 3.4 – Diagrama de solicitações para o modelo construtivo [8].
+        </th>  
+    </tr>
+    <tr>
+        <th>
+           <img  src="" alt="IMAGEM DO SLIDE 20 DA AULA 2 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 3.4 – Concreto moldado in loco em balanços sucessivos com treliça de lançamento e fôrma deslocável [6].
+        </th>  
+    </tr>
+    <tr>
+        <th>
+           <img  src="" alt="IMAGEM DO SLIDE 21 DA AULA 2 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<p style = "text-align:justify">
+	O sistema pré-moldado é bastante econômico, desde que se tenha estruturas com segmentos iguais [6]. Todo o processo de pré-moldagem pode ser feita fora do canteiro em fábricas especificas para esse fim. A Fig. 3.5 apresenta a sequência desse processo construtivo.
+</p>
+<br><br>
 
 
 
