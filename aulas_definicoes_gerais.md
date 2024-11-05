@@ -1169,6 +1169,77 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 </p>
 <br><br>
 
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+		Figura 3.5 – Sequência do processo executivo utilizando vãos pré-moldados [6].
+        </th>        
+    </tr>
+    <tr>
+        <th rowspan = "2">
+           <img  src="" alt="IMAGEM DO SLIDE 22 DA AULA 2 DE PONTES" >
+        </th>
+        <th>
+           <iframe  src="https://youtube.com/embed/nLhCp22lFQ4">
+</iframe>
+        </th>
+    </tr>
+     <tr>
+        <th>
+          <iframe  src="https://youtube.com/embed/7T6R6VOgxv4">
+</iframe>
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<p style = "text-align:justfy"> 
+	A execução de tabuleiros com aduelas pré-fabricadas surgiu como resultado da necessidade de se utilizar métodos construtivos com elevado grau de rendimento, mecanização e menor quantidade de mão-de-obra necessária. Desta forma torna-se possível executar superestruturas em menores períodos de tempo e com menores custos [9].
+	<br><br>
+	A Fig. 3.6 apresenta um segmento de aduelas sendo posicionado para exemplificar tal modelo construtivo
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+		Figura 3.6 – Sequência do processo executivo utilizando vãos pré-moldados Berd4.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 23 DA AULA 2 DE PONTES" >
+        </th>
+        <th>
+           <iframe  src="https://youtube.com/embed/r4KPi64pYmg">
+</iframe>
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<p style = "text-align:justify"> 
+	O processo de segmentos empurrados consiste na execução da superestrutura em um dos acessos e, à medida que vai sendo concretada, a ponte vai sendo empurrada através de macacos de protensão até chegar nos pilares de apoios deslizantes previamente executados. Sua principal característica está na eliminação de cimbramento, facilidade de lançamento e substancial redução do tempo de construção [10].
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+		Figura 3.6 – Sequência do processo executivo de segmentos empurrados [6].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 24 DA AULA 2 DE PONTES" >
+        </th>
+        <th>
+           <iframe  src="https://youtube.com/embed/dmCMCw_xraQ">
+</iframe>
+        </th>
+    </tr>
+</table>
+
 
 
 
