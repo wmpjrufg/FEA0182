@@ -1815,11 +1815,143 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
     </tr>           
 </table>
 <br><br>
+<p>
+	Araújo [3] replica algumas recomendações extras de DNIT [4] para o uso dos balanços:
+ 	<br><br>
+  	<ul>
+		<li>Aterro com altura limitada a oito metros, ou menos;</li><br>
+		<li>Aterro de acesso executado antes da obra de arte;</li><br>
+		<li>Balanço (a) com comprimento máximo de 7,5 m e sua flecha deverá ser menor que 2 cm;</li><br>
+		<li>Deve-se usar laje de transição de comprimento mínimo de 4 m.</li>
+	</ul>
+	<br>
+ 	Em sistema de viga contínua Areias Neto [3] faz as seguintes recomendações:
+  	<br><br>
+   	a) Vigas contínuas com dois vãos:
+</p>
+<br>
 
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Figura 1.5 – Viga contínua com dois vãos [2].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 8 AULA 4 DE PONTES" >  
+         </th>    
+         <th >
+          𝑙<sub>1</sub> = 𝑙<sub>2</sub>
+          <br><br>
+          𝑎 = 𝑙<sub>1</sub> / 4
+         </th>  
+    </tr>           
+</table>
+<br><br>
+<p>b)  Vigas contínuas com três e quatro vãos:</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Figura 1.5 – Geometria da viga contínua [2].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 9 AULA 4 DE PONTES" >  
+         </th> 
+         <th rowspan = "4">
+           0,60 . 𝑙<sub>2</sub> ≤ 𝑙<sub>1</sub> ≤ 0,80 . 𝑙<sub>2</sub>
+           <br><br>
+           𝑎 = 𝑙<sub>1</sub> / 4
+         </th> 
+    </tr>  
+     <tr>
+        <th >
+           (a) Situação para três vãos internos
+         </th>            
+    </tr>  
+     <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 9 AULA 4 DE PONTES" >  
+         </th>       
+    </tr> 
+     <tr>
+        <th >
+           (b) Situação para quatro vãos internos
+         </th>    
+    </tr> 
+</table>
+<br><br>
 
+<h3><b>1.2 – Algumas especificações para tabuleiro e lajes em balanço</b></h3>
+<br><br>
 
+<p>
+	Quanto a seção transversal de lajes o manual do DNIT [4] de obras de arte apresenta a Tabela 1.1.
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Tabela 1.1 – Espessura da laje [4].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vão da Laje (m)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         </th> 
+         <th>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Espessura da Laje (cm)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         </th> 
+    </tr>  
+     <tr>
+        <th >
+           2
+         </th>  
+         <th>
+           15
+         </th>
+    </tr>  
+     <tr>
+        <th >
+           3
+         </th>       
+         <th>
+           18
+         </th>
+    </tr> 
+     <tr>
+        <th >
+          4
+         </th>    
+         <th>
+           20
+         </th>
+    </tr> 
+    <tr>
+        <th >
+           5
+         </th>    
+         <th>
+          22
+         </th>
+    </tr> 
+    <tr>
+        <th >
+        6
+         </th>    
+         <th>
+          25
+         </th>
+    </tr> 
+</table>
+<br><br>
 
-
+<p>
+	DNIT [4] afirma que em concreto armado convencional as lajes são utilizadas para vãos até 15 metros, com relação altura/vão da ordem de 1/15, em vãos isostáticos, e 1/20 e 1/24, em vãos contínuos.
+</p>
 
 
 
