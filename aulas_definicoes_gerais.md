@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/caca6e89-74d9-4ae8-ad6a-4b68bf4c4e7c)---
+![image](https://github.com/user-attachments/assets/913ebae2-eb64-4011-8ad4-2faeb4b2e8a3)![image](https://github.com/user-attachments/assets/5acaee88-b471-4752-958e-a35fd3704826)![image](https://github.com/user-attachments/assets/edf1cb1d-424b-4692-84ae-0b7e98917cb7)![image](https://github.com/user-attachments/assets/caca6e89-74d9-4ae8-ad6a-4b68bf4c4e7c)---
 title: Introdução ao projeto
 layout: default
 parent: Aulas
@@ -1722,10 +1722,77 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 </table>
 <br><br><br>
 
+<h2><b>1 – SISTEMA E ESTRUTURAL E SEU PRÉ-DIMENSIONAMENTO</b></h2>
+<br><br>
 
+<p style = "text-align:justify">
+	Segundo O’Connor [1] a seleção do material e esquema estrutural é uma tarefa complexa e só pode ser determinado considerando-se todos os fatores que afetam o projeto de cada sistemas estrutural em particular. Para isso o mesmo apresenta a Figura 1.1 algumas estruturas em função do seu material e tipologia do sistema, sendo o destaque dessa tabela o máximo vão em serviço utilizado em cada um dos sistemas.
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "3">
+	Figura 1.1 – Comprimento de vão para vários tipos de superestruturas [1].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 4 AULA 4 DE PONTES" >  
+         </th>       
+    </tr>           
+</table>
+<br><br>
+<p>
+	De acordo com Areias Neto [2], para a fixação do comprimento da ponte, deve-se levar em conta aspectos relacionados a seção de vazão necessária e ao projeto da estrada (perfil longitudinal).
+	<br><br>
+	Araújo [3] afirma que esse traçado de pontes em pequenos rios é definida pelo projetista da estrada quando da elaboração do traçado da via. Entretanto, quando a via cruza médios ou grandes rios a posição da ponte pode determinar o traçado da via. Nesse caso, segue alguns critérios para a posição da ponte:
+	<br><br>
+	<ol type = "a">
+		<li>Transpor o canal principal ou vale no local mais estreito possível e mais próximo ao traçado original da via;</li>			<br>
+		<li>O canal principal deve ser transposto, de preferência, perpendicularmente à direção do escoamento do rio;</li><br>
+		<li>No caso de ponte esconsa deve-se evitar eixos de pilares no meio do rio onde a velocidade de escoamento d’água é maior, diminuindo a erosão localizada na base do pilar (Figura 1.2 );</li><br>
+		<li>Deve-se evitar transpor um rio logo após a região onde deságua um afluente (Figura 1.3). A melhor posição para transposição do rio é mais a jusante da região onde deságua seu afluente;</li><br>
+        	<li>Evitar transpor em locais onde possa haver, ao longo da vida útil da estrutura, mudanças na seção transversal do rio;</li><br>
+       		 <li>Quando do cruzamento de rios de pequena vazão, é recomendável evitar curvas para transposição desses rio.</li>
+	</ol>
+</p>
+<br>
+<table align = "left" border = "1">
+       <tr>
+        <th colspan = "3">
+	Figura 1.3 – Transposição de rio com afluente [3].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 6 AULA 4 DE PONTES" >  
+         </th>       
+    </tr>           
+</table>
+<br><br>
 
+<table align = "left" border = "1">
+       <tr>
+        <th colspan = "3">
+	Figura 1.2 – Erosão localizada na base de um pilar e contato com a água [3].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 6 AULA 4 DE PONTES" >  
+         </th>       
+    </tr>           
+</table>
+<br><br>
 
+<h3><b>1.1 – Algumas especificações para longarinas</b></h3>
+<br><br>
 
+<p>
+	Nesse texto iremos abordar os sistemas em Concreto Armado com solução de vigas de eixo reto. Para tanto será necessário algumas proposições de pré-dimensionamento do sistema estrutural. Aqui será apresentado o pré-dimensionamento para soluções em viga apoiada e viga contínua. 
+	
+</p>
+<br>
 
 
 
