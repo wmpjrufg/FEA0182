@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/caca6e89-74d9-4ae8-ad6a-4b68bf4c4e7c)---
 title: Introdução ao projeto
 layout: default
 parent: Aulas
@@ -492,7 +492,6 @@ Vitório [4] afirma que essas pontes devem ter esbeltez L/h em torno de 15 a 22 
 	A Ponte Pênsil se caracteriza com um modelo de ponte suspenso, Vitório [4] afirma que as pontes pênseis são constituídas por cabos  dispostos parabolicamente e pendurais verticais. Tais cabos normalmente são presos sem sistemas de torres e ancoragens externas. Juntamente com as pontes em arco esse modelo suspenso é considerado como uma das estruturas mais antigas da história da Engenharia Civil [19].<br><br>
 
 	Normalmente esse sistema é executado com vigamentos metálicos. Os vigamentos podem ser em executados em treliças ou vigas de alma cheia. Os mesmos devem ter grande rigidez à flexão e principalmente à torção, de modo a minimizar os efeitos dos movimentos  vibratórios transversais que podem causar desconforto aos usuários ou mesmo risco à estrutura.<br><br>
-
 	A Fig. 1.11 apresenta a ponte Hercílio Luz que é a maior ponte Pênsil do Brasil e a Fig. 1.12 apresenta uma das pontes mais famosas do mundo a ponte Golden Gate.
 </p>
 <br><br>
@@ -809,6 +808,8 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 </table>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+<p>--------------------------------------------------------------------------------------------------------------------------</p>
+
 <h1><b>Aula 2: Processo Construtivo</b></h1>
 <br><br><br>
 <table border = 1 aligin ="center">
@@ -917,7 +918,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 <table align = "right" border = "1"> 
     <tr>
         <th>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/WYBGEbbL6vE" ></iframe>
+           <iframe  src="https://www.youtube.com/embed/WYBGEbbL6vE" ></iframe>
     </tr>
 </table>
 <br><br><br>
@@ -941,11 +942,11 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 <table align = "right" border = "1"> 
     <tr>
         <th>
-           <iframe width="560" height="315" src="https://youtube.com/embed/JR0xGsdqxyU" ></iframe>
+           <iframe  src="https://youtube.com/embed/JR0xGsdqxyU" ></iframe>
     </tr>
     <tr>
         <th>
-           <iframe width="560" height="315" src="https://youtube.com/embed/bS-bcN8LRWc" ></iframe>
+           <iframe  src="https://youtube.com/embed/bS-bcN8LRWc" ></iframe>
     </tr>
 </table>
 <br><br><br>
@@ -1013,7 +1014,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
            <img  src="" alt="IMAGEM DO SLIDE 13 DA AULA 2 DE PONTES" >
         </th>
        <th rowspan = "2">
-           <iframe width="560" height="315" src="https://youtube.com/embed/WRPs5EtK8vE" ></iframe>
+           <iframe  src="https://youtube.com/embed/WRPs5EtK8vE" ></iframe>
         </th>
     </tr>
 </table>
@@ -1033,7 +1034,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
            <img  src="" alt="IMAGEM DO SLIDE 14 DA AULA 2 DE PONTES" >
         </th>
         <th rowspan = "2">
-           <iframe width="560" height="315" src="https://youtube.com/embed/uPUsl5_2c14" ></iframe>
+           <iframe  src="https://youtube.com/embed/uPUsl5_2c14" ></iframe>
         </th>
     </tr>
 </table>
@@ -1180,14 +1181,12 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
            <img  src="" alt="IMAGEM DO SLIDE 22 DA AULA 2 DE PONTES" >
         </th>
         <th>
-           <iframe  src="https://youtube.com/embed/nLhCp22lFQ4">
-</iframe>
+           <iframe  src="https://youtube.com/embed/nLhCp22lFQ4"></iframe>
         </th>
     </tr>
      <tr>
         <th>
-          <iframe  src="https://youtube.com/embed/7T6R6VOgxv4">
-</iframe>
+          <iframe  src="https://youtube.com/embed/7T6R6VOgxv4"></iframe>
         </th>
     </tr>
 </table>
@@ -1211,8 +1210,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
            <img  src="" alt="IMAGEM DO SLIDE 23 DA AULA 2 DE PONTES" >
         </th>
         <th>
-           <iframe  src="https://youtube.com/embed/r4KPi64pYmg">
-</iframe>
+           <iframe  src="https://youtube.com/embed/r4KPi64pYmg"></iframe>
         </th>
     </tr>
 </table>
@@ -1234,8 +1232,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
            <img  src="" alt="IMAGEM DO SLIDE 24 DA AULA 2 DE PONTES" >
         </th>
         <th>
-           <iframe  src="https://youtube.com/embed/dmCMCw_xraQ">
-</iframe>
+           <iframe  src="https://youtube.com/embed/dmCMCw_xraQ"> </iframe>
         </th>
     </tr>
 </table>
@@ -1575,6 +1572,166 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
     </tr>
 </table>
 <br><br>
+
+<p>
+	Segundo Vitório [4] os pilares são localizados a cada linha de apoio transversal do tabuleiro. Suas quantidades, formas e dimensões dependem de diversos fatores como a altura da obra, a largura da superestrutura e o tipo de fundação.
+	<br><br>
+	Tais modelos de pilares são apresentados na Figura 2.4
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th >
+	Figura 2.4 – Algumas soluções para pilares de pontes: (a) Pilar parede (maciços ou celular); (b) dois pilares ligados por uma travessa de topo [4].Algumas soluções para pilares de pontes: (c) Dois pilares com viga de contraventamento; (d) Tubulões de fundação funcionando como pilares; e (e) Três pilares ligados por travessa de topo (Caso de múltiplas vigas no tabuleiro) [4].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 22 E 23 DA AULA 3 DE PONTES" >     
+    </tr>
+</table>
+<br><br>
+
+<h2><b>2 – COMPONENTES DA ESTRUTURA DE UMA PONTE : MESOESTRURURA</b></h2>
+<br><br><br><br>
+<p>
+	El Debs & Takeya [6] afirmam que os aparelhos de apoio vinculam determinadas partes da superestrutura, permitindo ao mesmo tempo, os movimentos previstos no projeto, provocados pelos esforços, podendo ser: protensão, variação de temperatura, retração do concreto e outros o que modificam as dimensões dos elementos. Mason [7] afirma que estes também são responsáveis pela transferência de carregamento aos pilares.
+	<br><br>
+	Os modelos de articulações podem ser fixos ou móveis. As articulações fixas e móveis podem ser metálicas (normalmente de aço), de concreto ou até em borracha sintética no caso especifico para apoios móveis.
+	<br><br>
+	Mason [7] afirma que o aparelho de apoio mais utilizado são os apoios elásticos de borracha fretada (Neoprene), que permitem movimentos em qualquer sentido, limitando-os porém a um valor máximo.
+ 	<br><br><br><br>
+  	Conforme Vitório [4] os aparelhos fixos permitem movimentos de rotação e impedem os de translação, transmitindo esforços verticais e horizontais. Estes são utilizados na forma de articulações de concreto ou articulações metálicas. 
+	<br><br>
+	No caso as articulações de concreto as mais conhecidas são as articulações Freyssinet. Esta articulação tem a vantagem de ser executado sem a necessidade de materiais adicionais a não ser o concreto e a armação, já empregados na obra [7]. Segundo Batista [8] a primeira aplicação desse modelo de apoio foi registrada em 1923 pelo próprio Freyssinet na construção da ponte Candelier Sur la Sainbre.
+	<br><br>
+	Tal articulação é obtida pelo estrangulamento da seção de concreto da peça através da qual passam apenas as barras de montagem [7]. A Figura 2.5 apresenta um exemplo de articulação do tipo Freyssinet.
+</p>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+	Figura 2.5 – Exemplo de articulação tipo Freyssinet do viaduto 04-07 da ferrovia do aço
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 25 DA AULA 3 DE PONTES" >     
+    </tr>
+</table>
+<br><br>
+
+<p>
+	Já os aparelhos de apoio metálicos podem ser os mais variados possíveis nesse caso será exemplificado aqui o aparelho do tipo Rolete. Tais apoios também permitem apenas a rotação da seção transversal.
+	<br><br>
+	A Figura 2.6 apresenta um modelo de rolete.
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th >
+	Figura 2.6 – Modelo de articulações fixas metálicas [6].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="https://player.slideplayer.com.br/69/12081376/slides/slide_7.jpg" alt="IMAGEM SLIDE 26 DA AULA 3 DE PONTES" >     
+    </tr>
+</table>
+<br><br>
+<p>
+	As articulações móveis permitem tanto a rotação como a translação, gerando no vínculo apenas a reação vertical. Na realidade, surge também a reação horizontal, por causa do atrito que não pode ser totalmente eliminado, mas nos casos usuais ela pode ser desprezada por ter valor relativamente pequeno. Os aparelhos móveis permitem movimento de rotação e translação horizontal, transmitindo apenas esforços verticais. São constituídos por pêndulos de concreto ou rolos metálicos [6].
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Figura 2.7 – Modelo de articulações móveis metálicas [6] e LMC USP5. 
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="https://player.slideplayer.com.br/69/12081376/slides/slide_8.jpg" alt="Modelo de articulações móveis metálicas" >  
+         </th>
+         <th >
+           <img  src="" alt="MIMAGEM DO SLIDE 27 DA AULA 3 D EPONTE" >  
+         </th>
+    </tr>    
+</table>
+<br><br>
+<p style = "text-align:justify">
+	As articulações elásticas permitem também os dois movimentos, a rotação e a translação, gerando porém reações vertical e horizontal, esta última, com valor que não pode ser desprezado, ao contrário das articulações móveis.
+	<br><br>
+	Dentre os apoios elásticos mais conhecidos pode-se destacar o apoio elastomérico de Neoprene (Ver Figura 2.8).
+	<br><br>
+	Os apoios elastoméricos são aparelhos elásticos de borracha fretada (Neoprene) que permitem pequenos movimentos horizontais e rotações. São constituídos de camadas de Neoprene coladas e geralmente com chapas metálicas de pequena espessura. Devido às propriedades de elasticidade, a elevada resistência e a grande durabilidade, os aparelhos de apoio de Neoprene têm-se firmado cada vez mais como a melhor solução para os projetos de pontes rodoviárias [4].
+	<br><br>
+	Segundo Cordeiro [9] as placas de aço inseridas na seção tem como função garantir o correto funcionamento do aparelho. Estas chapas de aço impedem a deformação excessiva que iria provocar o seu “abaulamento”.
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "3">
+	Figura 2.8 – Modelo genérico e exemplo de apoio elastomérico do tipo Neoprene [6], Diprotec6.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="https://player.slideplayer.com.br/33/10325207/data/images/img10.jpg" alt="Modelo de articulações móveis metálicas" >  
+         </th>
+         <th >
+           <ol = type =  "1">
+				<li>(n - 1) chapas intermediárias de aço de espessura "e" (e = 2, 3 ou 4 mm no caso geral)</li><br>
+                <li>"n" camadas intermediárias de elastômero de espessura "t" (t = 8, 10, 12 ou 16 mm no caso geral)</li><br>
+                <li>2 chapas externas de aço, de espessura 2 mm no caso geral</li>
+                <li>revestimento externos de elastômero de espessura t' = 2 a 3 mm e t" = 2 a 5 mm no caso geral</li>
+           </ol>
+         </th>
+         <th >
+           <img  src="https://diprotec.com.br/novoadmin/fotos/2-118/130717051004.jpg" alt="Modelo genérico e exemplo de apoio elastomérico do tipo Neoprene" >  
+         </th>
+    </tr>           
+</table>
+<br><br>
+<p>-------------------------------------------------------------------------------------------------------</p>
+<br><br>
+
+<h1><b>Aula 4: Montagem do sistema estrutural</b></h1>
+<br><br>
+
+<table border = 1 aligin ="center">
+  <tr style="text-align: center;" >
+    <th>
+      <br>
+      ONDE ESTAMOS ???
+      <br>&nbsp;
+    </th>
+  </tr>
+    <tr style = "text-align:left">
+      <th>
+        <p style="color: blue; text-align: center;">1 – CONCEITOS GERAIS SOBRE O PROJETO DE PONTES</p>
+        2 – AÇÕES NA SUPERESTRUTURA<br><br>
+        3 – ANÁLISE COMPUTACIONAL COM CARGA MÓVEL<br><br>
+        4 – DIMENSIONAMENTO DA LONGARINA<br><br>
+        5 – DIMENSIONAMENTO DO TABULEIRO<br><br>
+        6 – DIMENSIONAMENTO DA TRANSVERSINA<br><br>
+        7 – DIMENSIONAMENTO DA MESOESTRUTURA<br><br>
+        8 – APARELHOS DE APOIO<br>
+      </th>
+    </tr>
+</table>
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
