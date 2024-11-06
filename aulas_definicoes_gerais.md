@@ -1608,18 +1608,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 	Tal articulação é obtida pelo estrangulamento da seção de concreto da peça através da qual passam apenas as barras de montagem [7]. A Figura 2.5 apresenta um exemplo de articulação do tipo Freyssinet.
 </p>
 
-<table align = "center" border = "1">
-       <tr>
-        <th >
-	Figura 2.5 – Exemplo de articulação tipo Freyssinet do viaduto 04-07 da ferrovia do aço
-        </th>        
-    </tr>
-    <tr>
-        <th >
-           <img  src="" alt="IMAGEM SLIDE 25 DA AULA 3 DE PONTES" >     
-    </tr>
-</table>
-<br><br>
+
 
 <p>
 	Já os aparelhos de apoio metálicos podem ser os mais variados possíveis nesse caso será exemplificado aqui o aparelho do tipo Rolete. Tais apoios também permitem apenas a rotação da seção transversal.
