@@ -1790,10 +1790,31 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 
 <p>
 	Nesse texto iremos abordar os sistemas em Concreto Armado com solução de vigas de eixo reto. Para tanto será necessário algumas proposições de pré-dimensionamento do sistema estrutural. Aqui será apresentado o pré-dimensionamento para soluções em viga apoiada e viga contínua. 
-	
+	<br><br>
+	Areias Neto [2] indica para sistemas simplesmente apoiados o seguinte valor de vão: 
+	<br><br>
+	𝑙 ≤ 25 𝑚 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recomendação para pontes rodoviárias em concreto armado<br>
+	ℎ<sub>𝑙𝑜𝑛𝑔</sub>>𝑙/14 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Manual DNIT [4]<br>
+ 	𝑏<sub>𝑤,𝑙𝑜𝑛𝑔</sub>≥25 𝑐𝑚 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Manual DNIT [4]<br>
+	<br>
+ 	No caso de soluções isostáticas com balanços (Figura 1.4) a recomendação de Areias Neto [2] é:
+  	<br><br>
+   	𝑙/5 ≤ 𝑎 ≤ 𝑙/2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valor similar ao apresentado por DNIT [4] 
 </p>
 <br>
-
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "3">
+	Figura 1.4 – Viga isostática com balanço [2].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 7 AULA 4 DE PONTES" >  
+         </th>       
+    </tr>           
+</table>
+<br><br>
 
 
 
