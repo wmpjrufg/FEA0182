@@ -160,7 +160,7 @@ Considerando o <i>f<sub>ck</i> de 25 MPa e um agregado de granito o módulo de e
 
 
 
-<h1><b>Definições gerais</b></h1>
+<h1><b> Aula 1 Definições gerais</b></h1>
 <br><br><br>
 <table border = 1 aligin ="center">
   <tr style="text-align: center;" >
@@ -1239,13 +1239,342 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
         </th>
     </tr>
 </table>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
 
+<p>---------------------------------------------------------------------------------------------------------</p>
 
+<h1><b>Aula 3: Elementos básicos do projeto</b></h1>
+<br><br><br>
 
+<table border = 1 aligin ="center">
+  <tr style="text-align: center;" >
+    <th>
+      <br>
+      ONDE ESTAMOS ???
+      <br>&nbsp;
+    </th>
+  </tr>
+    <tr style = "text-align:left">
+      <th>
+        <p style="color: blue; text-align: center;">1 – CONCEITOS GERAIS SOBRE O PROJETO DE PONTES</p>
+        2 – AÇÕES NA SUPERESTRUTURA<br><br>
+        3 – ANÁLISE COMPUTACIONAL COM CARGA MÓVEL<br><br>
+        4 – DIMENSIONAMENTO DA LONGARINA<br><br>
+        5 – DIMENSIONAMENTO DO TABULEIRO<br><br>
+        6 – DIMENSIONAMENTO DA TRANSVERSINA<br><br>
+        7 – DIMENSIONAMENTO DA MESOESTRUTURA<br><br>
+        8 – APARELHOS DE APOIO<br>
+      </th>
+    </tr>
+</table>
+<br><br><br>
 
+<h2><b>1 – AS DISCIPLINAS ENVOLVIDAS</b></h2>
+<br><br><br>
+<p>
+	O primeiro  passo  a ser dado  na confecção  do projeto de  uma ponte é definir sua finalidade,  para  consequentemente  se  obter  as  cargas  para  seu  dimensionamento.  Para uma definição acertada da geometria e das cargas úteis que devem ser utilizadas, o projeto de  uma  ponte  exige  levantamentos  topográficos,  hidrológicos  e  geotécnicos.  Outras informações  de  interesse  construtivo  ou  econômico,  notícias  tecnológicas  de  caráter especial, podem ser determinantes na escolha do tipo de obra [1].
+	<br><br>
+	Portanto são elementos necessários em um projeto de ponte:
+ 	<br>
+  	<ol type = "a">
+		<li>Elementos topográficos;</li>
+		<li>Elementos hidrológicos;</li>
+		<li>Elementos geotécnicos;</li>
+		<li>Elementos geométricos;</li>
+		<li>Outros fatores: Elementos agressivos, informações de interesse construtivo e econômicos.</li>
+	</ol>
+</p>
+<br><br><br>
 
+<h3><b>1.1 – Estudos topográficos</b></h3>
+<br><br><br>
+<p>
+	Segundo Miller et al. [1] e Pfeil [2] os elementos topográficos necessários ao projeto de uma ponte referem-se aos estudos topográficos tanto do local específico de implantação do  empreendimento, como também da região em torno do mesmo, que possa  a vir influir em fenômenos climáticos sofridos pela obra durante sua construção e vida útil. Este estudo topográfico é normalmente composto pelos seguintes elementos: 
+	<br><br>
+	<ol type = "a">
+		<li>Planta, em escala de 1:1000 ou 1:2000; </li><br>
+		<li>Perfil em escala horizontal de 1:1000 ou 1:2000 e escala vertical de 1:100 ou 1:200 do trecho da rodovia em que ocorrerá a implantação da obra em uma extensão tal que ultrapasse seus extremos prováveis de, pelo menos, 1000  m para cada lado;</li><br>
+		<li>Planta do terreno no qual será implantada a ponte, em uma extensão tal que exceda de 50 m, em cada extremidade, seu comprimento provável e largura de 30 m, desenhada na escala de 1:100 ou 1:200, com curvas de nível de metro em metro, contendo a posição do eixo locado e a indicação de sua esconsidade.</li><br>
+		<li>Perfil ao longo do eixo locado na escala de 1:100 ou 1:200 e numa extensão tal que exceda de 50 m, em cada extremidade, o comprimento provável da obra; </li><br>
+		<li>Quando se tratar de transposição de curso d’água, seção do rio segundo o eixo locado, na escala 1:100 ou 1:200, com as cotas de fundo do rio em  pontos distanciados cerca de 5 m. </li>
+	</ol>
+ 	<br>
+  	O projetista deverá ficar atento a dois arquivos:
+   	<br><br>
+    	<ul>
+		<li>Levantamento do estaqueamento;</li>
+		<li>Levantamento do perfil longitudinal.</li>
+	</ul>
+</p>
+<br><br><br>
 
+<h3><b>1.2 – Estudos hidrológicos</b></h3> 
+<br><br><br>
 
+<p>
+	O elemento hidrológico de maior importância na elaboração do projeto de uma ponte trata-se da determinação da vazão máxima do canal, pois é através desse parâmetro que se determina o gabarito mínimo da ponte e as solicitações máximas de empuxo de água aos quais os pilares estarão sujeitos.
+	<br><br>
+	A grande dificuldade na determinação da vazão máxima em uma pequena bacia está na obtenção de dados confiáveis, visto que raramente se dispõe de séries históricas de vazão, ou chuvas intensas, ou até mesmos dados  topográficos.
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.1 – Exemplo de uma bacia hidrográfica1.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT4-ogv9hNYkqQF7t1rXO2FrcwWgZFiBYs1g&s" alt="IMAGEM DO SLIDE 24 DA AULA 2 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<p>
+	Araújo [3] exemplifica a determinação da máxima vazão em um canal através do uso da formula de Manning. Tal exemplo se refere ao dimensionamento da ponte sob Rio Pau Seco.
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.2 – Dados da seção transversal do rio Pau Seco [3].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 28 DA AULA 3 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.3 – Cálculo da máxima cheia de projeto calculada (MCC) [3].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 8 DA AULA 3 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<p>
+	Com a determinação da MCC é possível determinar a altura da construção conforme será apresentado nas situações de pré-dimensionamento dos elementos.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.4 – Seção transversal do Rio Pau Seco com a marcação da MCC [3].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 9 DA AULA 3 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<h3><b>1.3 – Estudos geotécnicos</b></h3>
+<br><br>
+<p>
+	Segundo Pfeil [2] os elementos geotécnicos necessários à elaboração do projeto de uma ponte são: 
+	<br><br>
+	a) Relatório de prospecção de geologia aplicada no local de provável implantação da obra, considerando seu esboço estrutural, e realçando peculiaridades geológicas porventura existentes; 
+	<br><br>
+	b) Relatório de sondagem de  reconhecimento do subsolo;
+	<br><br>
+	c) Estudos geotécnicos especiais que permitam a elaboração de projeto conjunto terreno-aterro-obra de arte, sempre que a estabilidade dos terrenos contíguos à obra possa ser ameaçada pelas solicitações dos aterros de acesso.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Marcação em croqui para sondagem de uma ponte2
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 11 DA AULA 3 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.6 - Exemplo de sondagem tipo SPT da ponte sobre rio Jequiá2.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 12 DA AULA 3 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<h3><b>1.4 – Estudos geométricos</b></h3>
+<br><br>
+<p>
+	Miller et al. [1] afirma que os elementos geométricos determinantes no projeto de uma ponte são consequências das características da via e de seu próprio estrado. Os  elementos geométricos da via dependem das condições técnicas  estabelecidas pelo órgão público competente.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.7 – Exemplo da influência do traçado da via no modelo geométrico da ponte3.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="https://yata-apix-8df1babf-89e1-4928-91b9-40a7c358de3b.s3-object.locaweb.com.br/79afb7ed4a244d979a098dfac9373c43.jpg" alt="Exemplo da influência do traçado da via no modelo geométrico da ponte" >
+        </th>
+    </tr>
+</table>
+<br><br>
+<p>
+	A Tabela 1.1 com uma série de características relativa a classe da rodovia.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Tabela 1.1 - Características básicas em função da classe da rodovia [1] apud Lee4.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM D OSLIDE 14 DA AULA 3 DE PONTES" >
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<h3><b>1.5 – Outros elementos de projeto</b></h3>
+<br><br>
+
+<p>
+	Miller et al. [1] e Pfeil [2] citam uma série de fatores externos que podem causar influência no projeto de uma ponte. São eles:
+	<br><br>
+	a) Agressividade da água, referida ao pH ou ao teor de substâncias  agressivas aos materiais de construção (água do mar ou acentuadamente salobra, águas sulfatadas ou sulfídricas); 
+	<br><br>
+	b) Materiais de ação destrutiva sobre o concreto; 
+	<br><br>
+	c) Gases tóxicos de terrenos pantanosos, possíveis em cavas de fundação; 
+	<br><br>
+	d) Quando houver a existência de moluscos capazes de perfurar as  madeiras  de escoramento, poderá ser razão determinante da escolha do método construtivo a ser adotado no projeto;
+	<br><br>
+	e) Condições de acesso ao local da obra; 
+	<br><br>
+	f) Procedência dos materiais de construção, custo e confiabilidade do transporte; 
+	<br><br>
+	g) Épocas favoráveis para execução dos serviços, considerando os períodos chuvosos e o regime do rio; 
+	<br><br>
+	h) Possível  interferência  de  serviços  de  terraplanagem  ou  desmonte  de  rocha,  nas proximidades da obra; 
+	<br><br>
+	i) Condições de obtenção de água potável.
+</p>
+<br><br><br><br>
+
+<h2><b>2 – COMPONENTES DA ESTRUTURA DE UMA PONTE</b></h2>
+<br><br><br>
+
+<p>
+	Nesse texto a abordagem será voltado ao projeto de pontes de concreto armado, portanto as observações relativas a esse modelo serão introduzidas a partir dos componentes de projeto.
+	<br><br>
+	Segundo Vitório [4] a superestrutura de uma ponte rodoviária que é o foco desse texto é dividida nos seguintes elementos:
+ 	<br><br>
+  	<ol type = "a">
+		<li>Lajes do tabuleiro;</li><br>
+		<li>Vigamento do tabuleiro;</li><br>
+		<li>Passeios de pedestres, guarda-corpos e barreiras;</li><br>
+		<li>Cortinas e alas;</li><br>
+		<li>Placa de transição e juntas de dilatação;</li><br>
+		<li>Sistema de drenagem;</li><br>
+		<li>Pista de rolamento.</li><br>
+	</ol>
+ 	<br><br>
+  	As lajes e vigas da superestrutura são responsáveis por receber o carregamento e transmitir para a mesoestrutura do sistema. As Figuras 2.1a e 2.1b apresentam esse modelos de sistema laje + viga. No caso desse disciplina o modelo utilizado para exemplo será o moldado in loco com duas longarinas. 
+   	<br><br>
+	Ainda sobre esse sistema é comum o uso de transversinas ligadas ou desligadas das lajes, sendo essas especialmente utilizadas para o contraventamento da estrutura.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+		Figura 2.1 – Lajes e vigas de pontes: (a) Laje concretada no local sobre pré-lajes apoiadas em vigas pré-moldadas; (b) Sistema monolítico Laje + vigas em concreto armado moldado no local [4].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="https://files.passeidireto.com/5ba27e65-de43-4ddf-98b2-4c832ecf975d/bga.png" alt="IMAGEM D OSLIDE 14 DA AULA 3 DE PONTES" >
+        </th>
+        <th >
+           <img  src="https://files.passeidireto.com/5ba27e65-de43-4ddf-98b2-4c832ecf975d/bgb.png" alt="IMAGEM D OSLIDE 14 DA AULA 3 DE PONTES" >
+        </th>
+    </tr>
+    <tr>
+        <th >
+           (a)
+        </th>
+        <th >
+          (b)
+        </th>
+    </tr>
+</table>
+<br><br>
+
+<p>
+	Segundo Vitório [4] os passeios são as partes do tabuleiro destinadas ao tráfego de pedestres. Têm em geral largura de 1,00m para pontes em áreas rurais e de 1,50 m para pontes nas rodovias em áreas urbanas. Nas obras situadas dentro das cidades a largura dos passeios pode variar de acordo com cada caso específico. 
+	<br><br>
+	A normativa DNIT [5] recomenda para passeios de pedestres larguras de 1,50 m e para ciclovias e passeios em conjunto o total de 3,00 m.
+	<br><br>
+	Já os elementos de proteção da via são dados como as defensas e barreiras. No caso a normativa DNIT [5] tomou como padrão a barreia New Jersey muito utilizada nos EUA. O modelo dessa barreira é apresentando na Figura 2.2.
+	<br><br>
+	Segundo Vitório [4] a placa de transição (Figura 2.3) é constituída de uma laje de concreto armado apoiada, de um lado, numa extremidade da ponte, e do outro lado, apoiada no terrapleno. A finalidade da placa de transição é amenizar a diferença de nível entre o aterro das cabeceiras e o estrado da ponte, provocada por recalques do terrapleno ao longo do tempo.
+</p>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.2 – Modelo de barreira New Jersey especificado [5].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM DO SLIDE 20 DA AULA 3 DE PONTES" >       
+    </tr>
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th >
+		Figura 2.3 – Placa de transição entre superestrutura e terrapleno [4].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="data:image/png;base64,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" alt="Placa de transição entre superestrutura e terrapleno " >       
+    </tr>
+</table>
+<br><br>
 
 
 
