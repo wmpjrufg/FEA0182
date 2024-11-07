@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/913ebae2-eb64-4011-8ad4-2faeb4b2e8a3)![image](https://github.com/user-attachments/assets/5acaee88-b471-4752-958e-a35fd3704826)![image](https://github.com/user-attachments/assets/edf1cb1d-424b-4692-84ae-0b7e98917cb7)![image](https://github.com/user-attachments/assets/caca6e89-74d9-4ae8-ad6a-4b68bf4c4e7c)---
+![image](https://github.com/user-attachments/assets/8efce4d2-0319-4021-9d43-11bcf57eee1a)![image](https://github.com/user-attachments/assets/d7080627-a7ef-4b65-9d12-9d065e1f51e8)![image](https://github.com/user-attachments/assets/913ebae2-eb64-4011-8ad4-2faeb4b2e8a3)![image](https://github.com/user-attachments/assets/5acaee88-b471-4752-958e-a35fd3704826)![image](https://github.com/user-attachments/assets/edf1cb1d-424b-4692-84ae-0b7e98917cb7)![image](https://github.com/user-attachments/assets/caca6e89-74d9-4ae8-ad6a-4b68bf4c4e7c)---
 title: Introdução ao projeto
 layout: default
 parent: Aulas
@@ -1952,6 +1952,243 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 <p>
 	DNIT [4] afirma que em concreto armado convencional as lajes são utilizadas para vãos até 15 metros, com relação altura/vão da ordem de 1/15, em vãos isostáticos, e 1/20 e 1/24, em vãos contínuos.
 </p>
+<p>
+	A norma regulamentadora NBR 7187 [5], traz as seguintes exigências quanto as dimensões dos elementos estruturais nas pontes:
+	<br><br>
+	Nas lajes maciças as dimensões mínimas são:
+	<br><br>
+	<ol type = "a">
+		<li>Lajes destinadas à passagem de tráfego ferroviário: h ≥20 cm;</li>
+		<li>Lajes destinadas à passagem de tráfego rodoviário: h ≥15 cm;</li>
+		<li>Demais casos: h ≥12 cm.</li>
+	</ol>
+</p>
+<br><br><br>
+<h3><b>1.3 – O gabarito da pontes</b></h3>
+<br><br><br>
+
+<p align = "justify">
+	De acordo com Pfeil [6], os gabaritos são denominados os conjuntos de espaços livres que deve apresentar o projeto de uma ponte para atender o seu intuito. De uma forma geral, pode-se especificar os gabaritos quanto a finalidade de implantação da estrutura, tais como:
+	<br><br>
+	(a) Estruturas construídas sobre rodovias: Devem respeitar espaços livres, necessário para tráfego de caminhões (Figura 1.6).
+</p>
+<br>
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Figura 1.6 – Gabarito para obras de arte sobre rodovias – (a) rodovia de pista simples e (b) rodovia de pista dupla [6].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 12 AULA 4 DE PONTES" >  
+         </th>    
+         <th >
+           <img  src="" alt="IMAGEM SLIDE 12 AULA 4 DE PONTES" >  
+         </th>    
+    </tr>  
+     <tr>
+        <th >
+           (a)
+         </th>    
+         <th >
+          (b)
+         </th>    
+    </tr>      
+</table>
+<br><br>
+
+<p>(a) Estruturas construídas sobre ferrovias: Devem respeitar espaços livres, necessário para tráfego de trens (Figura 1.7).</p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Figura 1.7 – Gabarito para obras de arte sobre rodovias – (a) rodovia de pista simples e (b) rodovia de pista dupla [6].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 13 AULA 4 DE PONTES" >  
+         </th>    
+         <th >
+           <img  src="" alt="IMAGEM SLIDE 13 AULA 4 DE PONTES" >  
+         </th>    
+    </tr>  
+     <tr>
+        <th >
+           (a)
+         </th>    
+         <th >
+          (b)
+         </th>    
+    </tr>      
+</table>
+<br><br>
+
+<p align = "a">
+	(a) Estruturas construídas sobre vias navegáveis: Para vias navegáveis a chatas e rebocadores, é comum prever-se a altura livre de 3,50m a 5,0m acima do nível máximo de cheia. A largura deve atender no mínimo a largura máxima da embarcação mais 1,m (Figura 1.8).
+ 	<br><br>
+  	Para estruturas construídas sobre vias não navegáveis normalmente se estabelece uma altura livre de 2 m acima do nível de máxima cheia. 
+	<br><br>
+	Na Figura 1.8 é apresentado o gabarito da ponte sobre o Rio Paraguai em Cáceres-MT, com gabarito de 30 m de largura por 12 m de altura sobre nível máximo de cheia das águas.
+</p>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Figura 1.8 – Exemplo de ponte com gabarito de navegação 35,00m x 12,00m [6].
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 14 AULA 4 DE PONTES" >  
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<h3><b>1.4 – Algumas especificações para os pilares e aparelhos de apoio</b></h3>
+<br><br><br>
+
+<p>
+	O desenvolvimento do pré-dimensionamento dos pilares e dos aparelhos de apoio para uma ponte é dependente da previsão de cargas nessas estruturas. Após isso as condições de pré-dimensionamento do pilar por exemplo segue as mesmas observações impostas para os elementos de estruturas prediais normalmente estudadas nas disciplinas de concreto armado.
+	<br><br>
+	a) Pré-dimensionamento dos pilares:
+</p>
+<table align = "center" border = "1">
+       <tr>
+        <th>
+	N*<sub>d</sub> = 𝛼 . N*<sub>k</sub>
+        </th>
+        <th rowspan = "2">
+	𝛼 = 1,8 – Pilares intermediários;<br><br>
+𝛼 = 2,2 – Pilares de extremidade;<br><br>
+𝛼 = 2,5 – Pilares de canto.<br><br>
+        </th>
+    </tr>
+    <tr>
+        <th >
+         \[𝐴_𝑐=(1,50〖.𝑁〗_𝑑^∗)/(0,50.𝑓_𝑐𝑘+0,42)≥360 〖𝑐𝑚〗^2\]
+         </th>            
+    </tr>      
+</table>
+<br><br>
+<p>
+	𝐴_𝑐: Área da seção de concreto do pilar ("cm²");
+	<br><br>
+	𝑁_𝑑: Força normal aproximada de cálculo (kN);
+	<br><br>
+	𝑓_𝑐𝑘: Resistência característica de cálculo ("kN/cm²").
+	<br><br>
+	É recomendável que a verificação das dimensões do pilares sejam verificadas após a previsão das dimensões dos aparelhos de apoio visto que estes devem se encaixar dentro dos pilares
+	<br><br><br>
+	b) Pré-dimensionamento dos aparelhos de apoio em Neoprene:
+	<br><br>
+	Para o pré-dimensionamento e dimensionamento dos aparelhos de apoio será utilizada a NBR 9062 [7] e descrições do tópico 7.2.1.6 e no Anexo A.
+ 	<ul>
+		<li>Tensão limitante para aparelhos de apoios simples: 𝜎_𝑘=(𝑁_𝑘^∗)/(𝑎.𝑏)≤7 𝑀𝑃𝑎. Onde a (menor dimensão em planta) e b designam as dimensões em planta do aparelho;</li><br><br>
+		<li>Tensão limitante para aparelhos de apoios fretados: 
+		<br><br>
+		𝑎 ≤ 15 𝑐𝑚 reflete 𝜎<sub>𝑘</sub> ≤ 8 𝑀𝑃𝑎
+		<br><br>
+		15 𝑐𝑚 < 𝑎 ≤2 0 𝑐𝑚 e 𝜎<sub>𝑘</sub> ≤ 11 𝑀𝑃𝑎
+		<br><br>
+		20 𝑐𝑚 <𝑎 ≤30 𝑐𝑚 e 𝜎<sub>𝑘</sub> ≤ 12,5 𝑀𝑃𝑎
+		<br><br>
+		𝑎 > 30 𝑐𝑚 e 𝜎<sub>𝑘</sub> ≤ 15 𝑀𝑃𝑎
+		</li>
+	</ul>
+	<br>
+ 	Em relação a altura é necessário estabelecer diversos critérios relativos ao dimensionamento do aparelho, para uma verificação inicial vamos estabelecer a proposição da NBR 9062 [7] que promove a dispensa da verificação de estabilidade da almofada.
+  	<br><br>
+   	ℎ<sub>𝑎𝑙𝑚𝑜𝑓𝑎𝑑𝑎</sub> ≤ 𝑎 / 5
+</p>
+<br><br><br><br>
+
+<h2><b>2 – LANÇAMENTO ESTRUTURAL</b></h2>
+<br><br><br>
+
+<p align = "judtify">
+	Para o lançamento estrutural o primeiro dado que o engenheiro estrutural tem acesso é o levantamento topográfico (Figura 2.1) fornecido pela concessionária responsável pelo projeto. Após a visualização do estaqueamento e do eixo para colocação da ponte é necessário realizar um estudo hidrológico para determinação da Altura de Máxima Cheia.
+</p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th colspan = "2">
+	Figura 2.1 – Croqui da trajetória do leito do rio e também marcação do estaqueamento.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 19 AULA 4 DE PONTES" >  
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<table align = "left" border = "1">
+       <tr>
+        <th colspan = "3">
+	Tabela 2.1 – Determinação da vazão de projeto e cota referente a máxima cheia [3].
+        </th>        
+    </tr>
+    <tr>
+        <th colspan = "3">
+           <img  src="" alt="IMAGEM SLIDE 20 AULA 4 DE PONTES" >  
+         </th>            
+    </tr>      
+    <tr>
+        <th >
+           <img  src="" alt="IMAGEM SLIDE 20 AULA 4 DE PONTES" >  
+         </th>    
+         <th >
+           <img  src="" alt="IMAGEM SLIDE 20 AULA 4 DE PONTES" >  
+         </th>     
+         <th >
+           Onde:<br>
+           <ul style = "text-align:left">
+           		<li><p><b>Q</b> = Vazão (m<sup>3</sup> / s);</p></li>
+                <li><p><b>A</b> = Área da seção molhada (m<sup>2</sup>;</p></li>
+                <li><p><b>K</b> = Coeficiente de rugosidade de Strickler;</p></li>
+                <li><p><b>n</b> = Coeficiente de rugosidade de Manning;</p></li>
+                <li><p><b>V</b> = CoVelocidade de escoamento (m/s);</p></li>
+                <li><p><b>R</b> = Raio hidráulico 9m) -> <b>R = A/P</b> (P = Perímetro molhado);</p></li>
+                <li><p><b>J</b> = Declividade do fundo (m/m).</p></li>
+           </ul>
+         </th>     
+    </tr>      
+</table>
+<br><br>
+<p align = "right">
+	Dados do projeto de Araújo [3]:
+	<br><br>
+	Q = 691,02 𝑚<sup>3</sup>/𝑠
+	<br>
+	Cota de fundo = 208,678 (m)
+</p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+	Figura 2.2 – Elevação longitudinal com a marcação do estaqueamento e MCC.
+        </th>        
+    </tr>
+    <tr>
+        <th >
+         <img  src="" alt="IMAGEM SLIDE 21 AULA 4 DE PONTES" >  
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+
+
+
+
+
 
 
 
