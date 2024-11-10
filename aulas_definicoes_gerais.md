@@ -2339,6 +2339,221 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 <p>
     A Fig. 1.6 apresenta os cortes A e B da Fig. 1.4 apresentada anteriormente, onde são representadas as cargas do eixo padrão (P) que transita sobre a rodovia e a carga de multidão (q) dos veículos de passeio, de menor peso, que transitam sobre a estrutura.
 </p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 1.6– Seção A e B da carga móvel do veículo tipo TB-450
+        </th>        
+    </tr>
+    <tr>
+        <th >
+        <img  src="" alt="IMAGEM SLIDE 11 AULA 'Generalidades das ações na superestrutura ' ">  
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<p align = "justify">
+	Essa carga móvel TB-450 tem o total de 450 kN sendo que cada roda tem o peso de 75 kN, circundado por uma carga uniforme distribuída de 5  𝑘𝑁⁄𝑚^2 . No item NBR 7188 (ABNT, 2012) ainda são indicados outros tipos de veículos tipo, como por exemplo o TB-240 para estradas vicinais. Essa carga móvel TB-240 tem o total de 240 kN sendo que cada roda tem o peso de 40 kN, circundado por uma carga uniforme distribuída de 4  𝑘𝑁⁄𝑚<sup>2</sup>2
+	<br><br>
+	No caso de passeios para pedestres das pontes rodoviárias e viadutos, A NBR 7188 (ABNT, 2012) indica o uso de uma carga uniformemente distribuída de 3 kN/m na posição mais desfavorável concomitante com a carga móvel rodoviária, para verificações e dimensionamento dos diversos elementos estruturais, assim como para verificações globais. O elemento estrutural do passeio deve ser dimensionado com uma carga de 5  𝑘𝑁⁄𝑚^2 .
+</p>
+<br>
+
+<h4>1.3.1.1 -  Posição do veículo tipo no tabuleiro</h4>
+<br><br>
+<br><br>
+
+<p align = "justify">
+	O veículo-tipo ou trem-tipo caminha conforme descrição da Fig. 1.6. Sobre a sua posição na seção: a posição mais desfavorável no tabuleiro é quando o veículo-tipo ocupa a lateral da pista, no bordo  encostado no guarda rodas, conforme mostrado na Fig. 1.7.
+</p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 1.6 – Sentido do trafego do trem-tipo no eixo da pista
+        </th>        
+    </tr>
+    <tr>
+        <th >
+        <img  src="" alt="IMAGEM SLIDE 12 AULA 'Generalidades das ações na superestrutura ' ">  
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 1.7 – Posição na seção do veiculo tipo TB-450 no tabuleiro
+        </th>        
+    </tr>
+    <tr>
+        <th >
+        <img  src="" alt="IMAGEM SLIDE 13 AULA 'Generalidades das ações na superestrutura ' ">  
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 1.7 – Posição em planta do veiculo tipo TB-450
+        </th>        
+    </tr>
+    <tr>
+        <th >
+        <img  src="" alt="IMAGEM SLIDE 14 AULA 'Generalidades das ações na superestrutura ' ">  
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<p>
+	Araújo (2010) faz as seguintes considerações sobre a posição do veículo tipo:
+	<br><br>
+	a) Se o veículo tipo está na posição mais desfavorável ele gerara os maiores esforços solicitantes nas longarinas;<br>
+	b) O lado direito do tabuleiro não foi carregado pois assim geraria um alívio de uma das longarinas;<br>
+	c) Como os valores dos esforços são determinados para as situações mais desfavoráveis, logo se a longarina for dimensionada para  a envoltória de esforços, a segurança fica garantida para qualquer posição da carga móvel.
+</p>
+<br><br><br>
+
+<h4>1.3.1.2 -  Coeficiente de impacto</h4>
+<br><br><br>
+
+<p align = "justify"> 
+	O coeficiente de impacto é um fator que procura levar em conta esse conjunto de influências que tornam a carga acidental uma carga dinâmica. 
+	<br><br>
+	O estudo dessas causas é extremamente difícil; na prática, levamos em conta o impacto, dando às cargas móveis um acréscimo e considerando-se  como  se fossem aplicadas estaticamente. Esse Acréscimo é o chamado coeficiente de impacto ( ϕ) pelo qual são multiplicadas as cargas acidentais com a ação dinâmica.
+	<br><br>
+ '	A equação (1.1) apresenta a correção dos valores das ações com a consideração dos efeitos dinâmicos.
+</p>
+<br>
+
+<table style = "width:100%" align = "center">
+    <tr>
+        <td style="width: 90%;">F<sub>dinâmico</sub> = ϕ . F<sub>estático</sub></td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(1.1)</p></td>
+    </tr>
+</table>
+<br>
+
+<p>
+	Onde F<sub>estático</sub> são as ações do veículo-tipo. 
+</p>
+<br><br>
+
+
+<h4>1.3.1.3 – Considerações da NBR 7188 (ABNT, 2012)</h4>
+<br><br><br>
+
+<p>
+	A NBR 7188 (ABNT, 2012) faz algumas considerações para o cálculo da carga final atuante em estrutura de ponte rodoviária. Ver equação (1.2) a (1.9).
+	<br><br>
+	Para a definição do valor do trem tipo final atuante em uma estrutura considera-se as seguintes correções da carga:
+	<br><br>
+	<ol type = "a">
+		<li>CIV (Coeficiente de impacto vertical): Majora os valores do trem tipo estático simulando o efeito dinâmico da carga;</li>
+		<li>CNF (Coeficiente de número de faixas): Probabilidade da carga móvel ocorrer em função do número de faixas;</li>
+		<li>CIA (Coeficiente de impacto adicional): Majora o valor do trem tipo considerando uma imperfeição e/ou descontinuidade na pista de rolamento; </li>
+	</ol>
+</p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Cálculo do CIV
+        </th>        
+    </tr>
+    <tr>
+    	<th>
+        CIV = 1,35 Vão menor que  10,00 metros <br><br>
+        CIV = 1 + 1,06 . (20 / (Liv + 50))
+        <br><br>
+        Liv - para estruturas isostáticas vão teórico (m)
+        <br><br>
+        Liv - vigas continuas é a média aritimética do vão Liv = [ Liv / i
+        <br><br>
+        i - número de vãos 
+        <br><br>
+        Liv - Vão de cada trecho (m) Para estruturas sem balanço Liv é o valor do vão da peça 
+        <br><br>       
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Cálculo do CNF
+        </th>        
+    </tr>
+    <tr>
+    	<th>
+        	CNF = 1 - 0,05 . (n - 2) > 0,90 <br><br>
+            n - número de faixas rodoviárias carregadas sobre o tabileiro 
+         </th>            
+    </tr>      
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Cálculo do CIA
+        </th>        
+    </tr>
+    <tr>
+      <th>
+			CIA = 1,25 para obras em concreto ou mistas <br><br>
+            CIA = 1,15 para obras em aço
+      </tr>      
+</table>
+<br><br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Carga final da carga trem-tipo
+        </th>        
+    </tr>
+    <tr>
+      <th>
+			Pfinal = P * CIV . CNF . CIA (Carga estática concretada)<br><br>
+            qfinal = q*CIV . CNF . CIA (Carga estática distribuida)
+      </tr>      
+</table>
+<br><br>
+
+<h4>1.3.1.4 – Metodologia básica para consideração do trem-tipo</h4>
+<br><br>
+<br><br>
+
+<p>
+	Colocação do veículo tipo padrão na posição mais desfavorável do tabuleiro de forma gerar os maiores esforços;
+	<br><br>
+	a) Escolha do TB (Trem tipo rodoviário brasileiro) a ser determinado: Trem tipo para flexão e cisalhamento ou trem tipo para torção;<br>
+	b) Utilizar metodologia de equilíbrio de esforços nas seções ou Linha de influência;<br>
+	c) Determinação do trem – tipo para seção com carga do veículo + carga de multidão e seção com apenas carga de multidão;<br>
+	d) Majoração dos valores do trem tipo obtido para obtenção do trem tipo final com a consideração dos coeficientes descritos abaixo:<br>
+	d.1) CIV (Coeficiente de Impacto Vertical);<br>
+	d.2) CNF (Coeficiente do Número de Faixas);<br>
+	d.3) CIA (Coeficiente de impacto adicional);
+</p>
+
+
+
+
+
+
+
+
 
 
 
