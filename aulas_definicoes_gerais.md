@@ -2546,11 +2546,79 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 	d.2) CNF (Coeficiente do Número de Faixas);<br>
 	d.3) CIA (Coeficiente de impacto adicional);
 </p>
+<br><br><br><br><br><br><br>
+
+<h1>
+	Tópico: Ações na superestrutura
+	<br><br>
+	Aula : Determinação do trem-tipo na longarina 
+</h1>
+
+<br><br><br><br>
+<p>Relembrando conceitos das aulas anteriores !!</p>
+<br>
+
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 1 – Posição na seção do veiculo tipo TB-450 no tabuleiro.
+        </th>        
+    </tr>
+    <tr>
+      <th>
+			 <img  src="" alt="IMAGEM SLIDE 3 AULA 'Determinação do trem-tipo na longarina  ' ">  
+      </tr>      
+</table>
+<br><br>
 
 
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 2 – Seção A e B da carga móvel do veículo tipo TB-450.
+        </th>        
+    </tr>
+    <tr>
+      <th>
+			 <img  src="" alt="IMAGEM SLIDE 3 AULA 'Determinação do trem-tipo na longarina  ' ">  
+      </tr>      
+</table>
+<br><br>
 
+<p>
+	F<sub>dinâmico</sub> = ϕ . F<sub>estático</sub> <br><br>
+	Pfinal = P . CIV . CNF . CIA (Carga estática concretada)<br><br>
+	qfinal = q . CIV . CNF . CIA (Carga estática distribuida) <br><br>
+	<br><br>
+	Linhas de Influência ( LI ) descrevem a variação de um determinado efeito (por exemplo, uma reação de apoio, um esforço cortante ou um momento fletor em uma seção) em função da posição de uma carga vertical unitária que passeia sobre a estrutura.
+</p>
+<br>
 
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 3 – Exemplo de viga isostática com 2 bordos em balanço.
+        </th>        
+    </tr>
+    <tr>
+      <th>
+			 <img  src="" alt="IMAGEM SLIDE 5 AULA 'Determinação do trem-tipo na longarina  ' ">  
+      </tr>      
+</table>
+<br><br>
 
+<table align = "center" border = "1">
+       <tr>
+        <th>
+			Figura 4 – Linha de influência para a viga bi-apoiada com balanço.
+        </th>        
+    </tr>
+    <tr>
+      <th>
+			 <img  src="" alt="IMAGEM SLIDE 6 AULA 'Determinação do trem-tipo na longarina  ' ">  
+      </tr>      
+</table>
+<br><br>
 
 
 
