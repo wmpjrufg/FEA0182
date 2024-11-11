@@ -109,7 +109,111 @@ has_toc: false
   A Fig. 1.5 apresenta algumas características geométricas (tamanho total e distância entre eixos) do veículo tipo padrão TB-450.
   <br><br>
   A NBR 7188 (ABNT, 2012) admite que esse veículo tipo pode ocupar qualquer posição no tabuleiro da superestrutura, porém o mesmo deve ser colocado na posição mais desfavorável afim de gerar a situação mais desfavorável para a estrutura.
+  <br><br>
+  A Figura <a href="#fig1">3</a> apresenta um esquema de carregamento em planta. E em complemento a Figura <a href="#fig1">4</a> apresenta um detalhamento da geometriado veiculo.
 </p>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/esquema_carreg_veiculo_tipo_tb450.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Esquema de carregamento em planta do veiculo tipo TB-450 <a href="#ref2">[2]</a>.</p>
+
+<br><br>
+
+<p id="fig4"></p>
+<center><img src="./assets/images/detalhes_geomet_tb450.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> Detalhes da geometria e carga do veiculo tipo TB-450 <a href="#ref2">[2]</a>.</p>
+
+<br>
+<br>
+<p align = "justify">
+  A Fig. <a href="#fig5">5</a> apresenta os cortes A e B da Fig. <a href="#fig6">6</a> apresentada anteriormente, onde são representadas as cargas do eixo padrão (P) que transita sobre a rodovia e a carga de multidão (q) dos veículos de passeio, de menor peso, que transitam sobre a estrutura.
+</p>
+<br>
+<p id="fig5"></p>
+<center><img src="./assets/images/secao_AeB.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> Seção A e B da carga móvel do veículo tipo TB-450 <a href="#ref2">[2]</a>.</p>
+
+<br>
+<p align = "justify">
+  Essa carga móvel TB-450 tem o total de 450 kN sendo que cada roda tem o peso de 75 kN, circundado por uma carga uniforme distribuída de 5  𝑘𝑁⁄𝑚<sup>2</sup> . No item NBR 7188 (ABNT, 2012) ainda são indicados outros tipos de veículos tipo, como por exemplo o TB-240 para estradas vicinais. Essa carga móvel TB-240 tem o total de 240 kN sendo que cada roda tem o peso de 40 kN, circundado por uma carga uniforme distribuída de 4  𝑘𝑁⁄𝑚<sup>2</sup>
+	<br><br>
+	No caso de passeios para pedestres das pontes rodoviárias e viadutos, A NBR 7188 (ABNT, 2012) indica o uso de uma carga uniformemente distribuída de 3 kN/m na posição mais desfavorável concomitante com a carga móvel rodoviária, para verificações e dimensionamento dos diversos elementos estruturais, assim como para verificações globais. O elemento estrutural do passeio deve ser dimensionado com uma carga de 5  𝑘𝑁⁄𝑚<sup>2</sup> .
+</p>
+<br>
+
+<h4>Possição do veículo tipo no tabuleiro</h4>
+
+<p align = "justify">
+  O veículo-tipo ou trem-tipo caminha conforme descrição da Fig. <a href="#fig6">6</a> Sobre a sua posição na seção: a posição mais desfavorável no tabuleiro é quando o veículo-tipo ocupa a lateral da pista, no bordo  encostado no guarda rodas, conforme mostrado na Fig. <a href="#fig7">7</a>
+</p>
+<br>
+
+<p id="fig6"></p>
+<center><img src="./assets/images/sentido_trafego_trempista.png" width="90%"></center>
+<p align = "justify"><b>Figura 6.</b> Sentido do trafego do trem-tipo no eixo da pista <a href="#ref2">[2]</a>.</p>
+<br>
+
+<p id="fig7"></p>
+<center><img src="./assets/images/posicao_na_secao_tb450.png" width="90%"></center>
+<p align = "justify"><b>Figura 7.</b> Posição na seção do veiculo tipo TB-450 no tabuleiro <a href="#ref2">[2]</a>.</p>
+<br>
+
+<p align = "justify">
+  De maneira geral o veículo-tipo caminha no sentido do eixo da ponte e sua carga é transferida para longarina através da consideração de uma linha de influência de reações de apoio. Logo a frente será apresentado um exemplo da ponto do Rio Pau Seco. A Fig. <a href="#fig8">8</a> expõe uma vista em planta da posição do veículo na pista e a representação das suas cargas.
+</p>
+<br>
+
+<p id="fig8"></p>
+<center><img src="./assets/images/posicao_em_planta_tb450.png" width="90%"></center>
+<p align = "justify"><b>Figura 8.</b> Posição em planta do veiculo tipo TB-450 <a href="#ref2">[2]</a>.</p>
+<br>
+
+<p align = "justify">
+  Araújo (2010) faz as seguintes considerações sobre a posição do veículo tipo:
+	<br><br>
+	a) Se o veículo tipo está na posição mais desfavorável ele gerara os maiores esforços solicitantes nas longarinas;<br>
+	b) O lado direito do tabuleiro não foi carregado pois assim geraria um alívio de uma das longarinas;<br>
+	c) Como os valores dos esforços são determinados para as situações mais desfavoráveis, logo se a longarina for dimensionada para  a envoltória de esforços, a segurança fica garantida para qualquer posição da carga móvel.
+</p>
+<br>
+
+<h4>Coeficiente de impacto</h4>
+
+<p align = "justify">
+  O coeficiente de impacto é um fator que procura levar em conta esse conjunto de influências que tornam a carga acidental uma carga dinâmica. 
+	<br><br>
+	O estudo dessas causas é extremamente difícil; na prática, levamos em conta o impacto, dando às cargas móveis um acréscimo e considerando-se  como  se fossem aplicadas estaticamente. Esse Acréscimo é o chamado coeficiente de impacto ( ϕ) pelo qual são multiplicadas as cargas acidentais com a ação dinâmica.
+	<br><br>
+ 	A Equação. <a href="#equa1">1</a> apresenta a correção dos valores das ações com a consideração dos efeitos dinâmicos.
+</p>
+<p id="equa1"></p>
+<table style = "width:100%" align = "center">
+    <tr>
+        <td style="width: 90%;">F<sub>dinâmico</sub> = ϕ . F<sub>estático</sub></td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
+    </tr>
+</table>
+<br>
+
+<h4>Considerações da NBR 7188 (ABNT, 2012)</h4>
+
+
+<p align = "justify">
+  A NBR 7188 (ABNT, 2012) faz algumas considerações para o cálculo da carga final atuante em estrutura de ponte rodoviária. Ver equação (1.2) a (1.9).
+	<br><br>
+	Para a definição do valor do trem tipo final atuante em uma estrutura considera-se as seguintes correções da carga:
+	<br>
+	<ol type = "a">
+		<li>CIV (Coeficiente de impacto vertical): Majora os valores do trem tipo estático simulando o efeito dinâmico da carga;</li>
+		<li>CNF (Coeficiente de número de faixas): Probabilidade da carga móvel ocorrer em função do número de faixas;</li>
+		<li>CIA (Coeficiente de impacto adicional): Majora o valor do trem tipo considerando uma imperfeição e/ou descontinuidade na pista de rolamento; </li>
+	</ol>
+</p>
+
+
+<center><img src="./assets/images/calculo_CIV.png" width="90%"></center>
+<p align = "justify"><b>Figura 8.</b> Posição em planta do veiculo tipo TB-450 <a href="#ref2">[2]</a>.</p>
+
 
 <p align = "justify">
   A fundação tipo tubulão é bastante utilizada para aplicações em pontes. Segundo o item 3.49 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se tubulão como um elemento de fundação profunda em que, pelo menos na etapa final da escavação do terreno, faz-se necessário o trabalho manual em profundidade para executar o alargamento de base ou pelo menos para a limpeza do fundo da escavação, uma vez que neste tipo de fundação as cargas são resistidas preponderantemente pela ponta.
