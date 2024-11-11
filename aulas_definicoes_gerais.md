@@ -833,50 +833,10 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 </table>
 <br><br>
 
-<h3><b>1.2 – Estacas</b></h3>
-<br><br>
-
-<p>
-	Bastos [4] afirma que os tubulões vêm sendo atualmente substituídos por estacas (pré-moldadas ou moldadas in loco). São exemplos de elementos de estacas para construção de pontes:
-	<br><br>
-	<ul>
-		<li>Escavada de Grande Diâmetro (Estacão);</li>
-		<li>Escavada Embutida em Rocha;</li>
-		<li>Hidrofesa;</li>
-		<li>Hélice Contínua;</li>
-		<li>Raiz;</li>
-		<li>Pré-moldada.</li>
-	</ul>
-</p>
-<br>
-<table align = "right" border = "1"> 
-    <tr>
-        <th>
-           <iframe  src="https://youtube.com/embed/JR0xGsdqxyU" ></iframe>
-    </tr>
-    <tr>
-        <th>
-           <iframe  src="https://youtube.com/embed/bS-bcN8LRWc" ></iframe>
-    </tr>
-</table>
-<br><br><br>
-
 <h2><b>2 - MESOESTRUTURA</b></h2>
 <br><br>
 <p style = "text-align:justify">
-	Segundo a normativa DNIT [5] o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
-	<br><br>
-	<ol type = "a">
-		<li>Através de peças pré-moldadas, em passarelas e obras de pequenos vãos; </li>
-		<li>Através de concretagem convencional, isto é, executadas as fôrmas completas, concreta-se de baixo para cima, em concretagens contínuas, concreto lançado ou bombeado e vibrado;</li>
-		<li>Através de fôrmas deslizantes, fôrmas desmontáveis de cerca de 1,0 m de altura, empurradas continuamente para cima, simultaneamente com a concretagem, contínua e vibrada;</li>
-		<li>Através de fôrmas trepantes, fôrmas desmontáveis de cerca de 3,0 m de altura e concretagem por segmentos, vibrada e interrompida. </li>
-	</ol>
- 	<br><br>
-  	O sistema construtivo da mesoestrutura influi no seu detalhamento; no caso particular de fôrmas deslizantes recomenda-se um cobrimento adicional das armaduras, de 3 a 4 cm, para combater a tendência à fissuração da camada superficial do concreto, provocada pelo arrasto das fôrmas. 
-   	<br><br>
-    	As imagens sequências são retiradas de Bastos [4]. 
-</p>
+
 <br><br>
 
 <table align = "center" border = "1">

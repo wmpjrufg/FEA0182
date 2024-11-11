@@ -75,6 +75,31 @@ tubulão <a href="#ref2">[2]</a>.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KKgTq8JievA?si=mFsgijSYmA3e-aBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
+<h1>Mesoestrutura</h1> 
+
+<p align = "justify">
+	Segundo o antigo DNER [4] o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
+</p>
+
+<ol type = "a">
+  <li><p align = "justify">Através de peças pré-moldadas, em passarelas e obras de pequenos vãos;<p/></li>
+  <li><p align = "justify">Através de concretagem convencional, isto é, executadas as fôrmas completas, concreta-se de baixo para cima, em concretagens contínuas, concreto lançado ou bombeado e vibrado;</p></li>
+  <li><p align = "justify">Através de fôrmas deslizantes, fôrmas desmontáveis de cerca de 1,0 m de altura, empurradas continuamente para cima, simultaneamente com a concretagem, contínua e vibrada;<p/></li>
+  <li><p align = "justify">Através de fôrmas trepantes, fôrmas desmontáveis de cerca de 3,0 m de altura e concretagem por segmentos, vibrada e interrompida.</p></li>
+</ol>
+<p align = "justify">
+  O sistema construtivo da mesoestrutura influi no seu detalhamento; no caso particular de fôrmas deslizantes recomenda-se um cobrimento adicional das armaduras, de 3 a 4 cm, para combater a tendência à fissuração da camada superficial do concreto, provocada pelo arrasto das fôrmas. 
+</p>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WRPs5EtK8vE?si=TZHuOtbrdSq1PHs5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uPUsl5_2c14?si=S0OMpDKS3nX7SyL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<h1>Superestrutura</h1> 
 
 <h3>Bibliografia</h3>
 
@@ -92,6 +117,18 @@ tubulão <a href="#ref2">[2]</a>.</p>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
             <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
         </tr>
         <tr>
