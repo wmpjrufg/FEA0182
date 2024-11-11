@@ -57,7 +57,7 @@ has_toc: false
     <br><br>
     A carga horizontal de 0,8 kN/m é satisfatória para passeios exclusivamente de pedestres, devendo, porém, ser aumentada para 1,5 kN/m quando se tratar de passeios mistos, para pedestres e ciclistas. 
     <br><br>
-    A Fig. 1.2 apresenta o detalhe geométrico de um guarda-corpo metálico para ponte rodoviárias. Para o cálculo da carga considerar uma base de concreto de 15 x 10 cm em concreto armado mais o peso indicado na NBR 6120 (ABNT, 1980) .
+    A Fig. 2 apresenta o detalhe geométrico de um guarda-corpo metálico para ponte rodoviárias. Para o cálculo da carga considerar uma base de concreto de 15 x 10 cm em concreto armado mais o peso indicado na NBR 6120 (ABNT, 1980) .
     <br><br>
     A bibliografias recomendam que entre o pré-dimensionamento e projeto executivo a carga permanente não pode variar mais que 5% do valor.
     <br><br>
@@ -67,6 +67,49 @@ has_toc: false
 <p id="fig1"></p>
 <center><img src="./assets/images/secao_transversal_barreira_concreto.png" width="90%"></center>
 <p align = "justify"><b>Figura 1.</b> Seção transversal da barreira de concreto padrão New Jersey <a href="#ref2">[2]</a>.</p>
+
+<p>
+  A Figura <a href="#fig2">2</a> apresenta uma das vistas da seção da barreira de concreto 
+</p>
+
+<p id="fig2"></p>
+<center><img src="./assets/images/secao_transversal_barreira_concreto_vAA.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Seção transversal da barreira de concreto padrão New Jersey <a href="#ref2">[2]</a>.</p>
+
+<h2>Ação Variável</h2>
+
+<p align = "justify">
+  A NBR 7187 (ABNT, 2003) define no item 7.2 as ações vaiáveis da ponte, são elas:
+    <br><br>
+    a) As cargas móveis;<br>
+    b) As cargas de construção;<br>
+    c) As cargas de vento;<br>
+    d) O empuxo de terra provocado por cargas móveis;<br>
+    e) A pressão da água em movimento;<br>
+    f) O efeito dinâmico do movimento das águas;<br>
+    g) As variações de temperatura.
+    <br><br>
+    Sobre o item a vale ressaltar que existem duas normas para avaliação da carga móvel em pontes e viadutos, são elas:
+    <br><br>
+     NBR 7188 (ABNT, 2012): Carga  móvel  em  ponte  rodoviária  e  passarela de pedestres;<br>
+     NBR 7189 (ABNT, 1989): Cargas  móveis para  projeto  estrutural de  obras ferroviárias. 
+    <br><br>
+    Nessa seção serão apresentados detalhes de cálculo com enfoque na NBR 7188 (ABNT, 2012).
+</p>
+
+<h3>Carga Móvel</h3>
+
+<p align = "justify">
+  A intenção da colocação da carga em mobilidade é simular o efeito de trânsito sobre a estrutura e assim gerar uma envoltória de esforços nas peças estruturais.
+  <br><br>
+  As cargas móveis são aqueles tipos de cargas em que os esforços internos gerados não variam apenas com a magnitude das cargas, mas também com a posição ocupada pela carga. No caso de vigas, é necessário a determinação das posições que geram os maiores esforços em seções pré-determinadas do elemento.
+  <br><br>
+  A Fig. 1.4 abaixo define o tipo da carga móvel para pontes rodoviária. Esse veículo tipo é chamado de veículo tipo TB-450. Esse veículo tipo se divide em dois tipos de carga, uma caga Q distribuída e uma carga P concentrada (eixo do veículo).
+  <br><br>
+  A Fig. 1.5 apresenta algumas características geométricas (tamanho total e distância entre eixos) do veículo tipo padrão TB-450.
+  <br><br>
+  A NBR 7188 (ABNT, 2012) admite que esse veículo tipo pode ocupar qualquer posição no tabuleiro da superestrutura, porém o mesmo deve ser colocado na posição mais desfavorável afim de gerar a situação mais desfavorável para a estrutura.
+</p>
 
 <p align = "justify">
   A fundação tipo tubulão é bastante utilizada para aplicações em pontes. Segundo o item 3.49 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se tubulão como um elemento de fundação profunda em que, pelo menos na etapa final da escavação do terreno, faz-se necessário o trabalho manual em profundidade para executar o alargamento de base ou pelo menos para a limpeza do fundo da escavação, uma vez que neste tipo de fundação as cargas são resistidas preponderantemente pela ponta.
