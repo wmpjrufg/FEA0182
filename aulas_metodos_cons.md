@@ -56,11 +56,25 @@ O esquema de construção de um tubulão a ar comprimido segue um esquema simila
 </p>
 
 <p id="fig3"></p>
-<center><img src="./assets/images/tubulao_3.png" width="70%"></center>
+<center><img src="./assets/images/tubulao_3.png" width="60%"></center>
 <p align = "justify"><b>Figura 3.</b> Campânula para pressurização do 
 tubulão <a href="#ref2">[2]</a>.</p>
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3qMTjCqUBP8?si=Pt26zy8tfHADHtnu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<h2>Estacas</h2> 
+
+<p align = "justify">
+  Segundo o item 3.11 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se estaca como um elemento de fundação profunda executado inteiramente por equipamentos ou ferramentas, sem que, em qualquer fase de sua execução, haja trabalho manual em profundidade. Os materiais empregados podem ser: madeira, aço, concreto pré-moldado, concreto moldado in loco, argamassa, calda de cimento, ou qualquer combinação dos anteriores.	
+  <br><br>
+</p>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KKgTq8JievA?si=mFsgijSYmA3e-aBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 
 <h3>Bibliografia</h3>
 
@@ -78,6 +92,10 @@ tubulão <a href="#ref2">[2]</a>.</p>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
             <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
         </tr>
     </tbody>
