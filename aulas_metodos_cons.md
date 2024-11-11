@@ -63,6 +63,7 @@ tubulão <a href="#ref2">[2]</a>.</p>
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3qMTjCqUBP8?si=Pt26zy8tfHADHtnu&start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
+<p align = "justify"><b>Vídeo 1.</b> Você conhece o tubulão a ar comprimido? <a href="#ref3">[3]</a>.</p>
 
 <h2>Estacas</h2> 
 
@@ -73,19 +74,21 @@ tubulão <a href="#ref2">[2]</a>.</p>
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KKgTq8JievA?si=mFsgijSYmA3e-aBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
+<p align = "justify"><b>Vídeo 2.</b> Tubulão em água <a href="#ref4">[4]</a>.</p>
 
 <h1>Mesoestrutura</h1> 
 
 <p align = "justify">
-	Segundo o antigo DNER <a href="#ref2">[xx]</a> o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
+	Segundo o antigo DNER <a href="#ref5">[5]</a> o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
 </p>
 
 <ol type = "a">
   <li><p align = "justify">Através de peças pré-moldadas, em passarelas e obras de pequenos vãos;<p/></li>
   <li><p align = "justify">Através de concretagem convencional, isto é, executadas as fôrmas completas, concreta-se de baixo para cima, em concretagens contínuas, concreto lançado ou bombeado e vibrado;</p></li>
-  <li><p align = "justify">Através de fôrmas deslizantes, fôrmas desmontáveis de cerca de 1,0 m de altura, empurradas continuamente para cima, simultaneamente com a concretagem, contínua e vibrada;<p/></li>
+  <li><p align = "justify">Através de fôrmas deslizantes, fôrmas desmontáveis de cerca de 1,0 m de altura, empurradas continuamente para cima, simultaneamente com a concretagem, contínua e vibrada;</p></li>
   <li><p align = "justify">Através de fôrmas trepantes, fôrmas desmontáveis de cerca de 3,0 m de altura e concretagem por segmentos, vibrada e interrompida.</p></li>
 </ol>
+
 <p align = "justify">
   O sistema construtivo da mesoestrutura influi no seu detalhamento; no caso particular de fôrmas deslizantes recomenda-se um cobrimento adicional das armaduras, de 3 a 4 cm, para combater a tendência à fissuração da camada superficial do concreto, provocada pelo arrasto das fôrmas. 
 </p>
@@ -93,10 +96,11 @@ tubulão <a href="#ref2">[2]</a>.</p>
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WRPs5EtK8vE?si=TZHuOtbrdSq1PHs5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
-<br><br>
+<p align = "justify"><b>Vídeo 3.</b> Fôrmas deslizantes <a href="#ref6">[6]</a>.</p>
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uPUsl5_2c14?si=S0OMpDKS3nX7SyL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
+<p align = "justify"><b>Vídeo 4.</b> Fôrmas trepantes <a href="#ref7">[7]</a>.</p>
 
 <h1>Superestrutura</h1> 
 
@@ -122,27 +126,31 @@ De acordo com Leonhardt <a href="#ref2">[xx]</a> a classificação segundo o pro
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
-            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+            <td><p align = "left">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT, 2022.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
-            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+            <td><p align = "left">VELLOSO, Dirceu de Alencar; LOPES, Francisco de Rezende. Fundações. São Paulo: Oficina de Textos, 2010.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref3">[3]</p></td>
-            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+            <td><p align = "left">Você conhece o tubulão a ar comprimido? Silvio de Andrade, Engenharia de fundações. Youtube, 12 set. 2019.</p></td>
         </tr>
         <tr>
-            <td><p align = "center" id = "ref3">[3]</p></td>
-            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+            <td><p align = "center" id = "ref4">[4]</p></td>
+            <td><p align = "left">Tubulão em água. Jefferson Porfirio. Youtube, 16 jul. 2011.</p></td>
         </tr>
         <tr>
-            <td><p align = "center" id = "ref3">[3]</p></td>
-            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+            <td><p align = "center" id = "ref5">[5]</p></td>
+            <td><p align = "left">BRASIL. Manual de projeto de obras-de-arte especiais. Rio de Janeiro: Departamento Nacional de Estradas de Rodagem (DNER), 1996.</p></td>
         </tr>
         <tr>
-            <td><p align = "center" id = "ref3">[3]</p></td>
-            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+            <td><p align = "center" id = "ref6">[6]</p></td>
+            <td><p align = "left">Fôrmas deslizantes. M.Roscoe e Brasilos S/A Construções. YouTube, 16 out. 2015</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[7]</p></td>
+            <td><p align = "left">Fôrmas trepantes. Ulma Construction. YouTube, 15 jan. 2015</p></td>
         </tr>
     </tbody>
 </table>
