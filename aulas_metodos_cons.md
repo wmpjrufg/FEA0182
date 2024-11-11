@@ -1,0 +1,84 @@
+---
+title: Métodos construtivos
+layout: default
+parent: Aulas
+nav_order: 2
+has_children: false
+has_toc: false
+---
+
+
+<!--Don't delete this script-->
+<script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--Don't delete this script-->
+
+<h1>Infraestrutura</h1> 
+
+<p align = "justify">
+  Os métodos construtivos dos elementos de infraestrutura para pontes seguem as premissas básicas dos elementos tradicionais de fundações, sejam essas fundações rasas ou profundas. Lembrando que as característica para dimensionamento das fundações são relativos a normativa ABNT NBR 6122 <a href="#ref1">[1]</a>.
+  <br><br>
+  <b>fundações rasa ou superficial:</b> Elementos de fundação em que a carga é transmitida ao  terreno, predominantemente pelas pressões distribuídas  sob a base da fundação, e em que a profundidade de as sentamento em relação ao terreno adjacente é inferior a  duas vezes a menor dimensão da fundação. Incluem-se  neste tipo de fundação: (a) sapata, (b) bloco, (c) radier, (d) sapata associada, (e) viga de fundação e (f) sapata corrida.
+  <br><br>
+  <b>fundações profunda:</b> Elemento de fundação que transmite a carga ao terreno pela base (resistência de ponta), por sua superfície lateral (resistência de fuste) ou por uma combinação das duas, e que está assente em profundidade superior ao dobro de sua menor dimensão em planta, e no mínimo 3 m, salvo justificativa. Neste tipo de fundação incluem-se: (a) estaca, e (b) tubulão.
+  <br><br>
+	Normalmente em pontes são aplicadas fundações profundadas devido a magnitude do carregamento. Portanto estacas e tubulões são os tipos de peças mais empregadas.
+</p>
+
+<h2>Tubulão</h2> 
+
+<p align = "justify">
+  A fundação tipo tubulão é bastante utilizada para aplicações em pontes. Segundo o item 3.49 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se tubulão como um elemento de fundação profunda em que, pelo menos na etapa final da escavação do terreno, faz-se necessário o trabalho manual em profundidade para executar o alargamento de base ou pelo menos para a limpeza do fundo da escavação, uma vez que neste tipo de fundação as cargas são resistidas preponderantemente pela ponta.
+	<br><br>
+	Os tubulões pode ser de dois tipos:
+	<br>
+	<ul>
+		<li>Céu aberto;</li>
+		<li>Ar comprimido.</li>
+	</ul>
+  A Figura <a href="#fig1">1</a> apresenta a geometria tradicional de um tubulão.
+</p>
+
+<p id="fig1"></p>
+<center><img src="./assets/images/tubulao_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Tubulões: (a) em perfil, sem e com alargamento de base e formas de base usuais: (b) circular e (c) "falsa elipse" <a href="#ref2">[2]</a>.</p>
+
+<p align = "justify">
+O esquema de construção de um tubulão a ceú aberto pode ser visto na Figura <a href="#fig2">2</a>.
+</p>
+
+<p id="fig2"></p>
+<center><img src="./assets/images/tubulao_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Execução de tubulão a céu aberto: (a) escavação, (b) concretagem a seco, (c) tubulão pronto <a href="#ref2">[2]</a>.</p>
+
+<p align = "justify">
+O esquema de construção de um tubulão a ar comprimido segue um esquema similar ao processo a ceú aberto. Porém utiliza-se uma campânula. Esse recurso é empregado quando na execução do tubulão atinge-se o lençol d'água, sendo necessário revestir a escavação e também empregar o ar comprimido. O modelo de camânula pode ser visto na Figura <a href="#fig3">3</a>.
+</p>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/tubulao_3.png" width="70%"></center>
+<p align = "justify"><b>Figura 3.</b> Campânula para pressurização do 
+tubulão <a href="#ref2">[2]</a>.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qMTjCqUBP8?si=Pt26zy8tfHADHtnu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3>Bibliografia</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Referências</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref2">[2]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas. NBR 6122: Projeto e execução de fundações. Rio de Janeiro: ABNT; 2022.</p></td>
+        </tr>
+    </tbody>
+</table>

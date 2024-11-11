@@ -1,11 +1,11 @@
 ![image](https://github.com/user-attachments/assets/ccaa6c28-5eb3-42e9-917d-ea2995952df5)![image](https://github.com/user-attachments/assets/8efce4d2-0319-4021-9d43-11bcf57eee1a)![image](https://github.com/user-attachments/assets/d7080627-a7ef-4b65-9d12-9d065e1f51e8)![image](https://github.com/user-attachments/assets/913ebae2-eb64-4011-8ad4-2faeb4b2e8a3)![image](https://github.com/user-attachments/assets/5acaee88-b471-4752-958e-a35fd3704826)![image](https://github.com/user-attachments/assets/edf1cb1d-424b-4692-84ae-0b7e98917cb7)![image](https://github.com/user-attachments/assets/caca6e89-74d9-4ae8-ad6a-4b68bf4c4e7c)---
-title: Introdução ao projeto
+<!-- title: Introdução ao projeto
 layout: default
 parent: Aulas
 nav_order: 1
 has_children: false
 has_toc: false
----
+--- -->
 
 
 <!--Don't delete this script-->
@@ -832,94 +832,6 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
     </tr>
 </table>
 <br><br>
-
-<h2><b>INFRAESTRUTURA</b></h2>
-<br><br>
-<p style = "text-align:justify">
-	Os métodos construtivos dos elementos de infraestrutura seguem as premissas básicas dos elementos tradicionais de fundações, sejam essas fundações rasas ou profundas. Lembrando que as característica para dimensionamento das fundações são relativos a normativa NBR 6122 [1].
-	<br><br>
-	fundações rasa: São aqueles elementos executadas para descarregar seu esforços nas primeiras camadas do solo. A profundidade de assentamento do elemento no terreno é de no máximo duas vezes a sua menor dimensão em planta;
-	<br><br>
-	fundações profunda: São aqueles elementos executadas para descarregar seus esforços em camadas mais profundas de solo. A transmissão dos esforços é feito por resistência de ponta e/ou fuste ou por uma combinação das duas. O assentamento dos elementos é superior ao dobro de sua menor dimensão em planta, e no mínimo 3 m.
-</p>
-<br><br><br>
-
-<h3><b>1.1 - Tubulão e tubulão ao ar comprimido</b></h3>
-<br><br>
-<p>
-	A fundação tipo tubulão é bastante utilizada para aplicações em pontes de concreto armado. Devido a magnitude dos carregamentos essas estruturas tendem a ser mais robustas que a de estruturas usuais. 
-	<br><br>
-	Os tubulões pode ser de dois tipos:
-	<br><br>
-	<ul>
-		<li>Céu aberto;</li>
-		<li>Ar comprimido – Neste é permitida a escavação abaixo do lençol freático (muito útil em pontes).</li>
-	</ul>
-</p>
-<br><br>
-
-<table align = "center" border = "1">
-       <tr>
-        <th colspan = "3">
-			Figura 1.1 – Esquema tradicional de carregamento em um tubulão em estruturas usuais [2].
-        </th>
-    </tr>
-    <tr>
-        <th colspan = "2">
-           <img  src="" alt="IMAGEM DO SLIDE 5 DA AULA 2 DE PONTES" >
-        </th>
-        <th colspan = "2">
-           <img  src="" alt="IMAGEM DO SLIDE 5 DA AULA 2 DE PONTES" >
-        </th>
-    </tr>
-</table>
-<br><br><br>
-
-<table align = "center" border = "1">
-       <tr>
-        <th >
-			Figura 1.2 – Tubulão de ar comprimido [3] apud Fogaça1.
-        </th>
-    </tr>
-    <tr>
-        <th>
-           <img  src="" alt="IMAGEM DO SLIDE 6 DA AULA 2 DE PONTES" >
-        </th>
-    </tr>
-</table>
-<br><br><br>
-
-<table align = "center" border = "1">
-       <tr>
-        <th >
-		Figura 1.3 – Geometria de um tubulão [2].
-        </th>
-    </tr>
-    <tr>
-        <th>
-           <img  src="" alt="IMAGEM DO SLIDE 6 DA AULA 2 DE PONTES" >
-        </th>
-    </tr>
-</table>
-<br><br>
-<p>
-	Esquema de construção:<br><br>
-	<ul>
-		<li>Escavação dos poços primários e colocação das camisas metálicas;</li>
-		<li>Escavação completo do poço;</li>
-		<li>Colocação da armação;</li>
-		<li>Concretagem.</li>
-	</ul>
-</p>
-<br><br>
-
-<table align = "right" border = "1"> 
-    <tr>
-        <th>
-           <iframe  src="https://www.youtube.com/embed/WYBGEbbL6vE" ></iframe>
-    </tr>
-</table>
-<br><br><br>
 
 <h3><b>1.2 – Estacas</b></h3>
 <br><br>

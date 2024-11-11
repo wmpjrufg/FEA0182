@@ -19,7 +19,7 @@ has_toc: false
 O carregamento permanente advém da determinação da área da seção transversal dos elementos que compõem a seção da ponte. No caso do nosso exemplo a seção é composta pelos elementos da <a href="#fig1">Figura 1</a>.
 </p>
 
-<center><img src="assets/images/perfil.png" width="100%"></center>
+<center><img src="assets/images/perfil_topo.png" width="100%"></center>
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Área dos elementos que compõem a seção transversal.</p>
 
 <p align = "justify">

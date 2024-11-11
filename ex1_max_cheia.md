@@ -16,9 +16,7 @@ has_toc: false
 <h1>Determinação da máxima cheia e gabarito da ponte</h1> 
 
 <p align = "justify">
-O primeiro passo na determinação do modelo estrutural é a confecção de um desenho geométrico em perfil longitudinal que contemple o estaqueamento e as suas cotas verticais. Isso permitirá que o projetista visualize o obstáculo a ser vencido e comece a efetuar o lançamento da ponte.
-<br><br>
-Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1">Figura 1</a>.
+O primeiro passo na determinação do modelo estrutural é a confecção de um desenho geométrico em perfil longitudinal que contemple o estaqueamento e as suas cotas verticais. Isso permitirá que o projetista visualize o obstáculo a ser vencido e comece a efetuar o lançamento da ponte. Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1">Figura 1</a>.
 </p>
 
 <center><img src="assets/images/perfil_topo.png" width="100%"></center>
