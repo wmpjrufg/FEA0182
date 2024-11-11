@@ -78,7 +78,7 @@ tubulão <a href="#ref2">[2]</a>.</p>
 <h1>Mesoestrutura</h1> 
 
 <p align = "justify">
-	Segundo o antigo DNER [4] o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
+	Segundo o antigo DNER <a href="#ref2">[xx]</a> o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
 </p>
 
 <ol type = "a">
@@ -100,6 +100,16 @@ tubulão <a href="#ref2">[2]</a>.</p>
 </center>
 
 <h1>Superestrutura</h1> 
+
+<p align = "justify">
+De acordo com Leonhardt <a href="#ref2">[xx]</a> a classificação segundo o processo executivo é dada por três subdivisões, são elas:
+</p>
+
+<ol type="a">
+  <li>Construção com concreto moldado <i>in loco</i>;</li>
+  <li>Construção com elementos pré-moldados;</li>
+  <li>Construção por deslocamentos progressivos.</li>
+</ol>
 
 <h3>Bibliografia</h3>
 
