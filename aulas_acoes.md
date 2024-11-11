@@ -43,13 +43,13 @@ has_toc: false
     <br><br>
     Para o exemplo que será realizado em casa vale destacar alguns itens.
     <br><br>
-    O item 7.1.1 define o peso específico mínimo dos elementos em concreto armado, sendo o valor mínimo de 24  𝑘𝑁⁄𝑚^3  para o concreto simples e 25  𝑘𝑁⁄𝑚^3  para o concreto armado ou protendido.
+    O item 7.1.1 define o peso específico mínimo dos elementos em concreto armado, sendo o valor mínimo de 24  𝑘𝑁⁄𝑚<sup>3</sup>  para o concreto simples e 25  𝑘𝑁⁄𝑚<sup>3</sup>  para o concreto armado ou protendido.
     <br><br>
-    No item 7.1.2 é definido o valor do peso específico para os elementos de pavimentação, que é de o valor mínimo de 24  𝑘𝑁⁄𝑚^3 , podendo ser acrescido um valor de 2  𝑘𝑁⁄𝑚^2  para atender uma possível situação de recapeamento.
+    No item 7.1.2 é definido o valor do peso específico para os elementos de pavimentação, que é de o valor mínimo de 24  𝑘𝑁⁄𝑚<sup>3</sup> , podendo ser acrescido um valor de 2  𝑘𝑁⁄𝑚<sup>2</sup>  para atender uma possível situação de recapeamento.
     <br><br>
     Nesse curso não será abordado a questão das cargas para ponte ferroviária mais fica a leitura do item 7.1.3 que aborda os carregamentos relativo a esse tipo.
     <br><br>
-    O item 7.1.4 específica que o peso específico do solo úmido deve ser considerado no mínimo igual a 18  𝑘𝑁⁄𝑚^3  e o ângulo de atrito interno no máximo igual a 30º.
+    O item 7.1.4 específica que o peso específico do solo úmido deve ser considerado no mínimo igual a 18  𝑘𝑁⁄𝑚<sup>3</sup>  e o ângulo de atrito interno no máximo igual a 30º.
     <br><br>
     As barreiras de concreto são definidas no item 2.4.3.3.1 do manual 698 (DNIT, 1996). Essas barreiras são padronizadas no padrão New Jersey do modelo americano e são feitas em concreto armado. A Fig. 1.1 apresenta os detalhes geométricos desse tipo de seção transversal.
     <br><br>
@@ -60,7 +60,13 @@ has_toc: false
     A Fig. 1.2 apresenta o detalhe geométrico de um guarda-corpo metálico para ponte rodoviárias. Para o cálculo da carga considerar uma base de concreto de 15 x 10 cm em concreto armado mais o peso indicado na NBR 6120 (ABNT, 1980) .
     <br><br>
     A bibliografias recomendam que entre o pré-dimensionamento e projeto executivo a carga permanente não pode variar mais que 5% do valor.
+    <br><br>
+    A Figura <a href="#fig1">1</a> apresenta a seção de uma barreira de concreto
 </p>
+
+<p id="fig1"></p>
+<center><img src="./assets/images/secao_transversal_barreira_concreto.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Seção transversal da barreira de concreto padrão New Jersey <a href="#ref2">[2]</a>.</p>
 
 <p align = "justify">
   A fundação tipo tubulão é bastante utilizada para aplicações em pontes. Segundo o item 3.49 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se tubulão como um elemento de fundação profunda em que, pelo menos na etapa final da escavação do terreno, faz-se necessário o trabalho manual em profundidade para executar o alargamento de base ou pelo menos para a limpeza do fundo da escavação, uma vez que neste tipo de fundação as cargas são resistidas preponderantemente pela ponta.
