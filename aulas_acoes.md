@@ -13,19 +13,54 @@ has_toc: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Infraestrutura</h1> 
+<h1>Generalidades das ações na superestrutura</h1> 
 
 <p align = "justify">
-  Os métodos construtivos dos elementos de infraestrutura para pontes seguem as premissas básicas dos elementos tradicionais de fundações, sejam essas fundações rasas ou profundas. Lembrando que as característica para dimensionamento das fundações são relativos a normativa ABNT NBR 6122 <a href="#ref1">[1]</a>.
-  <br><br>
-  <b>fundações rasa ou superficial:</b> Elementos de fundação em que a carga é transmitida ao  terreno, predominantemente pelas pressões distribuídas  sob a base da fundação, e em que a profundidade de as sentamento em relação ao terreno adjacente é inferior a  duas vezes a menor dimensão da fundação. Incluem-se  neste tipo de fundação: (a) sapata, (b) bloco, (c) radier, (d) sapata associada, (e) viga de fundação e (f) sapata corrida.
-  <br><br>
-  <b>fundações profunda:</b> Elemento de fundação que transmite a carga ao terreno pela base (resistência de ponta), por sua superfície lateral (resistência de fuste) ou por uma combinação das duas, e que está assente em profundidade superior ao dobro de sua menor dimensão em planta, e no mínimo 3 m, salvo justificativa. Neste tipo de fundação incluem-se: (a) estaca, e (b) tubulão.
-  <br><br>
-	Normalmente em pontes são aplicadas fundações profundadas devido a magnitude do carregamento. Portanto estacas e tubulões são os tipos de peças mais empregadas.
+  Definida a geometria da ponte o primeiro passo é verificar as ações que essa estrutura estará submetida.
+
+  De forma geral as ações são subdivididas em:
+  
+  a) Ações Permanentes Diretas e Indiretas; 
+  b) Ações Variáveis Diretas e Indiretas; 
+  c) Ações Dinâmicas; 
+  d) Ações Excepcionais. 
+
+  O peso próprio da estrutura está classificado nos seguintes elementos:
+  
+  a) Peso próprio dos elementos estruturais; 
+  b) Peso próprio da pavimentação; 
+  c) Peso próprio das barreiras; 
+  d) Peso próprio dos guarda–corpos. 
+  
+  A quatro normas base para a estimativa do carregamento durante o procedimento cálculo são a NBR 6118 (ABNT, 2014), NBR 7187 (ABNT, 2003),  NBR 7188 (ABNT, 2012) e NBR 6120 (ABNT, 1980).
+  <a href="#ref1">[1]</a>.
 </p>
 
-<h2>Tubulão</h2> 
+<h2>AÇÃO PERMANENTE</h2> 
+
+<p align = "justify">
+    A NBR 7187 (ABNT, 2003) define nos itens 7.1.1 ao item 7.1.9 os itens referentes as ações permanentes.
+    <br><br>
+    Para o exemplo que será realizado em casa vale destacar alguns itens.
+    <br><br>
+    O item 7.1.1 define o peso específico mínimo dos elementos em concreto armado, sendo o valor mínimo de 24  𝑘𝑁⁄𝑚^3  para o concreto simples e 25  𝑘𝑁⁄𝑚^3  para o concreto armado ou protendido.
+    <br><br>
+    No item 7.1.2 é definido o valor do peso específico para os elementos de pavimentação, que é de o valor mínimo de 24  𝑘𝑁⁄𝑚^3 , podendo ser acrescido um valor de 2  𝑘𝑁⁄𝑚^2  para atender uma possível situação de recapeamento.
+    <br><br>
+    Nesse curso não será abordado a questão das cargas para ponte ferroviária mais fica a leitura do item 7.1.3 que aborda os carregamentos relativo a esse tipo.
+    <br><br>
+    O item 7.1.4 específica que o peso específico do solo úmido deve ser considerado no mínimo igual a 18  𝑘𝑁⁄𝑚^3  e o ângulo de atrito interno no máximo igual a 30º.
+    <br><br>
+    As barreiras de concreto são definidas no item 2.4.3.3.1 do manual 698 (DNIT, 1996). Essas barreiras são padronizadas no padrão New Jersey do modelo americano e são feitas em concreto armado. A Fig. 1.1 apresenta os detalhes geométricos desse tipo de seção transversal.
+    <br><br>
+    No caso de guarda-corpo para as pontes deve-se usar a referência do item 2.4.3.3.2 do manual 698 (DNIT, 1996). Seguindo as especificações da NBR 6120 (ABNT, 1980) que diz que: Ao longo dos parapeitos e balcões devem ser consideradas aplicadas, uma carga horizontal de 0,8 kN/m na altura do corrimão e uma carga vertical mínima de 2 kN/m. 
+    <br><br>
+    A carga horizontal de 0,8 kN/m é satisfatória para passeios exclusivamente de pedestres, devendo, porém, ser aumentada para 1,5 kN/m quando se tratar de passeios mistos, para pedestres e ciclistas. 
+    <br><br>
+    A Fig. 1.2 apresenta o detalhe geométrico de um guarda-corpo metálico para ponte rodoviárias. Para o cálculo da carga considerar uma base de concreto de 15 x 10 cm em concreto armado mais o peso indicado na NBR 6120 (ABNT, 1980) .
+    <br><br>
+    A bibliografias recomendam que entre o pré-dimensionamento e projeto executivo a carga permanente não pode variar mais que 5% do valor.
+</p>
 
 <p align = "justify">
   A fundação tipo tubulão é bastante utilizada para aplicações em pontes. Segundo o item 3.49 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se tubulão como um elemento de fundação profunda em que, pelo menos na etapa final da escavação do terreno, faz-se necessário o trabalho manual em profundidade para executar o alargamento de base ou pelo menos para a limpeza do fundo da escavação, uma vez que neste tipo de fundação as cargas são resistidas preponderantemente pela ponta.
