@@ -61,7 +61,7 @@ O esquema de construção de um tubulão a ar comprimido segue um esquema simila
 tubulão <a href="#ref2">[2]</a>.</p>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3qMTjCqUBP8?si=Pt26zy8tfHADHtnu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qMTjCqUBP8?si=Pt26zy8tfHADHtnu#t=38s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 <h2>Estacas</h2> 
