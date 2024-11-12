@@ -210,97 +210,43 @@ has_toc: false
 	</ol>
 </p>
 
-
+<p>
+<b>Cálculo co CIV:</b>
+</p>
 <center><img src="./assets/images/calculo_CIV.png" width="90%"></center>
-<p align = "justify"><b>Figura 8.</b> Posição em planta do veiculo tipo TB-450 <a href="#ref2">[2]</a>.</p>
 
+<br>
+<p>
+<b>Cálculo co CNF:</b>
+</p>
+<center><img src="./assets/images/calculo_CNF.png" width="90%"></center>
+
+<br>
+<p>
+<b>Cálculo co CIA:</b>
+</p>
+<center><img src="./assets/images/calculo_CIA.png" width="90%"></center>
+
+<br>
+<p>
+<b>Cálculo co CIA:</b>
+</p>
+<center><img src="./assets/images/calculo_C_FINAL.png" width="90%"></center>
+
+<h4>Metodologia básica para consideração do trem-tipo</h4>
 
 <p align = "justify">
-  A fundação tipo tubulão é bastante utilizada para aplicações em pontes. Segundo o item 3.49 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se tubulão como um elemento de fundação profunda em que, pelo menos na etapa final da escavação do terreno, faz-se necessário o trabalho manual em profundidade para executar o alargamento de base ou pelo menos para a limpeza do fundo da escavação, uma vez que neste tipo de fundação as cargas são resistidas preponderantemente pela ponta.
+  Colocação do veículo tipo padrão na posição mais desfavorável do tabuleiro de forma gerar os maiores esforços;
 	<br><br>
-	Os tubulões pode ser de dois tipos:
-	<br>
-	<ul>
-		<li>Céu aberto;</li>
-		<li>Ar comprimido.</li>
-	</ul>
-  A Figura <a href="#fig1">1</a> apresenta a geometria tradicional de um tubulão.
+	a) Escolha do TB (Trem tipo rodoviário brasileiro) a ser determinado: Trem tipo para flexão e cisalhamento ou trem tipo para torção;<br>
+	b) Utilizar metodologia de equilíbrio de esforços nas seções ou Linha de influência;<br>
+	c) Determinação do trem – tipo para seção com carga do veículo + carga de multidão e seção com apenas carga de multidão;<br>
+	d) Majoração dos valores do trem tipo obtido para obtenção do trem tipo final com a consideração dos coeficientes descritos abaixo:<br>
+	d.1) CIV (Coeficiente de Impacto Vertical);<br>
+	d.2) CNF (Coeficiente do Número de Faixas);<br>
+	d.3) CIA (Coeficiente de impacto adicional);
 </p>
 
-<p id="fig1"></p>
-<center><img src="./assets/images/tubulao_1.png" width="90%"></center>
-<p align = "justify"><b>Figura 1.</b> Tubulões: (a) em perfil, sem e com alargamento de base e formas de base usuais: (b) circular e (c) "falsa elipse" <a href="#ref2">[2]</a>.</p>
-
-<p align = "justify">
-O esquema de construção de um tubulão a ceú aberto pode ser visto na Figura <a href="#fig2">2</a>.
-</p>
-
-<p id="fig2"></p>
-<center><img src="./assets/images/tubulao_2.png" width="90%"></center>
-<p align = "justify"><b>Figura 2.</b> Execução de tubulão a céu aberto: (a) escavação, (b) concretagem a seco, (c) tubulão pronto <a href="#ref2">[2]</a>.</p>
-
-<p align = "justify">
-O esquema de construção de um tubulão a ar comprimido segue um esquema similar ao processo a ceú aberto. Porém utiliza-se uma campânula. Esse recurso é empregado quando na execução do tubulão atinge-se o lençol d'água, sendo necessário revestir a escavação e também empregar o ar comprimido. O modelo de camânula pode ser visto na Figura <a href="#fig3">3</a>.
-</p>
-
-<p id="fig3"></p>
-<center><img src="./assets/images/tubulao_3.png" width="60%"></center>
-<p align = "justify"><b>Figura 3.</b> Campânula para pressurização do 
-tubulão <a href="#ref2">[2]</a>.</p>
-<br>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3qMTjCqUBP8?si=Pt26zy8tfHADHtnu&start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 1.</b> Você conhece o tubulão a ar comprimido? <a href="#ref3">[3]</a>.</p>
-
-<h2>Estacas</h2> 
-
-<p align = "justify">
-  Segundo o item 3.11 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se estaca como um elemento de fundação profunda executado inteiramente por equipamentos ou ferramentas, sem que, em qualquer fase de sua execução, haja trabalho manual em profundidade. Os materiais empregados podem ser: madeira, aço, concreto pré-moldado, concreto moldado in loco, argamassa, calda de cimento, ou qualquer combinação dos anteriores.	
-</p>
-<br>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KKgTq8JievA?si=mFsgijSYmA3e-aBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 2.</b> Tubulão em água <a href="#ref4">[4]</a>.</p>
-
-<h1>Mesoestrutura</h1> 
-
-<p align = "justify">
-	Segundo o antigo DNER <a href="#ref5">[5]</a> o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
-</p>
-
-<ol type = "a">
-  <li><p align = "justify">Através de peças pré-moldadas, em passarelas e obras de pequenos vãos;<p/></li>
-  <li><p align = "justify">Através de concretagem convencional, isto é, executadas as fôrmas completas, concreta-se de baixo para cima, em concretagens contínuas, concreto lançado ou bombeado e vibrado;</p></li>
-  <li><p align = "justify">Através de fôrmas deslizantes, fôrmas desmontáveis de cerca de 1,0 m de altura, empurradas continuamente para cima, simultaneamente com a concretagem, contínua e vibrada;</p></li>
-  <li><p align = "justify">Através de fôrmas trepantes, fôrmas desmontáveis de cerca de 3,0 m de altura e concretagem por segmentos, vibrada e interrompida.</p></li>
-</ol>
-
-<p align = "justify">
-  O sistema construtivo da mesoestrutura influi no seu detalhamento; no caso particular de fôrmas deslizantes recomenda-se um cobrimento adicional das armaduras, de 3 a 4 cm, para combater a tendência à fissuração da camada superficial do concreto, provocada pelo arrasto das fôrmas. 
-</p>
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WRPs5EtK8vE?si=TZHuOtbrdSq1PHs5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 3.</b> Fôrmas deslizantes <a href="#ref6">[6]</a>.</p>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uPUsl5_2c14?si=S0OMpDKS3nX7SyL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 4.</b> Fôrmas trepantes <a href="#ref7">[7]</a>.</p>
-
-<h1>Superestrutura</h1> 
-
-<p align = "justify">
-De acordo com Leonhardt <a href="#ref8">[8]</a> a classificação segundo o processo executivo é dada por três subdivisões, são elas:
-</p>
-
-<ol type="a">
-  <li>Construção com concreto moldado <i>in loco</i>;</li>
-  <li>Construção com elementos pré-moldados;</li>
-  <li>Construção por deslocamentos progressivos.</li>
-</ol>
 
 <h3>Bibliografia</h3>
 
