@@ -245,7 +245,7 @@ has_toc: false
 <br>
 
 <p align = "justify">
-  Já os aparelhos de apoio metálicos podem ser os mais variados possíveis nesse caso será exemplificado aqui o aparelho do tipo Rolete. Tais apoios também permitem apenas a rotação da seção transversal. A Figura. <a href="#fig13">13</a> apresenta um modelo de rolete.
+  Já os aparelhos de apoio metálicos podem ser os mais variados possíveis nesse caso será exemplificado aqui o aparelho do tipo Rolete. Tais apoios também permitem apenas a rotação da seção transversal. A Figura. <a href="#fig13">13</a> apresenta um modelo de rolete..
 </p>
 <br>
 
