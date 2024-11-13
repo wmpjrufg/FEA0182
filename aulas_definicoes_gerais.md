@@ -1939,7 +1939,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
     </tr>
     <tr>
         <th >
-         \[𝐴_𝑐=(1,50〖.𝑁〗_𝑑^∗)/(0,50.𝑓_𝑐𝑘+0,42)≥360 〖𝑐𝑚〗^2\]
+         𝐴_𝑐=(1,50〖.𝑁〗_𝑑^∗)/(0,50.𝑓_𝑐𝑘+0,42)≥360 〖𝑐𝑚〗^2
          </th>            
     </tr>      
 </table>
