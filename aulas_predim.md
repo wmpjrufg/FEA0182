@@ -384,3 +384,359 @@ Dados do projeto de Araújo <a href="#ref3">[3]</a>:
         </tr>
     </tbody>
 </table>
+
+
+<p>--------------------------------------------------------------------------------------------------------------------------------</p>
+
+
+
+<h1>Solicitações para o sistema de viga contínua</h1>
+
+<h2>Esforços Horizontais</h2>
+
+<p align = "justify">
+  Como o sistema é monolítico os deslocamentos sofridos pelo tabuleiro serão repassados ao topo de cada pilar de concreto da mesoestrutura. Segundo Taguti (2002) os seguintes esforços atuam transversalmente ao pilares:
+  <br><br>
+  a) Esforços longitudinais atuantes no tabuleiro
+  - Frenagem e aceleração de veículos
+  - Empuxo de terra e sobrecarga na cortina
+  - Componente longitudinal do vento, calculadas da seguinte forma:
+  - vento na superestrutura = 25% do esforço de vento na direção transversal
+  - vento no veículo = 40%
+  <br><br>
+  b) Esforços transversais atuantes no tabuleiro
+  - Vento
+  - Força centrífuga (pontes em curva horizontal)
+  - Impacto lateral (pontes ferroviárias)
+  - Empuxo de terra nas cortinas ( pontes esconsas)
+  <br><br>
+  c) Esforços devidos a deformações impostas
+  - Efeito da temperatura nas vigas principais
+  - Efeito da retração nas vigas principais
+  <br><br>
+  d) Esforços que atuam diretamente sobre os pilares
+  - Empuxo de terra
+  - Pressão do vento
+  - Pressão d'água
+</p>
+<br><br><br>
+
+<h1>Determinação das solicitações nos pilares</h1>
+
+<h2>Solicitação para sistema em viga contínua</h2>
+
+<p align = "justify">
+  De acordo com Araújo (2010) o sistema formado por vigas contínuas, quando
+  a superestrutura sofre um deslocamento horizontal o topo dos pilares sofre o
+  mesmo deslocamento por estes estarem ligados à superestrutura. O esforço
+  aplicado ao topo de cada pilar é igual ao produto do deslocamento pela
+  rigidez do pilar (K). Portando faz-se a equação:
+</p>
+
+
+
+
+
+<p align = "justify">
+  (a) Estruturas construídas sobre vias navegáveis: Para vias navegáveis a chatas e rebocadores, é comum prever-se a altura livre de 3,50m a 5,0m acima do nível máximo de cheia. A largura deve atender no mínimo a largura máxima da embarcação mais 1,m (Figura. <a href="#fig9">9</a>).
+ 	<br><br>
+  Para estruturas construídas sobre vias não navegáveis normalmente se estabelece uma altura livre de 2 m acima do nível de máxima cheia. 
+	<br><br>
+	Na Figura. <a href="#fig9">9</a> é apresentado o gabarito da ponte sobre o Rio Paraguai em Cáceres-MT, com gabarito de 30 m de largura por 12 m de altura sobre nível máximo de cheia das águas.
+</p>
+<br>
+
+
+
+<p id="fig1"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_1_1.png" width="90%"></center>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Distribuição das cargas variáveis sobre o tabuleiro da ponte.</p>
+<br>
+
+<h2>Rigidez de pilares Engastado-livre</h2>
+
+<p align = "justify">
+  Utilizando-se o modelo para as cargas horizontais, onde os pilares e seus
+  respectivos aparelhos de apoio são considerados apoios elásticos, resulta que
+  a superestrutura submetida a um esforço horizontal longitudinal F , sofre um
+  deslocamento D e, consequentemente, todos os topos dos pilares
+  também se deslocarão de D (Fig. <a href="#fig2">2</a>) . Com isso, a solução do
+  problema se torna simples, bastando para tanto o cálculo das rigezas dos
+  apoios elásticos (formado pelo conjunto: pilar e aparelho de apoio).
+</p>
+<br>
+
+
+<p id="fig2"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Modelo de cálculo da distribuição de forças longitudinais entre os apoios elásticos.</p>
+<br>
+
+<p align = "justify">
+Verificando o sistema pilar apoio como uma barra engastada livre (Figura. <a href="#fig3">3</a>)
+têm-se então o valor da rigidez de cada pilar:
+</p>
+<br>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_3.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> Modelo do pilar de concreto armado engastado-livre.</p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_3_1.png" width="90%"></center>
+<br>
+
+<p align = "justify">
+  Considerando agora a rigidez do aparelho de apoio têm-se então:
+</p>
+<br>
+
+<p id="fig4"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_4.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> Modelo do apoio em neoprene.</p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_4_1.png" width="90%"></center>
+<br>
+
+<p align = "justify">
+  Considerando agora a rigidez do conjunto completo tem-se o
+  comportamento completo da ligação. A associação do pilar engastado-livre
+  e o apoio em neoprene resultará em um elemento de rigidez Ki.
+</p>
+<br>
+
+<p id="fig5"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_5.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> Modelo completo do apoio elástico.</p>
+<left><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_5_1.png" width="90%"></left>
+<br>
+
+
+<h2>Rigidez de pilares biengastados</h2>
+
+<p align = "justify">
+  Araújo (2010) cita a rigidez de pilares biengastados. Segundo o mesmo
+  quando o pilar é biengastado, o procedimento é análogo, podendo a rigidez
+  ser calculada como o inverso da flexibilidade (processo dos esforços) ou
+  obtida diretamente de tabelas. Para o caso particular de pilar biengastado
+  de inércia constante sua rigidez vale:
+</p>
+<br>
+
+<p id="fig6"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_6.png" width="90%"></center>
+<p align = "justify"><b>Figura 6.</b> Modelo do pilar biengastado.</p>
+<left><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_6_1.png" width="90%"></left>
+<br>
+
+<p align = "justify">
+  O cálculo da distribuição do esforço longitudinal entre os pilares é geralmente
+  feito admitindo que o esforço horizontal seja aplicado no eixo de simetria do
+  tabuleiro. No caso de pontes rodoviárias, por exemplo, admite-se que o
+  veículo tipo, ao freiar, esteja circulando no centro da pista de rolamento. Esta
+  simplificação é admissível considerando que, em geral, a largura das pontes é
+  muito menor que o seu comprimento (PFEIL, 1983).
+</p>
+<br>
+
+<h2>Distribuição dos esforços transversais</h2>
+
+<p align = "justify">
+  Devido à grande rigidez que as lajes concedem, no plano horizontal, ao
+  tabuleiro da ponte, este pode ser considerado, sob a ação de esforços
+  transversais, como uma placa sobre apoios elásticos. Quando esses esforços
+  incidem no tabuleiro, este se desloca horizontalmente solicitando os pilares. Se
+  o deslocamento for apenas uma translação na direção horizontal, o
+  problema é análogo ao de distribuição de esforços longitudinais, ou seja,
+  cada eixo recebe um quinhão de carga proporcional à sua rigidez na direção
+  transversal (Figura. <a href="#fig7">7</a>). Neste caso, a rigidez transversal de cada pilar (ou eixo) deve ser calculada levando em conta a existência de vigas transversais
+  ligando os pilares que formam, assim, pórticos nessa direção. Para tanto, a
+  rigidez pode ser calculada como o inverso do deslocamento do topo do
+  pórtico quando nesta posição é aplicada uma força unitária (ARAÚJO, 2010).
+</p>
+<br>
+
+<p id="fig7"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_7.png" width="90%"></center>
+<p align = "justify"><b>Figura 7.</b> Vista em planta da atuação de esforços transversais no tabuleiro (a); translação horizontal do tabuleiro (b); determinação da rigidez transversal do pórtico (c)
+.</p>
+<br>
+
+<p id="fig8"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_8.png" width="90%"></center>
+<p align = "justify"><b>Figura 8.</b> Vista em planta da atuação de esforços transversais no tabuleiro (a);
+translação horizontal do tabuleiro (b); rotação horizontal do tabuleiro em torno do ponto (c).</p>
+<br>
+
+<p align = "justify">
+  Quando ocorre a rotação do tabuleiro, cada pilar Pi, distante xi do ponto O,
+  sofre um deslocamento horizontal θh xi, perpendicular ao eixo da ponte na
+  posição original. Ao deslocamento do pilar corresponde um esforço Ki. θh. xi
+  na direção do deslocamento, sendo Ki a rigidez do pilar (ou eixo) na direção
+  desse deslocamento (ARAUJO, 2010).
+</p>
+<br>
+
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_c.png" width="90%"></center>
+<br>
+
+
+<h1>Cálculo dos esforços longitudinais e transversais</h1>
+
+<h2>Frenagem ou Aceleração</h2>
+
+<p align = "justify">
+  Um veículo qualquer em movimento sobre uma ponte representa, em virtude
+  de sua massa, uma certa força-viva de que é possuída. A força resultante é
+  chamada frenagem. Do mesmo modo, ao iniciar seu movimento apoia-se
+  sobre a estrutura transmitindo à mesma um esforço chamado aceleração.
+  <br><br>
+  O item 7.2.1.5 da NBR 7187 (ABNT, 2003) cita as orientações relativas a essa
+  carga. No caso são os seguintes valores:
+  <br><br>
+  a) Pontes rodoviárias: sem impacto, aplicada na pavimentação:
+  Aceleração: 5% da carga móvel aplicada sobre o tabuleiro;
+  Frenagem: 30% do peso do veículo-tipo.
+  <br><br>
+  Deve-se adotar o valor mais desfavorável segundo Pfeil (1983).
+</p>
+<br>
+
+<h2>Empuxo de terra</h2>
+
+<p align = "justify">
+  O item 7.1.4 da NBR 7187 (ABNT, 2003) apresenta as condições para o cálculo
+  dos empuxos de terra atuantes sobre os pilares.
+  <br><br>
+  O empuxo de terra nas estruturas é determinado de acordo com os princípios
+  da mecânica dos solos, em função de sua natureza (ativo, passivo ou de
+  repouso), das características do terreno, assim como das inclinações dos
+  taludes e dos paramentos. Como simplificação, pode ser suposto que o solo
+  não tenha coesão e que não haja atrito entre o terreno e a estrutura, desde
+  que as solicitações assim determinadas estejam a favor da segurança.
+  <br><br>
+  O peso específico do solo úmido deve ser considerado no mínimo igual a 18
+  kN/m³ e o ângulo de atrito interno no máximo igual a 30º. Os empuxos ativo e
+  de repouso devem ser considerados nas situações mais desfavoráveis. A
+  atuação do empuxo passivo só pode ser levada em conta quando sua
+  ocorrência puder ser garantida ao longo de toda a vida útil da obra.
+  <br><br>
+  Quando a superestrutura funciona como arrimo dos aterros de acesso, a
+  ação do empuxo de terra proveniente desses aterros pode ser considerada
+  simultaneamente em ambas as extremidades somente no caso em que não
+  haja juntas intermediárias do tabuleiro e desde que seja feita a verificação
+  também para a hipótese de existir a ação em apenas uma das extremidades,
+  agindo isoladamente (sem outras forças horizontais) e para o caso de
+  estrutura em construção.
+  <br><br>
+  Nos casos de tabuleiro em curva ou esconso, deve ser considerada a
+  atuação simultânea dos empuxos em ambas as extremidades, quando for
+  mais desfavorável.
+  <br><br>
+  No caso de pilares implantados em taludes de aterro, deve ser adotada, para
+  o cálculo do empuxo de terra, uma largura fictícia igual a três vezes a largura
+  do pilar, devendo este valor ficar limitado à largura da plataforma do aterro.
+</p>
+<br>
+
+<p id="fig9"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_9.png" width="90%"></center>
+<p align = "justify"><b>Figura 9.</b> Distribuição das cargas variáveis sobre o tabuleiro da ponte.</p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_9_1.png" width="90%"></center>
+<br>
+
+<h2>Deformações internas no estrado</h2>
+
+<p align = "justify">
+  Sob a ação da retração do concreto, o tabuleiro se encurta. Sob ação da
+  temperatura, o tabuleiro se alonga ou se encurta, conforme a temperatura
+  cresça ou decresça. Dada a sua ligação com o tabuleiro, os pilares são
+  obrigados a acompanhar esse movimentos, resultando esforços aplicados nos
+  topos dos pilares (ARAÚJO, 2010).
+  <br><br>
+  O efeito da retração pode ser assimilado a uma variação de temperatura de
+  -15C. Quando todos os pilares sobre os quais o estrado se apoia são elásticos,
+  os movimentos de alongamento e encurtamento ocorrem nos dois sentidos
+  da direção longitudinal do tabuleiro e há, evidentemente, um plano
+  perpendicular a essa direção no qual não ocorrem deslocamentos. Esse plano
+  fica localizado no “centro de gravidade” das rigezas longitudinais, o qual é
+  determinado de forma análoga ao “centro de gravidade” das rigezas
+  transversais (ARAÚJO, 2010).
+  <br><br>
+  Conhecida a distância x de cada pilar ao ponto indeslocável, o
+  deslocamento de seu topo é dado pela expressão αc.ΔT. x , no qual ac é o
+  coeficiente de dilatação térmica do concreto armado (10<sup>-5</sup>/C) e ΔT é a
+  variação de temperatura. O esforço aplicado no topo de cada pilar, devido
+  à retração e à variação de temperatura, é dado por (ARAÚJO, 2010):
+</p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_c1.png" width="90%"></center>
+<br>
+
+<h2> Vento na Estrutura</h2>
+
+<p align = "justify">
+  De acordo com a NBR 7187, o vento é considerado uma força horizontal agindo normalmente ao eixo da estrutura e unifimemente distribuído ao longo desse eixo. O valor dessa força é o seguite: (MARCHETTI, 2008)
+  <br><br>
+  a)  Ponte descarregada - pv = 1,5 kN / m<sup>2</sup> - agindo sobre uma superfície representada pela projeção da estrutura sobre um plano vertical normal à direção do vento.
+  <br><br>
+  b)  Ponte carregada: 
+  <br>
+  para pontes rodovíarias: pv = 1 kN / m<sup>2</sup>
+  <br>
+  para passarelas: pv = 0,7 kN / m<sup>2</sup>
+</p>
+<br>
+
+
+<p id="fig10"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_10.png" width="90%"></center>
+<p align = "justify"><b>Figura 10.</b> Configuração das cargas de vento atuantes considerando a ponte descarregada.</p>
+<p><b>F<sub>vento</sub> = 1,50 x (H<sup>guarde-rodas</sup> + H<sup>viga</sup>) x L<sup>ponte</sup></b></p>
+<br><br>
+
+<p id="fig11"></p>
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_11.png" width="90%"></center>
+<p align = "justify"><b>Figura 11.</b> – Configuração das cargas de vento atuantes considerando a ponte carregada.</p>
+<p><b>F<sub>vento</sub> = 1,00 x (H<sup>viga</sup> + e<sup>pavimentação</sup> + 2,0) x L<sup>ponte</sup></b></p>
+<br>
+
+<h2>Pressão da água nos pilares</h2>
+
+<p align = "justify">
+  A água correte exerce um esforço na infraestrutura da ponte que pode ser expresso por:<br><br>
+  p = <i>k</i>v<sup>2</sup> (KN / m)
+  <br><br>
+  Onde:<br>
+  <i>k</i> é o coeficiente dimensional e <br>
+  <i>v</i> é a velocidade da água corrente
+</p>
+<br>
+
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_c2.png" width="90%"></center>
+
+<p align = "justify">
+  No caso de não existir informação da velocidade da água, adotaremos a velocidade da água v = 2 m/s (adotado), ou então, se não houver medição no local.
+</p>
+<br>
+
+<h2>Impacto nos Pilares</h2>
+
+<p align = "justify">
+  A NBR 7187 estabelece que, no caso da possibilidade desses choques, deverão ser tomadas medidas especiais de proteção dos pilares, as quais podem ser representadas por defensas, "Duques de Alba" (embarcações) etc.
+</p>
+<br>
+
+<center><img src="./assets/images/aula_pontes_CA_dimen_pilares/FIG_c3.png" width="90%"></center>
+<br>
+
+<p align = "justify">
+  A NBR 7187, todavia, não estabelece qual o valor a assumir para a força horizontal devido ao choque dos veículos ou embracações. Outras normas, porém, como a norma alemã (D.I.N), estabelecem para essa força horizontal valores bastante elevados. Por exemplo, na D.I.N:<br><br>
+   H = 1000 kN no sentido longitudinal<br>
+   H = 500 kN no sentido transversal
+   <br><br>
+   aplicados a 1 m de altura
+</p>
+
+
+
+
+
+
