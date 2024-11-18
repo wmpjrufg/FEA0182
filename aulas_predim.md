@@ -735,8 +735,299 @@ translação horizontal do tabuleiro (b); rotação horizontal do tabuleiro em t
    aplicados a 1 m de altura
 </p>
 
+<p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 
+<p>aula "determinação dos esforços no tabuleiro"</p>
 
+<h1>Conceitos Iniciais sobre o tabuleiro</h1>
+<br>
 
+<h2>O tabuleiro da Ponte</h2>
 
+<p align = "justify">
+  Stucchi (2006) primeiramente classifica geometricamente uma estrutura superficial que forma a ponte. Para o autor os elementos de superfície são  estruturas  que  têm  uma  de  suas  dimensões  bem  menor  que  as  outras  duas.  Ela  é chamada de espessura. 
+  <br><br>
+  A superfície média é a definida a meia espessura, perpendicularmente à ela. 
+  <br><br>
+  As estruturas de superfície são classificadas em: 
+  <br><br>
+  a) Placa: Estrutura de superfície média plana carregada perpendicularmente à ela.
+  As placas de concreto armado são chamadas lajes;<br>
+  b) Chapa: Estruturas de superfície média plana carregada paralelamente a ela. As chapas de concreto armado são chamadas vigas parede. <br>
+  c) Casca: Estruturas de superfície média curva.
+</p>
+<br>
+
+<p id="fig1"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Exemplos de estruturas de superfície.</p>
+<br>
+
+<p align = "justify">
+  O tabuleiro das pontes em concreto é constituído por lajes ligadas de diversas
+  maneiras aos demais elementos da superestrutura. Esses elementos, que servem de apoio paras as lajes, são as longarinas, as transversinas e as vigas de fechamento. As dimensões e as condições de apoio das lajes são função da distribuição dos demais elementos da superestrutura. A forma mais comum para as lajes de ponte são aquelas em que uma dimensão é muito maior que a outra. Quanto às condições de apoio, as lajes podem ser apoiadas, em balanço ou com engastamento parcial (ARAÚJO, 2010). 
+  <br><br>
+  Araújo (2010) apresenta na Figura. <a href="#fig7">7</a> uma seção transversal típica de uma ponte de concreto.
+</p>
+<br>
+
+<p id="fig2"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Tipos de ciclos de tensão.</p>
+<br>
+
+<p align = "justify">
+  Segundo Araújo (2010) o dimensionamento das lajes pode ser feito por métodos elásticos ou métodos baseados nas linhas de ruptura (ou charneiras plásticas). Os métodos elásticos baseiam-se na teoria da elasticidade levando em consideração a forma de distribuição das cargas móveis sobre o tabuleiro. Os métodos baseados nas linhas de ruptura definem uma provável configuração de fissuras na laje e, a partir do equilíbrio estático do painel, fornecem os momentos fletores empregados no dimensionamento da laje. Atualmente tem sido empregados métodos discretos para avaliação dos esforços em lajes de pontes. Dentre esses métodos, destaca-se o método dos elementos finitos que, empregado com o auxílio de microcomputadores, agiliza os cálculos dos esforços além de fornecer uma visão mais completa do comportamento do tabuleiro.
+  <br><br>
+  Nesse texto será apresentado o método elástico para determinação dos esforços e superfícies de influência do tabuleiro da ponte. Para tanto será explicado o método do professor Hubert Rush mais conhecidos como tabelas de Rush.
+</p>
+<br>
+
+<h2>Conceitos Iniciais de Superfície de influência</h2>
+
+<p align = "justify">
+  No tabuleiro de pontes os responsáveis por gerar esforços nessa peças, são os veículos tipos que transitam ao longo do eixo da peça. Portanto a análise dos esforços em uma placa seguirá os mesmos conceitos das linhas de influência visto no capitulo anterior, porém agora o conceito terá o nome de superfície de influência, pois será admitido para um elementos de placa.
+
+  Como o método descrito é elástico a sua solução será dada através da solução da equação da placa conforme apresentado nas disciplinas de lajes de concreto armado.
+
+  Admitindo que tem transmite os esforços para a placa são as rodas do veículo tipo o problema será dado em função dessa ordenada. Araújo (2010) afirma que a força se distribuirá em uma certa área – em geral, considera-se o espalhamento da força a 45º até o plano médio da laje, o momento então será dado pela ordenada média da superfície nessa área, cujo valor pode ser calculado numericamente (Ver Figura. <a href="#fig3">3</a>).
+</p>
+<br>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_3.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> Superfície média para cálculo de uma distância média.</p>
+<br>
+
+<p align = "justify">
+  Como o conceito é estendido do problema unidimensional, têm-se então a versão bi-dimensional da determinação da superfície de influência do sólido, dado pela equação a abaixo:
+</p>
+
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_c1.png" width="90%"></center>
+<br>
+
+<p align = "justify">
+  Logo o efeito que será simulado é dado na Figura. <a href="#fig4">4</a>
+</p>
+<br>
+
+<p id="fig4"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_4.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> Superfície de influência para um efeito S específico.</p>
+<br>
+
+<p align = "justify">
+  Resolvendo o problema geral dado anteriormente o esforço final em uma placa será dado pela equação abaixo:
+</p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_c2.png" width="90%"></center>
+
+<p align = "justify">
+  Onde V<sub>i</sub> e A<sub>i</sub> são, respectivamente, os volumes e as áreas determinadas na superfície de influência pela projeção no plano da laje das áreas ou linhas de atuação das forças, e  δ<sub>i</sub> são as ordenadas dos pontos de atuação das forças concentradas (ARAÚJO, 2010).
+
+  Algumas bibliografias como Timoshenko; Krieger (1987) e Araújo (2010) apresentam exemplos e superfícies de influência. Portanto ver as Figuras. <a href="#fig5">5</a> e <a href="#fig6">6</a>
+</p>
+<br>
+
+<p id="fig5"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_5.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> Superfície de influência de uma placa retangular.</p>
+<br>
+
+<p id="fig6"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_6.png" width="90%"></center>
+<p align = "justify"><b>Figura 6.</b> Superfície de influência do momento fletor na seção do meio do vão de uma
+laje retangular apoiada nos quatro lados.
+</p>
+<br>
+
+<h1>Ações no Tabuleiro</h1>
+
+<h2>Tipo e Cálculo das Ações no Tabuleiro</h2>
+
+<p align = "justify">
+  De maneira geral as cargas irão ser divididas em permanentes e variável. A seguir serão listadas algumas cargas que são encontradas comumente em lajes de concreto. 
+  <br><br>
+  Carregamentos em lajes maciças são normalmente anotados em função de uma área, portanto na maioria das vezes é dada pelo equacionamento abaixo:
+</p>
+<p id="eque1">
+<b>
+G<sub>tipo</sub> = h . desnsidade
+</b>
+</p>
+<p align = "justify">
+  O peso próprio da laje é o peso do concreto armado que forma a laje maciça. Para o peso específico do concreto armado a NBR 6118 (ABNT, 2014) indica o valor de 25 kN/m<sup>3</sup>.
+  <br><br>
+  Para as pontes de concreto considera-se o pavimento da pista de rolamento. Essa consideração deve ser feita em função do tipo de material. Para sistemas mais comuns que usam o CBUQ esse valor é de 24 kN/m<sup>3</sup> com a possibilidade de consideração do recapeamento sobre o sistema aumentando assim a carga permanente em 2 kN/m<sup>3</sup>.
+  <br><br>
+  A ação variável do sistema é a carga móvel, que irá depender do trem tipo escolhido.
+  <br><br>
+  Para a carga variável os valores serão definidas em função da NBR 7188 (ABNT, 2012). O trem tipo padrão estabelecido por essa norma é o TB-450 com carga total de 450 kN e carga por roda de 75 kN. Já a carga de multidão que circunda esse veiculo tipo é de 5 kN/m<sup>2</sup>.
+</p>
+<br>
+
+<p id="fig7"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_7.png" width="90%"></center>
+<p align = "justify"><b>Figura 7.</b> Seção transversal de uma ponte típica de 2 longarinas.
+</p>
+<br>
+
+<h1>Utilização das Tabelas de RUSCH para Determinação dos Momentos</h1>
+
+<h2>Apresentação da Tabela de RüSCH (1960)</h2>
+
+<p align = "justify">
+  As tabelas de Rüsch permitem a determinação das solicitações nas lajes, mediante condições de apoio prefixadas, incluindo apoio simples, engaste perfeito ou bordo livre. Para os diversos tipos de apoios são apresentados diagramas de cobrimento de momentos fletores para toda a superfície da laje a partir de máximos calculados no centro e nos bordos (ARAUJO, 2014).
+
+  Nessa Tabela são fornecidos os valores do momento fletor, Mxm e Mym, no meio do vão da laje devido ao efeito das cargas das rodas do veículo (P = 1 t) e da sobrecarga uniformemente distribuída em volta do veículo (p = p’ = 1 t/m<sup>2</sup> ). A direção do tráfego é admitida, nessa tabela, na direção y, sendo a direção y adotada paralela ao maior vão da laje (ARAUJO, 2014).
+
+  Para maiores detalhes é apresentada a tradução de Araújo (2014) referente a Tabela de Rüsch (1960) e o veículo tipo utilizado.
+</p>
+<br>
+
+<p id="fig8"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_8.png" width="90%"></center>
+<p align = "justify"><b>Figura 8.</b> Carga móvel da norma alemã DIN-1072 (classe 30 t a 60 t).
+</p>
+<br>
+
+<p id="tab1"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/TAB_1.png" width="90%"></center>
+<p align = "justify"><b>Tabela 1.</b> –  Tabela de Rüsch (1960) para momentos fletores em laje apoiada com tráfego na direção y (ly / lx = 1) 
+</p>
+<br>
+
+<h2>Leitura da Tabela de RüSCH (1960)</h2>
+
+<p align = "justify">
+  A primeira identificação que deve ser feita é relativo ao tipo de engastamento da laje. Nas Tabelas de Rusch (1960) a identificação desse contorno é feito de acordo com a Figura. <a href="#fig9">9</a>
+</p>
+<br>
+
+<p id="fig9"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_9.png" width="90%"></center>
+<p align = "justify"><b>Figura 9.</b> Apresentação dos apoios na Tabela de Rusch
+</p>
+<br>
+
+<p align = "justify">
+  A segunda avaliação deve ser feita em relação a direção do tráfego (palavra Fahrtrichtung na Tabela) em relação ao tipo do engastamento. Veja os exemplos dados na Figura. <a href="#fig10">10</a>
+  <br><br>
+  A terceira tarefa se diz a respeito da geometria da laje pelo cálculo do fator 𝜆=𝑙_𝑦/𝑙_𝑥 , muito utilizada nas tabelas de cálculo de lajes em estruturas de concreto armado.
+</p>
+
+<p id="fig10"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_10.png" width="90%"></center>
+<p align = "justify"><b>Figura 10.</b> Apresentação dos apoios na Tabela de Rusch
+</p>
+<br>
+
+<p align = "justify">
+  Identificada a Tabela através dessas características iniciais, deve-se então verificar os fatores. O primeiro fator é a relação \[𝑙_𝑥⁄𝑎\]. O fator a se diz respeito a distância adjacente entre as  rodas de um mesmo eixo. No caso do TB 450 o valor de a=200,00 cm ou 2,00 m. O segundo fator é a relação 𝑡⁄𝑎, onde t é a largura de distribuição da pressão da roda. Para maiores detalhes ver a Figura. <a href="#fig11">11</a>
+</p>
+<br>
+
+<p id="fig11"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_11.png" width="90%"></center>
+<p align = "justify"><b>Figura 11.</b> Representação das variáveis b e t na planta da laje
+</p>
+<br>
+
+<p align = "justify">
+  A largura t é dada por:
+  <br>
+  𝑡<sub>𝑥</sub> 𝑜𝑢 𝑡<sub>𝑦</sub> = 𝑏+2 . ℎ<sub>𝑝𝑎𝑣</sub> + ℎ<sub>𝑙𝑎𝑗𝑒</sub>
+  <br>
+  Como a roda tem contato nas duas direções é necessário fazer o valor médio de t, dado pela equação abaixo. Maiores detalhes na Figura. <a href="#fig12">12</a>
+</p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_c3.png" width="90%"></center>
+<p align = "justify">
+  Portanto para finalizar a leitura da tabela de Rusch a mesma fornecerá os fatores de momento k para lançamento na equação de momentos descrita logo abaixo:
+</p>
+<br>
+
+<p id="fig12"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_12.png" width="90%"></center>
+<p align = "justify"><b>Figura 11.</b> Exemplo de perfil das rodas nas seções da ponte
+</p>
+<br>
+
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_c4.png" width="90%"></center>
+<br>
+
+<p align = "justify">
+  Para valores intermediários de t/a e l/a deve-se aplicar a interpolação. Para o caso de uma interpolação linear utiliza-se:
+</p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_c5.png" width="90%"></center>
+<br>
+
+<p align = "justify">
+  Os valores de k são recolhidos na parte superior da Tabela de Rusch (1960) conforme Tabela. <a href="#tab2">2</a> abaixo.
+</p>
+<br>
+
+<p id="tab2"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/TAB_2.png" width="90%"></center>
+<p align = "justify"><b>Tabela 2.</b> Fatores k da Tabela de Rusch
+</p>
+<br>
+
+<p align = "justify">
+  A escrita Gleichlast über die ganze platte significa carga uniformemente distribuída ao longo de toda a placa.  Ao lado dos valores de k são indicados os momentos a qual se deve usar o fator. Todos aqueles com terminação m são momento relativos ao meio da placa e a terminação e para os engastes.
+  <br><br>
+  Os fatores de carga móvel podem ser escolhidos através da visualização na Tabela ou uma interpolação linear simples. Vale salientar que para esses valores é necessário observar a posição da virgula na mesma, para não fazer nenhuma leitura errada.
+</p>
+<br>
+
+<p id="tab3"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/TAB_3.png" width="90%"></center>
+<p align = "justify"><b>Tabela 3.</b> Fatores de carga móvel da Tabela de Rusch
+</p>
+<br>
+
+<p align = "justify">
+  Os fatores do lado esquerdo são para o peso de cada roda do eixo ou o 𝑀<sub>𝐿</sub> da equação citada anteriormente enquanto os fatores do lado esquerdo são para as cargas de multidão da pontes (p interna e p’ carga externa) conforme orientação da Tabela. <a href="#tab1">1</a>
+</p>
+<br>
+
+<h1>Correção da Continuidade da Laje</h1>
+
+<h2>Considerações da Continuidade da Laje</h2>
+
+<p align = "justify">
+  Para o emprego das Tabelas de Rüsch (1960) na determinação das solicitações das lajes do tabuleiro de pontes, deve-se estabelecer condições de contorno ideais para os diversos painéis da laje. Esta escolha é, forçosamente, arbitrária dentro de certos limites. Existe ainda a necessidade de levar em conta a continuidade das lajes nos projetos, ao menos de forma aproximada, caso não se deseja fazer um cálculo rigoroso (ARAÚJO, 2010).
+  <br><br>
+  Um procedimento simplificado para avaliação da continuidade de lajes contínuas é apresentado pela NB2 (1961) para lajes apoiadas em vigas no contorno e com vãos iguais, ou em que o menor vão não seja inferior a 70% do maior vão. Esse procedimento faz uso de certa liberdade na distribuição dos momentos entre o apoio e o vão das lajes contínuas. Cada painel é calculado isoladamente como simplesmente apoiado no contorno. Para este fim, pode-se empregar qualquer dos métodos já mencionados, dos quais obtêm-se o momento máximo 𝑀<sub>(0,𝑚𝑎𝑥)</sub> no meio do vão. Adota-se a seguir um valor (𝑀<sub>𝑏</sub>) para o momento negativo no apoio que deverá estar compreendido entre 2/3 e 1/3 de 𝑀<sub>(0,𝑚𝑎𝑥)</sub>, sem ultrapassar 3/4 do maior momento na direção perpendicular à do momento máximo. Nos trechos em que 𝑀<sub>0</sub> < 𝑀<sub>𝑏</sub>, adota-se para o dimensionamento momentos negativos avaliados por: M = 𝑀<sub>0</sub> - 𝑀<sub>𝑏</sub>. Nos trechos em que 𝑀<sub>0</sub> > 0,6. 𝑀<sub>𝑏</sub>, adota-se para o dimensionamento momentos positivos avaliados por: M = 𝑀<sub>0</sub> - 0,6. 𝑀<sub>𝑏</sub> (ARAÚJO, 2010).
+  <br><br>
+  Primeiramente deve-se definir o eixo de continuidade da laje de acordo com a Figura. <a href="#fig13">13</a>
+</p>
+<br>
+
+<p id="fig13"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_13.png" width="90%"></center>
+<p align = "justify"><b>Figura 13.</b> Direção de continuidade da laje de tabuleiro
+</p>
+<br>
+
+<p align = "justify">
+  Por causa da preponderância dos momentos devidos à carga móvel frente àqueles devidos à carga permanente, faz-se a correção apenas nos primeiros. A Figura. <a href="#fig14">14</a> apresenta a consideração do tabuleiro como um todo. 
+</p>
+<br>
+
+<p id="fig14"></p>
+<center><img src="./assets/images/aula_esforco_tabuleiro/FIG_14.png" width="90%"></center>
+<p align = "justify"><b>Figura 14.</b> Vista do painel de considerando os engastamento
+</p>
+<br>
+
+<h1>Construção de Envoltória de Esforços</h1>
+
+<h2>Considerações da Continuidade da Laje</h2>
+
+<p align = "justify">
+  Após  a  determinação  dos  valores  extremos  dos  momentos  fletores  ,  no
+  centro  e  no  engaste  das  lajes    ,  é  necessário  obter  a  envoltória  dos  momentos  das  lajes  ,  para  que  se  possa retratar  as  condições  reais  de  vinculação  das  lajes  e  ,portanto,  possibilitar  um  melhor  detalhamento  das armaduras (TAGUTI, 2002).
+  <br><br>
+  Rüsch  fornece  envoltórias  de  momentos  fletores  ,construídas  a  partir  dos
+  valores extremos obtidos por meio de suas tabelas ,  para os tipos usuais de vinculação. As envoltórias são fornecidas  para  momentos  devidos  à  carga  permanente  e  à  carga  móvel  (TAGUTI, 2002).
+<p>
 
