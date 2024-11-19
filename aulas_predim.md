@@ -1120,6 +1120,894 @@ G<sub>tipo</sub> = h . desnsidade
 </p>
 <br>
 <center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c5.png" width="90%"></center>
+<br>
+
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<h1>Determinação das ações na estrutura</h1>
 
 
+<p id="tab1"></p>
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan = "2">Materiais</th>
+            <th>γ<sub>ap</sub> (kN/m³)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan ="5">1 Rochas</td>
+            <td>Arenito</td>
+            <td>21 a 27 (24)</td>
+        </tr>
+        <tr>
+            <td>Basalto, diorito, gabro</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Gnaisse</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Granito, sienito, pórfiro</td>
+            <td>27 a 30 (28,5)</td>
+        </tr>
+        <tr>
+            <td>Mármore e Calcário</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td rowspan ="6">2 Blocos artificiais e pisos</td>
+            <td>Blocos de concreto vazados (função estrutural, classes A e B, ABNT NBR 6136)</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Blocos cerâmicos vazados com paredes vazadas (função estrutural, ABNT NBR 15270-1)</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Blocos cerâmicos vazados com paredes maciças (função estrutural, ABNT NBR 15270-1)</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Blocos cerâmicos maciços</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Lajotas cerâmicas</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Porcelanato</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td rowspan="6">3 Revestimentos e concretos</td>
+            <td>Argamassa de cal, cimento e areia</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Argamassa de cal</td>
+            <td>12 a 18 (15)</td>
+        </tr>
+        <tr>
+            <td>Argamassa de cimento e areia</td>
+            <td>19 a 23 (21)</td>
+        </tr>
+        <tr>
+            <td>Argamassa de gesso</td>
+            <td>12 a 18 (15)</td>
+        </tr>
+        <tr>
+            <td>Concreto simples</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Concreto armado</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 1.</b> [NOME A COLOCAR] </p>
+<br>
+<br>
+
+
+<p id="tab2"></p>
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan = "2">Local</th>
+      <th >Carga uniformemente distribuída (kN/m²)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">Áreas Técnicas</td>
+      <td>Barrilete</td>
+      <td>1,50<sup>1</sup></td>
+    </tr>
+    <tr>
+      <td>Áreas Técnicas em Geral</td>
+      <td>3,00</td>
+    </tr>
+    <tr>
+      <td>Casa de máquinas de elevador de passageiros (vel ≤ 1,00 m/s)</td>
+      <td>30,00<sup>2, 3, 4</sup></td>
+    </tr>
+    <tr>
+      <td>Sala de gerador e transformador (sem leiaute)</td>
+      <td>10,00</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="7">Edifícios residenciais</td>
+      <td>Dormitório</td>
+      <td>1,50</td>
+    </tr>
+    <tr>
+      <td>Sala, Copa e Cozinha</td>
+      <td>1,50</td>
+    </tr>
+    <tr>
+      <td>Despensa, área de serviço e lavanderia</td>
+      <td>2,00</td>
+    </tr>
+    <tr>
+      <td>Academia</td>
+      <td>3,00<sup>5</sup></td>
+    </tr>
+    <tr>
+      <td>Salão de festas, salão de jogos</td>
+      <td>3,00<sup>5</sup></td>
+    </tr>
+    <tr>
+      <td>Corredores de uso comum</td>
+      <td>3,00</td>
+    </tr>
+    <tr>
+      <td>Corredores dentro de unidades autônomas</td>
+      <td>1,50</td>
+    </tr>
+    <tr>
+      <td rowspan="5">Edifícios comerciais</td>
+      <td>Salas de uso geral e sanitários</td>
+      <td>2,50</td>
+    </tr>
+    <tr>
+      <td>Regiões de arquivos deslizantes</td>
+      <td>5,00</td>
+    </tr>
+    <tr>
+      <td><i>Call center</i></td>
+      <td>3,00</td>
+    </tr>
+    <tr>
+      <td>Corredores de uso comum</td>
+      <td>3,00</td>
+    </tr>
+    <tr>
+      <td>Corredores dentro de unidades autônomas</td>
+      <td>2,50</td>
+    </tr>
+  </tbody>
+</table>
+<p align = "justify"><b>Tabela 2.</b> [NOME A COLOCAR] </p>
+<br>
+
+<p align = "justify">
+  Carga para Telhado
+</p>
+<center><img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_c1.png" width="90%"></center>
+<br>
+
+
+
+<p id="tab=3"></p>
+<table border="1">
+    <thead>
+        <tr>
+            <th rowspan = "2">Alvenaria</th>
+            <th rowspan = "2">Espessura nominal do elemento (cm)</th>
+            <th colspan="4">Peso - Espessura de revestimento por face (kN/m²)</th>
+        </tr>
+        <tr>
+            <th>0 cm</th>
+            <th>1 cm</th>
+            <th>2 cm</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="6"><b>ALVENARIA ESTRUTURAL</b></td>
+        </tr>
+        <tr>
+            <td>Bloco de concreto vazado (Classes A e B - ABNT NBR 6136)</td>
+            <td style = "text-align:center">
+              14<br>
+              19
+            </td>
+            <td>
+              2,0<br>
+              2,7
+            </td>
+            <td>
+              2,3<br>
+              3,0
+            </td>
+            <td>
+              2,7<br>
+              3,4
+            </td>
+        </tr>
+        <tr>
+            <td>Bloco cerâmico vazado com paredes maciças (Furo vertical - ABNT NBR 15270-1)</td>
+            <td style = "text-align:center">14</td>
+            <td>2,0</td>
+            <td>2,3</td>
+            <td>2,7</td>
+        </tr>
+        <tr>
+            <td>Bloco cerâmico vazado com paredes vazadas (Furo vertical - ABNT NBR 15270-1)</td>
+            <td style = "text-align:center">
+              9<br>
+              11,5<br>
+              14<br>
+              19
+            </td>
+            <td style = "text-align:center">
+              1,1<br>
+              1,4<br>
+              1,7<br>
+              2,3<br>
+            </td>
+            <td style = "text-align:center">
+              1,5<br>
+              1,8<br>
+              2,1<br>
+              2,7
+            </td>
+            <td style = "text-align:center">
+              1,9<br>
+              2,2<br>
+              2,5<br>
+              3,1
+            </td>
+        </tr>
+        <tr>
+            <td>Tijolo cerâmico maciço (ABNT NBR 15270-1)</td>
+            <td style = "text-align:center">
+              9<br>
+              11,5<br>
+              14<br>
+              19
+            </td>
+            <td style = "text-align:center">
+              1,6<br>
+              2,1<br>
+              2,5<br>
+              3,4
+            </td>
+            <td style = "text-align:center">
+              2,0<br>
+              2,5<br>
+              2,9<br>
+              3,8
+            </td>
+            <td style = "text-align:center">
+              2,4<br>
+              2,9<br>
+              3,3<br>
+              4,2
+            </td>
+        </tr>
+        <tr>
+            <td>Bloco silico-calcário vazado (Classe E - ABNT NBR 14741-1)</td>
+            <td style = "text-align:center">
+              9<br>
+              14<br>
+              19
+            </td>
+            <td style = "text-align:center">
+              1,1<br>
+              1,5<br>
+              1,9
+            </td>
+            <td style = "text-align:center">
+              1,5<br>
+              1,9<br>
+              2,3
+            </td>
+            <td style = "text-align:center">
+              1,9<br>
+              2,3<br>
+              2,7
+            </td>
+        </tr>
+        <tr>
+            <td>Bloco silico-calcário perfurado (Classes F, E, G - ABNT NBR 14741-1)</td>
+            <td style = "text-align:center">
+              11,5<br>
+              14<br>
+              17,5
+            </td>
+            <td style = "text-align:center">
+              1,9<br>
+              2,1<br>
+              2,8
+            </td>
+            <td style = "text-align:center">
+              2,3<br>
+              2,5<br>
+              3,2
+            </td>
+            <td style = "text-align:center">
+              2,7<br>
+              2,9<br>
+              3,6
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6"><b>ALVENARIA DE VEDAÇÃO</b></td>
+        </tr>
+        <tr>
+            <td>Bloco de concreto vazado (Classe C - ABNT NBR 6136)</td>
+            <td style = "text-align:center">
+              6,5<br>
+              9<br>
+              11,5<br>
+              14<br>
+              19
+            </td>
+            <td style = "text-align:center">
+              1,0<br>
+              1,1<br>
+              1,3<br>
+              1,4<br>
+              1,8
+            </td>
+            <td style = "text-align:center">
+              1,4<br>
+              1,5<br>
+              1,7<br>
+              1,8<br>
+              2,2
+            </td>
+            <td style = "text-align:center">
+              1,8<br>
+              1,9<br>
+              2,1<br>
+              2,2<br>
+              2,6
+            </td>
+        </tr>
+        <tr>
+            <td>Bloco cerâmico vazado (Furo horizontal - ABNT NBR 15270-1)</td>
+            <td style = "text-align:center">
+              9<br>
+              1,5<br>
+              14<br>
+              19
+            </td>
+            <td style = "text-align:center">
+              0,7<br>
+              0,9<br>
+              1,1<br>
+              1,4
+            </td>
+            <td style = "text-align:center">
+              1,1<br>
+              1,3<br>
+              1,5<br>
+              1,8
+            </td>
+            <td style = "text-align:center">
+              1,6<br>
+              1,7<br>
+              1,9<br>
+              2,3
+            </td>
+        </tr>
+        <tr>
+            <td>Bloco de concreto celular autoclavado (Classe C25 - ABNT NBR 13438)</td>
+            <td style = "text-align:center">
+              7,5<br>
+              10<br>
+              12,5<br>
+              15<br>
+              17,5<br>
+              20
+            </td>
+            <td style = "text-align:center">
+              0,5<br>
+              0,6<br>
+              0,8<br>
+              0,9<br>
+              1,1<br>
+              1,2
+            </td>
+            <td style = "text-align:center">
+              0,9<br>
+              1,0<br>
+              1,2<br>
+              1,3<br>
+              1,5<br>
+              1,6
+            </td>
+            <td style = "text-align:center">
+              1,3<br>
+              1,4<br>
+              1,6<br>
+              1,7<br>
+              1,9<br>
+              2,0
+            </td>
+        </tr>
+        <tr>
+            <td>Bloco de vidro (decorativo, sem resistência ao fogo)</td>
+            <td style = "text-align:center">8</td>
+            <td style = "text-align:center">0,8</td>
+            <td style = "text-align:center">--</td>
+            <td style = "text-align:center">--</td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    <b>NOTA</b>: Na composição de pesos de alvenarias desta Tabela foi considerado o seguinte:
+    <ul>
+        <li>Argamassa de revestimento vertical e horizontal de cal, cimento e areia com 1 cm de espessura e peso específico de 19 kN/m³;</li>
+        <li>Revestimento com peso específico médio de 19 kN/m³;</li>
+        <li>Peso equivalente de uma peça para cada dois blocos interiores;</li>
+        <li>Sem preenchimento de vazios (com graute etc.).</li>
+    </ul>
+</p>
+<p align = "justify"><b>Tabela 3.</b> [NOME A COLOCAR] </p>
+<br>
+
+
+<p id="tab=4"></p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Material</th>
+            <th>Peso na superfície inclinada (kN/m²)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Telha cerâmica em geral (exceto tipo germânica e colonial)</td>
+            <td style = "text-align:center">0,45</td>
+        </tr>
+        <tr>
+            <td>Telha cerâmica tipo germânica ou colonial</td>
+            <td style = "text-align:center">0,60</td>
+        </tr>
+        <tr>
+            <td>Telha de fibrocimento ondulada com espessura 4 mm</td>
+            <td style = "text-align:center">0,14</td>
+        </tr>
+        <tr>
+            <td>Telha de fibrocimento ondulada com espessura 5 mm</td>
+            <td style = "text-align:center">0,16</td>
+        </tr>
+        <tr>
+            <td>Telha de fibrocimento ondulada com espessura 6 mm</td>
+            <td style = "text-align:center">0,18</td>
+        </tr>
+        <tr>
+            <td>Telha de fibrocimento ondulada com espessura 8 mm</td>
+            <td style = "text-align:center">0,24</td>
+        </tr>
+        <tr>
+            <td>Telha de fibrocimento modulada com espessura 8 mm</td>
+            <td style = "text-align:center">0,26</td>
+        </tr>
+        <tr>
+            <td>Telha de fibrocimento tipo canalete com espessura 8 mm</td>
+            <td style = "text-align:center">0,25</td>
+        </tr>
+        <tr>
+            <td>Telha de alumínio com espessura 0,6 mm</td>
+            <td style = "text-align:center">0,025</td>
+        </tr>
+        <tr>
+            <td>Telha de alumínio com espessura 0,8 mm</td>
+            <td style = "text-align:center">0,035</td>
+        </tr>
+        <tr>
+            <td>Telha plástica em geral (exceto tipo colonial)</td>
+            <td style = "text-align:center">0,05</td>
+        </tr>
+        <tr>
+            <td>Telha plástica tipo colonial</td>
+            <td style = "text-align:center">0,15</td>
+        </tr>
+        <tr>
+            <td>Telha de aço ondulada ou trapezoidal com espessura 0,5 mm</td>
+            <td style = "text-align:center">0,06</td>
+        </tr>
+        <tr>
+            <td>Telha de aço ondulada ou trapezoidal com espessura 0,8 mm</td>
+            <td style = "text-align:center">0,10</td>
+        </tr>
+        <tr>
+            <td>Telha de aço ondulada ou trapezoidal com espessura 1,25 mm</td>
+            <td style = "text-align:center">0,14</td>
+        </tr>
+        <tr>
+            <td>Telha de vidro</td>
+            <td style = "text-align:center">0,45</td>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 4.</b> [NOME A COLOCAR] </p>
+<br>
+
+
+
+<p id="tab=5"></p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Material</th>
+            <th>Espessura (cm)</th>
+            <th>Peso (kN/m²)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Impermeabilização com manta asfáltica simples (apenas manta com 15% de sobreposição e pintura asfáltica, sem camada de regularização nem proteção mecânica)</td>
+            <td style = "text-align:center">
+              0,3<br>
+              0,4<br>
+              0,5
+            </td>
+            <td style = "text-align:center">
+              0,08<br>
+              0,10<br>
+              0,11
+            </td>
+        </tr>
+        <tr>
+            <td>Piso elevado interno com placas de aço, sem revestimento (até 30 cm de altura)</td>
+            <td style = "text-align:center">---</td>
+            <td style = "text-align:center">0,5</td>
+        </tr>
+        <tr>
+            <td>Piso elevado interno com placas de polipropileno, sem revestimento (até 30 cm de altura)</td>
+            <td style = "text-align:center">---</td>
+            <td style = "text-align:center">0,15</td>
+        </tr>
+        <tr>
+            <td>Revestimentos de pisos de edifícios residenciais e comerciais (γ<sub>ap-m</sub> = 20 kN/m³)</td>
+            <td style = "text-align:center">
+              5<br>
+              7
+            </td>
+            <td style = "text-align:center">
+              1,0<br>
+              1,4
+            </td>
+        </tr>
+        <tr>
+            <td>Revestimentos de pisos de edifícios industriais (γ<sub>ap-m</sub> = 34 kN/m³)</td>
+            <td style = "text-align:center">
+              5<br>
+              7
+            </td>
+            <td style = "text-align:center">
+              1,7<br>
+              2,4
+            </td>
+        </tr>
+        <tr>
+            <td>Impermeabilizações em coberturas com manta asfáltica e proteção mecânica, sem revestimento (γ<sub>ap-m</sub> = 18 kN/m³)</td>
+            <td style = "text-align:center">
+              10<br>
+              15
+            </td>
+            <td style = "text-align:center">
+              1,8<br>
+              2,7
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 5.</b> [NOME A COLOCAR] </p>
+<br>
+<br>
+
+<p id="fig1"></p>
+<center><img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_c.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Laje Maciça
+<br>
+
+
+
+<p id="fig2"></p>
+<center><img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_c3.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Laje Nervurada
+<br>
+
+<h2>Carga de Alvenaria em lajes</h2>
+<br>
+
+<li>Para 𝜆 ≤ 2:
+<img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_c4.png" width="90%">
+<br>
+<br>
+
+<li>Para 𝜆 > 2:
+<img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_c5.png" width="90%">
+<br>
+
+
+<p id="fig3"></p>
+<center><img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_3.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> [A COLOCAR]
+<br>
+
+<p id="fig4"></p>
+<center><img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_4.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> [A COLOCAR]
+<br><br><br>
+
+
+<h2>Em Vigas</h2>
+
+<br>
+
+<center><img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_c6.png" width="90%"></center>
+<br>
+
+
+<p id="fig4"></p>
+<center><img src="./assets/images/ECA_determinacao_acoes_estrutura/FIG_5.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> [A COLOCAR]
+<br>
+
+
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<h1>Carga de Vento em Edifícos</h1>
+
+<p id="fig1"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> [A COLOCAR]
+<br><br>
+
+<p align = "justify">
+  𝑉<sub>𝑘</sub>  = 𝑉<sub>0</sub> ⋅ 𝑆<sub>1</sub> ⋅ 𝑆<sub>2</sub> ⋅ 𝑆<sub>3</sub>
+  <br><br>
+  𝑉<sub>0</sub> – Velocidade básica;
+  <br><br>
+  𝑆<sub>1</sub> – Fator topográfico;
+  <br><br>
+  𝑆<sub>2</sub> – Fator de rugosidade do terreno (dimensões e altura da edificação);
+  <br><br>
+  𝑆<sub>3</sub> – Fator estatístico.
+</p>
+<br>
+
+<p id="fig2"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_2.jpg" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> [A COLOCAR]
+<br><br><br>
+
+
+<p id="tab1"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/TAB_1.png" width="90%"></center>
+<p align = "justify"><b>Tabela 1.</b> [A COLOCAR]
+<br>
+
+
+
+<p id="tab=1"></p>
+<table border="1" style="border-collapse: collapse; text-align: left; background-color: #FFFFCC;">
+        <tr>
+          <th colspan = "2"><b>QUADRO 4: Classes de relevo do terreno</b></th>
+        </tr>
+        <tr>
+            <td>S<sub>1</sub></td>
+            <td>TIPO DE RELEVO DO TERRENO</td>
+        </tr>
+    <tbody>
+        <tr>
+            <td>1,0</td>
+            <td>Terreno Plano ou fracamente acidentado</td>
+        </tr>
+        <tr>
+            <td>VARIÁVEL</td>
+            <td>Taludes e Morros</td>
+        </tr>
+        <tr>
+            <td>0,9</td>
+            <td>Vales Profundos e protegidos de ventos de qualquer direção.</td>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 1.</b> [NOME A COLOCAR] </p>
+<br>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_3.jpg" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> [A COLOCAR]
+<br><br><br>
+
+
+<p id="fig4"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_4.jpg" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> [A COLOCAR]
+<br><br><br>
+
+
+
+
+<p id="tab=2"></p>
+<table border="1" style="border-collapse: collapse; text-align: left; background-color: #FFFFCC;">
+    <tr><th colspan = "2"><b>QUADRO 5: Categorias de Rugosidade do terreno</b></th></tr>
+        <tr >
+            <th>CATEGORIA</th>
+            <th>TIPO DE SUPERFÍCIE DO TERRENO</th>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>Superfícies Lisas de grandes dimensões, com mais de 5 km de extensão, medida na direção e sentido do vento incidente.</td>
+        </tr>
+        <tr>
+            <td>II</td>
+            <td>Terrenos abertos em nível ou aproximadamente em nível, com poucos obstáculos isolados, tais como árvores e edificações baixas. Obstáculos com altura média abaixo de 1,0 metros.</td>
+        </tr>
+        <tr>
+            <td>III</td>
+            <td>Terrenos planos ou ondulados com obstáculos, tais como sebes e muros, poucos quebra-ventos. Obstáculos com altura média de 3,0 metros.</td>
+        </tr>
+        <tr>
+            <td>IV</td>
+            <td>Terrenos cobertos por obstáculos numerosos e pouco espaçados, em zona florestal, industrial ou urbanizada. Altura média dos obstáculos de 10 metros.</td>
+        </tr>
+        <tr>
+            <td>V</td>
+            <td>Terrenos cobertos por obstáculos numerosos, grandes, altos e pouco espaçados. Obstáculos com altura média de 25 metros ou mais.</td>
+        </tr>
+</table>
+<p align = "justify"><b>Tabela 2.</b> [NOME A COLOCAR] </p>
+<br><br>
+
+
+
+
+<p id="tab=3"></p>
+<table border="1" style="border-collapse: collapse; text-align: left; background-color: #FFFFCC;">
+    <caption><b>QUADRO 8: Classes de Edifícios em função de suas dimensões.</b></caption>
+    <thead>
+        <tr>
+            <th>CLASSE</th>
+            <th>DIMENSÕES DO EDIFÍCIO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A</td>
+            <td>
+                Todas as unidades de vedação, seus elementos de fixação e peças individuais de estruturas sem vedação.<br>
+                Toda edificação na qual a maior dimensão horizontal ou vertical seja inferior a <b>20 metros</b>.
+            </td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>
+                Toda edificação ou parte de edificação para a qual a maior dimensão horizontal ou vertical da superfície frontal esteja entre <b>20 e 50 metros</b>.
+            </td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>
+                Toda edificação ou parte de edificação para a qual a maior dimensão horizontal ou vertical da superfície frontal exceda <b>50 metros</b>.
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 3.</b> [NOME A COLOCAR] </p>
+<br><br>
+
+<img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_c1.png" width="90%">
+<br><br><br>
+
+
+
+<p id="tab=4"></p>
+<table border="1" style="border-collapse: collapse; text-align: left; background-color: #FFFFCC;">
+    <caption><b>QUADRO 8: Determinação do Fator Estatístico S<sub>3</sub> conforme os Grupos de ocupação.</b></caption>
+    <thead>
+        <tr>
+            <th>GRUPO</th>
+            <th>DESCRIÇÃO</th>
+            <th>FATOR S<sub>3</sub></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>
+                Edificações cuja ruína total ou parcial pode afetar a segurança ou possibilidade de socorro a pessoas após uma tempestade destrutiva (hospitais, quartéis de bombeiros e de forças de segurança, centrais de comunicação, etc.)
+            </td>
+            <td>1,10</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                Edificações para hotéis e residências. Edificações para comércio e indústria com alto fator de ocupação.
+            </td>
+            <td>1,00</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>
+                Edificações e instalações industriais com baixo fator de ocupação (depósitos, silos, construções rurais, etc.)
+            </td>
+            <td>0,95</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Vedações (telhas, vidros, painéis de vedação, etc.)</td>
+            <td>0,88</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>
+                Edificações temporárias. Estruturas dos grupos 1 a 3 durante a construção.
+            </td>
+            <td>0,83</td>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 4.</b> [NOME A COLOCAR] </p>
+<br><br>
+
+
+<h2>Força do Vento</h2>
+
+<p align = "justify">
+  𝑞 = 0,613 ∙ 𝑉<sub>𝑘</sub><sup>2</sup> 
+  <br><br>    
+  𝐹<sub>𝑎</sub> = 𝐶𝑎 ∙ 𝑞 ∙ 𝐴<sub>𝑒</sub>
+</p>
+<br>
+
+
+<p id="fig5"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_5.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> [A COLOCAR]
+<br><br><br>
+
+
+<p id="fig6"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_6.jpg" width="90%"></center>
+<p align = "justify"><b>Figura 6.</b> [A COLOCAR]
+<br><br><br>
+
+
+<img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_c2.png" width="90%">
+<br><br>
+<br><br>
+
+<p id="fig7"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_7.png" width="90%"></center>
+<p align = "justify"><b>Figura 7.</b> [A COLOCAR]
+<br><br><br>
+
+
+<h3>Conversão de Desaprumo em Força Horizontal no Pavimento</h3>
+
+<br>
+
+<p id="fig8"></p>
+<center><img src="./assets/images/ECA_carga_d_vento_em_edificio/FIG_8.png" width="90%"></center>
+<p align = "justify"><b>Figura 8.</b> [A COLOCAR]
+<br><br><br>
 
