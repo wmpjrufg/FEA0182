@@ -2011,3 +2011,454 @@ G<sub>tipo</sub> = h . desnsidade
 <p align = "justify"><b>Figura 8.</b> [A COLOCAR]
 <br><br><br>
 
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+
+<h1>Verificaçoes preliminares do Sistema Estrutural</h1><br>
+
+<p align = "justify">
+  Antes de começar o detalhamento de uma estrutura é essencial que o projetista já tenha uma planta de fôrma pré-executiva para que na fase final do projeto não sejam necessárias grandes modificações.
+  <br><br>
+  <li>Verificações de cisalhamento;<br>
+  <li>Verificações de flecha;<br>
+  <li>Verificações de estabilidade.
+</p>
+<br>
+
+<h2>Verificação de cisalhamento para lajes sem armaduras</h2>
+
+<p align = "justify">
+  𝑉<sub>𝑠𝑑</sub> ≤ 𝑉<sub>𝑅𝑑1</sub><br>
+  𝑉<sub>𝑅𝑑1</sub> = [𝜏<sub>𝑅𝑑</sub> ⋅ 𝑘 ⋅ (1,2 + 40 ⋅ 𝜌<sub>1</sub>) + 0,15 ⋅ 𝜎<sub>𝑐𝑝</sub>] ⋅ 𝑏<sub>𝑤</sub> ⋅ 𝑑
+</p>
+<br>
+
+<h2>Verificação de Flexa</h2>
+
+
+<table border = "0">
+  <tr>
+    <td>𝐼<sub>𝑒𝑞</sub> = 𝐼<sub>𝑐</sub> <br></td>
+    <td>𝑀<sub>𝑎</sub> ≤ 𝑀<sub>𝑟</sub><br></td>
+    <td rowspan = "2">𝑎<sub>(𝑡=∞)</sub> = 𝑎<sub>(𝑡=0)</sub> . (1 + 𝛼<sub>𝑓</sub>)</td>
+  </tr>
+  <tr>
+    <td>𝐼<sub>𝑒𝑞</sub> = 0,30 ⋅ 𝐼<sub>𝑐</sub></td>
+    <td>𝑀<sub>𝑎</sub> > 𝑀<sub>𝑟</sub></td>
+  </tr>
+</table>
+<br>
+
+<h2>Verificação de Estabilidade Global</h2>
+<br>
+<br>
+
+<p id="fig1"></p>
+<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> [A COLOCAR]
+<br><br><br>
+
+<p id="fig2"></p>
+<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Coluna de Euller
+<br><br><br>
+
+<p align  = "justify">
+<b>
+  Parâmetro alfa: O termômetro da análise de 2º ordem
+</b>
+</p>
+
+<br><br>
+
+
+<p id="fig3"></p>
+<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_3.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> [colocar]
+<br><br><br>
+
+<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_c1.png" width="90%"></center>
+<br><br><br>
+
+<p align = "justify">
+  O coeficiente 𝛾<sub>𝑍</sub>  : Quantifica os esforços de 2º ordem que ocorrem na estrutura
+</p>
+
+
+
+<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_c2.png" width="90%"></center>
+<br><br><br>
+
+<h2>Limitações de Deslocamento</h2>
+
+
+<p id="fig4"></p>
+<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_4.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> [colocar]
+<br><br><br>
+
+<p id="fig5"></p>
+<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_5.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> [colocar]
+<br><br><br>
+
+
+<p>--------------------ECA2 - AULA 9 CONSIDERAÇÃO SOBRE O PROJETO DE VIGAS DE CONCRETO ----------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<h1>Revisão sobre o cálculo da área de aço das seções das vigas</h1>
+
+
+<h2>Introdução</h2>
+
+<p align = "justify">
+  Vigas são elementos lineares, em que uma das suas dimensões, isto é, o comprimento (representado pelo vão 𝑙), é muito maior que as outras duas, sendo elas a altura ℎ e largura 𝑏<sub>𝑤</sub>.
+  <br>
+  São chamadas de vigas chatas quando apresentam ℎ ≤ 𝑏<sub>𝑤</sub>. Normalmente, as vigas são geralmente encontradas apresentando proporções como 2 ≤ ℎ / 𝑏<sub>𝑤</sub> ≤ 5.
+</p>
+<br>
+
+
+<p id="fig1"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Dimensões das vigas  <a href="#ref6">[7]</a>
+<br><br><br>
+
+<p align = "justify">
+  A NBR 6118 (2014) <a href="#ref1">[1]</a> estabelece que, baseando-se na relação 𝑙/ℎ, nota-se que a relação 𝑙/ℎ≥3 referem-se a vigas isostáticas; a relação 𝑙/ℎ≥2 refere-se a vigas contínuas; e a relação 𝑙/ℎ < 2 refere-se a vigas-parede.<br><br>
+  Sendo:<br>
+  𝑙 – Comprimento do vão teórico, (ou o dobro do valor do vão no caso do balanço);<br>
+  ℎ –  Altura total da viga.<br>
+  Conforme o item 13.2.2 da NBR 6118 (2014) <a href="#ref1">[1]</a>, vigas não podem apresentar largura menor que 12 cm, e vigas-parede não podem apresentar largura menor que 15 cm.
+  Segundo i item 14.6.2.4 da NBR 6118 (2014) <a href="#ref1">[1]</a>, é estabelecido que para os vãos efetivos das vigas, faz-se:
+  <br><br>
+
+  <p id="Eq1"></p>
+  <table>
+    <tr>
+      <td>
+        𝑙<sub>𝑒𝑓</sub> = 𝑙<sub>𝑜</sub> + 𝑙<sub>𝑎1</sub> + 𝑙<sub>𝑎2</sub> 
+      </td>
+      <th> 
+        Equação 1
+      </th>
+    </tr>
+  </table>
+  <br>
+  Com 𝑎<sub>1</sub> igual ao menor valor entre (𝑡<sub>1</sub>/2 e 0,3ℎ) e 𝑎<sub>2</sub> igual ao menor valor entre (𝑡<sub>2</sub>/2 e 0,3ℎ). Conforme a Figura. <a href="#fig2">2</a>, expressa a seguir.
+</p>
+
+<br>
+<p id="fig2"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Vão efetivo   <a href="#ref1">[1]</a>
+<br><br><br>
+
+<p align = "justify">
+  As vigas podem apresentar diversas configurações quanto sua forma, sendo as mais comuns:<br>
+  <li>Retangular (Figura. <a href="#fig3">3</a>);<br>
+  <li>Seção T (Figura. <a href="#fig4">4</a>)<br>
+  <li>Viga caixão (Figura. <a href="#fig5">5</a>)<br>
+  <li>Duplo T (Figura. <a href="#fig6">6</a>);
+</p>
+<br><br><br><br>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_3.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> Seção retangular <a href="#ref7">[8]</a>
+<br><br><br>
+
+<p id="fig4"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_4.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> Seção T <a href="#ref8">[9]</a>
+<br><br><br>
+
+<p id="fig5"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_5.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> Seção caixão  <a href="#ref9">[10]</a>
+<br><br><br>
+
+<p id="fig6"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_6.png" width="90%"></center>
+<p align = "justify"><b>Figura 6.</b> Seção caixão  <a href="#ref10">[11]</a>
+<br><br><br>
+
+<p align = "justify">
+  Podem ser classificadas também quanto sua fabricação, sendo elas:<br><br>
+  <li>Moldada in loco (Figura. <a href="#fig7">7</a>); <br>
+  <li>Pré-moldada (Figura. <a href="#fig8">8</a>).
+</p>
+<br><br><br>
+
+<p id="fig7"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_7.png" width="90%"></center>
+<p align = "justify"><b>Figura 7.</b> Moldada in loco <a href="#ref12">[12]</a>
+<br><br><br>
+
+<p id="fig8"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_8.png" width="90%"></center>
+<p align = "justify"><b>Figura 8.</b> Pré-moldada <a href="#ref13">[13]</a>
+<br><br><br>
+
+
+<h2>Modos de Ruptura</h2>
+
+<p align = "justify">
+  Conforme o item 14.4.1.1, vigas são elementos lineares em que a flexão é preponderante. Nesse sentido, são expostas, na Figura. <a href="#fig9">9</a>, uma série de modos de ruptura em que uma viga pode ser submetida:
+</p>
+<br><br><br>
+
+<p id="fig9"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_9.png" width="90%"></center>
+<p align = "justify"><b>Figura 9.</b> Variedades de situações de modo de ruptura de uma viga (SUSSEKIND, 1981). <a href="#ref6">[6]</a>
+<br><br><br>
+
+<p align = "justify">
+  Para melhores esclarecimentos, conforme Dumet (2008) <a href="#ref5">[5]</a>, pode-se tomar uma série de medidas preventivas essenciais para o dimensionamento baseado no E.L.U:<br>
+  São elas:<br>
+  Flexão – compressão (A): Categoriza-se no tipo frágil/dúctil, caracterizada pelo avanço da fissura de flexão, fazendo a redução do banzo comprimido até o esmagamento do banzo comprimido do concreto. Conforme Figura. <a href="#fig10">10</a> 
+</p>
+<br><br><br>
+
+<p id="fig10"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_10.png" width="90%"></center>
+<p align = "justify"><b>Figura 10.</b> Modo de ruptura flexão-compressão (A) (DUMET, 2008). <a href="#ref5">[5]</a>
+<br><br><br>
+
+<p align = "justify">
+  Cortante – Tração (B): Categoriza-se no tipo dúctil, caracterizada pela ruptura da armadura de cisalhamento por tração. Conforme Figura. <a href="#fig11">11</a>.
+</p>
+<br><br><br>
+
+
+<p id="fig11"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_11.png" width="90%"></center>
+<p align = "justify"><b>Figura 11.</b> Modo de ruptura cortante-tração (B) (DUMET, 2008). <a href="#ref5">[5]</a>
+<br><br><br>
+
+
+<p align = "justify">
+  Cortante – Flexão (C): Categoriza-se no tipo frágil/dúctil, caracterizada pela interação momento/cortante, juntamente com o avanço da fissura diagonal cortando o banzo comprimido do elemento. Conforme Figura. <a href="#fig12">12</a>.
+</p>
+<br><br><br>
+
+
+<p id="fig12"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_12.png" width="90%"></center>
+<p align = "justify"><b>Figura 12.</b> Modo de ruptura cortante-flexão (C) <a href="#ref5">[5]</a>
+<br><br><br>
+
+
+<p align = "justify">
+  Rompimento da ligação Aço – Concreto (D): Categoriza-se no tipo frágil, caracterizada pelo fendilhamento do concreto, e o esgotamento da capacidade aderente do elemento estrutural. Conforme Figura. <a href="#fig13">13</a>.
+</p>
+<br><br><br>
+
+
+<p id="fig13"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_13.png" width="90%"></center>
+<p align = "justify"><b>Figura 13.</b> Modo de ruptura rompimento da ligação aço-concreto (D) <a href="#ref5">[5]</a>
+<br><br><br>
+
+<p align = "justify">
+  Cortante – Compressão (E): Categoriza-se no tipo frágil, caracterizada pelo esmagamento da biela comprimida na região junto ao apoio. Conforme Figura. <a href="#fig14">14</a>.
+</p>
+<br><br><br>
+
+
+<p id="fig14"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_14.png" width="90%"></center>
+<p align = "justify"><b>Figura 14.</b> Modo de ruptura cortante-compressão (E)  <a href="#ref5">[5]</a>
+<br><br><br>
+
+
+<h2>Flexão Simples na Ruina: Hipóteses</h2>
+
+<p align = "justify">
+  Conforme Pinheiro (2007) <a href="#ref4">[4]</a>, fazendo uma análise mais simples, pode-se tomar que os efeitos do esforço cortante são analisados de forma separada. Nessas condições, o foco volta-se à flexão pura, isto é, somente o momento fletor.
+  <br>
+  Visto que, nessas condições, a tensão no concreto pode ser considerada nula, já que a resistência do concreto à tração é desprezada.
+  <br>
+  Pautada na Equação. <a href="#Eq2">2</a>, torna-se possível analisar a validade da hipótese de manutenção da forma da planta da seção transversal, visto que os elementos estruturais estão submetidos a solicitações normais. Dessa forma:
+  <br>
+  <p id="Eq2"></p>
+  <table>
+    <tr>
+      <td>
+        𝑙<sub>0</sub>/𝑑 > 2      
+      </td>
+      <th> 
+        Equação 2
+      </th>
+    </tr>
+  </table>
+  <br>
+  Onde:
+  <br><br>
+  𝑙<sub>0</sub> - Distância entre as seções de momento fletor nulo;<br>
+  𝑑 – Altura útil da seção.
+  <br>
+  Fazendo a conferência e verificando a validade da hipótese, as deformações específicas longitudinais em cada ponto da seção transversal são proporcionais à distância até a linha neutra do elemento estrutural.
+</p>
+<br><br>
+
+<h2>Equações de Equilíbrio</h2>
+
+<p align = "justify">
+  Conforme a Figura. <a href="#fig15">15</a>, é possível extrair as seguintes análises:
+</p>
+<br><br><br>
+
+<p id="fig15"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_15.png" width="90%"></center>
+<p align = "justify"><b>Figura 15.</b> [COLOCAR] <a href="#ref5">[5]</a></p>
+<br><br><br>
+
+
+<p align = "justify">
+  As equações de equilíbrio de forças e momentos são:<br>
+  <br>
+  <p id="Eq3"></p>
+  <table>
+    <tr>
+      <td>
+        𝑅<sub>𝑐</sub> + 𝑅′<sub>𝑠</sub> − 𝑅<sub>𝑠</sub> = 0       
+      </td>
+      <th> 
+        Equação 3
+      </th>
+    </tr>
+    <tr>
+      <td>
+        𝑀<sub>𝑑</sub> = 𝛾<sub>𝑓</sub> ∙ 𝑀<sub>𝑘</sub> = 𝑅<sub>𝑐</sub> (𝑑 − 𝑦/2) + 𝑅′<sub>𝑠</sub> (𝑑 − 𝑑′)      
+      </td>
+      <th> 
+        Equação 4
+      </th>
+    </tr>
+  </table>
+  <br>
+  Visto que, as resultantes no concreto 𝑅<sub>𝑐</sub> e nas armaduras (𝑅<sub>𝑠</sub> e 𝑅′<sub>𝑠</sub>), são concebidas através das expressões:
+  <br>
+
+
+  <p id="Eq5"></p>
+  <table>
+  <tr>
+      <td>
+        𝑅<sub>𝑐</sub> = 𝑏 ∙ 𝑦 ∙ 𝜎<sub>𝑐𝑑</sub> = 𝑏 ∙ 0,8𝑥 ∙ 0,85 ∙ 𝑓<sub>𝑐𝑑</sub> = 0,68 ∙ 𝑏 ∙ 𝑑 ∙ 𝛽<sub>𝑥</sub> ∙ 𝑓<sub>𝑐𝑑</sub>   
+      </td>
+      <th> 
+        Equação 5
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <p id="Eq6"></p>
+  <table>
+  <tr>
+      <td>
+       𝑅<sub>𝑠</sub> = 𝐴<sub>𝑠</sub> ∙ 𝜎<sub>𝑠</sub> 
+      </td>
+      <th> 
+        Equação 6
+      </th>
+    </tr>
+  </table>
+    <br>
+  
+  <p id="Eq7"></p>
+  <table>
+  <tr>
+      <td>
+       𝑅′<sub>𝑠</sub> = 𝐴′<sub>𝑠</sub> ∙ 𝜎′<sub>𝑠</sub>
+      </td>
+      <th> 
+        Equação 7
+      </th>
+    </tr>
+  </table>
+  <br>
+  Tem-se, para diagrama retangular de tensões no concreto:
+  <br><br>
+
+  <p id="Eq8"></p>
+  <table>
+  <tr>
+      <td>
+       𝑦 = 0,8𝑥 → 𝑑− 𝑦/2 = 𝑑(1−0,8𝑥/2𝑑) = 𝑑(1− 0,4 ∙ 𝛽<sub>𝑥</sub>)      
+      </td>
+      <th> 
+        Equação 8
+      </th>
+    </tr>
+  </table>
+  <br>
+  Com as análises supramencionadas, tem-se, para armadura simples (𝐴′<sub>𝑠</sub> = 0), as seguintes equações:
+  <br><br>
+
+  <p id="Eq9"></p>
+  <table>
+  <tr>
+      <td>
+       0,68 ∙ 𝑏 ∙ 𝑑 ∙ 𝛽<sub>𝑥</sub>𝑓<sub>𝑐𝑑</sub> − 𝐴<sub>𝑠</sub> ∙ 𝜎<sub>𝑠</sub> = 0      
+      </td>
+      <th> 
+        Equação 9
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <p id="Eq10"></p>
+  <table>
+  <tr>
+      <td>
+       𝑀<sub>𝑑</sub> = 0,68 ∙ 𝑏 ∙ 𝑑<sup>2</sup> ∙ 𝛽<sub>𝑥</sub> ∙ 𝑓<sub>𝑐𝑑</sub> (1 − 0,4 ∙ 𝛽<sub>𝑥</sub>)       
+      </td>
+      <th> 
+        Equação 10
+      </th>
+    </tr>
+  </table>
+  <br>
+  E para armadura dupla, tem-se, respectivamente:
+  <br><br>
+
+  <p id="Eq11"></p>
+  <table>
+  <tr>
+      <td>
+       0,68 ∙ 𝑏 ∙ 𝑑 ∙ 𝛽<sub>𝑥</sub>𝑓<sub>𝑐𝑑</sub> + 𝐴′<sub>𝑠</sub> ∙ 𝜎′<sub>𝑠</sub> - 𝐴<sub>𝑠</sub> ∙ 𝜎<sub>𝑠</sub> = 0
+      </td>
+      <th> 
+        Equação 11
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <p id="Eq12"></p>
+  <table>
+  <tr>
+      <td>
+      𝑀<sub>𝑑</sub> = 0,68 ∙ 𝑏 ∙ 𝑑<sup>2</sup> ∙ 𝛽<sub>𝑥</sub> ∙ 𝑓<sub>𝑐𝑑</sub> (1 − 0,4 ∙ 𝛽<sub>𝑥</sub>) - 𝐴′<sub>𝑠</sub> ∙ 𝜎′<sub>𝑠</sub>(𝑑 − 𝑑′)
+      </td>
+      <th> 
+        Equação 12
+      </th>
+    </tr>
+  </table>
+</p>
+<br>
+
+
+<h1>Aproximações Permitidas para Cálculo dos Esforços</h1>
+<br>
+<h2>Aproximações Permitidas para Cálculo dos Esforços de Edifícios</h2>
+
+<p align = "justify">
+  Conforme o item 14.6.6.1 da ABNT NBR 6118 (2014) <a href="#ref1">[1]</a>, o modelo clássico de viga contínua, simplesmente apoiada nos pilares, pode ser utilizado para o estudo de cargas verticais. Ao considerar o modelo clássico de viga contínua, é necessário que se faça uso das correções adicionais, sendo:
+</p>
+
+
