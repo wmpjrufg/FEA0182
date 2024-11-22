@@ -2795,3 +2795,220 @@ G<sub>tipo</sub> = h . desnsidade
     </tbody>
     </tbody>
 </table>
+<br>
+<p>----------------------------ECA2 aula 10---------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<br>
+
+
+<h1>Detalhamento de peças de concreto: Seção Transversal</h1>
+
+<h2>Características das barras de aço</h2>
+
+<p align = "justify">
+  Segundos Bastos (2015a) <a href="#ref2">[2]</a> os aços (vergalhões) utilizados em estruturas de Concreto Armado no Brasil são estabelecidos pela ABNT NBR 7480:1996. São produzidos em usinas siderúrgicas com teores de carbono entre 0,4 e 0,6 %. A ABNT NBR 7480:1996 classifica como barras os vergalhões de diâmetro nominal 5 mm ou superior, obtidos exclusivamente por laminação a quente, e como fios aqueles de diâmetro nominal 10 mm ou inferior, obtidos por trefilação ou processo equivalente, como estiramento e laminação a frio. 
+  <br><br>
+  A ABNT NBR 6118:2014 indica os seguintes valores para as características dos aço:<br><br>
+  a) Massa específica: 7.850 kg/m3; <br>
+  b) Coeficiente de dilatação térmica: 10-5/ºC para intervalos de temperatura entre – 20ºC e 150ºC;<br>
+  c) Módulo de elasticidade longitudinal: 210 GPa ou 210.000 MPa.
+</p>
+<br>
+
+<p id="fig1"></p>
+<center><img src="./assets/images/ECA2_aula10/FIG_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Formato do aço para construção civil CA-25, CA-50 e CA-60  <a href="#ref8">[8]</a></p>
+<br><br><br>
+
+
+<p id="tab1"></p>
+<table border="0">
+    <thead>
+        <tr>
+            <th>Diâmetro (mm)</th>
+            <th>Tipo</th>
+            <th>Massa Linear (kg/m)</th>
+            <th>Área (cm²)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: yellow;">
+            <td>4,20</td>
+            <td>CA 60</td>
+            <td>0,109</td>
+            <td>0,139</td>
+        </tr>
+        <tr style="background-color: yellow;">
+            <td>5,00</td>
+            <td>CA 60</td>
+            <td>0,154</td>
+            <td>0,196</td>
+        </tr>
+        <tr>
+            <td>6,30</td>
+            <td>CA 50</td>
+            <td>0,245</td>
+            <td>0,312</td>
+        </tr>
+        <tr>
+            <td>8,00</td>
+            <td>CA 50</td>
+            <td>0,395</td>
+            <td>0,503</td>
+        </tr>
+        <tr>
+            <td>10,00</td>
+            <td>CA 50</td>
+            <td>0,617</td>
+            <td>0,785</td>
+        </tr>
+        <tr>
+            <td>12,50</td>
+            <td>CA 50</td>
+            <td>0,963</td>
+            <td>1,227</td>
+        </tr>
+        <tr>
+            <td>16,00</td>
+            <td>CA 50</td>
+            <td>1,578</td>
+            <td>2,011</td>
+        </tr>
+        <tr>
+            <td>20,00</td>
+            <td>CA 50</td>
+            <td>2,466</td>
+            <td>3,142</td>
+        </tr>
+        <tr>
+            <td>25,00</td>
+            <td>CA 50</td>
+            <td>3,853</td>
+            <td>4,909</td>
+        </tr>
+        <tr>
+            <td>32,00</td>
+            <td>CA 50</td>
+            <td>6,313</td>
+            <td>8,042</td>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 1.</b> Características da seção do aço </p>
+<br>
+
+<h2>Armadura Máxima e Mínima</h2>
+
+<p align = "justify">
+  Segundo Carvalho (2014) <a href="#ref4">[4]</a> a armadura mínima deve ser colocada para evitar rupturas bruscas da seção, pois o aço faz com que ela apresente uma deformação razoável antes de entrar em ruína, já os valores máximos decorrem da necessidade de assegurar condições de ductilidade e de respeitar o campo de validade dos ensaios que deram origem as prescrições de funcionamento do conjunto  aço-concreto.
+  <br>
+  <p id="Eq1"></p>
+  <table>
+  <tr style = "width=100%">
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_1.png" >
+      </td>
+      <th> 
+        Equação 1
+      </th>
+    </tr>
+  </table>
+  
+  <p id="Eq2"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_2.png" >
+      </td>
+      <th> 
+        Equação 2
+      </th>
+    </tr>
+  </table>
+  
+  <p id="Eq3"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_3.png" >
+      </td>
+      <th> 
+        Equação 3
+      </th>
+    </tr>
+  </table>
+  <br>
+  Onde:
+  <br>
+  Wo = Módulo de resistência da seção transversal bruta de concreto, relativo à fibra mais tracionada<br>
+  f<sub>ctk,sup</sub> = Resistência característica superior do concreto à tração<br>
+  f<sub>ctm</sub> = Resistência característica média do concreto à tração
+  <br>
+
+
+  <p id="tab1"></p>
+  <table border="0" style = "text-align:center">
+    <thead>
+        <tr>
+            <th rowspan="2">Forma da seção</th>
+            <th colspan="10">Valores de p<sub>min</sub>* (Asmin/Ac) %</th>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>25</td>
+            <td>30</td>
+            <td>35</td>
+            <td>40</td>
+            <td>45</td>
+            <td>50</td>
+            <td>55</td>
+            <td>60</td>
+            <td>65</td>
+            <td>70</td>
+            <td>75</td>
+            <td>80</td>
+            <td>85</td>
+            <td>90</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Retangular</td>
+            <td>0,2</td>
+            <td>0,2</td>
+            <td>0,2</td>
+            <td>0,16</td>
+            <td>0,18</td>
+            <td>0,19</td>
+            <td>0,21</td>
+            <td>0,21</td>
+            <td>0,22</td>
+            <td>0,23</td>
+            <td>0,24</td>
+            <td>0,25</td>
+            <td>0,25</td>
+            <td>0,26</td>
+        </tr>
+        <tr>
+          <th colspan = "20" style="text-align: left; font-weight: bold; color: red;">Os valores de p<sub>min</sub> estabelecidos nesta tabela pressupõem o uso do aço CA-50, d/h = 0,8 e γ<sub>c</sub> = 1,4 e γ<sub>s</sub> = 1,15. Caso esses fatores sejam diferentes, p<sub>min</sub> deve ser recalculado.</th>
+        </tr>
+    </tbody>
+</table>
+<p align = "justify"><b>Tabela 1.</b> Taxa mínima de armadura para vigas de concreto armado <a href="#ref1">[1]</a></p>
+  <br>
+  <p id="Eq4"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_4.png" >
+      </td>
+      <th> 
+        Equação 4
+      </th>
+    </tr>
+  </table>
+  <br>
+  Para a armadura máxima o valor respeitado deve ser de no máximo 4% da área de concreto quando somadas todas as armaduras tracionadas e comprimidas da seção, calculada fora da região de emendas.
+</p>
+
+
