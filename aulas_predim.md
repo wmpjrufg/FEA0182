@@ -2459,6 +2459,339 @@ G<sub>tipo</sub> = h . desnsidade
 
 <p align = "justify">
   Conforme o item 14.6.6.1 da ABNT NBR 6118 (2014) <a href="#ref1">[1]</a>, o modelo clássico de viga contínua, simplesmente apoiada nos pilares, pode ser utilizado para o estudo de cargas verticais. Ao considerar o modelo clássico de viga contínua, é necessário que se faça uso das correções adicionais, sendo:
+  <br><br>
+  a) Não podem ser considerados momentos positivos menores que os que se obteriam se houvesse engastamento perfeito da viga nos apoios internos;
 </p>
+<br>
+
+<p id="fig16"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_16.png" width="90%"></center>
+<p align = "justify"><b>Figura 16.</b> [COLOCAR]  <a href="#ref5">[colocar referencia]</a>
+<br><br><br>
+
+<p align = "justify">
+  b) Quando a viga for solidária com o pilar intermediário e a largura do apoio, medida na direção do eixo da viga, for maior que a quarta parte da altura do pilar, não pode ser considerado o momento negativo de valor absoluto menor do que o engastamento perfeito nesse apoio;
+</p>
+<br><br>
+
+<p id="fig17"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_17.png" width="90%"></center>
+<p align = "justify"><b>Figura 17.</b> [COLOCAR]  <a href="#ref5">[colocar referencia]</a>
+<br><br><br>
+
+<p align = "justify">
+  c) Quando não for realizado o cálculo exato da influência da solidariedade dos pilares com a viga, deve ser considerado, nos apoios extremos, momento fletor igual ao momento de engastamento perfeito multiplicado pelos coeficientes estabelecidos conforme as expressões a seguir:
+</p>
+<br><br>
+
+<p id="fig18"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_18.png" width="90%"></center>
+<p align = "justify"><b>Figura 18.</b> [COLOCAR]  <a href="#ref5">[colocar referencia]</a>
+<br><br><br>
+
+<p align = "justify">
+  Na viga, usa-se:<br>
+  <br>
+
+  <p id="Eq13"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c1.png" width="90%">
+      </td>
+      <th> 
+        Equação 13
+      </th>
+    </tr>
+  </table>
+  <br>
+  <li>No tramo inferior do pilar:
+
+  <p id="Eq14"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c2.png" width="90%">
+      </td>
+      <th> 
+        Equação 14
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <li>No tramo superior do pilar:
+   <p id="Eq15"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c3.png" width="90%">
+      </td>
+      <th> 
+        Equação 15
+      </th>
+    </tr>
+  </table>
+  <br>
+  Onde
+  <br><br>
+  𝑀<sub>𝑒𝑛𝑔</sub> – Momento fletor de ligação entre a viga e o pilar;<br>
+  𝑟<sub>𝑖𝑛𝑓</sub> – Rigidez do lance inferior do pilar;<br>
+  𝑟<sub>𝑠𝑢𝑝</sub> – Rigidez do lance superior do pilar;<br>
+  𝑟<sub>𝑣𝑖𝑔</sub> – Rigidez do tramo extremo da viga. <br>
+  𝑟<sub>𝑖</sub> = 𝐼<sub>𝑖</sub> / 𝑙<sub>𝑖</sub>  – Corresponde à rigidez do elemento 𝑖 no nó considerado e pode ser calculado através da relação entre o momento de inercia 𝐼<sub>𝑖</sub> e seu comprimento de flambagem do pilar 𝑙<sub>𝑖</sub>.
+  <br><br>
+  A Figura. <a href="#fig19">19</a> demonstra a disposição dos momentos fletores na base e no topo de um pilar:
+</p>
+<br>
+
+<p id="fig19"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_19.png" width="90%"></center>
+<p align = "justify"><b>Figura 19.</b> momentos fletores nos pilares provenientes da ligação com as vigas   <a href="#ref13">[13]</a>
+<br><br><br>
+
+<p align = "justify">
+  A Figura. <a href="#fig20">20</a> dispõe-se para demonstrar que, no caso da rigidez da viga, 𝑙<sub>𝑖</sub> corresponde ao vão efetivo entre o apoio extremo e o apoio intermediário. Visto que, em pilares, 𝑙<sub>𝑖</sub> é adotado como metade do comprimento de flambagem do lance do piar.
+</p>
+<br>
+
+<p id="fig20"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_20.png" width="90%"></center>
+<p align = "justify"><b>Figura 20.</b> aproximação em apoios extremos <a href="#ref1">[1]</a>
+<br><br><br>
+
+<p align = "justify">
+  Conforme o item 14.6.6.1 da NBR 6118:2014 <a href="#ref1">[1]</a>, é possível fazer um melhoramento do modelo de viga contínua, fazendo a consideração da solidariedade dos pilares com a viga, com a introdução da rigidez à flexão dos pilares extremos e intermediários. Pautando-se na análise cuidadosa e minuciosa dos resultados obtidos. 
+  <br>
+  Bastos (2015) <a href="#ref2">[2]</a>, declara que, na intenção de introduzir a rigidez à flexão dos pilares extremos, nota-se que o apoio extremo fica vinculado à viga em função de um engastamento elástico, isto é, uma mola. Sendo então avaliada conforme a Equação. <a href="#Eq16">16</a>, expressa a seguir:
+  <br>
+
+  <p id="Eq16"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c4.png" width="90%">
+      </td>
+      <th> 
+        Equação 16
+      </th>
+    </tr>
+  </table>
+  <br>
+  Onde:
+  <br>
+  𝐾<sub>(𝑝.𝑠𝑢𝑝)</sub> - Rigidez do lance superior do pilar extremo;<br>
+  𝐾<sub>(𝑝,𝑖𝑛𝑓)</sub> - Rigidez do lance inferior do pilar extremo;<br>
+  <br>
+  <br>
+  Estes, sendo:
+  
+  <p id="Eq17"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c5.png" width="90%">
+      </td>
+      <th> 
+        Equação 17
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <p id="Eq18"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c6.png" width="90%">
+      </td>
+      <th> 
+        Equação 18
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  Visto que:
+  <br>
+  𝐸=𝐸_𝑐𝑠 - Modulo de elasticidade secante do concreto;
+  𝐼 – Momento de inércia do lance do pilar;
+  𝑙_𝑒 - Comprimento de flambagem do lance inferior ou superior do pilar.
+  <br>
+  Nota-se há o incremento do coeficiente 4 nas Equações. <a href="#Eq17">17</a> e <a href="#Eq18">18</a>, tal incremento é feito devido ao caso de serem barras com vínculos de apoios simples e engastes perfeitos em suas extremidades. Na condição de ambos os vínculos serem apoiados, o valor do incremento muda-se para o coeficiente de valor 3.
+  Bastos( 2015) <a href="#ref2">[2]</a>, afirma, ainda, que para condições em que há uma continuidade do pilar nos pavimentos, típicos de pavimentos tipos em edifícios, tem-se que:
+  <br>
+
+  <p id="Eq19"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c7.png" width="90%">
+      </td>
+      <th> 
+        Equação 19
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <p id="Eq20"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula9/FIG_c8.png" width="90%">
+      </td>
+      <th> 
+        Equação 20
+      </th>
+    </tr>
+  </table>
+</p>
+<br>
+<br>
 
 
+<h1>Armadura de Suspensão em Vigas</h1>
+
+<h2>Armadura de Suspensão</h2>
+
+<p align = "justify">
+  Conforme o item 18.3.6 da NBR 6118:2014 <a href="#ref1">[1]</a>, é esclarecido que nas proximidades de cargas concentradas transmitidas à viga por outras vigas ou elementos discretos que nela se apoiam ao longo ou em parte de sua altura, ou fiquem pendurados, deve ser colocada armadura de suspensão.
+  <br><br>
+  Bastos (2015) <a href="#ref2">[2]</a>, afirma que é necessário fazer a distinção entre os tipos de apoio, sendo apoio direto e apoio indireto. Visto que, no apoio direto, o carregamento é transmitido diretamente para o apoio, por exemplo, um pilar. No apoio indireto, a carga da viga se transfere pelo corpo do elemento estrutural em direção a parte inferior da viga que serve de suporte.
+</p>
+<br>
+
+<p id="fig21"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_21.png" width="90%"></center>
+<p align = "justify"><b>Figura 21.</b> apoios indiretos e diretos  <a href="#ref14">[14]</a></p>
+<br><br><br>
+
+<p align = "justify">
+  Em uma situação intermediária, Chamberlain (2001) <a href="#ref3">[3]</a>, observa que há a necessidade de suspender apenas parte da reação, uma vez que o restante pode ser transferido para a treliça, através da Figura. <a href="#fig22">22</a>, que simula o elemento estrutural como viga de apoio
+</p>
+<br>
+
+<p id="fig22"></p>
+<center><img src="./assets/images/ECA2_aula9/FIG_22.png" width="90%"></center>
+<p align = "justify"><b>Figura 22.</b> [colocar]  <a href="#ref3">[3]</a></p>
+<br><br><br>
+
+<p align = "justify">
+  Realçando que, a reação de apoio 𝑅<sub>𝑑</sub>, a força de suspensão pode ser estimada como:
+  <br><br>
+  <p id="Eq21"></p>
+  <table>
+  <tr>
+      <td>
+        <center><img src="./assets/images/ECA2_aula9/FIG_c9.png" width="90%"></center>
+      </td>
+      <th> 
+        Equação 21
+      </th>
+    </tr>
+  </table>
+  <br>
+  Visto que: <br><br>
+  ℎ - altura da viga apoiada;<br>
+  ℎ<sub>𝑎</sub> - altura da viga de apoio;
+  <br>
+  <br>
+  <br>
+  A equação que expressa a armadura de suspensão, baseando-se na força de suspensão 𝑍<sub>𝑑</sub>, é:
+  <br><br>
+
+  <p id="Eq22"></p>
+  <table>
+  <tr>
+      <td>
+        <center><img src="./assets/images/ECA2_aula9/FIG_c10.png" width="90%"></center>
+      </td>
+      <th> 
+        Equação 22
+      </th>
+    </tr>
+  </table>
+  <br><br>
+
+  E que, conforme a Figura. <a href="#fig23">23</a>, a armadura de suspensão, estimada a partir da Equação. <a href="#Eq22">22</a>, pode ser atribuída na zona de suspensão, conforme a seguir:
+  <br><br>
+
+  <p id="fig23"></p>
+  <center><img src="./assets/images/ECA2_aula9/FIG_23.png" width="90%"></center>
+  <p align = "justify"><b>Figura 23.</b> Zona de suspensão <a href="#ref3">[3]</a></p>
+  <br><br><br>
+</p>
+<br><br><br>
+
+
+<h3>Bibliografia</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Referências</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1']</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas ABNT 6118. Projeto de Estruturas de Concreto. Rio de Janeiro, 2014.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref2">[2']</p></td>
+            <td><p align = "left">Bastos, P. S. dos S. Vigas de Concreto Armado. Bauru: Departamento de engenharia civil, 2015. Apostila.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3']</p></td>
+            <td><p align = "left">Chamberlain, Z. Exemplo de um projeto completo de edifício de concreto armado. capítulo 3 -  Cálculo de Vigas. 2001.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref4">[4']</p></td>
+            <td><p align = "left">Pinheiro, L. M. Projeto de Estruturas de Concreto. Departamento de engenharia de Estruturas. EESC-USP. 2007. Apostila. </p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref5">[5']</p></td>
+            <td><p align = "left">Dumet, T. B. Estruturas de Concreto Armado I, Departamento de Construção e Estruturas. EP-UFBA. 2008. Apostila. </p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref6">[6']</p></td>
+            <td><p align = "left">SUSSEKIND, 1981 </p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[7']</p></td>
+            <td><p align = "left">http://pt.slideshare.net/mackenzista2/aula-4-vigas.
+            </p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[8']</p></td>
+            <td><p align = "left">http://www.scielo.br/scielo.php?pid=S198341952014000500002&script=sci_arttext&tlng=pt.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[9']</p></td>
+            <td><p align = "left">http://www.multcalc.com.br/calculos/calculoviga.html.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[10']</p></td>
+            <td><p align = "left">http://admportodemanaus.blogspot.com.br/2012/04/cais-das-torres-instalacao-de-viga.html.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[11']</p></td>
+            <td><p align = "left">http://www.femco.com.br/solucoes.php?produto=Estrutura+de+Mesanino+em+Duplo+T.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[12']</p></td>
+            <td><p align = "left">https://premonta.com.br/montagem-de-vigas-em-premoldados/.http://apstecnologia.eng.br/pre-viga.php.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[13']</p></td>
+            <td><p align = "left">FUSCO, 1981</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[14']</p></td>
+            <td><p align = "left">FUSCOS, 2000.</p></td>
+        </tr>
+    </tbody>
+    </tbody>
+</table>
