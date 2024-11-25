@@ -3010,5 +3010,328 @@ G<sub>tipo</sub> = h . desnsidade
   <br>
   Para a armadura máxima o valor respeitado deve ser de no máximo 4% da área de concreto quando somadas todas as armaduras tracionadas e comprimidas da seção, calculada fora da região de emendas.
 </p>
+<br>
+
+<h2>Armadura de Pele</h2>
+
+<p align = "justify">
+  Segundo Carvalho (2014) <a href="#ref4">[4]</a> as armaduras de pele tem função de mitigar efeitos decorrentes da fissuração, retração e variação da temperatura nas faces de vigas de concreto, servindo também para controlar melhor a abertura de fissuras em vigas. 
+  O critério de armadura de pele é aplicado para peças com altura maior ou igual a 60 cm, sendo que a ABNT NBR descreve suas caraterísticas no item 17.3.5.2.3. Sendo a armadura descrita pela equação a seguir:
+  <br><br>
+
+  <p id="Eq5"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_5.png" >
+      </td>
+      <th> 
+        Equação 5
+      </th>
+    </tr>
+  </table>
+  <br>
+  Segundo ABNT NBR 6118:2014 <a href="#ref1">[1]</a> não é necessário uma armadura superior a 5 cm²/m por face do elemento.
+  <br>
+  <br>
+  Alguns projetistas recomendam o uso da armadura de pela para alturas superiores a 40 cm, melhorando assim o controle a fissuração. Bastos (2015) cita para altura maiores que 50 cm por exemplo.
+</p>
+<br><br><br>
+
+<p id="fig2"></p>
+<center><img src="./assets/images/ECA2_aula10/FIG_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> [COLOCAR]  <a href="#ref2">[2]</a></p>
+<br><br><br>
+
+<h2>Espaçamento Entre Barras Longitudinais</h2>
+
+<p align = "justify">
+  O espaçamento disponível tem como função adequar as peças para que as mesmas possibilitem condições de trabalho no momento da concretagem. Como colocação de vibradores de imersão, passagem dos agregados pela armadura, evitando assim problemas de segregação em peças de concreto. 
+  <br><br>
+  Vários cuidados sobre segregação são abordados na ABNT NBR 14931:2004. No item 9.5 já é possível perceber algumas recomendações sobre o momento do lançamento e adensamento da armadura
+</p>
+<br><br><br>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/ECA2_aula10/FIG_3.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> Segregação em peças de concreto   <a href="#ref9">[9]</a></p>
+<br><br><br>
 
 
+<p align = "justify">
+  O espaçamento disponível pode ser horizontal ou vertical, são dados através das seguintes equações:
+  <br><br>
+  Fusco (1995) recomenda o acréscimo de mossas no cálculo do diâmetro final das barras. Sendo mossa, as saliências da armadura nervurada (CA 50)
+  <br><br>
+
+  <p id="Eq6"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_6.png" >
+      </td>
+      <th> 
+        Equação 6
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <p id="Eq7"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_7.png" >
+      </td>
+      <th> 
+        Equação 7
+      </th>
+    </tr>
+  </table>
+    <br>
+
+  <p id="Eq8"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_8.png" >
+      </td>
+      <th> 
+        Equação 8
+      </th>
+    </tr>
+  </table>
+  <br>
+
+  <p id="Eq9"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_9.png" >
+      </td>
+      <th> 
+        Equação 9
+      </th>
+    </tr>
+  </table>
+</table>
+<br>
+
+  <p id="Eq10"></p>
+  <table>
+  <tr>
+      <td>
+        <img src="./assets/images/ECA2_aula10/Eq_10.png" >
+      </td>
+      <th> 
+        Equação 10
+      </th>
+    </tr>
+  </table>
+</p>
+<br>
+
+
+<p id="tab1"></p>
+<table>
+  <tr>
+    <th>Tipo de Brita</th>
+    <th>Diamêtro (mm)</th>
+  </tr>
+  <tr>
+    <td>Brita 0</td>
+    <td>4,8 a 9,5</td>
+  </tr>
+  <tr>
+    <td>Brita 1</td>
+    <td>9,5 a 19</td>
+  </tr>
+  <tr>
+    <td>Brita 2</td>
+    <td>19 a 25</td>
+  </tr>
+  <tr>
+    <td>Brita 3</td>
+    <td>25 a 38</td>
+  </tr>
+</table>
+<p align = "justify"><b>Tabela 2.</b> Características dos agregados graúdos  <a href="#ref4">[4]</a></p>
+<br>
+<br><br><br>
+
+<p id="fig4"></p>
+<center><img src="./assets/images/ECA2_aula10/FIG_4.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> Espaçamento armaduras –Armadura simples  <a href="#ref9">[9]</a></p>
+<br><br><br>
+<br><br><br>
+
+<p id="fig5"></p>
+<center><img src="./assets/images/ECA2_aula10/FIG_5.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> Espaçamento entre feixes de armaduras  <a href="#ref6">[6]</a></p>
+<br><br><br>
+
+<h2>Proteção das Armaduras</h2>
+
+<p align = "justify">
+  O cobrimento das armaduras é um dos principais fatores para a qualidade das estruturas de concreto armado e protendido. Segundo Fusco (2013) <a href="#ref6">[6]</a> é importante ressaltar que a camada de cobrimento deve proteger todas as barras de armadura, devendo por isso ser medida a partir das barras mais próximas à superfície da peça, considerando-se inclusive a presença de estribos ou de barras de armaduras secundárias e mesmo de armaduras construtivas.
+  As armaduras de aço dentro da massa de concreto são protegidas contra a corrosão pelo fenômeno de passivação do aço, que ocorre em virtude da grande alcalinidade do meio ambiente, pois o pH da água existente nos poros do concreto atinge valores superiores a 12,5 (FUSCO, 2013) <a href="#ref6">[6]</a>.
+  <br><br>
+  A passivação é um fenômeno químico ligado aos metais, que devido a alcalinidade do meio cria uma micro película de óxido de ferro protegendo a mesma da corrosão.
+</p>
+<br><br><br>
+
+<p id="fig6"></p>
+<center><img src="./assets/images/ECA2_aula10/FIG_6.png" width="90%"></center>
+<p align = "justify"><b>Figura 6.</b> Câmara passivadora <a href="#ref5">[5]</a></p>
+<br><br><br>
+
+
+<p id="Eq2"></p>
+<table border="1" style = "text-align:center">
+    <thead>
+        <tr>
+            <th rowspan = "3">Tipo de estrutura</th>
+            <th rowspan = "3">Componente ou elemento</th>
+            <th colspan = "5">Classe de agressividade ambiental (Tabela 6.1)</th>
+        </tr>
+        <tr>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th>IV<sup>c</sup></th>
+        </tr>
+        <tr>
+             <th colspan="4">Cobrimento nominal (mm)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">Concreto armado</td>
+            <td>Laje <sup>b</sup></td>
+            <td>20</td>
+            <td>25</td>
+            <td>35</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Viga/pilar</td>
+            <td>25</td>
+            <td>30</td>
+            <td>40</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Elementos estruturais em contato com o solo <sup>d</sup></td>
+            <td colspan = "2">30</td>
+            <td>40</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Concreto protendido <sup>a</sup></td>
+            <td>Laje</td>
+            <td>25</td>
+            <td>30</td>
+            <td>40</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Viga/pilar</td>
+            <td>30</td>
+            <td>35</td>
+            <td>45</td>
+            <td>55</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="7" align = "left">
+                <p><sup>a</sup> Cobrimento nominal da bainha ou dos fios, cabos e cordoalhas. O cobrimento da armadura passiva deve respeitar os cobrimentos para concreto armado.</p>
+                <p><sup>b</sup> Para a face superior de lajes e vigas que serão revestidas com argamassa de contrapiso, com revestimentos finais secos tipo carpete e madeira, com argamassa de revestimento e acabamento, como pisos de elevado desempenho, pisos cerâmicos, pisos asfálticos e outros, as exigências desta Tabela podem ser substituídas pelos itens 7.4.7.5, respeitando um cobrimento nominal ≥ 15 mm.</p>
+                <p><sup>c</sup> Nas superfícies expostas a ambientes agressivos, como reservatórios, estações de tratamento de água e esgoto, conduções de esgoto, canais de efluentes e outras obras em ambientes químico e intensamente agressivos, devem ser atendidos os cobrimentos da classe de agressividade IV.</p>
+                <p><sup>d</sup> No trecho dos pilares em contato com o solo junto aos elementos de fundação, a armadura deve ter...</p>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<p align = "justify"><b>Tabela 2.</b> [COLOCAR] <a href="#ref1">[1]</a></p>
+<br>
+<br>
+
+<h2>Centro de Gravidade para as Armaduras</h2>
+
+<p align = "justify">
+  Segundo Carvalho (2014) <a href="#ref4">[4]</a> os esforços na armadura só podem ser considerados concentrados no centro de gravidade das barras se a distância deste centro ao ponto de armadura mais afastado da linha neutra(𝑎<sub>𝑡𝑒𝑠𝑡𝑒</sub>), medida formalmente a ela, for menor que 10% de h. Já para a armadura concentrada considera-se o cálculo abaixo:
+</p>
+<br>
+
+<h4>centro da primeira barra</h4>
+
+<img src="./assets/images/ECA2_aula10/FIG_c1.png" >
+
+<p id="Eq11"></p>
+<table>
+<tr>
+    <td>
+      <img src="./assets/images/ECA2_aula10/Eq_11.png" >
+    </td>
+    <th> 
+        Equação 11
+    </th>
+  </tr>
+</table>
+<br>
+
+<img src="./assets/images/ECA2_aula10/FIG_c2.png" >
+<br><br><br>
+
+
+<h3>Bibliografia</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Referências</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas ABNT 6118. Projeto de Estruturas de Concreto. Rio de Janeiro, 2014.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref2">[2]</p></td>
+            <td><p align = "left">Bastos, P. S. dos S. Vigas de Concreto Armado. Bauru: Departamento de engenharia civil, 2015. Apostila.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
+            <td><p align = "left">Bastos, P. S. dos S. Flexão normal simples-vigas. Bauru: Departamento de engenharia civil, 2015b. 78 p. Apostila. </p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref4">[4]</p></td>
+            <td><p align = "left">Carvalho, R. C.; Figueiredo Filho, J. R. Cálculo e detalhamento de estruturas usuais de concreto armado segundo a NBR 6118:2014. Vol. 1 4. ed. São Carlos: Edufscar, 2014. 415 p.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref5">[5]</p></td>
+            <td><p align = "left">Rossi, D. A. Z.; Brito, F. C.; Sperandio, L. S. Recuperação estrutural: estudo de caso de um edifício residencial. Vitória: Centro tecnológico PPGEC, 2010. 48 p. Trabalho de pós graduação.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref6">[6]</p></td>
+            <td><p align = "left">Fusco, P. B. Técnica de armar as estruturas de concreto. 2. ed. São Paulo: PINI, 2013. 391 p.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[7]</p></td>
+            <td><p align = "left">Leonhardt, F.; Monning, E. Construções de concreto. Vol. 1 4. ed. Stuttgart: Interciência, 2007. 273 p. </p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[8]</p></td>
+            <td><p align = "left">Disponível em: http://goo.gl/NwVt66, acesso em: 08/05/2016 as 11:31</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[9]</p></td>
+            <td><p align = "left">Disponível em: http://goo.gl/XzmLxn, acesso em: 08/05/2016 as 11:42</p></td>
+        </tr>
+    </tbody>
+    </tbody>
+</table>
+<br>
