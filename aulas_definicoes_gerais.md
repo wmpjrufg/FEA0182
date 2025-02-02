@@ -1939,7 +1939,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
     </tr>
     <tr>
         <th >
-         \[𝐴_𝑐=(1,50〖.𝑁〗_𝑑^∗)/(0,50.𝑓_𝑐𝑘+0,42)≥360 〖𝑐𝑚〗^2\]
+         𝐴_𝑐=(1,50〖.𝑁〗_𝑑^∗)/(0,50.𝑓_𝑐𝑘+0,42)≥360 〖𝑐𝑚〗^2
          </th>            
     </tr>      
 </table>
@@ -2209,7 +2209,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 <br><br>
 
 <p>
-    A Fig. 1.6 apresenta os cortes A e B da Fig. 1.4 apresentada anteriormente, onde são representadas as cargas do eixo padrão (P) que transita sobre a rodovia e a carga de multidão (q) dos veículos de passeio, de menor peso, que transitam sobre a estrutura.
+    A Fig. 6 apresenta os cortes A e B da Fig. 1.4 apresentada anteriormente, onde são representadas as cargas do eixo padrão (P) que transita sobre a rodovia e a carga de multidão (q) dos veículos de passeio, de menor peso, que transitam sobre a estrutura.
 </p>
 <br>
 
@@ -2228,9 +2228,9 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 <br><br>
 
 <p align = "justify">
-	Essa carga móvel TB-450 tem o total de 450 kN sendo que cada roda tem o peso de 75 kN, circundado por uma carga uniforme distribuída de 5  𝑘𝑁⁄𝑚^2 . No item NBR 7188 (ABNT, 2012) ainda são indicados outros tipos de veículos tipo, como por exemplo o TB-240 para estradas vicinais. Essa carga móvel TB-240 tem o total de 240 kN sendo que cada roda tem o peso de 40 kN, circundado por uma carga uniforme distribuída de 4  𝑘𝑁⁄𝑚<sup>2</sup>2
+	Essa carga móvel TB-450 tem o total de 450 kN sendo que cada roda tem o peso de 75 kN, circundado por uma carga uniforme distribuída de 5  𝑘𝑁⁄𝑚<sup>2</sup> . No item NBR 7188 (ABNT, 2012) ainda são indicados outros tipos de veículos tipo, como por exemplo o TB-240 para estradas vicinais. Essa carga móvel TB-240 tem o total de 240 kN sendo que cada roda tem o peso de 40 kN, circundado por uma carga uniforme distribuída de 4  𝑘𝑁⁄𝑚<sup>2</sup>
 	<br><br>
-	No caso de passeios para pedestres das pontes rodoviárias e viadutos, A NBR 7188 (ABNT, 2012) indica o uso de uma carga uniformemente distribuída de 3 kN/m na posição mais desfavorável concomitante com a carga móvel rodoviária, para verificações e dimensionamento dos diversos elementos estruturais, assim como para verificações globais. O elemento estrutural do passeio deve ser dimensionado com uma carga de 5  𝑘𝑁⁄𝑚^2 .
+	No caso de passeios para pedestres das pontes rodoviárias e viadutos, A NBR 7188 (ABNT, 2012) indica o uso de uma carga uniformemente distribuída de 3 kN/m na posição mais desfavorável concomitante com a carga móvel rodoviária, para verificações e dimensionamento dos diversos elementos estruturais, assim como para verificações globais. O elemento estrutural do passeio deve ser dimensionado com uma carga de 5  𝑘𝑁⁄𝑚<sup>2</sup> .
 </p>
 <br>
 
@@ -2302,7 +2302,7 @@ Existem vários tipos de sub modelos estruturais associados as pontes estaiadas.
 	<br><br>
 	O estudo dessas causas é extremamente difícil; na prática, levamos em conta o impacto, dando às cargas móveis um acréscimo e considerando-se  como  se fossem aplicadas estaticamente. Esse Acréscimo é o chamado coeficiente de impacto ( ϕ) pelo qual são multiplicadas as cargas acidentais com a ação dinâmica.
 	<br><br>
- '	A equação (1.1) apresenta a correção dos valores das ações com a consideração dos efeitos dinâmicos.
+ 	A equação (1.1) apresenta a correção dos valores das ações com a consideração dos efeitos dinâmicos.
 </p>
 <br>
 

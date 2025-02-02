@@ -13,187 +13,276 @@ has_toc: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Infraestrutura</h1> 
+<h1>As disciplinas envolvidas</h1> 
 
 <p align = "justify">
-  Os métodos construtivos dos elementos de infraestrutura para pontes seguem as premissas básicas dos elementos tradicionais de fundações, sejam essas fundações rasas ou profundas. Lembrando que as característica para dimensionamento das fundações são relativos a normativa ABNT NBR 6122 <a href="#ref1">[1]</a>.
-  <br><br>
-  <b>fundações rasa ou superficial:</b> Elementos de fundação em que a carga é transmitida ao  terreno, predominantemente pelas pressões distribuídas  sob a base da fundação, e em que a profundidade de as sentamento em relação ao terreno adjacente é inferior a  duas vezes a menor dimensão da fundação. Incluem-se  neste tipo de fundação: (a) sapata, (b) bloco, (c) radier, (d) sapata associada, (e) viga de fundação e (f) sapata corrida.
-  <br><br>
-  <b>fundações profunda:</b> Elemento de fundação que transmite a carga ao terreno pela base (resistência de ponta), por sua superfície lateral (resistência de fuste) ou por uma combinação das duas, e que está assente em profundidade superior ao dobro de sua menor dimensão em planta, e no mínimo 3 m, salvo justificativa. Neste tipo de fundação incluem-se: (a) estaca, e (b) tubulão.
-  <br><br>
-	Normalmente em pontes são aplicadas fundações profundadas devido a magnitude do carregamento. Portanto estacas e tubulões são os tipos de peças mais empregadas.
-</p>
-
-<h2>Tubulão</h2> 
-
-<p align = "justify">
-  A fundação tipo tubulão é bastante utilizada para aplicações em pontes. Segundo o item 3.49 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se tubulão como um elemento de fundação profunda em que, pelo menos na etapa final da escavação do terreno, faz-se necessário o trabalho manual em profundidade para executar o alargamento de base ou pelo menos para a limpeza do fundo da escavação, uma vez que neste tipo de fundação as cargas são resistidas preponderantemente pela ponta.
+  O primeiro  passo  a ser dado  na confecção  do projeto de  uma ponte é definir sua finalidade,  para  consequentemente  se  obter  as  cargas  para  seu  dimensionamento.  Para uma definição acertada da geometria e das cargas úteis que devem ser utilizadas, o projeto de  uma  ponte  exige  levantamentos  topográficos,  hidrológicos  e  geotécnicos.  Outras informações  de  interesse  construtivo  ou  econômico,  notícias  tecnológicas  de  caráter especial, podem ser determinantes na escolha do tipo de obra [1].
 	<br><br>
-	Os tubulões pode ser de dois tipos:
-	<br>
-	<ul>
-		<li>Céu aberto;</li>
-		<li>Ar comprimido.</li>
+	Portanto são elementos necessários em um projeto de ponte:
+ 	<br>
+  	<ul>
+		<li>Elementos topográficos;</li>
+		<li>Elementos hidrológicos;</li>
+		<li>Elementos geotécnicos;</li>
+		<li>Elementos geométricos;</li>
+		<li>Outros fatores: Elementos agressivos, informações de interesse construtivo e econômicos.</li>
 	</ul>
-  A Figura <a href="#fig1">1</a> apresenta a geometria tradicional de um tubulão.
 </p>
+
+<h2>Estudos Topográficos</h2>
+
+<p align = "justify">
+  Segundo Miller et al. [1] e Pfeil [2] os elementos topográficos necessários ao projeto de uma ponte referem-se aos estudos topográficos tanto do local específico de implantação do  empreendimento, como também da região em torno do mesmo, que possa  a vir influir em fenômenos climáticos sofridos pela obra durante sua construção e vida útil. Este estudo topográfico é normalmente composto pelos seguintes elementos: 
+	<br><br>
+	<ul>
+		<li>Planta, em escala de 1:1000 ou 1:2000; </li><br>
+		<li>Perfil em escala horizontal de 1:1000 ou 1:2000 e escala vertical de 1:100 ou 1:200 do trecho da rodovia em que ocorrerá a implantação da obra em uma extensão tal que ultrapasse seus extremos prováveis de, pelo menos, 1000  m para cada lado;</li><br>
+		<li>Planta do terreno no qual será implantada a ponte, em uma extensão tal que exceda de 50 m, em cada extremidade, seu comprimento provável e largura de 30 m, desenhada na escala de 1:100 ou 1:200, com curvas de nível de metro em metro, contendo a posição do eixo locado e a indicação de sua esconsidade.</li><br>
+		<li>Perfil ao longo do eixo locado na escala de 1:100 ou 1:200 e numa extensão tal que exceda de 50 m, em cada extremidade, o comprimento provável da obra; </li><br>
+		<li>Quando se tratar de transposição de curso d’água, seção do rio segundo o eixo locado, na escala 1:100 ou 1:200, com as cotas de fundo do rio em  pontos distanciados cerca de 5 m. </li>
+	</ul>
+</p>
+<br>
+<p>
+  O projetista deverá ficar atento a dois arquivos:
+   	<br>
+    <ul>
+      <li>Levantamento do estaqueamento;</li>
+      <li>Levantamento do perfil longitudinal.</li>
+	</ul>
+</p>
+
+
+<h2>Estudos Hidrológicos</h2>
+
+<p align = "justify">
+  O elemento hidrológico de maior importância na elaboração do projeto de uma ponte trata-se da determinação da vazão máxima do canal, pois é através desse parâmetro que se determina o gabarito mínimo da ponte e as solicitações máximas de empuxo de água aos quais os pilares estarão sujeitos.
+	<br><br>
+	A grande dificuldade na determinação da vazão máxima em uma pequena bacia está na obtenção de dados confiáveis, visto que raramente se dispõe de séries históricas de vazão, ou chuvas intensas, ou até mesmos dados  topográficos.
+</p>
+<br>
 
 <p id="fig1"></p>
-<center><img src="./assets/images/tubulao_1.png" width="90%"></center>
-<p align = "justify"><b>Figura 1.</b> Tubulões: (a) em perfil, sem e com alargamento de base e formas de base usuais: (b) circular e (c) "falsa elipse" <a href="#ref2">[2]</a>.</p>
+<center><img src="./assets/images/BACIA_HIDRO.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> Exemplo de uma bacia hidrográfica1. <a href="#ref2">[2]</a>.</p>
 
-<p align = "justify">
-O esquema de construção de um tubulão a ceú aberto pode ser visto na Figura <a href="#fig2">2</a>.
+
+<p align = "justify"> 
+  Araújo [3] exemplifica a determinação da máxima vazão em um canal através do uso da formula de Manning. Tal exemplo se refere ao dimensionamento da ponte sob Rio Pau Seco.
+  A Figura. <a href="#fig2">2</a> apresenta dados sobre a seção de um rio, e a Fifura. <a href="#fig3">3</a> apresenta dados sobre a vazão do mesmo rio.
 </p>
 
 <p id="fig2"></p>
-<center><img src="./assets/images/tubulao_2.png" width="90%"></center>
-<p align = "justify"><b>Figura 2.</b> Execução de tubulão a céu aberto: (a) escavação, (b) concretagem a seco, (c) tubulão pronto <a href="#ref2">[2]</a>.</p>
-
-<p align = "justify">
-O esquema de construção de um tubulão a ar comprimido segue um esquema similar ao processo a ceú aberto. Porém utiliza-se uma campânula. Esse recurso é empregado quando na execução do tubulão atinge-se o lençol d'água, sendo necessário revestir a escavação e também empregar o ar comprimido. O modelo de camânula pode ser visto na Figura <a href="#fig3">3</a>.
-</p>
+<center><img src="./assets/images/dados_rio.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Dados da seção transversal do rio Pau Seco.<a href="#ref2">[2]</a>.</p>
+<br>
 
 <p id="fig3"></p>
-<center><img src="./assets/images/tubulao_3.png" width="60%"></center>
-<p align = "justify"><b>Figura 3.</b> Campânula para pressurização do 
-tubulão <a href="#ref2">[2]</a>.</p>
+<center><img src="./assets/images/calculo_vazao_rio.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> Cálculo da máxima cheia de projeto calculada (MCC).<a href="#ref2">[2]</a>.</p>
 <br>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3qMTjCqUBP8?si=Pt26zy8tfHADHtnu&start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 1.</b> Você conhece o tubulão a ar comprimido? <a href="#ref3">[3]</a>.</p>
 
-<h2>Estacas</h2> 
-
-<p align = "justify">
-  Segundo o item 3.11 da ABNT NBR 6122 <a href="#ref1">[1]</a> define-se estaca como um elemento de fundação profunda executado inteiramente por equipamentos ou ferramentas, sem que, em qualquer fase de sua execução, haja trabalho manual em profundidade. Os materiais empregados podem ser: madeira, aço, concreto pré-moldado, concreto moldado in loco, argamassa, calda de cimento, ou qualquer combinação dos anteriores.	
-</p>
-<br>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KKgTq8JievA?si=mFsgijSYmA3e-aBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 2.</b> Tubulão em água <a href="#ref4">[4]</a>.</p>
-
-<h1>Mesoestrutura</h1> 
-
-<p align = "justify">
-	Segundo o antigo DNER <a href="#ref5">[5]</a> o método construtivo da mesoestrutura depende principalmente de sua altura, os pilares podem ser executados, pelo menos, de quatro maneiras distintas: 
-</p>
-
-<ol type = "a">
-  <li><p align = "justify">Através de peças pré-moldadas, em passarelas e obras de pequenos vãos;</p></li>
-  <li><p align = "justify">Através de concretagem convencional, isto é, executadas as fôrmas completas, concreta-se de baixo para cima, em concretagens contínuas, concreto lançado ou bombeado e vibrado;</p></li>
-  <li><p align = "justify">Através de fôrmas deslizantes, fôrmas desmontáveis de cerca de 1,0 m de altura, empurradas continuamente para cima, simultaneamente com a concretagem, contínua e vibrada;</p></li>
-  <li><p align = "justify">Através de fôrmas trepantes, fôrmas desmontáveis de cerca de 3,0 m de altura e concretagem por segmentos, vibrada e interrompida.</p></li>
-</ol>
-
-<p align = "justify">
-  O sistema construtivo da mesoestrutura influi no seu detalhamento; no caso particular de fôrmas deslizantes recomenda-se um cobrimento adicional das armaduras, de 3 a 4 cm, para combater a tendência à fissuração da camada superficial do concreto, provocada pelo arrasto das fôrmas. As Figuras <a href="#fig4">4</a>, <a href="#fig5">5</a> e <a href="#fig6">6</a> apresentam exemplos de aplicações das fôrmas trepantes.
+<p align = "justy">
+  Com a determinação da MCC é possível determinar a altura da construção conforme será apresentado nas situações de pré-dimensionamento dos elementos, como apresentado na Figura. <a href="#fig4">4</a>
 </p>
 
 <p id="fig4"></p>
-<center><img src="./assets/images/trepantes_1.png" width="70%"></center>
-<p align = "justify"><b>Figura 4.</b> Exemplo 1 de fôrma trepante <a href="#ref6">[6]</a>.</p>
+<center><img src="./assets/images/secao_rio_pau_seco_MCC.png" width="90%"></center>
+<p align = "justify"><b>Figura 4.</b> Seção transversal do Rio Pau Seco com a marcação da MCC.<a href="#ref2">[2]</a>.</p>
 <br>
-</center>
+
+<h2>Estudos Geotécnicos</h2>
+
+<p align = "justify">
+  Segundo Pfeil [2] os elementos geotécnicos necessários à elaboração do projeto de uma ponte são: 
+	<br><br>
+	a) Relatório de prospecção de geologia aplicada no local de provável implantação da obra, considerando seu esboço estrutural, e realçando peculiaridades geológicas porventura existentes; 
+	<br><br>
+	b) Relatório de sondagem de  reconhecimento do subsolo;
+	<br><br>
+	c) Estudos geotécnicos especiais que permitam a elaboração de projeto conjunto terreno-aterro-obra de arte, sempre que a estabilidade dos terrenos contíguos à obra possa ser ameaçada pelas solicitações dos aterros de acesso.
+</p>
+<br>
 
 <p id="fig5"></p>
-<center><img src="./assets/images/trepantes_2.png" width="70%"></center>
-<p align = "justify"><b>Figura 5.</b> Exemplo 2 de fôrma trepante <a href="#ref6">[6]</a>.</p>
+<center><img src="./assets/images/croqui_sond_ponte.png" width="90%"></center>
+<p align = "justify"><b>Figura 5.</b> Marcação em croqui para sondagem de uma ponte2.<a href="#ref2">[2]</a>.</p>
 <br>
-</center>
 
 <p id="fig6"></p>
-<center><img src="./assets/images/trepantes_3.png" width="70%"></center>
-<p align = "justify"><b>Figura 6.</b> Exemplo 3 de fôrma trepante <a href="#ref6">[6]</a>.</p>
+<center><img src="./assets/images/EX_SPT.png" width="90%"></center>
+<p align = "justify"><b>Figura 6.</b> Exemplo de sondagem tipo SPT da ponte sobre rio Jequiá2.<a href="#ref2">[2]</a>.</p>
 <br>
-</center>
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WRPs5EtK8vE?si=TZHuOtbrdSq1PHs5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 3.</b> Fôrmas deslizantes <a href="#ref7">[7]</a>.</p>
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uPUsl5_2c14?si=S0OMpDKS3nX7SyL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 4.</b> Fôrmas trepantes <a href="#ref8">[8]</a>.</p>
-
-<h1>Superestrutura</h1> 
+<h2>Estudos geométricos</h2>
 
 <p align = "justify">
-De acordo com Leonhardt <a href="#ref9">[9]</a> a classificação segundo o processo executivo é dada por três subdivisões, são elas:
+  Miller et al. [1] afirma que os elementos geométricos determinantes no projeto de uma ponte são consequências das características da via e de seu próprio estrado. Os  elementos geométricos da via dependem das condições técnicas  estabelecidas pelo órgão público competente.
 </p>
-
-<ol type="a">
-  <li>Construção com concreto moldado <i>in loco</i>;</li>
-  <li>Construção com elementos pré-moldados;</li>
-  <li>Construção por deslocamentos progressivos.</li>
-</ol>
-
-<h2>Construção com concreto moldado <i>in loco</i></h2> 
-
-<h3>Fôrmas sobre escoramento fixo e móveis</h3> 
-
-<p align = "justify">
-  O escoramento fixo deve ser apoiado no terreno, de maneira segura, e suas deformações devem ser compensadas através de contraflechas. Para isso, deve-se ter cuidado com a compressão nas juntas, o que pode ser evitado através de uma camada de argamassa, que é a melhor maneira. A retirada do escoramento, após o endurecimento do concreto, deve ser elaborada de tal modo - inclusive com a utilização de cunhas e caixas de areia ou dispositivos semelhantes – a não produzir solicitações prejudiciais à estrutura da ponte <a href="#ref9">[9]</a>.
-  <br><br>
-  Já escoramentos móveis são interessantes para pontes com maior número de vãos. Porém o processo só é prático quando o terreno for plano, o solo for resistente e a ponte possuir um gabarito (altura) relativamente pequeno <a href="#ref9">[9]</a>. As Figuras <a href="#fig7">7</a> e <a href="#fig8">8</a> apresentam exemplo do modelo simples e mecanizado.
-</p>
+<br>
 
 <p id="fig7"></p>
-<center><img src="./assets/images/escoramento_fixo_1.png" width="90%"></center>
-<p align = "justify"><b>Figura 7.</b> Execução com escoramento deslizante, com fôrmas para cada vão <a href="#ref9">[9]</a>.</p>
+<center><img src="./assets/images/ponte_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 7.</b> Exemplo da influência do traçado da via no modelo geométrico da ponte3.<a href="#ref2">[2]</a>.</p>
 <br>
-</center>
+
+<p align = "justify">
+  A Tabela. <a href="#tab1">1</a> com uma série de características relativa a classe da rodovia.
+</p>
+
+<p id="tab1"></p>
+<center><img src="./assets/images/tab_1.png" width="90%"></center>
+<p align = "justify"><b>Tabela 1.</b> Características básicas em função da classe da rodovia [1] apud Lee4.<a href="#ref2">[2]</a>.</p>
+
+
+<h2>Outros elementos de projeto</h2>
+
+<p align = "justify">
+  Miller et al. [1] e Pfeil [2] citam uma série de fatores externos que podem causar influência no projeto de uma ponte. São eles:
+	<br><br>
+	a) Agressividade da água, referida ao pH ou ao teor de substâncias  agressivas aos materiais de construção (água do mar ou acentuadamente salobra, águas sulfatadas ou sulfídricas); 
+	<br><br>
+	b) Materiais de ação destrutiva sobre o concreto; 
+	<br><br>
+	c) Gases tóxicos de terrenos pantanosos, possíveis em cavas de fundação; 
+	<br><br>
+	d) Quando houver a existência de moluscos capazes de perfurar as  madeiras  de escoramento, poderá ser razão determinante da escolha do método construtivo a ser adotado no projeto;
+	<br><br>
+	e) Condições de acesso ao local da obra; 
+	<br><br>
+	f) Procedência dos materiais de construção, custo e confiabilidade do transporte; 
+	<br><br>
+	g) Épocas favoráveis para execução dos serviços, considerando os períodos chuvosos e o regime do rio; 
+	<br><br>
+	h) Possível  interferência  de  serviços  de  terraplanagem  ou  desmonte  de  rocha,  nas proximidades da obra; 
+	<br><br>
+	i) Condições de obtenção de água potável.
+</p>
+
+<h1>Componentes da Estrutura de uma ponte</h1>
+
+<p align = "justify">
+  Nesse texto a abordagem será voltado ao projeto de pontes de concreto armado, portanto as observações relativas a esse modelo serão introduzidas a partir dos componentes de projeto.
+	<br><br>
+	Segundo Vitório [4] a superestrutura de uma ponte rodoviária que é o foco desse texto é dividida nos seguintes elementos:
+ 	<br><br>
+  	<ul>
+		<li>Lajes do tabuleiro;</li><br>
+		<li>Vigamento do tabuleiro;</li><br>
+		<li>Passeios de pedestres, guarda-corpos e barreiras;</li><br>
+		<li>Cortinas e alas;</li><br>
+		<li>Placa de transição e juntas de dilatação;</li><br>
+		<li>Sistema de drenagem;</li><br>
+		<li>Pista de rolamento.</li><br>
+	</ul>
+ 	<br><br>
+  As lajes e vigas da superestrutura são responsáveis por receber o carregamento e transmitir para a mesoestrutura do sistema. As Figuras. <a href="#fig8">8a e  8b</a> apresentam esse modelos de sistema laje + viga. No caso desse disciplina o modelo utilizado para exemplo será o moldado in loco com duas longarinas. 
+  <br><br>
+	Ainda sobre esse sistema é comum o uso de transversinas ligadas ou desligadas das lajes, sendo essas especialmente utilizadas para o contraventamento da estrutura.
+</p>
+<br>
 
 <p id="fig8"></p>
-<center><img src="./assets/images/escoramento_fixo_2.png" width="90%"></center>
-<p align = "justify"><b>Figura 8.</b> Execução, vão por vão, por meio de treliça de escoramento deslizante sobre rolos dispostos em vigas transversais fixadas nos pilares <a href="#ref9">[9]</a>.</p>
+<center><img src="./assets/images/lajes_e_vigas_pontes.png" width="90%"></center>
+<p align = "justify"><b>Figura 8.</b> Lajes e vigas de pontes: (a) Laje concretada no local sobre pré-lajes apoiadas em vigas pré-moldadas; (b) Sistema monolítico Laje + vigas em concreto armado moldado no local [4].<a href="#ref2">[2]</a>.</p>
 <br>
-</center>
 
 <p align = "justify">
-  Leonhardt <a href="#ref9">[9]</a> recomenda alguns cuidados durante a concretagem devido a magnitude dos carregamentos durante esse processo, visto que recalques podem existir e o concreto ainda em estado de endurecimento é sensível a essas deformações.
+  Segundo Vitório [4] os passeios são as partes do tabuleiro destinadas ao tráfego de pedestres. Têm em geral largura de 1,00m para pontes em áreas rurais e de 1,50 m para pontes nas rodovias em áreas urbanas. Nas obras situadas dentro das cidades a largura dos passeios pode variar de acordo com cada caso específico. 
+	<br><br>
+	A normativa DNIT [5] recomenda para passeios de pedestres larguras de 1,50 m e para ciclovias e passeios em conjunto o total de 3,00 m.
+	<br><br>
+	Já os elementos de proteção da via são dados como as defensas e barreiras. No caso a normativa DNIT [5] tomou como padrão a barreia New Jersey muito utilizada nos EUA. O modelo dessa barreira é apresentando na Figura. <a href="#fig9">9</a>
+	<br><br>
+	Segundo Vitório [4] a placa de transição (Figura <a href="#fig10">10</a>) é constituída de uma laje de concreto armado apoiada, de um lado, numa extremidade da ponte, e do outro lado, apoiada no terrapleno. A finalidade da placa de transição é amenizar a diferença de nível entre o aterro das cabeceiras e o estrado da ponte, provocada por recalques do terrapleno ao longo do tempo.
 </p>
-
-<ol type="1">
-  <li><p align = "justify">Cálculo prévio das deformações com a correspondente contraflecha das vigas metálicas propriamente ditas ou enchimento interno das fôrmas.</p></li>
-  <li><p align = "justify">Divisão da concretagem em trechos, de tal modo que as deformações das partes do escoramento estejam terminadas antes que o concreto comece a endurecer. Emprego de retardadores no traço do concreto, para retardar o endurecimento conforme necessário; com isso, é preciso levar em consideração a temperatura presumível do ar!</p></li>
-  <li><p align = "justify">Fechamento das juntas entre trechos de concretagem ou ligação das juntas de trechos já endurecidos, sempre e somente após a deformação da parte do escoramento que suporta o novo trecho.</p></li>
-  <li><p align = "justify">Evitar forte exposição dos montantes metálicos aos raios solares, por causa das deformações devido à variação de temperatura.</p></li>
-  <li><p align = "justify">Controle permanente do escoramento e de suas fundações, tendo em vista recalques ou outras deformações, durante a concretagem.</p></li>
-</ol>
-
-<p align = "justify">
-  Outra informação importante é que situações que envolvem escoramentos deslizantes devem ser avaliadas por meio de uma combinação específica para etapa construtiva pois essa situação altera o diagrama de momento fletor dos elementos. Stucchi <a href="#ref10">[10]</a> apresenta a modificação do diagrama de esforços de flexão de uma longarina de ponte com o uso de escoramentos deslizantes (Ver Figura <a href="#fig9">9</a>).
-</p>
+<br>
 
 <p id="fig9"></p>
-<center><img src="./assets/images/escoramento_deslizante_1.png" width="100%"></center>
-<p align = "justify"><b>Figura 9.</b> Diagrama de solicitações para o modelo estrutural considerando etapas construtivas <a href="#ref10">[10]</a>.</p>
+<center><img src="./assets/images/secao_transversal_barreira_concreto.png" width="90%"></center>
+<p align = "justify"><b>Figura 9.</b> Modelo de barreira New Jersey especificado [5].<a href="#ref2">[2]</a>.</p>
 <br>
-</center>
-
-<h2>Construção com concreto moldado <i>in loco</i> e balanços sucessivos</h2> 
-
-<p align = "justify">
-  O processo de balanços sucessivos foi desenvolvido na Alemanha e sua primeira aplicação se deu por volta de 1951. A partir de um escoramento e formas realizadas em equilíbrio, concreta-se a cada 3 dias, aproximadamente, um trecho de 3 a 5m de extensão. O balanço, via de regra, é contrabalançado pelo avanço simultâneo das vãos vizinhas (fig. 7.6). A estabilidade do processo executivo é garantida pelo engastamento nos pilares ou através de apoios temporários. A Figura <a href="#fig10">10</a> apresenta o modelo de balanços sucessivos.
-</p>
 
 <p id="fig10"></p>
-<center><img src="./assets/images/balancos_sucessivos_1.png" width="100%"></center>
-<p align = "justify"><b>Figura 10.</b> Estabilização do balanço por meio de engastamento no pilar ou por meio de apoios provisórios. <a href="#ref9">[9]</a>.</p>
+<center><img src="./assets/images/placa_transi_super_e_terrapleno.png" width="90%"></center>
+<p align = "justify"><b>Figura 10.</b> Placa de transição entre superestrutura e terrapleno [4].<a href="#ref2">[2]</a>.</p>
 <br>
-</center>
+
+<p align = "justify">
+  Segundo Vitório [4] os pilares são localizados a cada linha de apoio transversal do tabuleiro. Suas quantidades, formas e dimensões dependem de diversos fatores como a altura da obra, a largura da superestrutura e o tipo de fundação.
+	<br><br>
+	Tais modelos de pilares são apresentados na Figura. <a href="#fig11">11</a>
+</p>
+<br>
+
+<p id="fig11"></p>
+<center><img src="./assets/images/pilar_ponte_1.png" width="90%"></center>
+<center><img src="./assets/images/pilar_ponte_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 11.</b> PAlgumas soluções para pilares de pontes: (a) Pilar parede (maciços ou celular); (b) dois pilares ligados por uma travessa de topo; (c) Dois pilares com viga de contraventamento; (d) Tubulões de fundação funcionando como pilares; e (e) Três pilares ligados por travessa de topo (Caso de múltiplas vigas no tabuleiro) [4].<a href="#ref2">[2]</a>.</p>
+<br>
 
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r4KPi64pYmg?si=vJiiLF0QPstVkJh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-<p align = "justify"><b>Vídeo 4.</b> Aplicação de balanços sucessivos <a href="#ref7">[7]</a>.</p>
+<h1>Mesoestrutura</h1>
+
+<p align = "justify">
+  El Debs & Takeya [6] afirmam que os aparelhos de apoio vinculam determinadas partes da superestrutura, permitindo ao mesmo tempo, os movimentos previstos no projeto, provocados pelos esforços, podendo ser: protensão, variação de temperatura, retração do concreto e outros o que modificam as dimensões dos elementos. Mason [7] afirma que estes também são responsáveis pela transferência de carregamento aos pilares.
+	<br><br>
+	Os modelos de articulações podem ser fixos ou móveis. As articulações fixas e móveis podem ser metálicas (normalmente de aço), de concreto ou até em borracha sintética no caso especifico para apoios móveis.
+	<br><br>
+	Mason [7] afirma que o aparelho de apoio mais utilizado são os apoios elásticos de borracha fretada (Neoprene), que permitem movimentos em qualquer sentido, limitando-os porém a um valor máximo.
+ 	<br><br><br><br>
+  	Conforme Vitório [4] os aparelhos fixos permitem movimentos de rotação e impedem os de translação, transmitindo esforços verticais e horizontais. Estes são utilizados na forma de articulações de concreto ou articulações metálicas. 
+	<br><br>
+	No caso as articulações de concreto as mais conhecidas são as articulações Freyssinet. Esta articulação tem a vantagem de ser executado sem a necessidade de materiais adicionais a não ser o concreto e a armação, já empregados na obra [7]. Segundo Batista [8] a primeira aplicação desse modelo de apoio foi registrada em 1923 pelo próprio Freyssinet na construção da ponte Candelier Sur la Sainbre.
+	<br><br>
+	Tal articulação é obtida pelo estrangulamento da seção de concreto da peça através da qual passam apenas as barras de montagem [7]. A Figura. <a href="#fig12">12</a> apresenta um exemplo de articulação do tipo Freyssinet.
+</p>
+<br>
+
+<p id="fig12"></p>
+<center><img src="./assets/images/articula_freyssinet.png" width="90%"></center>
+<p align = "justify"><b>Figura 12.</b> Exemplo de articulação tipo Freyssinet do viaduto 04-07 da ferrovia do aço<a href="#ref2">[2]</a>.</p>
+<br>
+
+<p align = "justify">
+  Já os aparelhos de apoio metálicos podem ser os mais variados possíveis nesse caso será exemplificado aqui o aparelho do tipo Rolete. Tais apoios também permitem apenas a rotação da seção transversal. A Figura. <a href="#fig13">13</a> apresenta um modelo de rolete..
+</p>
+<br>
+
+<p id="fig13"></p>
+<center><img src="./assets/images/articula_fixa_metalica.png" width="90%"></center>
+<p align = "justify"><b>Figura 13.</b> Modelo de articulações fixas metálicas [6].<a href="#ref2">[2]</a>.</p>
+<br>
+
+<p align = "justify">
+  As articulações móveis permitem tanto a rotação como a translação, gerando no vínculo apenas a reação vertical. Na realidade, surge também a reação horizontal, por causa do atrito que não pode ser totalmente eliminado, mas nos casos usuais ela pode ser desprezada por ter valor relativamente pequeno. Os aparelhos móveis permitem movimento de rotação e translação horizontal, transmitindo apenas esforços verticais. São constituídos por pêndulos de concreto ou rolos metálicos [6]. Conforme apresenta a Figura. <a href="#fig14">14</a>.
+</p>
+<br>
+
+<p id="fig14"></p>
+<center><img src="./assets/images/articula_movel_metalica.png" width="90%"></center>
+<p align = "justify"><b>Figura 14.</b> Modelo de articulações móveis metálicas [6] e LMC USP5.<a href="#ref2">[2]</a>.</p>
+<br>
+
+<p align = "justify">
+  As articulações elásticas permitem também os dois movimentos, a rotação e a translação, gerando porém reações vertical e horizontal, esta última, com valor que não pode ser desprezado, ao contrário das articulações móveis.
+	<br><br>
+	Dentre os apoios elásticos mais conhecidos pode-se destacar o apoio elastomérico de Neoprene (Ver Figura. <a href="#fig15">15</a>).
+	<br><br>
+	Os apoios elastoméricos são aparelhos elásticos de borracha fretada (Neoprene) que permitem pequenos movimentos horizontais e rotações. São constituídos de camadas de Neoprene coladas e geralmente com chapas metálicas de pequena espessura. Devido às propriedades de elasticidade, a elevada resistência e a grande durabilidade, os aparelhos de apoio de Neoprene têm-se firmado cada vez mais como a melhor solução para os projetos de pontes rodoviárias [4].
+	<br><br>
+	Segundo Cordeiro [9] as placas de aço inseridas na seção tem como função garantir o correto funcionamento do aparelho. Estas chapas de aço impedem a deformação excessiva que iria provocar o seu “abaulamento”.
+</p>
+<br>
+
+<p id="fig15"></p>
+<center><img src="./assets/images/neoprene.png" width="90%"></center>
+<p align = "justify"><b>Figura 15.</b> Modelo genérico e exemplo de apoio elastomérico do tipo Neoprene [6], Diprotec6.<a href="#ref2">[2]</a>.</p>
+<br>
+<br>
+<br>
+
+
 
 <h3>Bibliografia</h3>
 
