@@ -7,7 +7,6 @@ has_children: false
 has_toc: false
 ---
 
-
 <!--Don't delete this script-->
 <script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -19,15 +18,15 @@ has_toc: false
 O primeiro passo na determinação do modelo estrutural é a confecção de um desenho geométrico em perfil longitudinal que contemple o estaqueamento e as suas cotas verticais. Isso permitirá que o projetista visualize o obstáculo a ser vencido e comece a efetuar o lançamento da ponte. Para o caso deste projeto o perfil topográfico é dado conforme <a href="#fig1">Figura 1</a>.
 </p>
 
-<center><img src="assets/images/perfil_topo.png" width="100%"></center>
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Perfil topográfico da estrada.</p>
+<center><img src="assets/images/exemplo_i/max_cheia/fig_01_perfil_topografia.png" width="100%"></center>
 
 <p align = "justify">
-Considerando que a vazão de projeto é de 12,57 m²/s e o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq5">(5)</a>.
+Considerando que a vazão de projeto é de 12,57 m³/s e que o canal tem formato trapezoidal (conforme <a href="#fig2">Figura 2</a>) pode-se usar a formulação proposta nas equações <a href="#eq1">(1)</a> a <a href="#eq5">(5)</a>.
 </p>
 
-<center><img src="assets/images/secao_canal.png" width="50%"></center>
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Formato do canal em seção trapezoidal.</p>
+<center><img src="assets/images/exemplo_i/max_cheia/fig_02_secao_canal.png" width="50%"></center>
 
 <table style = "width:100%">
     <tr>
@@ -128,11 +127,11 @@ Aplicando a equação de Manning é possível obter a <a href="#tab1">Tabela 1</
 </table>
 
 <p align = "justify">
-Considerando o cálculo efetuado na <a href="#tab1">Tabela 1</a> é possível determinar as posições da cota do nível d'água para a Máxima Cheia Calculada (M.C.C.) e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig2">Figura 2</a>.
+Considerando o cálculo efetuado na <a href="#tab1">Tabela 1</a> é possível determinar as posições da cota do nível d'água para a Máxima Cheia Calculada (M.C.C.) e também determinar a altura mínima que respeitará o gabarito imposto pela concessionária que é de 2 metros. Com isso é possível construir a <a href="#fig3">Figura 3</a>.
 </p>
 
-<center><img src="assets/images/perfil_topo_com_longarina.png" width="100%"></center>
-<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Perfil topográfico da estrada com a demarcação da posição da estrutura e nível d'água na Máxima Cheia Calculada.</p>
+<p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Perfil topográfico da estrada com a demarcação da posição da estrutura e nível d'água na Máxima Cheia Calculada.</p>
+<center><img src="assets/images/exemplo_i/max_cheia/fig_03_perfil_topografia_com_longarina.png" width="100%"></center>
 
 <p align = "justify">
 Após a verificação da Máxima Cheia Calculada e então detalhamento do posicionamento da ponte é possível estabelecer que a ponte precisará vencer um vão de 20 metros.

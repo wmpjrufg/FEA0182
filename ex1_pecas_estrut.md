@@ -7,7 +7,6 @@ has_children: false
 has_toc: false
 ---
 
-
 <!--Don't delete this script-->
 <script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -16,14 +15,14 @@ has_toc: false
 <h1>Longarina</h1> 
 
 <p align = "justify">
-Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado. Conforme estabelecido nas diretrizes do projeto o modelo será de uma ponte moldada no local e com modelo estrutural isostático conforme <a href="#fig1">Figura 1</a>.
+Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado. Conforme estabelecido nas diretrizes do projeto o modelo será de uma ponte moldada no local com modelo estrutural isostático conforme <a href="#fig1">Figura 1</a>.
 </p>
 
-<center><img src="assets/images/modelos_longarina.png" width="100%"></center>
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Possíveis soluções estruturais para a longarina no projeto exemplo.</p>
+<center><img src="assets/images/exemplo_i/dimensoes_long/fig_01_tipos_vigas.png" width="100%"></center>
 
 <p align = "justify">
-Para determinação das dimensões da superestrutura será empregada as recomendações do professor Areias Neto e da normativa do DNIT. As equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> apresentam estes limites para determinação das dimensões do elemento de longarina.
+Para determinação das dimensões da superestrutura será empregada as recomendações do professor Areias Neto (1977) e pelo Manual de Projeto de Obras de Arte Especiais do extinto Departamento Nacional de Estradas de Rodagem (DNER, 1996). As equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> apresentam estes limites para determinação das dimensões do elemento de longarina.
 </p>
 
 <table style = "width:100%">
@@ -38,7 +37,11 @@ Para determinação das dimensões da superestrutura será empregada as recomend
         <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
     <tr>
-        <td style="width: 70%;">\[ b \geq  25 cm \]</td>
+        <td style="width: 70%;">\[ \geq \begin{cases}
+                                    & b_w = 25 cm\\
+                                    & b_w = l/50 \;\; \text{item 15.10 NBR 6118}\\
+                                    & b_w = 0.40 \cdot h \;\; \text{item 15.10 NBR 6118}
+                                    \end{cases} \]</td>
         <td style="width: 20%;">largura da longarina</td>
         <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
     </tr>
@@ -64,30 +67,46 @@ O modelo estrutural empregado será o de viga isostática com balanços. Portant
 </table>
 
 <p align = "justify">
-A largura adotada será a mínima de 0,25 m e a altura será de 1,0 m visto que o vão central é de 14 metros (<i>h</i>=14/14 = 1 m).
+Para este valor de valor de vão a altura da longarina será de 1 m (<i>h</i>=14/14=1 m). A largura adotada será calculada conforme a seguir:
 </p>
 
-<h1>Tabuleiro</h1> 
+<table style = "width:100%">
+    <tr>
+        <td style="width: 70%;">\[ \geq \begin{cases}
+                                    & b_w = 0.25 m\\
+                                    & b_w = 14/50 = 0.28 m \;\; \text{item 15.10 NBR 6118}\\
+                                    & b_w = 0.40 \cdot 1.00 = 0.40 m\;\; \text{item 15.10 NBR 6118}
+                                    \end{cases} \]</td>
+    </tr>
+</table>
 
 <p align = "justify">
-Agora para definir a seção da ponte será utilizada a solução de duas longarinas apoiadas em pórticos de vigas e pilares de concreto armado. A normativa do DNIT define que a largura máxima entre vigas é de 7,00 m. Para este projeto utilizaremos a proporção de cerca de 22% da largura da seção para balanços e 56% para o vão principal do tabuleiro. O formato deste tabuleiro é apresentado na <a href="#fig2">Figura 2</a>.
+Portanto o valor adotado para largura será de 0,45 m ou 45 cm.
 </p>
 
-<center><img src="assets/images/secao_ponte.png" width="90%"></center>
-<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Solução para seção transversal da ponte.</p>
+<h1>Seção completa</h1> 
 
 <p align = "justify">
-Empregando as proporções citadas anteriormente adotou-se um vão de 5,00 m entre longarinas e balanços de 2,00 m. Conforme manual do DNIT, para um vão de 5 m, considera-se uma espessura do tabuleiro de 0,22 m. A <a href="#fig3">Figura 3</a> detalha esta seção transversal em concreto armado.
+A solução de duas longarinas apoiadas em pórticos de vigas e pilares de concreto armado será adotada neste projeto. A normativa do DNER (1996) define que a largura máximo entre duas longarinas pode variar de 7 a 8 m. 
+<br><br>
+Considerando a estrutura unifilar será adotado neste projeto um vão entre longarinas de 5 m e balanços de 2 m. Para estes valores a recomendação de altura do tabuleiro é de 0,22 m conforme informado no item 3.3.5.3 do manual DNER (1996). A <a href="#fig2">Figura 2</a> apresenta a solução final nesta etapa.
 </p>
 
-<center><img src="assets/images/secao_ponte_com_dimensoes.png" width="90%"></center>
-<p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Detalhe com as dimensões da seção considerando os elementos de proteção.</p>
-
-<h1>Transversinas</h1> 
+<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Solução para seção transversal da ponte sem a transversina.</p>
+<center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_sem_trans.png" width="90%"></center>
 
 <p align = "justify">
-Serão adicionadas duas transversinas desconectadas da laje na região dos apoios e será adicionada uma tranversina no meio do vão central de forma a enrijecer a estrutura como um todo. Para um vão de 5 metros e utilizando os conceitos de estruturas de concreto armado a altura da viga será maior que <i>L/10</i>. No caso a altura da transversina será delimitada inicialmente em 0,60 m e com largura de 0,20 m conforme <a href="#fig4">Figura 4</a>.
+Conforme o item 14.6.2.4 da ABNT NBR 6118 (2023) o vão efetivo de uma laje deverá ser o menor valor entre a soma do vão interno mais 2 vezes 30% da altura da laje ou a soma do vão interno mais 2 vezes 50% do elemento de apoio. Logo podemos afirmar que no ato do dimensionamento do elemento isolado tabuleiro será empregada um vão inferior a 5m. Portanto, reduziremos a altura da laje para 21 cm visto que o DNER (1996) recomenda 0,20 m para vão de 4 m. Logo o desenho pode ser atualizado para as seguintes dimensões: 
 </p>
 
-<center><img src="assets/images/secao_ponte_transversina.png" width="90%"></center>
+<p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Solução para seção transversal da ponte sem a transversina atualizada.</p>
+<center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_sem_trans_atualizada.png" width="90%"></center>
+
+
+<p align = "justify">
+Para finalizar o esboço da seção transversal será posicionada três transversinas no projeto da ponte. Uma no meio do vão e as outras uma em cada apoio. Essas transversinas serão engastadas nas longarinas e desacopladas das lajes. Elas deverão possuir altura superior a <i>l/8=5/8=0,625 m≈0,65 m</i>. A largura padrão dessa viga seguirá o valor mínimo obtido anteriormente e será de 0,40 m.
+</p>
+
 <p align = "left"><b><a href="#fig4">Figura 4</a>.</b> Detalhe da seção considerando a transversina de apoio.</p>
+<center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_com_trans.png" width="90%"></center>
+
