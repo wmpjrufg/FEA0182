@@ -83,7 +83,6 @@ Considerando o <i>f<sub>ck</sub></i> de 30 MPa e um agregado de granito o módul
 A <a href="#tab1">Tabela 1</a> apresenta os esforços de momento e cisalhamento.
 </p>
 
-<p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Esforços por seção delimitada.</p>
 <table style="width: 100%"><thead>
   <tr>
     <th>Seção</th>
@@ -93,82 +92,130 @@ A <a href="#tab1">Tabela 1</a> apresenta os esforços de momento e cisalhamento.
   </tr></thead>
 <tbody>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-0</center></td>
+    <td><center>0</center></td>
+    <td><center>0</center></td>
+    <td><center>0</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-1</center></td>
+    <td><center>0,75</center></td>
+    <td><center>-40,81</center></td>
+    <td><center>-15,30</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-2</center></td>
+    <td><center>1,50</center></td>
+    <td><center>-81,62</center></td>
+    <td><center>-61,21</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-3</center></td>
+    <td><center>2,25</center></td>
+    <td><center>-122,42</center></td>
+    <td><center>-137,72</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-4</center></td>
+    <td><center>3,00</center></td>
+    <td><center>-163,23</center></td>
+    <td><center>-244,84</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-0</center></td>
+    <td><center>3,00</center></td>
+    <td><center>380,87</center></td>
+    <td><center>-244,84</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-1</center></td>
+    <td><center>4,40</center></td>
+    <td><center>304,70</center></td>
+    <td><center>235,05</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-2</center></td>
+    <td><center>5,80</center></td>
+    <td><center>228,52</center></td>
+    <td><center>608,30</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-3</center></td>
+    <td><center>7,20</center></td>
+    <td><center>152,35</center></td>
+    <td><center>874,91</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-4</center></td>
+    <td><center>8,60</center></td>
+    <td><center>76,17</center></td>
+    <td><center>1034,88</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-5</center></td>
+    <td><center>10,00</center></td>
+    <td><center>0,00</center></td>
+    <td><center>1088,20</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-6</center></td>
+    <td><center>11,40</center></td>
+    <td><center>-76,17</center></td>
+    <td><center>1034,88</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-7</center></td>
+    <td><center>12,80</center></td>
+    <td><center>-152,35</center></td>
+    <td><center>874,91</center></td>
+  </tr>
+  <tr>
+    <td><center>L-8</center></td>
+    <td><center>14,20</center></td>
+    <td><center>-228,52</center></td>
+    <td><center>608,30</center></td>
+  </tr>
+  <tr>
+    <td><center>L-9</center></td>
+    <td><center>15,60</center></td>
+    <td><center>-304,70</center></td>
+    <td><center>235,05</center></td>
+  </tr>
+  <tr>
+    <td><center>L-10</center></td>
+    <td><center>17,00</center></td>
+    <td><center>-380,87</center></td>
+    <td><center>-244,85</center></td>
+  </tr>
+  <tr>
+    <td><center>A-5-</center></td>
+    <td><center>17,00</center></td>
+    <td><center>163,23</center></td>
+    <td><center>-244,85</center></td>
+  </tr>
+  <tr>
+    <td><center>A-6</center></td>
+    <td><center>17,75</center></td>
+    <td><center>122,42</center></td>
+    <td><center>-137,72</center></td>
+  </tr>
+  <tr>
+    <td><center>A-7</center></td>
+    <td><center>18,50</center></td>
+    <td><center>81,61</center></td>
+    <td><center>-61,21</center></td>
+  </tr>
+  <tr>
+    <td><center>A-8</center></td>
+    <td><center>19,25</center></td>
+    <td><center>40,81</center></td>
+    <td><center>-15,30</center></td>
+  </tr>
+  <tr>
+    <td><center>A-9</center></td>
+    <td><center>20,00</center></td>
+    <td><center>0,00</center></td>
+    <td><center>0,00</center></td>
   </tr>
 </tbody>
 </table>
