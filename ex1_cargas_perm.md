@@ -1,73 +1,89 @@
 ---
 title: Carga permanente e esforços
 layout: default
-parent: Exemplo I
+parent: Exemplo I - Pontes duas longarinas
 nav_order: 3
 has_children: false
 has_toc: false
 ---
-
 
 <!--Don't delete this script-->
 <script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Análise estrutural: carregamento permanente</h1> 
+<h1>Determinação carregamento permanente</h1> 
 
 <p align = "justify">
-O carregamento permanente advém da determinação da área da seção transversal dos elementos que compõem a seção da ponte. No caso do nosso exemplo a seção é composta pelos elementos da <a href="#fig1">Figura 1</a>.
+O carregamento permanente advém da determinação da área da seção transversal dos elementos que compõem a seção da ponte. O carregamento permanente advém da determinação da área da seção transversal dos elementos que compõem a seção da ponte. 
 </p>
 
-<center><img src="assets/images/perfil.png" width="100%"></center>
-<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Área dos elementos que compõem a seção transversal.</p>
-
 <p align = "justify">
-Portanto aplicando a equação de determinação do carregamento linear em vigas chega-se a carga total que ocorre na ponte. É válido salientar que determinamos o carregamento em apenas uma das duas longarinas. As densidades dos materiais empregados para essa análise são:
+As densidades dos materiais empregados para essa análise são:
+</p>
 
 <ul>
-<li><i>γ<sub>c</sub></i> = 25 kN/m³ para peças de concreto armado (Barreira + seção da ponte);</li>
-<li><i>γ<sub>pavto</sub></i> = 22 kN/m³ para o pavimento flexível.</li>
+  <li><i>γ<sub>c</sub></i> = 25 kN/m³ para peças de concreto armado (Barreira + seção da ponte);</li>
+  <li><i>γ<sub>pavto</sub></i> = 24 kN/m³ para o pavimento flexível.</li>
+</ul>
+
+<p align = "justify">
+Áreas que compõem a seção:
 </p>
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[g_{laje} =  \frac{A_c}{2} \cdot \gamma_{c} \therefore g_{laje} = \frac{2,37}{2} \cdot 25 = 29,625KN/m\]</td>
-        <td style="width: 10%;">longarina + tabuleiro</td>
+        <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,55 \cdot 0,21 = 2,60 m² \]</td>
+        <td style="width: 20%;">tabuleiro + longarina</td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[g_{barreira} = A_{barreira} \cdot \gamma_{c} \therefore g_{barreira} = 0,24345 \cdot 25 = 6,08625kN/m\]</td>
-        <td style="width: 10%;">barreira de concreto</td>        
+        <td style="width: 80%;">\[ A_{barreira} = x,xx m² \]</td>
+        <td style="width: 20%;">barreira de concreto</td>        
     </tr>
     <tr>
-        <td style="width: 90%;">\[ g_{pavto} = \frac{L_{pavto}}{2} \cdot e_{pavto}\cdot \gamma_{pavto} \therefore g_{pavto} = \frac{8,24}{2} \cdot 0,08 \cdot 22 = 7,25 kN/m \]</td>
-        <td style="width: 10%;">pavimento flexível</td>
-    </tr>
-    <tr>
-        <td style="width: 90%;">\[ g_{recap} = 2 \cdot \frac{L_{pavto}}{2} \therefore g_{recap} = 2 \cdot \frac{8,24}{2} = 8,24 kN/m \]</td>
-        <td style="width: 10%;">recapeamento</td>
-    </tr>
-    <tr>
-        <td style="width: 90%;">\[ g_{total} = g_{laje} + g_{barreira} + g_{pavto} + g_{gcmetalico} + g_{recap} \therefore q_{total}=29,625+6,08625+7,2512+0,1=43,06245KN/m\]</td>
-        <td style="width: 10%;"><font color="#D2691E"><b>carregamento total</b></font></td>
+        <td style="width: 80%;">\[ A_{pavto} = 8,24 \cdot 0,08 = 0,66 m² \]</td>
+        <td style="width: 20%;">pavimento flexível</td>
     </tr>
 </table>
 
 <p align = "justify">
-Logo é possível definir o carregamento permanente que atuará na ponte de concreto. A <a href="#fig2">Figura 2</a> apresenta o lançamento da estrutura no <i>software</i> Ftool e seus respectivos esforços ao longo da longarina conforme <a href="#tab1">Tabela 1</a>.
-<br><br>
-Aqui salienta-se que para a seleção das seções de interesse o vão será divido em <i>L/10</i> e o balanço em <i>L/5</i>.
+O valor total do carregamento atuante na seção é dado a seguir:
 </p>
 
-<center><img src="assets/images/perfil.png" width="100%"></center>
-<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Lançamento da estrutura com o seu carregamento permanente.</p>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ g_{pp} =  \frac{2,60}{2} \cdot 25 = 32,50 \; KN/m\]</td>
+        <td style="width: 20%;">longarina + tabuleiro</td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ g_{barreira} = 0,24345 \cdot 25 = 6,08625kN/m\]</td>
+        <td style="width: 20%;">barreira de concreto</td>        
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ g_{pavto+recap} = \frac{0,66}{2} \cdot 24 + 2 \cdot \frac{8,24}{2} = 16,16 \; kN/m \]</td>
+        <td style="width: 20%;">pavimento flexível + recapeamento</td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ g_{total} = g_{pp} + g_{barreira} + g_{pavto+recap} + g_{gcmetalico} = 29,625+6,08625+7,2512+0,1=43,06245KN/m\]</td>
+        <td style="width: 20%;"><font color="#D2691E"><b>carregamento total</b></font></td>
+    </tr>
+</table>
 
 <p align = "justify">
-Considerando o <i>f<sub>ck</sub></i> de 25 MPa e um agregado de granito o módulo de elasticidade do concreto (<i>E<sub>c</sub></i>) será de 24 GPa. Já a seção da longarina será de 0,25 m <i>x</i> 1,00 m. 
+Logo é possível definir o carregamento permanente que atuará na ponte de concreto é de xx,xx kN/m.
 </p>
 
-<p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Esforços de flexão nas seções de interesse para carga permanente.</p>
+<h1>Esforços</h1> 
 
+<p align = "justify">
+Para determinação dos esforços será empregado o <i>software</i> Ftool. E neste lançamento estrutural serão definidas seções para determinação dos esforços. Será empregado uma divisão de <i>l/4</i> para os balanços e  <i>L/10</i> para o meio do vão.
+<br><br>
+Considerando o <i>f<sub>ck</sub></i> de 30 MPa e um agregado de granito o módulo de elasticidade do concreto (<i>E<sub>c</sub></i>) será de 27 GPa (Módulo secante).
+<br><br>
+A <a href="#tab1">Tabela 1</a> apresenta os esforços de momento e cisalhamento.
+</p>
+
+<p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Esforços por seção delimitada.</p>
 <table style="width: 100%"><thead>
   <tr>
     <th>Seção</th>

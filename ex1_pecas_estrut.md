@@ -1,7 +1,7 @@
 ---
 title: Dimensões longarinas e tabuleiro
 layout: default
-parent: Exemplo I
+parent: Exemplo I - Pontes duas longarinas
 nav_order: 2
 has_children: false
 has_toc: false
@@ -72,7 +72,7 @@ Para este valor de valor de vão a altura da longarina será de 1 m (<i>h</i>=14
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 70%;">\[ \geq \begin{cases}
+        <td>\[ \geq \begin{cases}
                                     & b_w = 0.25 m\\
                                     & b_w = 14/50 = 0.28 m \;\; \text{item 15.10 NBR 6118}\\
                                     & b_w = 0.40 \cdot 1.00 = 0.40 m\;\; \text{item 15.10 NBR 6118}
@@ -101,7 +101,6 @@ Conforme o item 14.6.2.4 da ABNT NBR 6118 (2023) o vão efetivo de uma laje deve
 
 <p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Solução para seção transversal da ponte sem a transversina atualizada.</p>
 <center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_sem_trans_atualizada.png" width="90%"></center>
-
 
 <p align = "justify">
 Para finalizar o esboço da seção transversal será posicionada três transversinas no projeto da ponte. Uma no meio do vão e as outras uma em cada apoio. Essas transversinas serão engastadas nas longarinas e desacopladas das lajes. Elas deverão possuir altura superior a <i>l/8=5/8=0,625 m≈0,65 m</i>. A largura padrão dessa viga seguirá o valor mínimo obtido anteriormente e será de 0,40 m.

@@ -1,7 +1,7 @@
 ---
 title: Máxima cheia e posição da superestrutura
 layout: default
-parent: Exemplo I
+parent: Exemplo I - Pontes duas longarinas
 nav_order: 1
 has_children: false
 has_toc: false
