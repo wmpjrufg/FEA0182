@@ -110,7 +110,7 @@ Determinando os coeficientes de ponderação chegamos aos seguintes valores:
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ CIV = 1 + 1,06 \cdot \left( \frac{20}{14 + 50} \right) = 1,33} \]</td>
+        <td style="width: 80%;">\[ CIV = 1 + 1,06 \cdot \left( \frac{20}{14 + 50} \right) = 1,33 \]</td>
     </tr>
     <tr>
         <td style="width: 80%;">\[ CNF = 1 \]</td>
