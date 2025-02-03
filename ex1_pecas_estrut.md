@@ -109,4 +109,3 @@ Para finalizar o esboço da seção transversal será posicionada três transver
 
 <p align = "left"><b><a href="#fig4">Figura 4</a>.</b> Detalhe da seção considerando a transversina de apoio.</p>
 <center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_com_trans.png" width="90%"></center>
-
