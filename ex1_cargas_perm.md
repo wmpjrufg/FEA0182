@@ -33,15 +33,15 @@ As densidades dos materiais empregados para essa análise são:
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,55 \cdot 0,21 = 2,60 m² \]</td>
+        <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
         <td style="width: 20%;">tabuleiro + longarina</td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ A_{barreira} = x,xx m² \]</td>
+        <td style="width: 80%;">\[ A_{barreira} = 0,19 \; m² \]</td>
         <td style="width: 20%;">barreira de concreto</td>        
     </tr>
     <tr>
-        <td style="width: 80%;">\[ A_{pavto} = 8,24 \cdot 0,08 = 0,66 m² \]</td>
+        <td style="width: 80%;">\[ A_{pavto} = 8,24 \cdot 0,08 = 0,66 \; m² \]</td>
         <td style="width: 20%;">pavimento flexível</td>
     </tr>
 </table>
@@ -52,25 +52,25 @@ O valor total do carregamento atuante na seção é dado a seguir:
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ g_{pp} =  \frac{2,60}{2} \cdot 25 = 32,50 \; KN/m\]</td>
+        <td style="width: 80%;">\[ g_{pp} =  \frac{2,60}{2} \cdot 25 = 32,50 \; kN/m\]</td>
         <td style="width: 20%;">longarina + tabuleiro</td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ g_{barreira} = 0,24345 \cdot 25 = 6,08625kN/m\]</td>
+        <td style="width: 80%;">\[ g_{barreira} = 0,19 \cdot 25 = 4,75 \; kN/m\]</td>
         <td style="width: 20%;">barreira de concreto</td>        
     </tr>
     <tr>
-        <td style="width: 80%;">\[ g_{pavto+recap} = \frac{0,66}{2} \cdot 24 + 2 \cdot \frac{8,24}{2} = 16,16 \; kN/m \]</td>
+        <td style="width: 80%;">\[ g_{pavto+recap} = \frac{0,66}{2} \cdot 24 + \frac{2 \cdot 8,24}{2} = 16,16 \; kN/m \]</td>
         <td style="width: 20%;">pavimento flexível + recapeamento</td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ g_{total} = g_{pp} + g_{barreira} + g_{pavto+recap} + g_{gcmetalico} = 29,625+6,08625+7,2512+0,1=43,06245KN/m\]</td>
+        <td style="width: 80%;">\[ g_{total} = g_{pp} + g_{barreira} + g_{pavto+recap} + g_{gcmetalico} = 32,50 + 4,75 + 16,16 + 1 = 54,41 \; kN/m\]</td>
         <td style="width: 20%;"><font color="#D2691E"><b>carregamento total</b></font></td>
     </tr>
 </table>
 
 <p align = "justify">
-Logo é possível definir o carregamento permanente que atuará na ponte de concreto é de xx,xx kN/m.
+Logo é possível definir o carregamento permanente que atuará na ponte de concreto é de 53,51 kN/m.
 </p>
 
 <h1>Esforços</h1> 
@@ -88,8 +88,8 @@ A <a href="#tab1">Tabela 1</a> apresenta os esforços de momento e cisalhamento.
   <tr>
     <th>Seção</th>
     <th>x (m)</th>
-    <th>V (kN)</th>
-    <th>M (kN)</th>
+    <th>V<sub>g</sub> (kN)</th>
+    <th>M<sub>g</sub> (kN.m)</th>
   </tr></thead>
 <tbody>
   <tr>

@@ -15,14 +15,14 @@ has_toc: false
 <h1>Longarina</h1> 
 
 <p align = "justify">
-Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado. Conforme estabelecido nas diretrizes do projeto o modelo será de uma ponte moldada no local com modelo estrutural isostático conforme <a href="#fig1">Figura 1</a>.
+Determinado o vão da ponte é necessário estabelecer o sistema estrutura que será utilizado. Conforme descrito nas diretrizes do projeto o modelo será de uma ponte moldada no local com modelo estrutural isostático conforme <a href="#fig1">Figura 1</a>.
 </p>
 
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Possíveis soluções estruturais para a longarina no projeto exemplo.</p>
 <center><img src="assets/images/exemplo_i/dimensoes_long/fig_01_tipos_vigas.png" width="100%"></center>
 
 <p align = "justify">
-Para determinação das dimensões da superestrutura será empregada as recomendações do professor Areias Neto (1977) e pelo Manual de Projeto de Obras de Arte Especiais do extinto Departamento Nacional de Estradas de Rodagem (DNER, 1996). As equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> apresentam estes limites para determinação das dimensões do elemento de longarina.
+Para determinação das dimensões da superestrutura será empregada as recomendações do professor Areias Neto (1977) e do Manual de Projeto de Obras de Arte Especiais do extinto Departamento Nacional de Estradas de Rodagem (DNER, 1996). As equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> apresentam estes limites para determinação das dimensões da longarina.
 </p>
 
 <table style = "width:100%">
@@ -73,9 +73,9 @@ Para este valor de valor de vão a altura da longarina será de 1 m (<i>h</i>=14
 <table style = "width:100%">
     <tr>
         <td>\[ \geq \begin{cases}
-                                    & b_w = 0.25 m\\
-                                    & b_w = 14/50 = 0.28 m \;\; \text{item 15.10 NBR 6118}\\
-                                    & b_w = 0.40 \cdot 1.00 = 0.40 m\;\; \text{item 15.10 NBR 6118}
+                                    & b_w = 0.25 \; m\\
+                                    & b_w = 14/50 = 0.28 \; m \;\; \text{item 15.10 NBR 6118}\\
+                                    & b_w = 0.40 \cdot 1.00 = 0.40 \; m\;\; \text{item 15.10 NBR 6118}
                                     \end{cases} \]</td>
     </tr>
 </table>
@@ -87,9 +87,9 @@ Portanto o valor adotado para largura será de 0,45 m ou 45 cm.
 <h1>Seção completa</h1> 
 
 <p align = "justify">
-A solução de duas longarinas apoiadas em pórticos de vigas e pilares de concreto armado será adotada neste projeto. A normativa do DNER (1996) define que a largura máximo entre duas longarinas pode variar de 7 a 8 m. 
+A solução de duas longarinas apoiadas em pórticos de vigas e pilares de concreto armado será adotada neste projeto. O manual DNER (1996) define que a largura máxima entre duas longarinas pode variar de 7 a 8 m. 
 <br><br>
-Considerando a estrutura unifilar será adotado neste projeto um vão entre longarinas de 5 m e balanços de 2 m. Para estes valores a recomendação de altura do tabuleiro é de 0,22 m conforme informado no item 3.3.5.3 do manual DNER (1996). A <a href="#fig2">Figura 2</a> apresenta a solução final nesta etapa.
+Considerando a estrutura unifilar a ser construída neste projeto será adotado um vão entre longarinas de 5 m e balanços de 2 m (formando o total de 9 m). Para estes valores a recomendação de altura do tabuleiro é de 0,22 m conforme informado no item 3.3.5.3 do manual DNER (1996). A <a href="#fig2">Figura 2</a> apresenta a solução final nesta etapa.
 </p>
 
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Solução para seção transversal da ponte sem a transversina.</p>
