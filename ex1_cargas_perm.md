@@ -70,7 +70,7 @@ O valor total do carregamento atuante na seção é dado a seguir:
 </table>
 
 <p align = "justify">
-Logo é possível definir o carregamento permanente que atuará na ponte de concreto é de 53,51 kN/m.
+Logo é possível definir o carregamento permanente que atuará na ponte de concreto é de 54,41 kN/m.
 </p>
 
 <h1>Esforços</h1> 

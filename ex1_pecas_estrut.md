@@ -19,7 +19,7 @@ Determinado o vão da ponte é necessário estabelecer o sistema estrutura que s
 </p>
 
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Possíveis soluções estruturais para a longarina no projeto exemplo.</p>
-<center><img src="assets/images/exemplo_i/dimensoes_long/fig_01_tipos_vigas.png" width="100%"></center>
+<center><img src="assets/images/exemplo_i/dimensoes_long/fig_01_tipos_vigas.png" width="80%"></center>
 
 <p align = "justify">
 Para determinação das dimensões da superestrutura será empregada as recomendações do professor Areias Neto (1977) e do Manual de Projeto de Obras de Arte Especiais do extinto Departamento Nacional de Estradas de Rodagem (DNER, 1996). As equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a> apresentam estes limites para determinação das dimensões da longarina.
@@ -67,7 +67,7 @@ O modelo estrutural empregado será o de viga isostática com balanços. Portant
 </table>
 
 <p align = "justify">
-Para este valor de valor de vão a altura da longarina será de 1 m (<i>h</i>=14/14=1 m). A largura adotada será calculada conforme a seguir:
+Para este valor de valor de vão a altura da longarina será de 1 m (<i>h=14/14=1 m</i>). A largura adotada será calculada conforme a seguir:
 </p>
 
 <table style = "width:100%">
@@ -100,11 +100,11 @@ Conforme o item 14.6.2.4 da ABNT NBR 6118 (2023) o vão efetivo de uma laje deve
 </p>
 
 <p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Solução para seção transversal da ponte sem a transversina atualizada.</p>
-<center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_sem_trans_atualizada.png" width="90%"></center>
+<center><img src="assets/images/exemplo_i/dimensoes_long/fig_03_secao_sem_trans_atualizada.png" width="90%"></center>
 
 <p align = "justify">
 Para finalizar o esboço da seção transversal será posicionada três transversinas no projeto da ponte. Uma no meio do vão e as outras uma em cada apoio. Essas transversinas serão engastadas nas longarinas e desacopladas das lajes. Elas deverão possuir altura superior a <i>l/8=5/8=0,625 m≈0,65 m</i>. A largura padrão dessa viga seguirá o valor mínimo obtido anteriormente e será de 0,40 m.
 </p>
 
 <p align = "left"><b><a href="#fig4">Figura 4</a>.</b> Detalhe da seção considerando a transversina de apoio.</p>
-<center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_com_trans.png" width="90%"></center>
+<center><img src="assets/images/exemplo_i/dimensoes_long/fig_04_secao_com_trans.png" width="90%"></center>
