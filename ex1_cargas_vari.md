@@ -26,9 +26,10 @@ Considerando a seção da ponte exposta anteriormente e que a posição mais des
 De forma a obter as reações provocadas por este veículo na seção transversal da longarina aplica-se o conceito de linha de influência de reação para determinar esse carregamento. Portanto aplicando esse conceito chega-se a seguinte linha de influência:
 </p>
 
-<center><img src="assets/images/perfil.png" width="100%"></center>
+<p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Posição do veículo tipo na seção da ponte.</p>
+<center><img src="assets/images/exemplo_i/carga_var/fig_02a_tb_roda_multidao.png" width="80%"></center>
 <p align = "center">(a) Linha para seção veículo + carga distribuída.</p>
-<center><img src="assets/images/perfil.png" width="100%"></center>
+<center><img src="assets/images/exemplo_i/carga_var/fig_02b_tb_apenas_multidao.png" width="80%"></center>
 <p align = "center">(b) Linha para seção somente carga distribuída.</p>
 <p align = "left"><b><a href="#fig2">Figura 2</a>.</b> Linha de influência de reação de apoio na seção transversal da ponte.</p>
 
@@ -65,7 +66,7 @@ Aplicando as equações chega-se então nas seguintes cargas para a seção veí
         <td style="width: 20%;">carga pontual</td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ Q_{int} = \frac{3,67 \cdot 0,726}{2} \cdot 5 = 6,66 kN/m\]</td>
+        <td style="width: 80%;">\[ Q_{int} = \frac{3,62 \cdot 0,726}{2} \cdot 5 = 6,66 kN/m\]</td>
         <td style="width: 20%;">carga distribuída interna</td>        
     </tr>
     <tr>
