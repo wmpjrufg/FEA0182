@@ -73,9 +73,9 @@ Para este valor de valor de vão a altura da longarina será de 1 m (<i>h=14/14=
 <table style = "width:100%">
     <tr>
         <td>\[ \geq \begin{cases}
-                                    & b_w = 0.25 \; m\\
-                                    & b_w = 14/50 = 0.28 \; m \;\; \text{item 15.10 NBR 6118}\\
-                                    & b_w = 0.40 \cdot 1.00 = 0.40 \; m\;\; \text{item 15.10 NBR 6118}
+                                    & b_w = 0,25 \; m\\
+                                    & b_w = 14/50 = 0,28 \; m \;\; \text{item 15.10 ABNT NBR 6118}\\
+                                    & b_w = 0,40 \cdot 1,00 = 0,40 \; m\;\; \text{item 15.10 ABNT NBR 6118}
                                     \end{cases} \]</td>
     </tr>
 </table>
@@ -96,15 +96,15 @@ Considerando a estrutura unifilar a ser construída neste projeto será adotado 
 <center><img src="assets/images/exemplo_i/dimensoes_long/fig_02_secao_sem_trans.png" width="90%"></center>
 
 <p align = "justify">
-Conforme o item 14.6.2.4 da ABNT NBR 6118 (2023) o vão efetivo de uma laje deverá ser o menor valor entre a soma do vão interno mais 2 vezes 30% da altura da laje ou a soma do vão interno mais 2 vezes 50% do elemento de apoio. Logo podemos afirmar que no ato do dimensionamento do elemento isolado tabuleiro será empregada um vão inferior a 5m. Portanto, reduziremos a altura da laje para 21 cm visto que o DNER (1996) recomenda 0,20 m para vão de 4 m. Logo o desenho pode ser atualizado para as seguintes dimensões: 
+Conforme o item 14.6.2.4 da ABNT NBR 6118 (2023) o vão efetivo de uma laje deverá ser o menor valor entre a soma do vão interno mais 2 vezes 30% da altura da laje ou a soma do vão interno mais 2 vezes 50% do elemento de apoio. Logo podemos afirmar que no ato do dimensionamento do elemento isolado tabuleiro será empregado um vão inferior a 5 m. Portanto, reduziremos a altura da laje para 0,21 m visto que o DNER (1996) recomenda 0,20 m para vão de 4 m. Logo o desenho pode ser atualizado para as seguintes dimensões expostas na <a href="#fig3">Figura 3</a>.
 </p>
 
-<p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Solução para seção transversal da ponte sem a transversina atualizada.</p>
+<p align = "left"><b><a href="#fig3">Figura 3</a>.</b> Solução para seção transversal, meio do vão, da ponte sem a transversina atualizada.</p>
 <center><img src="assets/images/exemplo_i/dimensoes_long/fig_03_secao_sem_trans_atualizada.png" width="90%"></center>
 
 <p align = "justify">
-Para finalizar o esboço da seção transversal será posicionada três transversinas no projeto da ponte. Uma no meio do vão e as outras uma em cada apoio. Essas transversinas serão engastadas nas longarinas e desacopladas das lajes. Elas deverão possuir altura superior a <i>l/8=5/8=0,625 m≈0,65 m</i>. A largura padrão dessa viga seguirá o valor mínimo obtido anteriormente e será de 0,40 m.
+Para finalizar o esboço da seção transversal será posicionada três transversinas no projeto da ponte em questão. Uma no meio do vão e as outras uma em cada apoio. Essas transversinas serão engastadas nas longarinas e desacopladas das lajes. Elas deverão possuir altura superior a <i>l/8=5/8=0,625 m≈0,65 m</i>. A largura padrão dessa viga seguirá o valor mínimo obtido anteriormente e será de 0,40 m. Os detalhes finais da seção de apoio é apresentado na <a href="#fig4">Figura 4</a>.
 </p>
 
-<p align = "left"><b><a href="#fig4">Figura 4</a>.</b> Detalhe da seção considerando a transversina de apoio.</p>
+<p align = "left"><b><a href="#fig4">Figura 4</a>.</b> Detalhe da seção de apoio considerando a transversina.</p>
 <center><img src="assets/images/exemplo_i/dimensoes_long/fig_04_secao_com_trans.png" width="90%"></center>

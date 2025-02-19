@@ -23,7 +23,7 @@ As densidades dos materiais empregados para essa análise são:
 </p>
 
 <ul>
-  <li><i>γ<sub>c</sub></i> = 25 kN/m³ para peças de concreto armado (Barreira + seção da ponte);</li>
+  <li><i>γ<sub>c</sub></i> = 25 kN/m³ para peças de concreto armado (aplica-se a barreira e seção da ponte);</li>
   <li><i>γ<sub>pavto</sub></i> = 24 kN/m³ para o pavimento flexível.</li>
 </ul>
 
@@ -78,11 +78,13 @@ Logo é possível definir o carregamento permanente que atuará na ponte de conc
 <p align = "justify">
 Para determinação dos esforços será empregado o <i>software</i> Ftool. E neste lançamento estrutural serão definidas seções para determinação dos esforços. Será empregado uma divisão de <i>l/4</i> para os balanços e  <i>L/10</i> para o meio do vão.
 <br><br>
-Considerando o <i>f<sub>ck</sub></i> de 30 MPa e um agregado de granito o módulo de elasticidade do concreto (<i>E<sub>c</sub></i>) será de 27 GPa (Módulo secante).
-<br><br>
-A <a href="#tab1">Tabela 1</a> apresenta os esforços de momento e cisalhamento.
+Considerando o <i>f<sub>ck</sub></i> de 30 MPa e um agregado de granito o módulo de elasticidade secante do concreto (<i>E<sub>c</sub></i>). Os esforços finais são apresentados na <a href="#tab1">Tabela 1</a>. A <a href="#fig1">Figura 1</a> apresenta a distribuição das seções.
 </p>
 
+<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Distribuição das seções da ponte.</p>
+<center><img src="assets/images/exemplo_i/carga_perm/fig_01_secoes.png" width="100%"></center>
+<br>
+<p align = "left"><b><a href="#tab1">Tabela 1</a>.</b> Esforços de flexão simples para viga nas seções demarcadas.</p>
 <table style="width: 100%"><thead>
   <tr>
     <th>Seção</th>
@@ -156,66 +158,6 @@ A <a href="#tab1">Tabela 1</a> apresenta os esforços de momento e cisalhamento.
     <td><center>10,00</center></td>
     <td><center>0,00</center></td>
     <td><center>1088,20</center></td>
-  </tr>
-  <tr>
-    <td><center>L-6</center></td>
-    <td><center>11,40</center></td>
-    <td><center>-76,17</center></td>
-    <td><center>1034,88</center></td>
-  </tr>
-  <tr>
-    <td><center>L-7</center></td>
-    <td><center>12,80</center></td>
-    <td><center>-152,35</center></td>
-    <td><center>874,91</center></td>
-  </tr>
-  <tr>
-    <td><center>L-8</center></td>
-    <td><center>14,20</center></td>
-    <td><center>-228,52</center></td>
-    <td><center>608,30</center></td>
-  </tr>
-  <tr>
-    <td><center>L-9</center></td>
-    <td><center>15,60</center></td>
-    <td><center>-304,70</center></td>
-    <td><center>235,05</center></td>
-  </tr>
-  <tr>
-    <td><center>L-10</center></td>
-    <td><center>17,00</center></td>
-    <td><center>-380,87</center></td>
-    <td><center>-244,85</center></td>
-  </tr>
-  <tr>
-    <td><center>A-5-</center></td>
-    <td><center>17,00</center></td>
-    <td><center>163,23</center></td>
-    <td><center>-244,85</center></td>
-  </tr>
-  <tr>
-    <td><center>A-6</center></td>
-    <td><center>17,75</center></td>
-    <td><center>122,42</center></td>
-    <td><center>-137,72</center></td>
-  </tr>
-  <tr>
-    <td><center>A-7</center></td>
-    <td><center>18,50</center></td>
-    <td><center>81,61</center></td>
-    <td><center>-61,21</center></td>
-  </tr>
-  <tr>
-    <td><center>A-8</center></td>
-    <td><center>19,25</center></td>
-    <td><center>40,81</center></td>
-    <td><center>-15,30</center></td>
-  </tr>
-  <tr>
-    <td><center>A-9</center></td>
-    <td><center>20,00</center></td>
-    <td><center>0,00</center></td>
-    <td><center>0,00</center></td>
   </tr>
 </tbody>
 </table>

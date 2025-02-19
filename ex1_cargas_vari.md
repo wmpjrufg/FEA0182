@@ -19,8 +19,8 @@ O carregamento variável que atua sobre a longarina é o carregamento do trem ti
 Considerando a seção da ponte exposta anteriormente e que a posição mais desfavorável é encostada na barreira de proteção em concreto armado. A <a href="#fig1">Figura 1</a> demarca a posição do veículo tipo na seção. 
 </p>
 
-<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Posição do veículo tipo na seção.</p>
-<center><img src="assets/images/perfil.png" width="100%"></center>
+<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Posição do veículo tipo na seção da ponte.</p>
+<center><img src="assets/images/exemplo_i/carga_var/fig_01_tb_na_ponte.png" width="100%"></center>
 
 <p align = "justify">
 De forma a obter as reações provocadas por este veículo na seção transversal da longarina aplica-se o conceito de linha de influência de reação para determinar esse carregamento. Portanto aplicando esse conceito chega-se a seguinte linha de influência:
