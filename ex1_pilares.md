@@ -25,23 +25,25 @@ O veículo-tipo utilizado foi o TB 450, que possui as seguintes características
   <li><i> q = 5 kN/m²
 </ul>
 
+<p align = "justify">
+carregu??
+</p>
+
 <table style = "width:100%">
+    <tbody>
         <tr>
-                <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
-                <td style="width: 20%;">testando (equação funcionando)</td>
+            <td style="width: 80%;"> \[ 30% \cdot P_{veiculo} = 0,30 \cdot 450  = 135 kN \]</td>
+            <td style="width: 20%;">30% do valor do peso do veículo-tipo</td>        
         </tr>
         <tr>
-                <td style="width: 80%;"> \[ 30% \cdot P_{veiculo} = 0,30 \cdot 450  = 135 kN \]</td>
-                <td style="width: 20%;">30% do valor do peso do veículo-tipo</td>        
+            <td style="width: 80%;">\[ A_{pista} = 8,24 m \cdot 20  m = 164,8 m²\]</td>
+            <td style="width: 20%;">Área do tabuleiro</td>
         </tr>
         <tr>
-                <td style="width: 80%;">\[ A_{pista} = 8,24 m \cdot 20  m = 164,8 m²\]</td>
-                <td style="width: 20%;">Área do tabuleiro</td>
+            <td style="width: 80%;">\[  5\% \cdot A_{pista} \cdot q = 0,05 \cdot 164,8 m² \cdot 5 kN/m² =  41,2 kN\]</td>
+            <td style="width: 20%;">5% do caregamento do tabuleiro</td>
         </tr>
-        <tr>
-                <td style="width: 80%;">\[  5\% \cdot A_{pista} \cdot q = 0,05 \cdot 164,8 m² \cdot 5 kN/m² =  41,2 kN\]</td>
-                <td style="width: 20%;">5% do caregamento do tabuleiro</td>
-        </tr>
+    </tbody>
 </table>
 
 <p align = "justify">
