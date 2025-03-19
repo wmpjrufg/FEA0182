@@ -94,7 +94,14 @@ A componente longitudinal das forças de vento podem ser determinadas, sendo
 
 <h1>Vento transversal</h1>
 
+    ![Ponte carregada](../images/Ponte_carregada.png)
+
+
 <table style = "width:100%">
+    <tr>
+
+    <tr>
+
     <tr>
         <td style="width: 80%;"> \[  w_{descarregado} = 1 \; kN/m^2 \cdot (1 \; m + 0.81 \; m) \cdot 20 \; m = 36.2 \; kN \] </td>
         <td style="width: 20%;">Força de vento com estrutura descarregada</td>
