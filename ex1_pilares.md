@@ -1,3 +1,11 @@
+---
+title: Ação nos pilares
+layout: default
+parent: Exemplo I - Pontes duas longarinas
+nav_order: 14
+has_children: false
+has_toc: false
+---
 
 <h1>CÁLCULO DAS CARGAS DE FRENAGEM E ACELERAÇÃO, EMPUXO E VENTO </h1> 
 
