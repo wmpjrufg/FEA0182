@@ -27,21 +27,6 @@ O veículo-tipo utilizado foi o TB 450, que possui as seguintes características
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
-        <td style="width: 10%;">tabuleiro + longarina</td>
-    </tr>
-    <tr>
-        <td style="width: 90%;">\[ A_{barreira} = 0,19 \; m² \]</td>
-        <td style="width: 10%;">barreira de concreto</td>        
-    </tr>
-    <tr>
-        <td style="width: 80%;">\[ A_{pavto} = 8,24 \cdot 0,08 = 0,66 \; m² \]</td>
-        <td style="width: 20%;">pavimento flexível</td>
-    </tr>
-</table>
-
-<table style = "width:100%">
-    <tr>
         <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
         <td style="width: 20%;">testando (equação funcionando)</td>
     </tr>
@@ -73,7 +58,7 @@ O peso específico do solo úmido deve ser considerado no mínimo igual a 18 kN/
 
 <ul>
   <li><i> Peso específico: \[ \gamma_{solo} = 18 \; \text{kN/m}^3 \]
-  <li><i> .....: \[ K_a = \frac{1}{3} \]
+  <li><i> \[ K_a = \frac{1}{3} \]
   <li><i> Área do veículo: \[ A_{veiculo} = 3 \; m \cdot 6 \; m = 18 \; m^2 \]
   <li><i> Carregamento do veículo: \[ Q_{veiculo} = P_{veiculo} \cdot A_{veiculo} = 450 \; kN \cdot 18 \; m^2 = 8100\; kN/m² \]
   <li><i>\[q_{med} = \frac{Q_{veiculo} \cdot 3 \; m + q \cdot (b - 3 \; m)}{b} = 11.6667 \; kN/m^2 \]
