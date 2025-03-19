@@ -1,7 +1,7 @@
 ---
-title: Carga permanente e esforços
+title: Fadiga
 layout: default
-parent: Exemplo I - Pontes duas longarinas
+parent: Exemplo - Fadiga
 nav_order: 3
 has_children: false
 has_toc: false
@@ -12,18 +12,18 @@ has_toc: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Determinação carregamento permanente</h1> 
+<h1>Fadiga</h1>
 
 <p align = "justify">
-O carregamento permanente advém da determinação da área da seção transversal dos elementos que compõem a seção da ponte. O carregamento permanente advém da determinação da área da seção transversal dos elementos que compõem a seção da ponte. 
+A fadiga pode ser definida como a alteração mecânica dos materiais sob o efeito de solicitações repetidas. As ações que causam fadiga são aquelas que produzem variações de solicitações com frequência relativamente alta. Dentre elas podem ser citadas: cargas móveis, ondas do mar, sismos, vento, variações de temperatura, congelamentos, etc. 
 </p>
 
 <p align = "justify">
-As densidades dos materiais empregados para essa análise são:
+A fadiga é abordada pela NBR 6118 (ABNT, 2014) no item 23, com base nisso foram realizados os cálculos a seguir.
 </p>
 
 <ul>
-  <li><i>γ<sub>c</sub></i> = 25 kN/m³ para peças de concreto armado (aplica-se a barreira e seção da ponte);</li>
+  <li><i>M<Sd,max>c</sub></i> = 25 kN/m³ para peças de concreto armado (aplica-se a barreira e seção da ponte);</li>
   <li><i>γ<sub>pavto</sub></i> = 24 kN/m³ para o pavimento flexível.</li>
 </ul>
 
