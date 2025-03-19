@@ -1,8 +1,8 @@
 ---
-title: Carga permanente e esforços
+title: Tabuleiro
 layout: default
 parent: Exemplo I - Pontes duas longarinas
-nav_order: 3
+nav_order: 10
 has_children: false
 has_toc: false
 ---

@@ -64,6 +64,10 @@ O valor total do carregamento atuante na seção é dado a seguir:
         <td style="width: 20%;">pavimento flexível + recapeamento</td>
     </tr>
     <tr>
+        <td style="width: 80%;">\[ g_{gcmetalico} = 1 \; kN/m \]</td>
+        <td style="width: 20%;">Guarda corpo metálico</td>
+    </tr>
+    <tr>
         <td style="width: 80%;">\[ g_{total} = g_{pp} + g_{barreira} + g_{pavto+recap} + g_{gcmetalico} = 32,50 + 4,75 + 16,16 + 1 = 54,41 \; kN/m\]</td>
         <td style="width: 20%;"><font color="#D2691E"><b>carregamento total</b></font></td>
     </tr>
@@ -76,7 +80,7 @@ Logo é possível definir o carregamento permanente que atuará na ponte de conc
 <h1>Esforços</h1> 
 
 <p align = "justify">
-Para determinação dos esforços será empregado o <i>software</i> Ftool. E neste lançamento estrutural serão definidas seções para determinação dos esforços. Será empregado uma divisão de <i>l/4</i> para os balanços e  <i>L/10</i> para o meio do vão.
+Para determinação dos esforços será empregado o <i>software</i> Ftool. E neste lançamento estrutural serão definidas seções para determinação dos esforços. Será empregado uma divisão de <i>l/4</i> para os balanços e <i>l/10</i> para o meio do vão.
 <br><br>
 Considerando o <i>f<sub>ck</sub></i> de 30 MPa e um agregado de granito o módulo de elasticidade secante do concreto (<i>E<sub>c</sub></i>). Os esforços finais são apresentados na <a href="#tab1">Tabela 1</a>. A <a href="#fig1">Figura 1</a> apresenta a distribuição das seções.
 </p>

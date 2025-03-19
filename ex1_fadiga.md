@@ -1,8 +1,8 @@
 ---
 title: Fadiga
 layout: default
-parent: Exemplo - Fadiga
-nav_order: 3
+parent: Exemplo I - Pontes duas longarinas
+nav_order: 5
 has_children: false
 has_toc: false
 ---

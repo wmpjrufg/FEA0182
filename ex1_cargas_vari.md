@@ -15,7 +15,7 @@ has_toc: false
 <h1>Determinação carregamento variável</h1> 
 
 <p align = "justify">
-O carregamento variável que atua sobre a longarina é o carregamento do trem tipo brasileiro (TB-450) conforme descrito na ABNT NBR 7188 (2024). A carga móvel é constituída pelo veículo tipo de 450 kN e carga de multidão de 5 kN/m².
+O carregamento variável que atua sobre a longarina é o carregamento do trem tipo brasileiro (TB-450) conforme descrito na ABNT NBR 7188 (2024). A carga móvel é constituída pelo veículo tipo de 450 kN e carga de multidão de 5 kN/m².<br><br>
 Considerando a seção da ponte exposta anteriormente e que a posição mais desfavorável é encostada na barreira de proteção em concreto armado. A <a href="#fig1">Figura 1</a> demarca a posição do veículo tipo na seção. 
 </p>
 
