@@ -59,20 +59,20 @@ O peso específico do solo úmido deve ser considerado no mínimo igual a 18 kN/
 </p>
 
 <ul>
-  <li><i> Peso específico: \[ \gamma_{solo} = 18 \; \text{kN/m}^3 \]
+  <li><i> Peso específico: \[ \gamma_{solo} = 18  kN/m³ \]
   <li><i> \[ K_a = \frac{1}{3} \]
-  <li><i> Área do veículo: \[ A_{veiculo} = 3 \; m \cdot 6 \; m = 18 \; m^2 \]
-  <li><i> Carregamento do veículo: \[ Q_{veiculo} = P_{veiculo} \cdot A_{veiculo} = 450 \; kN \cdot 18 \; m^2 = 8100\; kN/m² \]
-  <li><i>\[q_{med} = \frac{Q_{veiculo} \cdot 3 \; m + q \cdot (b - 3 \; m)}{b} = 11.6667 \; kN/m^2 \]
+  <li><i> Área do veículo: \[ A_{veiculo} = 3 \; m \cdot 6 \; m = 18 m^2 \]
+  <li><i> Carregamento do veículo: \[ Q_{veiculo} = P_{veiculo} \cdot A_{veiculo} = 450 \; kN \cdot 18 \; m^2 = 8100 kN/m² \]
+  <li><i>\[ q_{med} = \frac{Q_{veiculo} \cdot 3 \; m + q \cdot (b - 3 \; m)}{b} = 11.6667 kN/m² \]
 </ul>
 
-<table style = "width:100%">
+<table style = "width: 100%">
     <tr>
-        <td style="width: 80%;"> \[frac{1}{2} \times K_a \times \gamma_{solo} \times b \times h^2 = 27 \; \text{kN} \]</td>
+        <td style="width: 80%;">\[ frac{1}{2} \cdot K_a \cdot \gamma_{solo} \cdot b \cdot h^2 = 27 kN \]</td>
         <td style="width: 20%;">Empuxo devio ao solo</td>        
     </tr>
     <tr>
-        <td style="width: 80%;">\[ 30% \cdot P_{veiculo} = 0,30 \cdot 450 = 135 \; kN \]</td>
+        <td style="width: 80%;">\[ 30% \cdot P_{veiculo} = 0,30 \cdot 450 = 135 kN \]</td>
         <td style="width: 20%;">Empuxo devio a movimentação dos veículos</td>
     </tr>
 </table>
@@ -104,15 +104,15 @@ A componente longitudinal das forças de vento podem ser determinadas, sendo
 
 <table style = "width:100%">
         <tr>
-            <td style="width: 80%;"> \[  w_{descarregado} = 1 \; kN/m^2 \cdot (1 \; m + 0.81 \; m) \cdot 20 \; m = 36.2 \; kN \] </td>
+            <td style="width: 80%;"> \[  w_{descarregado} = 1 kN/m^2 \cdot (1 \; m + 0.81 \; m) \cdot 20 \; m = 36.2kN \] </td>
             <td style="width: 20%;">Força de vento com estrutura descarregada</td>
         </tr>
         <tr>
-            <td style="width: 80%;"> [ w_{carregado} = 1.5 \; kN/m^2 \cdot (1 \; m + 2.08 \; m) \cdot 20 \; m = 92.4 \; kN\] </td>
+            <td style="width: 80%;"> [ w_{carregado} = 1.5 kN/m^2 \cdot (1 \; m + 2.08 \; m) \cdot 20 \; m = 92.4 \; kN\] </td>
             <td style="width: 20%;">Força de vento com estrutura caregado</td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[ W_{adotado} = 92,4 \; kN \]</td>
+            <td style="width: 80%;">\[ W_{adotado} = 92,4 kN \]</td>
             <td style="width: 20%;">Força de vento adotado</td>
         </tr>
 </table>
@@ -120,30 +120,30 @@ A componente longitudinal das forças de vento podem ser determinadas, sendo
 <h1>Vento longitudinal
 </h1>
 
-<table style = "width:100%">
- <tr>
-        <td style=width:80%;>\[ FV_{descarregada} = 25\% \cdot w_{descarregado} = 9,05 \; kN\]</td>
-        <td style=width:20%;>Força de vento com estrutura descarregada</td>
+<table style = "width: 100%">
+    <tr>
+        <td style="width: 80%;">\[ FV_{descarregada} = 25\% \cdot w_{descarregado} = 9,05 kN\]</td>
+        <td style="width: 20%;">Força de vento com estrutura descarregada</td>
     </tr>
     <tr>
-        <td style=width:80%;>\[ FV_{carregada} = 25\% \cdot 1.5 \; kN/m^2 \cdot (1 \; m + 0.08 \; m) \cdot 20 \; m + 40\% \cdot 1.5 \; kN/m^2 \cdot (2 \; m \cdot 20 \; m) = 32.1 \; kN\]</td>
-        <td style=width:20%;>Força de vento com estrutura carregada</td>
+        <td style="width: 80%;">\[ FV_{carregada} = 25\% \cdot 1.5 \; kN/m^2 \cdot (1 \; m + 0.08 \; m) \cdot 20 \; m + 40\% \cdot 1.5 \; kN/m^2 \cdot (2 \; m \cdot 20 \; m) = 32.1 \; kN\]</td>
+        <td style="width: 20%;">Força de vento com estrutura carregada</td>
     </tr>
     <tr>
-        <td style=width:80%;>FV_{adotado} = 32,1 \; kN</td>
-        <td style=width:20%;>Força de vento adotado</td>
+        <td style="width: 80%;">FV_{adotado} = 32,1  kN</td>
+        <td style="width: 20%;">Força de vento adotado</td>
     </tr>
 </table>
 
 <h1>Cargas total</h1>
 
-<table style = "width:100%">
+<table style = "width: 100%">
     <tr>
-        <td style=width:80%;>\[F_{total, lomgitudinal}= FA_{adot} + E_{solo} + E_{tremtipo} + Vento_{adotado}\]</td>
-        <td style=width:20%;>Carga total longitudinal</td>
+        <td style="width: 80%;">\[F_{total, lomgitudinal}= FA_{adot} + E_{solo} + E_{tremtipo} + Vento_{adotado}\]</td>
+        <td style="width: 20%;">Carga total longitudinal</td>
     </tr>
     <tr>
-        <td style=width:80%;>\[CF_{total, transversal} = w_{adotado} = 92.4 \; kN\]</td>
-        <td style=width:20%;>Carga total transversal</td>
+        <td style="width: 80%;">\[CF_{total, transversal} = w_{adotado} = 92.4 kN\]</td>
+        <td style="width: 20%;">Carga total transversal</td>
     </tr>
 </table>
