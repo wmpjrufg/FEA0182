@@ -94,12 +94,11 @@ A componente longitudinal das forças de vento podem ser determinadas, sendo
 
 <h1>Vento transversal</h1>
 
-<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Carga de vento para ponte carregada.</p>
-<center><img src="C:\Users\Gabriel costa\OneDrive\Documentos\01_ Disciplinas\04_ Pontes\git_pontes\FEA0182\Ponte carregada.png" width="100%"></center>
+<p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Carga de vento para ponte descarregada.</p>
+<center><img src="assets\images\Ponte descarregada.png" width="100%"></center>
 
-<p align = "left"><b><a href="#fig1">Figura 2</a>.</b> Carga de vento para ponte descarregada.</p>
-<center><img src="C:\Users\Gabriel costa\OneDrive\Documentos\01_ Disciplinas\04_ Pontes\git_pontes\FEA0182\Ponte descarregada.png" width="100%"></center>
-
+<p align = "left"><b><a href="#fig1">Figura 2</a>.</b> Carga de vento para ponte carregada.</p>
+<center><img src="assets\images\Ponte carregada.png" width="100%"></center>
 
 <table style = "width:100%">
  <tr>
