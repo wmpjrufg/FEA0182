@@ -92,13 +92,13 @@ A componente longitudinal das forças de vento podem ser determinadas, sendo
   <li><strong>40% da carga móvel:</strong>Corresponde à parcela da força de vento incidente sobre as cargas móveis, como veículos que transitam pela ponte.
 </ul>
 
-<h1>Vento transversal</h1>
-
 <p align = "left"><b><a href="#fig1">Figura 1</a>.</b> Carga de vento para ponte descarregada.</p>
 <center><img src="assets\images\Ponte descarregada.png" width="100%"></center>
 
 <p align = "left"><b><a href="#fig1">Figura 2</a>.</b> Carga de vento para ponte carregada.</p>
 <center><img src="assets\images\Ponte carregada.png" width="100%"></center>
+
+<h1>Vento transversal</h1>
 
 <table style = "width:100%">
  <tr>
