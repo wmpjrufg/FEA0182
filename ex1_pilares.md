@@ -22,10 +22,27 @@ O veículo-tipo utilizado foi o TB 450, que possui as seguintes características
   <li><i> Peso 450 kN
   <li><i> Comprimento 6 m 
   <li><i> Largura 3 m 
-  <li><i> O que é q = 5 kN/m²????
+  <li><i> q = 5 kN/m²
 </ul>
 
 <p align = "justify">
+
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
+        <td style="width: 20%;">tabuleiro + longarina</td>
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ A_{barreira} = 0,19 \; m² \]</td>
+        <td style="width: 20%;">barreira de concreto</td>        
+    </tr>
+    <tr>
+        <td style="width: 80%;">\[ A_{pavto} = 8,24 \cdot 0,08 = 0,66 \; m² \]</td>
+        <td style="width: 20%;">pavimento flexível</td>
+    </tr>
+</table>
 
 </p>
 
