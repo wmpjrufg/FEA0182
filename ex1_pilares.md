@@ -26,22 +26,22 @@ O veículo-tipo utilizado foi o TB 450, que possui as seguintes características
 </ul>
 
 <table style = "width:100%">
-    <tr>
-        <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
+        <tr>
+            <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
         <td style="width: 20%;">testando (equação funcionando)</td>
-    </tr>
-    <tr>
-        <td style="width: 80%;"> \[ 30% \cdot P_{veiculo} = 0,30 \cdot 450 = 135 kN \]</td>
-        <td style="width: 20%;">30% do valor do peso do veículo-tipo</td>        
-    </tr>
-    <tr>
-        <td style="width: 80%;">\[ A_{pista} = 8,24 m \cdot 20  m = 164,8 m²\]</td>
-        <td style="width: 20%;">Área do tabuleiro</td>
-    </tr>
-       <tr>
-        <td style="width: 80%;">\[  5\% \cdot A_{pista} \cdot q = 0,05 \cdot 164,8 m² \cdot 5 kN/m² =  41,2 kN\]</td>
-        <td style="width: 20%;">5% do caregamento do tabuleiro</td>
-    </tr>
+        </tr>
+        <tr>
+            <td style="width: 80%;"> \[ 30% \cdot P_{veiculo} = 0,30 \cdot 450  = 135 kN \]</td>
+            <td style="width: 20%;">30% do valor do peso do veículo-tipo</td>        
+        </tr>
+        <tr>
+            <td style="width: 80%;">\[ A_{pista} = 8,24 m \cdot 20  m = 164,8 m²\]</td>
+            <td style="width: 20%;">Área do tabuleiro</td>
+        </tr>
+        <tr>
+            <td style="width: 80%;">\[  5\% \cdot A_{pista} \cdot q = 0,05 \cdot 164,8 m² \cdot 5 kN/m² =  41,2 kN\]</td>
+            <td style="width: 20%;">5% do caregamento do tabuleiro</td>
+        </tr>
 </table>
 
 <p align = "justify">
@@ -101,24 +101,25 @@ A componente longitudinal das forças de vento podem ser determinadas, sendo
 <h1>Vento transversal</h1>
 
 <table style = "width:100%">
- <tr>
-        <td style="width: 80%;"> \[  w_{descarregado} = 1 \; kN/m^2 \cdot (1 \; m + 0.81 \; m) \cdot 20 \; m = 36.2 \; kN \] </td>
-        <td style="width: 20%;">Força de vento com estrutura descarregada</td>
-    </tr>
-    <tr>
-        <td style="width: 80%;"> [ w_{carregado} = 1.5 \; kN/m^2 \cdot (1 \; m + 2.08 \; m) \cdot 20 \; m = 92.4 \; kN\] </td>
-        <td style="width: 20%;">Força de vento com estrutura caregado</td>
-    </tr>
-    <tr>
-        <td style="width: 80%;">\[ W_{adotado} = 92,4 \; kN \]</td>
-        <td style="width: 20%;">Força de vento adotado</td>
-    </tr>
+        <tr>
+            <td style="width: 80%;"> \[  w_{descarregado} = 1 \; kN/m^2 \cdot (1 \; m + 0.81 \; m) \cdot 20 \; m = 36.2 \; kN \] </td>
+            <td style="width: 20%;">Força de vento com estrutura descarregada</td>
+        </tr>
+        <tr>
+            <td style="width: 80%;"> [ w_{carregado} = 1.5 \; kN/m^2 \cdot (1 \; m + 2.08 \; m) \cdot 20 \; m = 92.4 \; kN\] </td>
+            <td style="width: 20%;">Força de vento com estrutura caregado</td>
+        </tr>
+        <tr>
+            <td style="width: 80%;">\[ W_{adotado} = 92,4 \; kN \]</td>
+            <td style="width: 20%;">Força de vento adotado</td>
+        </tr>
 </table>
 
-<h1>Vento longitudinal</h1>
+<h1>Vento longitudinal
+</h1>
 
 <table style = "width:100%">
-    <tr>
+ <tr>
         <td style=width:80%;>\[ FV_{descarregada} = 25\% \cdot w_{descarregado} = 9,05 \; kN\]</td>
         <td style=width:20%;>Força de vento com estrutura descarregada</td>
     <tr>
