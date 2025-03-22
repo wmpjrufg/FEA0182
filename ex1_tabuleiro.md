@@ -161,3 +161,9 @@ Considerando o <i>f<sub>ck</sub></i> de 30 MPa e um agregado de granito o módul
   </tr>
 </tbody>
 </table>
+
+<h1>Rusch</h1> 
+
+<p align = "justify">
+Após calculados os esforços, serão determinados os momentos fazendo a utilização da tabelas de Rüsch.
+</p>
