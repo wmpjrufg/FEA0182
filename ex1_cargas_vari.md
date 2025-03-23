@@ -212,7 +212,7 @@ Com o valor o total dos coeficientes amplificadores dos efeitos chegamos as segu
   <tr>
     <td><center>L-2</center></td>
     <th>5,80</th>
-    <td><center>-45,6</center></td>
+    <td><center>-22,4</center></td>
     <td><center>618,5</center></td>
     <td><center>-563,8</center></td>
     <td><center>1635,7</center></td>
@@ -220,7 +220,7 @@ Com o valor o total dos coeficientes amplificadores dos efeitos chegamos as segu
   <tr>
     <td><center>L-3</center></td>
     <th>7,20</th>
-    <td><center>-154</center></td>
+    <td><center>-45,6</center></td>
     <td><center>504,5</center></td>
     <td><center>-358,7</center></td>
     <td><center>2145</center></td>
@@ -228,7 +228,7 @@ Com o valor o total dos coeficientes amplificadores dos efeitos chegamos as segu
   <tr>
     <td><center>L-4</center></td>
     <th>8,60</th>
-    <td><center>-267,3</center></td>
+    <td><center>-154</center></td>
     <td><center>385,5</center></td>
     <td><center>-223</center></td>
     <td><center>2496,7</center></td>
@@ -236,7 +236,7 @@ Com o valor o total dos coeficientes amplificadores dos efeitos chegamos as segu
   <tr>
     <td><center>L-5</center></td>
     <th>10,00</th>
-    <td><center>-385,5</center></td>
+    <td><center>-267,3</center></td>
     <td><center>267,3</center></td>
     <td><center>-156,9</center></td>
     <td><center>2570,9</center></td>
