@@ -66,7 +66,7 @@ Aplicando as equações chega-se então nas seguintes cargas para a seção veí
         <td style="width: 20%;">carga pontual</td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ Q_{int} = \frac{3,62 \cdot 0,726}{2} \cdot 5 = 6,66 kN/m\]</td>
+        <td style="width: 80%;">\[ Q_{int} = \frac{3,67 \cdot 0,726}{2} \cdot 5 = 6,66 kN/m\]</td>
         <td style="width: 20%;">carga distribuída interna</td>        
     </tr>
     <tr>
@@ -130,13 +130,13 @@ Com o valor o total dos coeficientes amplificadores dos efeitos chegamos as segu
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ P = 153,97 \cdot 1,66 = 255,6 \; kN\]</td>
+        <td style="width: 80%;">\[ P = 153,97 \cdot 1,66 = 256,22 \; kN\]</td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ Q_{int} = 6,66 \cdot 1,66 = 11,05 \; kN/m \]</td>
+        <td style="width: 80%;">\[ Q_{int} = 6,66 \cdot 1,66 = 11,08 \; kN/m \]</td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ Q_{ext} = 21,96 \cdot 1,66 = 36,45 \; kN/m \]</td>  
+        <td style="width: 90%;">\[ Q_{ext} = 21,96 \cdot 1,66 = 36,54 \; kN/m \]</td>  
     </tr>
 </table>
 
