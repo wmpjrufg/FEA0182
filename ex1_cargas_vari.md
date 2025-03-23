@@ -154,108 +154,81 @@ Com o valor o total dos coeficientes amplificadores dos efeitos chegamos as segu
   </tr></thead>
 <tbody>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-0</center></td>
+    <td><center>-251,9</center></td>
+    <td><center>0</center></td>
+    <td><center>0</center></td>
+    <td><center>0</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-1</center></td>
+    <td><center>-260,1</center></td>
+    <td><center>0</center></td>
+    <td><center>-192</center></td>
+    <td><center>0</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-2</center></td>
+    <td><center>-520,1</center></td>
+    <td><center>0</center></td>
+    <td><center>-390,1</center></td>
+    <td><center>0</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-3</center></td>
+    <td><center>-528,3</center></td>
+    <td><center>0</center></td>
+    <td><center>-783,3</center></td>
+    <td><center>0</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>A-4</center></td>
+    <td><center>-788,4</center></td>
+    <td><center>0</center></td>
+    <td><center>-1182,6</center></td>
+    <td><center>0</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-0</center></td>
+    <td><center>-22,4</center></td>
+    <td><center>831,7</center></td>
+    <td><center>-1182,6</center></td>
+    <td><center>0</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-1</center></td>
+    <td><center>-22,4</center></td>
+    <td><center>727,6</center></td>
+    <td><center>-838,4</center></td>
+    <td><center>869,8</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-2</center></td>
+    <td><center>-45,6</center></td>
+    <td><center>618,5</center></td>
+    <td><center>-563,8</center></td>
+    <td><center>1635,7</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-3</center></td>
+    <td><center>-154</center></td>
+    <td><center>504,5</center></td>
+    <td><center>-358,7</center></td>
+    <td><center>2145</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-4</center></td>
+    <td><center>-267,3</center></td>
+    <td><center>385,5</center></td>
+    <td><center>-223</center></td>
+    <td><center>2496,7</center></td>
   </tr>
   <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-  </tr>
-  <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-  </tr>
-  <tr>
-    <td><center>B-0</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
-    <td><center>200,3</center></td>
+    <td><center>L-5</center></td>
+    <td><center>-385,5</center></td>
+    <td><center>267,3</center></td>
+    <td><center>-156,9</center></td>
+    <td><center>2570,9</center></td>
   </tr>
 </tbody>
 </table>
