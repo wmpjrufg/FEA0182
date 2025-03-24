@@ -57,11 +57,11 @@ Inicialmente calcula-se os coeficientes a_1, a_2 e a_3.
         <td style="width: 20%;"><font color="#D2691E"><b>a_1</b></font></td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ a_2 = h_f \cdot (b_f - b_w) + \alpha_e - 1 \cdot \alpha_e \cdot A_s = 0,266 \; m²\]</td> 
+        <td style="width: 80%;">\[ a_2 = h_f \cdot (b_f - b_w) + \alpha_e - 1 \cdot \alpha_e \cdot A_s = 0,2641 \; m²\]</td> 
         <td style="width: 20%;"><font color="#D2691E"><b>a_2</b></font></td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ a_{g}:= -d^{\prime}\cdot(a_{g}-1)\cdot A_{s}^{\prime}-d\cdot a_{g}\cdot A_{s}-\frac{b_{f}}{2}\cdot(b_{f} b_{v})=-0.1386\,\mathrm{m}^{3} \]</td>
+        <td style="width: 80%;">\[ a_{3} = -d^{\prime}\cdot(\alpha_{e}-1)\cdot A_{s}^{\prime}-d\cdot \alpha_{e} \cdot A_{s}-\frac{h_{f}^2}{2}\cdot(b_{f} b_{w})=-0.1386\,\mathrm{m}^{3} \]</td>
         <td style="width: 20%;"><font color="#D2691E"><b>a_3</b></font></td>
     </tr>
 </table>
@@ -81,7 +81,7 @@ Após isso, determina-se a posição da linha neutra.
             <td style="width: 20%;"><font color="#D2691E"><b>x_{II,neg}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[x_{II} := x_{II,pos}\]</td>
+            <td style="width: 80%;">\[x_{II} = x_{II,pos}\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>x_{II}</b></font></td>
         </tr>
     </table>
@@ -94,30 +94,46 @@ Em seguida, calcula-se o momento de inércia da seção no estádio II.
 <body>
     <table>
         <tr>
-            <td style="width: 80%;">\[I_{II} := \frac{b_r \cdot x_{II}}{3} + \alpha_g \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_g - 1) \cdot A_s \cdot (x_{II} - d)^2 = 0,0778 \, \text{m}^4\]</td>
+            <td style="width: 80%;">\[I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A_s \cdot (x_{II} - d)^2 = 0,0774 \, \text{m}^4\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>I_{II}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[I_{x_III} := \left( \frac{b_r - b_y}{12} \right) \cdot h_e^3 + \frac{b_y \cdot x_{II}}{3} + \left( \frac{b_z - b_y}{12} \right) \cdot \left( x_{II} - \frac{h_e}{2} \right)^2 + \alpha_g \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_g - 1) \cdot A'_s \cdot (x_{II} - d')^2 = 0,0559 \, \text{m}^4\]</td>
-            <td style="width: 20%;"><font color="#D2691E"><b>I_{x_III}</b></font></td>
+            <td style="width: 80%;">\[I_{II} =  \frac{b_f - b_w}{12} \cdot h_f^3 + \frac{b_w \cdot x_{II}}{3} + (b_f - b_w) \cdot ( x_{II} - \frac{h_f}{2}^2 + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2 = 0,0556 \, \text{m}^4\]</td>
+            <td style="width: 20%;"><font color="#D2691E"><b>I_{II}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[y_{N1} := d - x_{II} = 0,5086 \, \text{m}\]</td>
+            <td style="width: 80%;">\[y_{N1} := d - x_{II} = 0,5091 \, \text{m}\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>y_{N1}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[\alpha_{N1,Msdnax} := \frac{\alpha_g \cdot (M_{sd,nax}) \cdot y_{N1}}{I_{II}} = 1,5472 \cdot 10^5 \, \text{kPa} \quad \text{Tensão de tração}\]</td>
-            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N1,Msdnax}</b></font></td>
+            <td style="width: 80%;">\[\alpha_{N1,Msdmax} = \frac{\alpha_e \cdot (M_{sd,max}) \cdot y_{N1}}{I_{II}} = 1,5565 \cdot 10^5 \, \text{kPa} \quad \text{Tensão de tração}\]</td>
+            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N1,Msdmax}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[y_{N2} := x_{II} - d' = 0,2914 \, \text{m}\]</td>
+            <td style="width: 80%;">\[y_{N2} := x_{II} - d' = 0,2909 \, \text{m}\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>y_{N2}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[\alpha_{N2,Msdnax} := \frac{\alpha_g \cdot (M_{sd,nin}) \cdot y_{N2}}{I_{II}} = 37567,0922 \, \text{kPa} \quad \text{Tensão de compressão}\]</td>
-            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N2,Msdnax}</b></font></td>
+            <td style="width: 80%;">\[\alpha_{N2,Msdmax} := \frac{\alpha_e \cdot (M_{sd,max}) \cdot y_{N2}}{I_{II}} = 88927,9809 \, \text{kPa} \quad \text{Tensão de compressão}\]</td>
+            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N2,Msdmax}</b></font></td>
         </tr>
     </table>
+</body>
+
+<body>
+    <h2>Equações de Fadiga</h2>
+    <table>
+        <tr>
+            <td>\( \delta\sigma = \sigma_{N1,Msdmin} - (-\sigma_{N1,Msdmin}) = 1,9332 \times 10^5 \) kPa</td>
+        </tr>
+        <tr>
+            <td>\( \delta\sigma = \sigma_{N2,Msdmin} - (-\sigma_{N2,Msdmin}) = 1,5488 \times 10^5 \) kPa</td>
+        </tr>
+        <tr>
+            <td>\( k = \frac{1,5 \cdot \delta\sigma}{17,5} = 1,3275 \)</td>
+        </tr>
+    </table>
+    <p><strong>Nota:</strong> Quando o valor da fadiga for menor que 1, não é necessário acrescentar armadura multiplicando pelo valor de \( k \).</p>
 </body>
 
 <p align = "justify">
@@ -134,11 +150,11 @@ Inicialmente calcula-se os coeficientes a_1, a_2 e a_3.
         <td style="width: 20%;"><font color="#D2691E"><b>a_1</b></font></td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ a_2 = h_f \cdot (b_f - b_w) + \alpha_e - 1 \cdot \alpha_e \cdot A_s = 0,266 \; m²\]</td> 
+        <td style="width: 80%;">\[ a_2 = h_f \cdot (b_f - b_w) + \alpha_e - 1 \cdot \alpha_e \cdot A_s = 0,2641 \; m²\]</td> 
         <td style="width: 20%;"><font color="#D2691E"><b>a_2</b></font></td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ a_{g}:= -d^{\prime}\cdot(a_{g}-1)\cdot A_{s}^{\prime}-d\cdot a_{g}\cdot A_{s}-\frac{b_{f}}{2}\cdot(b_{f} b_{v})=-0.1386\,\mathrm{m}^{3} \]</td>
+        <td style="width: 80%;">\[ a_{3} = -d^{\prime}\cdot(\alpha_{e}-1)\cdot A_{s}^{\prime}-d\cdot \alpha_{e} \cdot A_{s}-\frac{h_{f}^2}{2}\cdot(b_{f} b_{w})=-0.1386\,\mathrm{m}^{3} \]</td>
         <td style="width: 20%;"><font color="#D2691E"><b>a_3</b></font></td>
     </tr>
 </table>
@@ -158,7 +174,7 @@ Após isso, determina-se a posição da linha neutra.
             <td style="width: 20%;"><font color="#D2691E"><b>x_{II,neg}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[x_{II} := x_{II,pos}\]</td>
+            <td style="width: 80%;">\[x_{II} = x_{II,pos}\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>x_{II}</b></font></td>
         </tr>
     </table>
@@ -171,31 +187,44 @@ Em seguida, calcula-se o momento de inércia da seção no estádio II.
 <body>
     <table>
         <tr>
-            <td style="width: 80%;">\[I_{II} := \frac{b_r \cdot x_{II}}{3} + \alpha_g \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_g - 1) \cdot A_s \cdot (x_{II} - d)^2 = 0,0778 \, \text{m}^4\]</td>
+            <td style="width: 80%;">\[I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A_s \cdot (x_{II} - d)^2 = 0,0774 \, \text{m}^4\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>I_{II}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[I_{x_III} := \left( \frac{b_r - b_y}{12} \right) \cdot h_e^3 + \frac{b_y \cdot x_{II}}{3} + \left( \frac{b_z - b_y}{12} \right) \cdot \left( x_{II} - \frac{h_e}{2} \right)^2 + \alpha_g \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_g - 1) \cdot A'_s \cdot (x_{II} - d')^2 = 0,0559 \, \text{m}^4\]</td>
-            <td style="width: 20%;"><font color="#D2691E"><b>I_{x_III}</b></font></td>
+            <td style="width: 80%;">\[I_{II} =  \frac{b_f - b_w}{12} \cdot h_f^3 + \frac{b_w \cdot x_{II}}{3} + (b_f - b_w) \cdot ( x_{II} - \frac{h_f}{2}^2 + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2 = 0,0556 \, \text{m}^4\]</td>
+            <td style="width: 20%;"><font color="#D2691E"><b>I_{II}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[y_{N1} := d - x_{II} = 0,5086 \, \text{m}\]</td>
+            <td style="width: 80%;">\[y_{N1} := d - x_{II} = 0,5091 \, \text{m}\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>y_{N1}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[\alpha_{N1,Msdnax} := \frac{\alpha_g \cdot (M_{sd,nax}) \cdot y_{N1}}{I_{II}} = 1,5472 \cdot 10^5 \, \text{kPa} \quad \text{Tensão de tração}\]</td>
-            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N1,Msdnax}</b></font></td>
+            <td style="width: 80%;">\[\alpha_{N1,Msdmin} = \frac{\alpha_e \cdot (M_{sd,min}) \cdot y_{N1}}{I_{II}} = 37678,8003 \, \text{kPa} \quad \text{Tensão de tração}\]</td>
+            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N1,Msdmax}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[y_{N2} := x_{II} - d' = 0,2914 \, \text{m}\]</td>
+            <td style="width: 80%;">\[y_{N2} := x_{II} - d' = 0,2909 \, \text{m}\]</td>
             <td style="width: 20%;"><font color="#D2691E"><b>y_{N2}</b></font></td>
         </tr>
         <tr>
-            <td style="width: 80%;">\[\alpha_{N2,Msdnax} := \frac{\alpha_g \cdot (M_{sd,nin}) \cdot y_{N2}}{I_{II}} = 37567,0922 \, \text{kPa} \quad \text{Tensão de compressão}\]</td>
-            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N2,Msdnax}</b></font></td>
+            <td style="width: 80%;">\[\alpha_{N2,Msdmin} := \frac{\alpha_e \cdot (M_{sd,min}) \cdot y_{N2}}{I_{II}} = 65947,0668 \, \text{kPa} \quad \text{Tensão de compressão}\]</td>
+            <td style="width: 20%;"><font color="#D2691E"><b>\alpha_{N2,Msdmax}</b></font></td>
         </tr>
     </table>
 </body>
 
-
-
+<body>
+    <h2>Equações de Fadiga</h2>
+    <table>
+        <tr>
+            <td>\( \delta\sigma = \sigma_{N1,Msdmin} - (-\sigma_{N1,Msdmin}) = 1,9332 \times 10^5 \) kPa</td>
+        </tr>
+        <tr>
+            <td>\( \delta\sigma = \sigma_{N2,Msdmin} - (-\sigma_{N2,Msdmin}) = 1,5488 \times 10^5 \) kPa</td>
+        </tr>
+        <tr>
+            <td>\( k = \frac{1,5 \cdot \delta\sigma}{17,5} = 1,3275 \)</td>
+        </tr>
+    </table>
+    <p><strong>Nota:</strong> Quando o valor da fadiga for menor que 1, não é necessário acrescentar armadura multiplicando pelo valor de \( k \).</p>
+</body>
