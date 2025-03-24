@@ -23,49 +23,46 @@ A fadiga é abordada pela NBR 6118 (ABNT, 2014) no item 23, com base nisso foram
 </p>
 
 <ul>
-  <li><i>M<Sd,max>c</sub></i> = 25 kN/m³ para peças de concreto armado (aplica-se a barreira e seção da ponte);</li>
-  <li><i>γ<sub>pavto</sub></i> = 24 kN/m³ para o pavimento flexível.</li>
+  <li><i>M_{g}</sub></i> = 1081,2 kN.m (Momento no meio do vão devido a carga permanente);</li>
+  <li><i>M_{q,max}</sub></i> = 2570,9 kN.m (Momento positivo no meio do vão devido a carga variável);</li>
+  <li><i>M_{q,min}</sub></i> = -156,9 kN.m (Momento negativo no meio do vão devido a carga variável);</li>
 </ul>
 
 <p align = "justify">
-Áreas que compõem a seção:
+Com base nesses momentos, foi realizada as combinações em serviço, adotando \psi_{1} = 0,5:
 </p>
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ A_c = 2 \cdot \left(1 \cdot 0,45\right) + 2 \cdot \left(1,78 \cdot 0,21\right) + 4,54 \cdot 0,21 = 2,60 m² \]</td>
-        <td style="width: 20%;">tabuleiro + longarina</td>
+        <td style="width: 80%;">\[ M_{sd,max} = M_{g} + M_{q,max} \cdot \psi_{1} = 2366,65 kN.m \]</td>
+        <td style="width: 20%;">Combinação 1</td>  
     </tr>
     <tr>
-        <td style="width: 80%;">\[ A_{barreira} = 0,19 \; m² \]</td>
-        <td style="width: 20%;">barreira de concreto</td>        
-    </tr>
-    <tr>
-        <td style="width: 80%;">\[ A_{pavto} = 8,24 \cdot 0,08 = 0,66 \; m² \]</td>
-        <td style="width: 20%;">pavimento flexível</td>
+        <td style="width: 80%;">\[ M_{sd,min} = M_{g} + M_{q,min} \cdot \psi_{1} = 1002,75 kN.m \]</td>
+        <td style="width: 20%;">Combinação 2</td>        
     </tr>
 </table>
 
 <p align = "justify">
-O valor total do carregamento atuante na seção é dado a seguir:
+Considerando a área de aço de 139 cm², conforme o dimensionamento de viga de seção T, pode-se realizar a verificação da fadiga.
+</p>
+
+<p align = "justify">
+Inicialmente calcula-se os coeficientes a_1, a_2 e a_3.
 </p>
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 80%;">\[ g_{pp} =  \frac{2,60}{2} \cdot 25 = 32,50 \; kN/m\]</td>
-        <td style="width: 20%;">longarina + tabuleiro</td>
+        <td style="width: 80%;">\[ a_1 =  \frac{b_w}{2}= 0,225 \; m\]</td>
+        <td style="width: 20%;"><font color="#D2691E"><b>a_1</b></font></td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ g_{barreira} = 0,19 \cdot 25 = 4,75 \; kN/m\]</td>
-        <td style="width: 20%;">barreira de concreto</td>        
+        <td style="width: 80%;">\[ a_2 = h_f \cdot (b_f - b_w) + \alpha_e - 1 \cdot \alpha_e \cdot A_s = 0,266 \; m²\]</td> 
+        <td style="width: 20%;"><font color="#D2691E"><b>a_2</b></font></td>
     </tr>
     <tr>
-        <td style="width: 80%;">\[ g_{pavto+recap} = \frac{0,66}{2} \cdot 24 + \frac{2 \cdot 8,24}{2} = 16,16 \; kN/m \]</td>
-        <td style="width: 20%;">pavimento flexível + recapeamento</td>
-    </tr>
-    <tr>
-        <td style="width: 80%;">\[ g_{total} = g_{pp} + g_{barreira} + g_{pavto+recap} + g_{gcmetalico} = 32,50 + 4,75 + 16,16 + 1 = 54,41 \; kN/m\]</td>
-        <td style="width: 20%;"><font color="#D2691E"><b>carregamento total</b></font></td>
+        <td style="width: 80%;">\[ a_{g}:= -d^{\prime}\cdot(a_{g}-1)\cdot A_{s}^{\prime}-d\cdot a_{g}\cdot A_{s}-\frac{b_{f}}{2}\cdot(b_{f} b_{v})=-0.1386\,\mathrm{m}^{3} \]</td>
+        <td style="width: 20%;"><font color="#D2691E"><b>a_3</b></font></td>
     </tr>
 </table>
 
