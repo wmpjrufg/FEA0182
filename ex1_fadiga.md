@@ -115,19 +115,18 @@ Em seguida, calcula-se o momento de inércia da seção no estádio II.
         <td style="width: 20%;">(12)</td>
     </tr>
     <tr>
-        <td>\( \delta\sigma = \sigma_{N1,Msdmin} - (-\sigma_{N1,Msdmin}) = 1,9332 \times 10^5 \) kPa</td>
+        <td style="width: 80%;">\( \delta\sigma = \sigma_{N1,Msdmin} - (-\sigma_{N1,Msdmin}) = 1,9332 \times 10^5 \) kPa</td>
         <td style="width: 20%;">(13)</td>
     </tr>
     <tr>
-        <td>\( \delta\sigma = \sigma_{N2,Msdmin} - (-\sigma_{N2,Msdmin}) = 1,5488 \times 10^5 \) kPa</td>
+        <td style="width: 80%;">\( \delta\sigma = \sigma_{N2,Msdmin} - (-\sigma_{N2,Msdmin}) = 1,5488 \times 10^5 \) kPa</td>
         <td style="width: 20%;">(14)</td>
     </tr>
     <tr>
-        <td>\( k = \frac{1,5 \cdot \delta\sigma}{17,5} = 1,3275 \)</td>
+        <td style="width: 80%;">\( k = \frac{1,5 \cdot \delta\sigma}{17,5} = 1,3275 \)</td>
         <td style="width: 20%;">(15)</td>
     </tr>
 </table>
-</body>
 
 <p align = "justify">
 Quando o valor da fadiga for menor que 1, não é necessário acrescentar armadura multiplicando pelo valor de \( k \).
@@ -204,15 +203,15 @@ Em seguida, calcula-se o momento de inércia da seção no estádio II.
         <td style="width: 80%;">\[\alpha_{N2,Msdmin} := \frac{\alpha_e \cdot (M_{sd,min}) \cdot y_{N2}}{I_{II}} = 65947,0668 \, \text{kPa} \quad \text{Tensão de compressão}\]</td>
         <td style="width: 20%;">(27)</td>
     <tr>
-        <td>\( \delta\sigma = \sigma_{N1,Msdmin} - (-\sigma_{N1,Msdmin}) = 1,9332 \times 10^5 \) kPa</td>
+        <td style="width: 80%;">\( \delta\sigma = \sigma_{N1,Msdmin} - (-\sigma_{N1,Msdmin}) = 1,9332 \times 10^5 \) kPa</td>
         <td style="width: 20%;">(28)</td>
     </tr>
     <tr>
-        <td>\( \delta\sigma = \sigma_{N2,Msdmin} - (-\sigma_{N2,Msdmin}) = 1,5488 \times 10^5 \) kPa</td>
+        <td style="width: 80%;">\( \delta\sigma = \sigma_{N2,Msdmin} - (-\sigma_{N2,Msdmin}) = 1,5488 \times 10^5 \) kPa</td>
         <td style="width: 20%;">(28)</td>
     </tr>
     <tr>
-        <td>\( k = \frac{1,5 \cdot \delta\sigma}{17,5} = 1,3275 \)</td>
+        <td style="width: 80%;">\( k = \frac{1,5 \cdot \delta\sigma}{17,5} = 1,3275 \)</td>
         <td style="width: 20%;">(29)</td>
     </tr>
 </table>
